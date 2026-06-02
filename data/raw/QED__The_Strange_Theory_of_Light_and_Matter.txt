@@ -1,0 +1,43 @@
+Title: QED: The Strange Theory of Light and Matter
+
+QED: The Strange Theory of Light and Matter is an adaptation for the general reader of four lectures on quantum electrodynamics (QED) published in 1985 by American physicist and Nobel laureate Richard Feynman.
+QED was designed to be a popular science book, written in a witty style, and containing just enough quantum-mechanical mathematics to allow the solving of very basic problems in quantum electrodynamics by an educated lay audience. It is unusual for a popular science book in the level of mathematical detail it goes into, actually allowing the reader to solve simple optics problems, as might be found in an actual textbook. But unlike in a typical textbook, the mathematics is taught in very simple terms, with no attempt to solve problems efficiently, use standard terminology, or facilitate further advancement in the field. The focus instead is on nurturing a basic conceptual understanding of what is really going on in such calculations. Complex numbers are taught, for instance, by asking the reader to imagine that there are tiny clocks attached to subatomic particles. The book was first published in 1985 by the Princeton University Press.
+
+
+== The book ==
+
+In an acknowledgement Feynman wrote:
+
+This book purports to be a record of the lectures on quantum electrodynamics I gave at UCLA, transcribed and edited by my good friend Ralph Leighton. Actually, the manuscript has undergone considerable modification. Mr. Leighton's experience in teaching and in writing was of considerable value in this attempt at presenting this central part of physics to a wider audience.
+People are always asking for the latest developments in the unification of this theory with that theory, and they don't give us a chance to tell them anything about what we know pretty well. They always want to know the things we don't know. — Richard Feynman
+Much of Feynman's discussion springs from an everyday phenomenon: the way any transparent sheet of glass partly reflects any light shining on it. Feynman also pays homage to Isaac Newton's struggles to come to terms with the nature of light.
+Feynman's lectures were originally given as the Sir Douglas Robb lectures at the University of Auckland, New Zealand in 1979.  Videotapes of these lectures were made publicly available on a not-for-profit basis in 1996 and more recently have been placed online by the Vega Science Trust.
+The book is based on Feynman's delivery of the first Alix G. Mautner Memorial Lecture series for the general public at the University of California, Los Angeles (UCLA) in 1983.  The differences between the book and the original Auckland lectures were discussed in June 1996 in the American Journal of Physics.
+In 2006, Princeton University Press published a new edition with a new introduction by Anthony Zee. He introduces Feynman's peculiar take at explaining physics, and cites: "According to Feynman, to learn QED you have two choices: you can go through seven years of physics education or read this book".
+
+
+== The four lectures ==
+1.  Photons - Corpuscles of Light
+In the first lecture, which acts as a gentle lead-in to the subject of quantum electrodynamics, Feynman describes the basic properties of photons. He discusses how to measure the probability that a photon will reflect or transmit through a partially reflective piece of glass.
+2.  Fits of Reflection and Transmission - Quantum Behaviour
+In the second lecture, Feynman looks at the different paths a photon can take as it travels from one point to another and how this affects phenomena like reflection and diffraction.
+3.  Electrons and Their Interactions
+The third lecture describes quantum phenomena such as the famous double-slit experiment and Werner Heisenberg's uncertainty principle, thus describing the transmission and reflection of photons. It also introduces his famous "Feynman diagrams" and how quantum electrodynamics describes the interactions of subatomic particles.
+4.  New Queries
+In the fourth lecture, Feynman discusses the meaning of quantum electrodynamics and some of its problems. He then describes "the rest of physics", giving a brief look at quantum chromodynamics, the weak interaction and gravity, and how they relate to quantum electrodynamics.
+
+
+== Notes ==
+
+
+== References ==
+Dean, Chris. "The Vega Science Trust - Richard Feynman - Science Videos". www.vega.org.uk. Retrieved 2016-10-26.
+Dudley, J.M.; A.M. Kwan (June 1996). "Richard Feynman's popular lectures on quantum electrodynamics: The 1979 Robb Lectures at Auckland University". American Journal of Physics. 64 (6): 694–698. Bibcode:1996AmJPh..64..694D. doi:10.1119/1.18234.
+Feynman, Richard (1985). QED: The strange theory of light and matter. Princeton University Press. ISBN 0-691-08388-6.
+Feynman, Richard (2006). QED: The strange theory of light and matter. Princeton University Press. ISBN 0-691-12575-9.
+The Douglas Robb Memorial Lectures Video of the four public lectures in New Zealand of which the four chapters of this book QED: The Strange Theory of Light and Matter are transcripts.
+
+
+== External links ==
+Richard Feynman - Science Videos - The Douglas Robb Memorial Lectures (4 parts) on Vega Science Trust,  from the University of Auckland (New Zealand)
+The Strange Theory of Light — Interactive animation computer programs inspired by the Czech translation of this book by Ladislav Szántó et al.

@@ -1,0 +1,71 @@
+Title: Parton (particle physics)
+
+In particle physics, the parton model is a model of hadrons, such as protons and neutrons, proposed by Richard Feynman. It is useful for interpreting the cascades of radiation (a parton shower) produced from quantum chromodynamics (QCD) processes and interactions in high-energy particle collisions.
+
+
+== History ==
+The parton model was proposed by Richard Feynman in 1969, used originally for analysis of high-energy hadron collisions. It was applied to electron-proton deep inelastic scattering by James Bjorken and Emmanuel Anthony Paschos. Later, with the experimental observation of Bjorken scaling, the validation of the quark model, and the confirmation of asymptotic freedom in quantum chromodynamics, partons were matched to quarks and gluons. The parton model remains a justifiable approximation at high energies, and others have extended the theory over the years.
+Murray Gell-Mann preferred to use the term "put-ons" to refer to partons.
+In 1994, partons were used by Leonard Susskind to model holography.
+
+
+== Model ==
+
+Any hadron (for example, a proton) can be considered as a composition of a number of point-like constituents, termed "partons".
+
+
+=== Component particles ===
+Just as accelerated electric charges emit QED radiation (photons), the accelerated coloured partons will emit QCD radiation in the form of gluons. Unlike the uncharged photons, the gluons themselves carry colour charges and can therefore emit further radiation, leading to parton showers.
+
+
+=== Reference frame ===
+
+The hadron is defined in a reference frame where it has infinite momentum – a valid approximation at high energies. Thus, parton motion is slowed by time dilation, and the hadron charge distribution is Lorentz-contracted, so incoming particles will be scattered "instantaneously and incoherently".
+Partons are defined with respect to a physical scale (as probed by the inverse of the momentum transfer). For instance, a quark parton at one length scale can turn out to be a superposition of a quark parton state with a quark parton and a gluon parton state together with other states with more partons at a smaller length scale. Similarly, a gluon parton at one scale can resolve into a superposition of a gluon parton state, a gluon parton and quark-antiquark partons state and other multiparton states. Because of this, the number of partons in a hadron actually goes up with momentum transfer. At low energies (i.e. large length scales), a baryon contains three valence partons (quarks) and a meson contains two valence partons (a quark and an antiquark parton). At higher energies, however, observations show sea partons (nonvalence partons) in addition to valence partons.
+
+
+== Parton distribution functions ==
+
+A parton distribution function (PDF) within so called collinear factorization is defined as the probability density for finding a particle with a certain longitudinal momentum fraction x at resolution scale Q2. Because of the inherent non-perturbative nature of partons which cannot be observed as free particles, parton densities cannot be calculated using perturbative QCD. Within QCD one can, however, study variation of parton density with resolution scale provided by external probe. Such a scale is for instance provided by a virtual photon with virtuality Q2 or by a jet. The scale can be calculated from the energy and the momentum of the virtual photon or jet; the larger the momentum and energy, the smaller the resolution scale—this is a consequence of Heisenberg's uncertainty principle. The variation of parton density with resolution scale has been found to agree well with experiment; this is an important test of QCD.
+Parton distribution functions are obtained by fitting observables to experimental data; they cannot be calculated using perturbative QCD. Recently, it has been found that they can be calculated directly in lattice QCD using large-momentum effective field theory.
+Experimentally determined parton distribution functions are available from various groups worldwide. The major unpolarized data sets are:
+
+ABM Archived 2022-01-19 at the Wayback Machine by S. Alekhin, J. Bluemlein, S. Moch
+CTEQ, from the CTEQ Collaboration
+GRV/GJR, from M. Glück,  P. Jimenez-Delgado, E. Reya, and A. Vogt
+HERA PDFs, by H1 and ZEUS collaborations from the Deutsches Elektronen-Synchrotron center (DESY) in Germany
+MSHT/MRST/MSTW/MMHT, from A. D. Martin, R. G. Roberts, W. J. Stirling, R. S. Thorne, and collaborators
+NNPDF, from the NNPDF Collaboration
+The LHAPDF library provides a unified and easy-to-use Fortran/C++ interface to all major PDF sets.
+Generalized parton distributions (GPDs) are a more recent approach to better understand hadron structure by representing the parton distributions as functions of more variables, such as the transverse momentum and spin of the parton. They can be used to study the spin structure of the proton, in particular, the Ji sum rule relates the integral of GPDs to angular momentum carried by quarks and gluons. Early names included "non-forward", "non-diagonal" or "skewed" parton distributions. They are accessed through a new class of exclusive processes for which all particles are detected in the final state, such as the deeply virtual Compton scattering. Ordinary parton distribution functions are recovered by setting to zero (forward limit) the extra variables in the generalized parton distributions. Other rules show that the electric form factor, the magnetic form factor, or even the form factors associated to the energy-momentum tensor are also included in the GPDs. A full 3-dimensional image of partons inside hadrons can also be obtained from GPDs.
+
+
+== Simulation ==
+Parton shower simulations are of use in computational particle physics either in automatic calculation of particle interaction or decay or event generators, in order to calibrate and interpret (and thus understand) processes in collider experiments. They are particularly important in large hadron collider (LHC) phenomenology, where they are usually explored using Monte Carlo simulations.
+The scale at which partons are given to hadronization is fixed by the Shower Monte Carlo program. Common choices of Shower Monte Carlo are PYTHIA and HERWIG.
+
+
+== See also ==
+
+
+== References ==
+
+This article contains material from Scholarpedia.
+
+
+== Further reading ==
+Glück, M.; Reya, E.; Vogt, A. (1998). "Dynamical Parton Distributions Revisited". European Physical Journal C. 5 (3): 461–470. arXiv:hep-ph/9806404. Bibcode:1998EPJC....5..461G. doi:10.1007/s100529800978. S2CID 119842774.
+Hoodbhoy, P. A. (2006). "Generalized Parton Distributions" (PDF). National Center for Physics and Quaid-e-Azam University. Archived from the original (PDF) on 2017-03-31. Retrieved 2011-04-06.
+Ji, X. (2004). "Generalized Parton Distributions". Annual Review of Nuclear and Particle Science. 54: 413–450. arXiv:hep-ph/9807358. Bibcode:2004ARNPS..54..413J. doi:10.1146/annurev.nucl.54.070103.181302.
+Kretzer, S.; Lai, H.; Olness, F.; Tung, W. (2004). "CTEQ6 Parton Distributions with Heavy Quark Mass Effects". Physical Review D. 69 (11) 114005. arXiv:hep-ph/0307022. Bibcode:2004PhRvD..69k4005K. doi:10.1103/PhysRevD.69.114005. S2CID 119379329.
+Martin, A. D.; Roberts, R. G.; Stirling, W. J.; Thorne, R. S. (2005). "Parton distributions incorporating QED contributions". European Physical Journal C. 39 (2): 155–161. arXiv:hep-ph/0411040. Bibcode:2005EPJC...39..155M. doi:10.1140/epjc/s2004-02088-7. S2CID 14743824.{{cite journal}}:  CS1 maint: unflagged free DOI (link)
+
+
+== External links ==
+
+Feltesse, Joël (2010). "Introduction to Parton Distribution Functions". Scholarpedia. 5 (11) 10160. Bibcode:2010SchpJ...510160F. doi:10.4249/scholarpedia.10160. ISSN 1941-6016.
+Event Generator Physics (http://www.hep.phy.cam.ac.uk/theory/webber/MCnet/MClecture2.pdf)
+"Introduction to QCD". people.phys.ethz.ch. Retrieved 2022-08-04.
+http://www.kceta.kit.edu/grk1694/img/2013_10_01_Hangst.pdf
+http://d-nb.info/1008230227/34
+Marcantonini, Claudio (2010). Applying SCET to parton showers (Thesis). Massachusetts Institute of Technology. hdl:1721.1/62649.

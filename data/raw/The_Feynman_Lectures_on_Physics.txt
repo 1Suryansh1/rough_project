@@ -1,0 +1,112 @@
+Title: The Feynman Lectures on Physics
+
+The Feynman Lectures on Physics is a physics textbook based on a great number of lectures by Richard Feynman, a Nobel laureate who has sometimes been called "The Great Explainer". The lectures were presented before undergraduate students at the California Institute of Technology (Caltech), during 1961–1964.  The book's co-authors are Feynman, Robert B. Leighton, and Matthew Sands.
+A 2013 review in Nature described the book as having "simplicity, beauty, unity ... presented with enthusiasm and insight".
+
+
+== Description ==
+The textbook comprises three volumes.  The first volume focuses on mechanics, radiation, and heat, including relativistic effects. The second volume covers mainly electromagnetism and matter. The third volume covers quantum mechanics; for example, it shows how the double-slit experiment demonstrates the essential features of quantum mechanics. The book also includes chapters on the relationship between mathematics and physics, and the relationship of physics to other sciences.
+In 2013, Caltech in cooperation with The Feynman Lectures Website made the book freely available, on the web site.
+
+
+== Background ==
+
+By 1960, Richard Feynman’s research and discoveries in physics had resolved a number of troubling inconsistencies in several fundamental theories. In particular, it was his work in quantum electrodynamics for which he was awarded the 1965 Nobel Prize in physics. At the same time that Feynman was at the pinnacle of his fame, the faculty of the California Institute of Technology was concerned about the quality of the introductory courses for undergraduate students. It was thought the courses were burdened by an old-fashioned syllabus and the exciting discoveries of recent years, many of which had occurred at Caltech, were not being taught to the students.
+Thus, it was decided to reconfigure the first physics course offered to students at Caltech, with the goal being to generate more excitement in the students. Feynman readily agreed to give the course, though only once. Aware of the fact that this would be a historic event, Caltech recorded each lecture and took photographs of each drawing made on the blackboard by Feynman.
+Based on the lectures and the tape recordings, a team of physicists and graduate students put together a manuscript that would become The Feynman Lectures on Physics. Although Feynman's most valuable technical contribution to the field of physics may have been in the field of quantum electrodynamics, the Feynman Lectures were destined to become his most widely read work.
+The Feynman Lectures are considered to be one of the most sophisticated and comprehensive college-level introductions to physics. Feynman himself stated in his original preface that he was “pessimistic” with regard to his success in reaching all of his students. The Feynman lectures were written “to maintain the interest of very enthusiastic and rather smart students coming out of high schools and into Caltech”. Feynman was targeting the lectures to students who, “at the end of two years of our previous course, [were] very discouraged because there were really very few grand, new, modern ideas presented to them”. As a result, some physics students find the lectures more valuable after they have obtained a good grasp of physics by studying more traditional texts, and the books are sometimes seen as more helpful for teachers than for students.
+While the two-year course (1961–1963) was still underway, rumors of it spread throughout the physics research and teaching community. In a special preface to the 1989 edition, David Goodstein and Gerry Neugebauer claimed that as time went on, the attendance of registered undergraduate students dropped sharply but was matched by a compensating increase in the number of faculty and graduate students. Co-author Matthew Sands, in his memoir accompanying the 2005 edition, contested this claim. Goodstein and Neugebauer also stated that, “it was [Feynman’s] peers — scientists, physicists, and professors — who would be the main beneficiaries of his magnificent achievement, which was nothing less than to see physics through the fresh and dynamic perspective of Richard Feynman”, and that his "gift was that he was an extraordinary teacher of teachers".
+Addison-Wesley published a collection of exercises and problems to accompany The Feynman Lectures on Physics. The problem sets were first used in the 1962–1963 academic year, and were organized by Robert B. Leighton. Some of the problems are sophisticated and difficult enough to require an understanding of advanced topics, such as Kolmogorov's zero–one law. The original set of books and supplements contained a number of errors, some of which rendered problems insoluble. Various errata were issued, which are now available online.
+Addison-Wesley also released in CD format all the audio tapes of the lectures, over 103 hours with Richard Feynman, after remastering the sound and clearing the recordings. For the CD release, the order of the lectures was rearranged from that of the original texts. The publisher has released a table showing the correspondence between the books and the CDs.
+In March 1964, Feynman appeared once again before the freshman physics class as a lecturer, but the notes for this particular guest lecture were lost for a number of years. They were finally located, restored, and made available as Feynman's Lost Lecture: The Motion of Planets Around the Sun.
+In 2005, Michael A. Gottlieb and Ralph Leighton co-authored Feynman's Tips on Physics, which includes four of Feynman's freshman lectures which had not been included in the main text (three on problem solving, one on inertial guidance), a memoir by Matthew Sands about the origins of the Feynman Lectures on Physics, and exercises (with answers) that were assigned to students by Robert B. Leighton and Rochus Vogt in recitation sections of the Feynman Lectures course at Caltech. Also released in 2005, was a "Definitive Edition" of the lectures which included corrections to the original text.
+An account of the history of these famous volumes is given by Sands in his memoir article “Capturing the Wisdom of Feynman", and another article "Memories of Feynman" by the physicist T. A. Welton.
+In a September 13, 2013 email to members of the Feynman Lectures online forum, Gottlieb announced the launch of a new website by Caltech and The Feynman Lectures Website which offers "[A] free high-quality online edition" of the lecture text. To provide a device-independent reading experience, the website takes advantage of modern web technologies like HTML5, SVG, and MathJax to present text, figures, and equations in any display screen size while maintaining the display quality.
+
+
+== Contents ==
+
+
+=== Volume I: Mainly mechanics, radiation, and heat ===
+Preface: “When new ideas came in, I would try either to deduce them if they were deducible or to explain that it was a new idea … and which was not supposed to be provable.”
+Chapters
+
+
+=== Volume II: Mainly electromagnetism and matter ===
+Chapters
+
+
+=== Volume III: Quantum mechanics ===
+Chapters
+
+
+== Abbreviated editions ==
+Six readily accessible chapters were later compiled into a book entitled Six Easy Pieces: Essentials of Physics Explained by Its Most Brilliant Teacher.  Six more chapters are in the book Six Not-So-Easy Pieces: Einstein's Relativity, Symmetry and Space-Time.
+“Six Easy Pieces grew out of the need to bring to as wide an audience as possible, a substantial yet nontechnical physics primer based on the science of Richard Feynman... General readers are fortunate that Feynman chose to present certain key topics in largely qualitative terms without formal mathematics…”
+
+
+=== Six Easy Pieces (1994) ===
+Chapters:
+
+Atoms in motion
+Basic Physics
+The relation of physics to other sciences
+Conservation of energy
+The theory of gravitation
+Quantum behavior
+
+
+=== Six Not-So-Easy Pieces (1998) ===
+Chapters:
+
+Vectors
+Symmetry in physical laws
+The special theory of relativity
+Relativistic energy and momentum
+Space-time
+Curved space
+
+
+=== The Very Best of The Feynman Lectures (Audio, 2005) ===
+Chapters:
+
+The Theory of Gravitation (Vol. I, Chapter 7)
+Curved Space (Vol. II, Chapter 42)
+Electromagnetism (Vol. II, Chapter 1)
+Probability (Vol. I, Chapter 6)
+The Relation of Wave and Particle Viewpoints (Vol. III, Chapter 2)
+Superconductivity (Vol. III, Chapter 21)
+
+
+== Publishing information ==
+Feynman R, Leighton R, and Sands M. The Feynman Lectures on Physics. Three volumes 1964, 1966. Library of Congress Catalog Card No. 63-20717
+ISBN 0-201-02115-3 (1970 paperback three-volume set)
+ISBN 0-201-50064-7 (1989 commemorative hardcover three-volume set)
+ISBN 0-8053-9045-6 (2006 the definitive edition, 2nd printing, hardcover)
+Feynman's Tips On Physics: A Problem-Solving Supplement to the Feynman Lectures on Physics (hardcover) ISBN 0-8053-9063-4
+Six Easy Pieces (hardcover book with original Feynman audio on CDs) ISBN 0-201-40896-1
+Six Easy Pieces (paperback book) ISBN 0-201-40825-2
+Six Not-So-Easy Pieces (paperback book with original Feynman audio on CDs) ISBN 0-201-32841-0
+Six Not-So-Easy Pieces (paperback book) ISBN 0-201-32842-9
+Exercises for the Feynman Lectures (paperback book) ISBN 2-35648-789-1 (out of print)
+Feynman R, Leighton R, and Sands M., The Feynman Lectures Website, September 2013.
+"The Feynman Lectures on Physics, Volume I" (online edition)
+"The Feynman Lectures on Physics, Volume II" (online edition)
+"The Feynman Lectures on Physics, Volume III" (online edition)
+
+
+== See also ==
+Berkeley Physics Course – another contemporaneously developed and influential college-level physics series
+The Character of Physical Law – a condensed series of Feynman lectures for scientists and non-scientists
+Project Tuva
+List of textbooks on classical and quantum mechanics
+List of textbooks on electromagnetism
+List of textbooks on thermodynamics and statistical mechanics
+
+
+== References ==
+
+
+== External links ==
+The Feynman Lectures on Physics California Institute of Technology (Caltech) – HTML edition.
+The Feynman Lectures on Physics The Feynman Lectures Website – HTML edition and also exercises and other related material.
