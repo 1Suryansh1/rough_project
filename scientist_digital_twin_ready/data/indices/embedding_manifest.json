@@ -1,0 +1,2762 @@
+[
+  {
+    "chunk_id": "7edbaefa-54b5-44c6-87cb-78dec85126ef",
+    "faiss_idx": 0,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b2a9a8e8-2651-439d-b280-ef36ece37276",
+    "faiss_idx": 1,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b244a722-efc1-41cc-a126-33009c50e1c3",
+    "faiss_idx": 2,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "65f41629-cc75-4cf2-a443-3ac1bcaa75b7",
+    "faiss_idx": 3,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "e2f6ebf5-a89f-43f4-889f-f48fb3a48b46",
+    "faiss_idx": 4,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "2ca3b6a3-b19c-404d-bd85-e30cf72d6840",
+    "faiss_idx": 5,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "9cfa424c-12fe-47cd-8ccb-785fed03dbd7",
+    "faiss_idx": 6,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "57b2afe6-c5b2-4ffc-9559-3b76323ee030",
+    "faiss_idx": 7,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b74709c0-1f77-4f57-8bf1-d05ada31b4fc",
+    "faiss_idx": 8,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "4846d805-1bfb-49e5-9e66-25d8301bb826",
+    "faiss_idx": 9,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "4df6fcf8-d90e-4ec9-804e-d5466f48e541",
+    "faiss_idx": 10,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "1681d74e-1d2e-49ff-8ebd-6e283637b7a8",
+    "faiss_idx": 11,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5dfd992c-0e21-415c-83a1-8f3eb9da32e3",
+    "faiss_idx": 12,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "bac03e0d-6c19-4db1-94c6-013eba490d65",
+    "faiss_idx": 13,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "578d508a-5eb4-444d-81b5-5a27e868beb5",
+    "faiss_idx": 14,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "4b8503df-2860-43cf-bbe9-67e610dc2521",
+    "faiss_idx": 15,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "4eda1943-51fe-4a61-a7cb-990fcc6277b9",
+    "faiss_idx": 16,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "3efa9e87-dd30-4ea9-bd88-2d1ae7933de0",
+    "faiss_idx": 17,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "74f6689d-bbe2-427d-a0da-f5801b3fd487",
+    "faiss_idx": 18,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "53adb002-e4b1-4b33-863f-8781eae3c17a",
+    "faiss_idx": 19,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "382c88a2-2e5b-4190-b345-48fe4fa5c8bb",
+    "faiss_idx": 20,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b7504f14-5160-4ef2-acc7-790b8ebaffea",
+    "faiss_idx": 21,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "63356664-22e5-4f2b-a150-3c5a82e9ff2b",
+    "faiss_idx": 22,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "58bc0e3c-8fbc-4b6a-90e1-df555ed403e7",
+    "faiss_idx": 23,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a49101f2-58d8-451a-91e1-5432d07c1045",
+    "faiss_idx": 24,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b227f852-5871-447b-9917-eef7b64507e0",
+    "faiss_idx": 25,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "ff34fc09-ca11-46fa-a64f-6525fb858b12",
+    "faiss_idx": 26,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "d4134a34-7bc5-4f3d-8f4f-a21e586a7af3",
+    "faiss_idx": 27,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "0cda1b6e-0708-48c1-bb6b-676fd71299d1",
+    "faiss_idx": 28,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "2cca54d9-6c65-4cbe-89d7-115c37348d62",
+    "faiss_idx": 29,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "90a2eab3-3d5e-45fe-909b-d7b931f8c1b1",
+    "faiss_idx": 30,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "8e65cede-84c6-4e39-9e3b-5ee30b166c9b",
+    "faiss_idx": 31,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b5fcd6aa-aced-4358-96bb-72cd687df172",
+    "faiss_idx": 32,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "74022a61-2672-478a-8f1f-8b42e57cfcae",
+    "faiss_idx": 33,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "2accb7e8-436f-41f6-aa4e-d144028b66f6",
+    "faiss_idx": 34,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "45790cab-3a91-4d6e-8309-bc8044e322f0",
+    "faiss_idx": 35,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "aeb199e9-2d3e-4dc6-8aa9-aebc9e16be92",
+    "faiss_idx": 36,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "979e1042-3dd8-4956-bc57-24ac22400f72",
+    "faiss_idx": 37,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "2b6926b5-3c31-4caf-95c6-330757eaf73e",
+    "faiss_idx": 38,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "62da9f39-8cde-4da7-b530-90c57fe1fbf5",
+    "faiss_idx": 39,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "815d65c3-1897-42e0-9269-714866d485c3",
+    "faiss_idx": 40,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "93831547-e6e6-42dc-9f6b-a4b4888c1c4d",
+    "faiss_idx": 41,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "bfefbf63-3edb-4f1f-b692-3173c19400ef",
+    "faiss_idx": 42,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "aaead8f7-4748-4574-90c7-6592d74ac8b5",
+    "faiss_idx": 43,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "95127961-6c0c-4dfb-ab87-ad733e1b4a0c",
+    "faiss_idx": 44,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "4eae51a7-5702-4d0a-959d-60d44c4db890",
+    "faiss_idx": 45,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "0b3890a8-df2f-4127-a6f7-7b5beb82a0c6",
+    "faiss_idx": 46,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "146cbdcd-026c-4af7-b7c5-5815007466bf",
+    "faiss_idx": 47,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a41b0a57-f66e-44b6-b6ab-3893098a9375",
+    "faiss_idx": 48,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "d4a23612-02aa-42ad-afb9-847ca83647e3",
+    "faiss_idx": 49,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "1ad1b63b-e9ab-4857-aebc-ebfe1c616cd1",
+    "faiss_idx": 50,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "f48a2f67-e0e3-4518-81c3-0b4bbb8894fb",
+    "faiss_idx": 51,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "cf898ae8-734f-47b5-a1e5-ffbf9a0627b9",
+    "faiss_idx": 52,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "01257848-2325-41d5-b9a6-0eb64232ea56",
+    "faiss_idx": 53,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "1596e522-fb35-4b83-8f94-49bc80f3cf27",
+    "faiss_idx": 54,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "ad534409-1496-48f3-8984-4704bdba565a",
+    "faiss_idx": 55,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "6455d688-872d-4aa5-a0a0-f0b96ecc5883",
+    "faiss_idx": 56,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "9730664a-dea4-4001-ae4c-a0b811e67bf6",
+    "faiss_idx": 57,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "89c2b3f4-c22d-4d6a-872c-8e02161404de",
+    "faiss_idx": 58,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "92e5b3a5-73ed-41a6-a644-8441ddcf6aed",
+    "faiss_idx": 59,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "528a76c7-24ca-45a7-a60a-de904222e720",
+    "faiss_idx": 60,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "32c8565a-fa16-4e55-9f90-e08860eadb27",
+    "faiss_idx": 61,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "7e1296eb-64b9-41ca-accd-1d2678860da8",
+    "faiss_idx": 62,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "6a9c2bf8-bcf6-4626-b574-c4b68dea392e",
+    "faiss_idx": 63,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "ee19a317-6ea9-4385-8da0-7fce1c6f74b1",
+    "faiss_idx": 64,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "984c22f5-1852-4a83-bea2-cb8d86ca0e57",
+    "faiss_idx": 65,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "ce12483c-34d2-4006-bc83-e8948629e250",
+    "faiss_idx": 66,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "4c6c011e-df14-4f4d-8fda-0598c008c088",
+    "faiss_idx": 67,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "4fc2d007-2c13-4159-a75a-8f49e7ec9f7b",
+    "faiss_idx": 68,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "04d65e8f-589b-46cb-9a2b-3413e7ddcfa0",
+    "faiss_idx": 69,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "8fd38fea-c516-4f18-8f1d-e08f280b71ef",
+    "faiss_idx": 70,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "c13e675a-7eec-42a9-a8b1-4a18c95bf90a",
+    "faiss_idx": 71,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "f2421f38-1cda-41ca-b6ce-bdcb25dd2114",
+    "faiss_idx": 72,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "95c14b2d-b6c7-4e49-a9ca-6a699b9f138d",
+    "faiss_idx": 73,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "1d018410-9cb4-4f48-b979-c80d32c2a9f3",
+    "faiss_idx": 74,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "3d97c204-39e8-4ebd-88af-b539d321a4bb",
+    "faiss_idx": 75,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "ad36fdf6-172e-45a0-972a-98a822ca23c5",
+    "faiss_idx": 76,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "82e4f345-35af-479d-bdaa-a5dcc9acba55",
+    "faiss_idx": 77,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "9e95a556-0d5a-4cc0-af2c-7427882ba0b5",
+    "faiss_idx": 78,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "f1e46901-78f8-46dc-a5bf-2f97d08ac642",
+    "faiss_idx": 79,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "e7b09952-93a5-4391-9bd1-ddca01d7fe03",
+    "faiss_idx": 80,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b28de8fc-8eb4-4f45-8e2b-ba1a287fecb0",
+    "faiss_idx": 81,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "646ab7ab-fa58-4490-84b7-9c60147dde3d",
+    "faiss_idx": 82,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "3eb46982-05fd-44fe-a075-b365cad2ea1f",
+    "faiss_idx": 83,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "1b6c7db7-f906-4c5d-839c-10ab4b657828",
+    "faiss_idx": 84,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "9b07db14-f696-4b51-9ef0-917ec6d0a430",
+    "faiss_idx": 85,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a40ecda7-28ac-4e60-a70c-17932a747996",
+    "faiss_idx": 86,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "08b9aa89-6176-4e8c-ab2d-c9cd9b3ef1c0",
+    "faiss_idx": 87,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a4d0d2b7-8cda-4181-bafa-3d97b1d2889d",
+    "faiss_idx": 88,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "c7543cff-359d-4f28-b886-e563b2a0ee65",
+    "faiss_idx": 89,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "aa707db5-c477-41db-b035-eb7a1d54e037",
+    "faiss_idx": 90,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "12bce6bb-753a-4dd9-91e7-27ab779b143e",
+    "faiss_idx": 91,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "f70c0b17-99b0-46f0-875e-9cc98fa598d5",
+    "faiss_idx": 92,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "934ee9dd-95aa-42ac-b3ad-a6a42ab707e9",
+    "faiss_idx": 93,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "3a95d7da-f313-4cd1-9ff8-71f702be4ef9",
+    "faiss_idx": 94,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "bec11186-f736-48bb-bb3c-e85a1517d114",
+    "faiss_idx": 95,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "27ebfdea-0eab-4031-a7b0-5c4fd0ccbe2e",
+    "faiss_idx": 96,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "d7c58d62-a033-46b6-8c07-6332a8d4bb6c",
+    "faiss_idx": 97,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "dc9c2f9b-3151-416e-8f89-ee5771c581a4",
+    "faiss_idx": 98,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "9083d1ac-057e-47a0-a4e5-e49dafa4ee23",
+    "faiss_idx": 99,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "ca787a60-42d5-4efd-bbda-177612900404",
+    "faiss_idx": 100,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "e3f261ca-afcb-49cf-a961-8bda62aebfca",
+    "faiss_idx": 101,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "560d89a4-8360-495a-aa5f-18f452d6515f",
+    "faiss_idx": 102,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "8fde7c84-cdec-4ec4-ac0d-a894f42eba02",
+    "faiss_idx": 103,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "0626006f-bbd0-41ba-bb48-9210373b349d",
+    "faiss_idx": 104,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "976dbcd9-a061-4c86-824f-2dacf90d161a",
+    "faiss_idx": 105,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "2b8d3133-c546-4591-859a-5f92fff1ce33",
+    "faiss_idx": 106,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "9e3f95cd-b1a0-4fea-9380-8136eac73653",
+    "faiss_idx": 107,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "714a5c85-bc82-488a-a712-b8aea485393a",
+    "faiss_idx": 108,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "02194fe2-5681-4c43-91c4-a4867dfbd78d",
+    "faiss_idx": 109,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5835e6a1-6ce3-4c78-b808-5e99cb46b8e3",
+    "faiss_idx": 110,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "2a47a9ac-2173-4393-9f27-6fe5e04a06e0",
+    "faiss_idx": 111,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "96645b6f-0d21-4a50-b4ac-94c4660ae733",
+    "faiss_idx": 112,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "fa3caa06-f1dd-44ce-b254-e025ebc14a2d",
+    "faiss_idx": 113,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "8d7b5191-e6cb-4aa2-bf5e-0dc1a5116993",
+    "faiss_idx": 114,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "64e9f8d4-3824-4ddf-a9cd-218b1451e245",
+    "faiss_idx": 115,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "6d52c37b-48ef-4775-9077-dd7380bb794e",
+    "faiss_idx": 116,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "e4efa566-fbb8-4981-ab08-031db0ec9a2f",
+    "faiss_idx": 117,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "070a0641-c547-445e-972e-5ec7ccdf44a5",
+    "faiss_idx": 118,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "339c4c81-f5ae-4bd7-a743-366e180f19d1",
+    "faiss_idx": 119,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "be0ad5cf-c77b-401a-86cb-e1f934df95e6",
+    "faiss_idx": 120,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a6fe9406-2250-4089-916c-b7b8c9b9bb33",
+    "faiss_idx": 121,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "43fcb07d-3954-4424-a900-87a542b004e5",
+    "faiss_idx": 122,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "c3dd169b-7d7e-4600-8122-1beb4649b4eb",
+    "faiss_idx": 123,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "aeb5d465-2708-46d0-9b3b-fc4e42465cfc",
+    "faiss_idx": 124,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "57a524ea-ec31-4245-aaf2-0d8d60539046",
+    "faiss_idx": 125,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "98794bf3-30fc-45c4-b78c-2897fda8ba7e",
+    "faiss_idx": 126,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "9bd3946d-ddb3-4831-832d-366b3f8ece55",
+    "faiss_idx": 127,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "64e2e1c6-1415-40b1-9a08-a01295b1d22c",
+    "faiss_idx": 128,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "6e145c5b-d8f2-4830-acfc-b028f7235bb6",
+    "faiss_idx": 129,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "23104bd1-bd6f-4bc6-8aa8-348c3c669641",
+    "faiss_idx": 130,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "8af41bac-0029-4158-a148-778ff1be3053",
+    "faiss_idx": 131,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5d903acc-9647-4286-9139-98b8d3ddd8dd",
+    "faiss_idx": 132,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "c19a845b-e327-4a96-bda7-1a62fe42662e",
+    "faiss_idx": 133,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "35abf0b1-a22c-4ef6-9fff-c0dee9c864fc",
+    "faiss_idx": 134,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "29ffa39e-ca26-410e-9bfc-2240a3bc2dfe",
+    "faiss_idx": 135,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "f55daa83-634b-4705-8dcc-2cb171c2caf4",
+    "faiss_idx": 136,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "98ac6350-174e-4a6c-bdc6-745fbe8128bc",
+    "faiss_idx": 137,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a9cdd172-b5d6-4334-b96b-93864c140fd4",
+    "faiss_idx": 138,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "f29287e8-c0fd-4c34-be04-fdf91edc4c8d",
+    "faiss_idx": 139,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "219d447a-461c-4b28-9a4f-fb34e399b5b4",
+    "faiss_idx": 140,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "1a810aae-78b2-4b6a-85a6-5d0f77f42ec6",
+    "faiss_idx": 141,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "c096d9c6-a002-4cf6-b917-8d471ba07592",
+    "faiss_idx": 142,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a71fac14-3e04-47d6-9c96-15778691a59b",
+    "faiss_idx": 143,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "7b009f65-bb22-4c17-9be8-30682e9a192a",
+    "faiss_idx": 144,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "c9487018-a3ea-4c13-947c-7c91c13fd3dc",
+    "faiss_idx": 145,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "fdc4a95f-b335-4e8b-ab84-32bb6b1a5cb4",
+    "faiss_idx": 146,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "c0c99b41-68d9-4ad0-be6f-1f378b552f48",
+    "faiss_idx": 147,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a4ca1873-a153-4798-b9f8-d18cce57ad86",
+    "faiss_idx": 148,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "307b37a6-b865-4450-a070-6c666fb0f77e",
+    "faiss_idx": 149,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b221ab10-56c1-412f-b11a-bc536e361c7c",
+    "faiss_idx": 150,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5c70d8dc-c5e8-4e35-b8ea-4cecdfd0f0ce",
+    "faiss_idx": 151,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "8dccf661-eeba-4b59-8f93-827b55fc00cd",
+    "faiss_idx": 152,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "2d721b28-91e8-474a-9f05-3dd9c0151fb8",
+    "faiss_idx": 153,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "7cc3da8f-211b-4ecf-bf1a-fb485e7c41c8",
+    "faiss_idx": 154,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "ee915243-da8b-4d64-a7e5-3ca7882ee191",
+    "faiss_idx": 155,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "981fdcfb-1c38-4d50-accf-cc8d579ef3dc",
+    "faiss_idx": 156,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "da6133aa-4d01-46d8-a7f1-44ae5fa2ae3e",
+    "faiss_idx": 157,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "49e97d2e-9b24-4251-bff2-0d897f4276ac",
+    "faiss_idx": 158,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "76663be8-bc06-445e-84e8-8bf966e341e6",
+    "faiss_idx": 159,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "358aec5f-1586-4327-9cb4-66d2586d4c40",
+    "faiss_idx": 160,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b5062f42-44c5-4784-98e5-bf68f9095de0",
+    "faiss_idx": 161,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "6027aaf7-24e5-40c6-bd43-d5ef6d749f1c",
+    "faiss_idx": 162,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "8f24070f-4c13-4c7c-be5a-b48037698ba9",
+    "faiss_idx": 163,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "1e94c472-985a-4d05-b108-43a44ef51497",
+    "faiss_idx": 164,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "e158631c-81af-440f-b549-de90018b491e",
+    "faiss_idx": 165,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "25406779-2ef7-4a33-be94-c8f27de407c2",
+    "faiss_idx": 166,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "8000045d-9679-420f-9041-19de0301602c",
+    "faiss_idx": 167,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "34c902d4-a013-4ae1-b388-bacee7dc0dfc",
+    "faiss_idx": 168,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "57d81dc9-4e0d-4115-9784-7b2aec520116",
+    "faiss_idx": 169,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "49852022-1c4c-4de3-aa5c-213704ce3231",
+    "faiss_idx": 170,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "16ca154a-dd0b-4dac-a566-21db677ea7e4",
+    "faiss_idx": 171,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "2662fd02-3610-428f-8128-c6d91703ae9b",
+    "faiss_idx": 172,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "c3f9ab53-2605-42f8-a8ec-4060e0a3fbd5",
+    "faiss_idx": 173,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "c9abde9d-3a8d-44ad-ba61-4dfcebda333c",
+    "faiss_idx": 174,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "7059504e-a3a2-4b8d-a13c-8dccdde77dc2",
+    "faiss_idx": 175,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "20f383ee-c745-48c9-b677-f8757eb8d7e1",
+    "faiss_idx": 176,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "dc3741ac-7654-45a1-8761-4b109f8d214e",
+    "faiss_idx": 177,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "bf336125-d57e-4ca1-a679-a82cd0246699",
+    "faiss_idx": 178,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "e795d8e6-2304-4e57-8a33-6b57ac766d47",
+    "faiss_idx": 179,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "3127d776-5082-4f6b-b1bf-2d115b6ffc8f",
+    "faiss_idx": 180,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "fe8746da-45fb-48b0-8deb-e13136b77603",
+    "faiss_idx": 181,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b2807b90-ec80-4233-b1b1-f81b890791c9",
+    "faiss_idx": 182,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "2df551bc-358f-4e5f-aca6-216b13477414",
+    "faiss_idx": 183,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "d7f6ea97-a2b8-4627-a213-28c7496179fa",
+    "faiss_idx": 184,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b5a51eb0-84ab-4bcf-8799-0dcb483ff28f",
+    "faiss_idx": 185,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "7883e145-991d-46ed-bfea-a6227ab5b3fa",
+    "faiss_idx": 186,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "fe6cc0ea-b5f7-47bc-a44a-76608a05c3e8",
+    "faiss_idx": 187,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "beb65972-40a7-42d7-92cf-5faae8e35638",
+    "faiss_idx": 188,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "402ac7d8-1afa-4d7f-b4fa-24e321cdcf0b",
+    "faiss_idx": 189,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "0387cb8d-73d7-44fd-bea5-6488268d85be",
+    "faiss_idx": 190,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5fba38fe-3877-48b4-a508-591c035a0c55",
+    "faiss_idx": 191,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "658778e1-bbca-4ec2-b4a9-fc918f9d6078",
+    "faiss_idx": 192,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "0112502f-d526-4a07-965a-178d019d647c",
+    "faiss_idx": 193,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "e1f1902d-6e4d-4a3d-8b1a-ff1df17fb938",
+    "faiss_idx": 194,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "1bc2f85d-1f7b-4b8e-b632-552e7db4220c",
+    "faiss_idx": 195,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "0ad15349-ca73-42ea-9a7c-f5228745ac1c",
+    "faiss_idx": 196,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "ab482100-7402-4ced-9e93-046768dcb3c6",
+    "faiss_idx": 197,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "1256df71-adc4-4342-a2cc-452d34003e81",
+    "faiss_idx": 198,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "fd6c8c78-a478-48f7-be51-2e0282295dbc",
+    "faiss_idx": 199,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "2dda7bd4-f82d-4881-a8f3-3dccc3b38d41",
+    "faiss_idx": 200,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b6204ac0-5821-4cd6-aa71-1bfb5687b035",
+    "faiss_idx": 201,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "8cb866ec-e00b-4ec5-b09b-c14c99374cb8",
+    "faiss_idx": 202,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5704d6ce-c84e-4fb7-a731-7ebb97f3e056",
+    "faiss_idx": 203,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a445d35e-a621-4f30-9c73-92eeddcc74f7",
+    "faiss_idx": 204,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "ec1b0cb6-a023-47ea-acfc-1dfc86d6d75a",
+    "faiss_idx": 205,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "e5161792-bb2a-4b62-b48e-a7b173a56727",
+    "faiss_idx": 206,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "68c176b1-ca73-4c4c-84fa-3ff5146ce4c1",
+    "faiss_idx": 207,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "bf1d1499-5766-4f17-9658-3db62d6fd157",
+    "faiss_idx": 208,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "0c474d33-1cfb-444f-b92f-037b250ee010",
+    "faiss_idx": 209,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "f4c54cb3-97af-425c-b4dd-9227fb54a820",
+    "faiss_idx": 210,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "76b82b4a-d6c8-4f47-a692-0ade775124bc",
+    "faiss_idx": 211,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "90767c9e-3d3f-4813-b5f0-2e244b6d5f6a",
+    "faiss_idx": 212,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a4cb0b4d-b511-4557-b342-50fb1711133f",
+    "faiss_idx": 213,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "91e51752-a655-4f92-bebd-259faff8470e",
+    "faiss_idx": 214,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5c99f135-e455-420c-b354-c052b90204c7",
+    "faiss_idx": 215,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "09af9c0c-34f4-4a7d-8d63-107e941717c8",
+    "faiss_idx": 216,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "075d3c77-5816-4a5b-9b82-9ee30190d099",
+    "faiss_idx": 217,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "4ee1406c-fcf6-4330-afc0-36dc5dd73f61",
+    "faiss_idx": 218,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "1c3a1ce7-300b-4d17-9e54-e461d9fe6422",
+    "faiss_idx": 219,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "694d6894-30ee-4836-91d8-87e7a73f2812",
+    "faiss_idx": 220,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "327a6bca-b504-439e-a804-b6b6c50d0419",
+    "faiss_idx": 221,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "94b87aa4-40af-451b-9309-3e48abf18ca4",
+    "faiss_idx": 222,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "4169cf84-ddc8-49eb-b531-f2f4b9b77c3b",
+    "faiss_idx": 223,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "ac7a41a1-57a4-409d-bfc8-1d02428bad87",
+    "faiss_idx": 224,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "f3122f8c-3ef5-4cc9-8246-ed351af2f5c2",
+    "faiss_idx": 225,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b8ef0af9-01e5-47c6-a191-f1c8d8c0e003",
+    "faiss_idx": 226,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "ebe62d80-c3ef-48c0-8c3d-08a071874b37",
+    "faiss_idx": 227,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "43ad0680-4c84-494d-a173-2e598bb24063",
+    "faiss_idx": 228,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "cdbb4451-53e1-4e15-bb6f-1b914af83c8d",
+    "faiss_idx": 229,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "87373c8d-a3ef-41ca-b911-8c620c4a08e4",
+    "faiss_idx": 230,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "0f4aba67-5c0d-4827-8c65-f1d406399803",
+    "faiss_idx": 231,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5657b0a0-9a79-4eb4-9613-7f2325b4f295",
+    "faiss_idx": 232,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "2932416e-5247-4876-a7ee-0ea63d78b518",
+    "faiss_idx": 233,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "194031ad-1845-4590-bcaf-e00f1b82a3a1",
+    "faiss_idx": 234,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "2109b7d6-e1e0-4e6f-b3a9-c7e10764043e",
+    "faiss_idx": 235,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a27ed720-c9e1-4bd3-af6f-94661d68a7cd",
+    "faiss_idx": 236,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "d002d524-cab2-4ba5-8615-b538ec9974e7",
+    "faiss_idx": 237,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a9bf2ecf-5e3c-4415-ae66-7c919d1ee443",
+    "faiss_idx": 238,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "c386e627-f56d-49a9-a3bd-2a06b7505ace",
+    "faiss_idx": 239,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "6f00ce5d-7180-4a5b-b74d-ac9b5f268b7c",
+    "faiss_idx": 240,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "3f9d3900-68da-41b3-8b28-fa76210049a6",
+    "faiss_idx": 241,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "418eca86-2b75-4759-a1f6-3ce9fa089781",
+    "faiss_idx": 242,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "2849d0d4-b21a-435c-b690-3711e6863513",
+    "faiss_idx": 243,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "9d507247-c603-41c9-b87c-93ede22a98ff",
+    "faiss_idx": 244,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "9624f4ab-a273-4d81-9188-dfc4b3cd33eb",
+    "faiss_idx": 245,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a999b2e6-117d-4ff7-9550-3a14fec4f67e",
+    "faiss_idx": 246,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b1642da3-3c5a-4956-bf56-f8b4c1673d2a",
+    "faiss_idx": 247,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "7a88ea24-6c29-4c70-ace8-253cc055fa09",
+    "faiss_idx": 248,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "ec238daa-b6cb-41ee-8215-aa401198811a",
+    "faiss_idx": 249,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "98aa0eb6-87b2-4cbc-972c-65f1d93e35ea",
+    "faiss_idx": 250,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "2a2a1978-72a7-46e0-821e-52583ac8aa9b",
+    "faiss_idx": 251,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "ebcd7fe9-3ed0-488b-af3d-894f20864c0c",
+    "faiss_idx": 252,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5fe56dbf-81d1-4589-a345-9e1cd358ab7c",
+    "faiss_idx": 253,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "d58bd8d2-f235-42c5-a16b-26d18ca8cce7",
+    "faiss_idx": 254,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5d65ab31-8c25-40df-a293-11634e828067",
+    "faiss_idx": 255,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "77e43f17-98b9-4993-b3fe-6fa55f1e647c",
+    "faiss_idx": 256,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "9283a96e-5ffa-44c1-9716-5de804307aed",
+    "faiss_idx": 257,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b7279e49-dd92-4b34-a64a-f82f00446446",
+    "faiss_idx": 258,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "bed29fe4-e446-4951-b613-4ef9871d377c",
+    "faiss_idx": 259,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "461e8bf5-d39d-41dc-b58d-0ea1d4437c58",
+    "faiss_idx": 260,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b2ebe42c-2639-4238-a3ec-9314f2e7fe5a",
+    "faiss_idx": 261,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "d6700b99-656f-439e-ac54-aa6c148c095a",
+    "faiss_idx": 262,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "2d705af9-72dd-4152-b79f-a6bf95443dba",
+    "faiss_idx": 263,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "0524d101-74ca-4992-8da2-73ffa10d4c73",
+    "faiss_idx": 264,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "31683e7f-73c4-4d24-91ad-393e9510ea49",
+    "faiss_idx": 265,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5999b743-010f-4bd2-8bc4-5753b9153702",
+    "faiss_idx": 266,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "be3ad536-3e61-4f43-b48f-bd0f4f563d9a",
+    "faiss_idx": 267,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "eb0086d1-e355-4ba7-877c-64a534615556",
+    "faiss_idx": 268,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "1067d7f1-3470-4be8-b422-e8aba799f1c6",
+    "faiss_idx": 269,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "99108bfd-ddd8-4eed-a5c0-e6d3e0dd3dbf",
+    "faiss_idx": 270,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "68872391-0aa3-4827-8ef8-9d514712ab92",
+    "faiss_idx": 271,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5dbb46cb-d238-432a-ac7c-446bc8f5e0a3",
+    "faiss_idx": 272,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "f366b3d0-ac19-45d3-a8fa-a367589b1c80",
+    "faiss_idx": 273,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a92a4cb7-59ff-48c7-bc32-e8dce811c7ab",
+    "faiss_idx": 274,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a7290e78-6c94-4af4-a04d-0f9d399eb6c8",
+    "faiss_idx": 275,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "592545f1-f5c0-458a-82ae-bea37d02766e",
+    "faiss_idx": 276,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5b1e759a-9f84-4afe-b8c9-f581e6d21083",
+    "faiss_idx": 277,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "be50afd0-0a7b-461c-975f-4a42ac72c5c8",
+    "faiss_idx": 278,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "c93ca097-ec6d-4d99-8583-889d0a83d85e",
+    "faiss_idx": 279,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "1d1007fa-3509-40da-b57d-fcbf6158aa2e",
+    "faiss_idx": 280,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "77c422b9-69f4-4c9f-a479-fe9f2966deb4",
+    "faiss_idx": 281,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "48d854b2-770f-475e-8e71-2de585bf986a",
+    "faiss_idx": 282,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "c05d644b-a727-4b49-84ea-06216cb26fb1",
+    "faiss_idx": 283,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "45987c35-55b2-4b30-b7aa-b1895bccee01",
+    "faiss_idx": 284,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "47bdbd15-5ee3-4fb4-96d5-529119cd4f79",
+    "faiss_idx": 285,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "9a50e97b-9c17-4979-9e14-9568fbb7c776",
+    "faiss_idx": 286,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "2c2b79da-23ac-4fe6-af5d-e894100f19d6",
+    "faiss_idx": 287,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "8882ed2e-cd76-4b01-a597-c46c2da8029a",
+    "faiss_idx": 288,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "94578fcf-0dd0-4e5c-8e72-c76771d76360",
+    "faiss_idx": 289,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b8943da4-7512-49fa-a830-6ae9003f8428",
+    "faiss_idx": 290,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "7872c494-17bf-4685-9fd8-8cb1499b5075",
+    "faiss_idx": 291,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "d9290031-2c98-4f2d-b4ad-65a85dec9125",
+    "faiss_idx": 292,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "19a1f111-195c-4972-a4b2-71c688bde553",
+    "faiss_idx": 293,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5601ff67-4729-43ab-a762-668a08fed90c",
+    "faiss_idx": 294,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "1be7aeb9-d074-4e54-ac00-37dcdcddab64",
+    "faiss_idx": 295,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "8113cd7b-047f-4889-907d-fc87e6ed29ab",
+    "faiss_idx": 296,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "efb4764b-e7d0-45eb-99e0-157a90a1cb9f",
+    "faiss_idx": 297,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b164fe49-a143-401b-aa90-0be97b2fa3cc",
+    "faiss_idx": 298,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "1bac688d-4526-4f33-aec7-de90052a5323",
+    "faiss_idx": 299,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "27c3893a-cd95-4a97-a80b-5791791e4be7",
+    "faiss_idx": 300,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "d814b811-3745-42cc-b54d-3b5e413db799",
+    "faiss_idx": 301,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "9a967ace-22af-4cda-a0d4-2d267b404b85",
+    "faiss_idx": 302,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "8294762e-8156-461f-995a-9f55dd23dfb2",
+    "faiss_idx": 303,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "0f754bfe-ba5e-411e-a8c2-72b9c080901a",
+    "faiss_idx": 304,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "42c7efc7-7de4-4036-9103-936a01104a19",
+    "faiss_idx": 305,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "83e88688-0ffe-40fe-8d3b-65010bebbf72",
+    "faiss_idx": 306,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "29c61e25-befd-4fd0-b6c8-6fde959ac8e3",
+    "faiss_idx": 307,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "481f2fca-b842-48ab-9a52-b682914c1bab",
+    "faiss_idx": 308,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "99580ff0-cec8-4a78-a2df-212c4057e9d4",
+    "faiss_idx": 309,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "ba188616-698c-4418-8bba-3ce6201d4acc",
+    "faiss_idx": 310,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b91932cb-2586-4417-b282-6a0eb2e601d1",
+    "faiss_idx": 311,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "878d1e5b-fff9-4704-b58d-967a28c6ae40",
+    "faiss_idx": 312,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "044907ac-6ba6-4a96-95dc-252068e35ce2",
+    "faiss_idx": 313,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5acf1e99-6ea0-496d-9403-a68d0593266d",
+    "faiss_idx": 314,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "8c306a2d-afe8-4443-999b-2782aaa6fac3",
+    "faiss_idx": 315,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "aa9ec731-429b-4593-b5b0-8e1f3c8790b5",
+    "faiss_idx": 316,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "9d30b590-bc62-4ebc-9f34-f79ec189154f",
+    "faiss_idx": 317,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "7c4a0783-6d51-4042-b0d7-1b976af92fa8",
+    "faiss_idx": 318,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "10f8c0d9-059b-4569-9023-2560852c3a31",
+    "faiss_idx": 319,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "7bef0952-dffc-470c-b6d6-3dee2c7bd551",
+    "faiss_idx": 320,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "d082f874-9e5c-4df5-80a0-380e826e4259",
+    "faiss_idx": 321,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "d2c58793-fc86-40bc-9b2c-d9004284cb13",
+    "faiss_idx": 322,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "f47767f6-15ed-41f7-9b7d-380c2170538d",
+    "faiss_idx": 323,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "7eb50ef4-07a0-469f-87c9-9a3ba0af22f3",
+    "faiss_idx": 324,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "101daca7-845e-467d-9cc6-5a47a239f7b5",
+    "faiss_idx": 325,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "e4500c0d-0d9f-420e-a963-e7bccdd40879",
+    "faiss_idx": 326,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "4cb51355-ded7-4063-9301-dd396624162a",
+    "faiss_idx": 327,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "6fadd8fe-b033-4c6e-b9ec-f5f196b12a80",
+    "faiss_idx": 328,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "9541a401-1edf-4f2b-90fe-f75562735f6f",
+    "faiss_idx": 329,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "48e84b34-6b07-4d35-9f50-e40b49b1fdc8",
+    "faiss_idx": 330,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b2e92bc9-c020-48ee-9a45-7582eb6353b1",
+    "faiss_idx": 331,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "28ce1ce9-dcb6-48f5-a76d-153d7b3ab534",
+    "faiss_idx": 332,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "d3c796a4-1090-427d-af48-6a77e5ea13f2",
+    "faiss_idx": 333,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "02b5d2c7-3067-4c9d-8eff-d355046a3f06",
+    "faiss_idx": 334,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "8531e7d0-b172-410f-a80a-7a710a1bc321",
+    "faiss_idx": 335,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "d4f0713e-7f55-4d5f-b17b-55704a58892d",
+    "faiss_idx": 336,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "d722ff70-0df5-4556-a3b8-ade692552fe4",
+    "faiss_idx": 337,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "8ddd4c68-d7c2-48de-9fda-6a26c1e20cd3",
+    "faiss_idx": 338,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "f4b7775c-62bf-4f9d-ad7b-12e8c6cef5d3",
+    "faiss_idx": 339,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "3b92ffb9-5aa6-4b28-9990-77cc62b979b2",
+    "faiss_idx": 340,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "cc0c97cf-f6fa-4468-a89a-bbd27d476a96",
+    "faiss_idx": 341,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "edea3678-b417-4176-99ef-53adb3735ff3",
+    "faiss_idx": 342,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "f5e5cc3b-2880-460f-9df3-12c1f94cc6c0",
+    "faiss_idx": 343,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "9a19aaef-e2b2-4d35-ac20-2c109a9ae4f1",
+    "faiss_idx": 344,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "0f82e5a6-8bd1-4940-a333-d71a608824f2",
+    "faiss_idx": 345,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a0bf8ec6-0997-4287-b994-d950285de880",
+    "faiss_idx": 346,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "587fac7d-375c-4efe-8d25-68220013ef1a",
+    "faiss_idx": 347,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a4ea1bff-0ed8-4d01-a05a-78145af7bacf",
+    "faiss_idx": 348,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "e5597e47-61fc-4f92-a3a0-7dfea6e35c52",
+    "faiss_idx": 349,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "183975f8-f49f-4a7c-bb95-4ee22cb5a6a6",
+    "faiss_idx": 350,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "e14b5193-a5d7-4a44-8791-d38f2b868312",
+    "faiss_idx": 351,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "d90cc05e-0f0a-4040-925c-fe4ce08c42b9",
+    "faiss_idx": 352,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "eeda8788-adaa-4828-96c8-afe9b1881de7",
+    "faiss_idx": 353,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "8bd4ad7c-7ee6-4f45-a97d-a1cac650ce4e",
+    "faiss_idx": 354,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "7ef686f4-d720-4488-997c-5cf2828253c7",
+    "faiss_idx": 355,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "10d3b285-9143-40ff-9c7c-8643f60da2a0",
+    "faiss_idx": 356,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "f6a56013-4dc0-4b1a-b65d-85cb6885aed7",
+    "faiss_idx": 357,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "54b1b980-c25d-4072-a3e6-9732f18f99e8",
+    "faiss_idx": 358,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "28eac263-219b-479a-a5de-1f690dd6b0a6",
+    "faiss_idx": 359,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "3170bff6-d70b-4880-86fb-fa09468b51e8",
+    "faiss_idx": 360,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "1ffc790f-6c78-4721-9210-b5c7eaa0e8bf",
+    "faiss_idx": 361,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "30131c3b-601e-45e5-940d-a94e747a5892",
+    "faiss_idx": 362,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "6c1e21a1-e7a7-40e5-a80d-5959fa6be733",
+    "faiss_idx": 363,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5739b99a-940c-4ee5-a4f3-f50b27a11f7d",
+    "faiss_idx": 364,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b9c15076-ea0e-481c-a236-e8120a585289",
+    "faiss_idx": 365,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "9519caf7-73ff-43ab-b209-70a064772591",
+    "faiss_idx": 366,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "8abebf5d-a4de-43b1-be7d-814dfe343cca",
+    "faiss_idx": 367,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "050c0bbf-d8e8-4635-9a12-eb8467fef0f8",
+    "faiss_idx": 368,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "995b370d-3e32-4a3b-ab9c-6eb905674054",
+    "faiss_idx": 369,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "fcb227c3-f8b2-45d6-9dae-24c1f705e588",
+    "faiss_idx": 370,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "294e62bc-ad1f-4238-adb4-bb7dc8550a8d",
+    "faiss_idx": 371,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "e9397d48-84db-4155-807b-2ab3db816d26",
+    "faiss_idx": 372,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "c4dedc53-2ec3-4971-b9cf-46b99ee3d128",
+    "faiss_idx": 373,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "6c6e4e42-cf91-4eb1-bfb9-0a689610541a",
+    "faiss_idx": 374,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "09f04b50-6821-460d-b572-23c55dd2754b",
+    "faiss_idx": 375,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "49d5a44c-4796-43a4-b6a4-1b200ce73bc8",
+    "faiss_idx": 376,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "362b0c67-3178-489b-a1fe-88e702fdcf7e",
+    "faiss_idx": 377,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "1b88d3f2-5771-46e9-934a-31a61aefebd8",
+    "faiss_idx": 378,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "8084cdfb-3ec4-4d13-9fc0-314411014e49",
+    "faiss_idx": 379,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "e98ec6d9-bd7d-45f2-820c-b5fe69dc6c2e",
+    "faiss_idx": 380,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a896d6da-2b90-4e4f-b834-7a0ce0af9ebf",
+    "faiss_idx": 381,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "dd07f3ee-5237-4ab3-b7a5-692e4a286cfe",
+    "faiss_idx": 382,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "7b987fdb-e547-4579-8056-a25577b2f435",
+    "faiss_idx": 383,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "4ab8e2d4-864f-4e9c-83f3-28057753a531",
+    "faiss_idx": 384,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "e70b3e2c-4bc4-44b6-91a9-7a5242d21757",
+    "faiss_idx": 385,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "dd4d5dc3-2735-465f-8935-887b5db8c1fb",
+    "faiss_idx": 386,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "221f4e7e-cc34-4983-9307-0c76b01acee2",
+    "faiss_idx": 387,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "f0254a38-b13d-4314-88e6-83f3e4cae172",
+    "faiss_idx": 388,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "922c5bc1-842d-4dd7-ae0a-2eae292867d6",
+    "faiss_idx": 389,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "f8cc60ed-9119-4fb9-ac3c-fb2af061efec",
+    "faiss_idx": 390,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "f019c7a3-1cb8-4efd-a12f-5948953f7461",
+    "faiss_idx": 391,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "c95f7045-fe79-4fab-8e78-1a4aa62292cd",
+    "faiss_idx": 392,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "09836cd0-3819-4c41-869a-b685ff5e438f",
+    "faiss_idx": 393,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "2a504cb8-2b6e-4be4-8ade-3d8f4d3d38f1",
+    "faiss_idx": 394,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "4c151f42-70b2-46c7-b1ba-114846a60816",
+    "faiss_idx": 395,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "277c822f-9b9c-43c7-a57d-2f4da0bdd626",
+    "faiss_idx": 396,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "ac25b766-2a44-488c-8649-26c85a0af2b4",
+    "faiss_idx": 397,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "fde22459-b242-40da-b1de-2c4b1b4d8975",
+    "faiss_idx": 398,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "94c2dbc8-a209-4429-b8ac-4dadbbbead12",
+    "faiss_idx": 399,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "6eb0d3f5-fbe4-4a6d-8f29-30bab800cb7c",
+    "faiss_idx": 400,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b6a6a7bd-0380-4e5e-82be-73a9eb3edc4b",
+    "faiss_idx": 401,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "ceef39f2-26cb-4e09-af95-e0286645cb95",
+    "faiss_idx": 402,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5e8c13a7-7826-4407-b0a1-5b8d88868420",
+    "faiss_idx": 403,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "7baeda09-bf9e-4a0c-9e87-caa3ab1fc628",
+    "faiss_idx": 404,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "2c80668f-a6ab-4f61-88b4-4e8e2d7855ed",
+    "faiss_idx": 405,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "ec2d200b-829a-4051-9550-9c814568bfe7",
+    "faiss_idx": 406,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "9493789f-1dbf-4b66-af21-b3b0a1d14dee",
+    "faiss_idx": 407,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "29f0eb99-65ac-4f3c-89fe-e03059680ebf",
+    "faiss_idx": 408,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "96a5752b-df95-4877-adb7-301d4791adfd",
+    "faiss_idx": 409,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "4e31ed29-a5ce-4e04-ad1f-71126902477e",
+    "faiss_idx": 410,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "76c209f7-b74e-4612-85d1-b219092f69a5",
+    "faiss_idx": 411,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "0562b6c5-b8c5-40d4-bbd7-228360456385",
+    "faiss_idx": 412,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5ce7880b-5600-4672-9e42-31832d55302b",
+    "faiss_idx": 413,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "454eb62c-1eb0-4cfc-962e-e179dcaeb9f9",
+    "faiss_idx": 414,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "1b59f553-a6ff-42a8-b208-dc2a99b218db",
+    "faiss_idx": 415,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "29985565-b49e-44a7-b874-e59c28153f02",
+    "faiss_idx": 416,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "c90ec7fb-e379-4eb5-bd66-6d48e5b8a6e7",
+    "faiss_idx": 417,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "650f8192-94ae-40b7-b2c7-56d89d2652cf",
+    "faiss_idx": 418,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "154f1375-eaa5-48f7-9f97-b13351aaf9ce",
+    "faiss_idx": 419,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b52d97f1-28c7-46ca-9580-a01301fa71d2",
+    "faiss_idx": 420,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "3d3670c1-09a3-4b80-bf33-6ff1cc3d61bb",
+    "faiss_idx": 421,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "f4ce02e5-e373-4555-be5d-1723b99f1712",
+    "faiss_idx": 422,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "ad0611a5-e7b6-420a-8559-299a8b9fa32b",
+    "faiss_idx": 423,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "4bef5f38-8028-40ce-9cfa-4a092c40bd38",
+    "faiss_idx": 424,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "452b2b75-583d-4ee4-b97b-ec661e5e35a5",
+    "faiss_idx": 425,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "606a57fc-951e-4848-a891-1de9f39e76d3",
+    "faiss_idx": 426,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "b155502b-74e1-4237-b305-181e10a134da",
+    "faiss_idx": 427,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "003e5d4b-ccb7-408f-8772-e6635eb9079b",
+    "faiss_idx": 428,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "fe004cee-3238-4343-ad4b-09def08a2f77",
+    "faiss_idx": 429,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "c5ef07fb-cfad-479b-ab01-9b37b3bb729a",
+    "faiss_idx": 430,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "722bd142-6957-44a1-b943-1290ee084a81",
+    "faiss_idx": 431,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "d68c57ab-6042-48f7-9bb8-b15cb0c73705",
+    "faiss_idx": 432,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "13810807-3c30-4919-b124-9fe93885c49a",
+    "faiss_idx": 433,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "94b08b8f-e75c-4485-ace7-a8c115b67591",
+    "faiss_idx": 434,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "a0e20fd1-64cf-47bf-9857-115360796ddf",
+    "faiss_idx": 435,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "15c74af6-b9b7-4d43-bc11-eb05838c2992",
+    "faiss_idx": 436,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "334a098c-92bd-453a-b839-c470fe2787cc",
+    "faiss_idx": 437,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "5e8017c0-b562-4cff-83ad-3092de73c636",
+    "faiss_idx": 438,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "81573bbd-654c-476f-8b85-b79a32c4e09b",
+    "faiss_idx": 439,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "7b0650ea-d665-4723-a9a4-189b6a97fb5f",
+    "faiss_idx": 440,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "9e45ca2e-d7ec-4744-8a71-f3cfe7b81a99",
+    "faiss_idx": 441,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "99c0bbfd-bf26-441c-bf62-b8764791e79a",
+    "faiss_idx": 442,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "d9369c2a-2727-49af-b23a-47037b8710ac",
+    "faiss_idx": 443,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "764883b8-9d58-4132-984f-f38c4119b548",
+    "faiss_idx": 444,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "0c5b3794-0620-4572-9f0c-c36a85ea5154",
+    "faiss_idx": 445,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "1e0f145e-b024-45af-a995-bf6ce1f9b9f5",
+    "faiss_idx": 446,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "22a6af60-376b-4add-bf4a-41110dc9a680",
+    "faiss_idx": 447,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "fb19a6a8-ca86-47fb-9e97-c47251c333f0",
+    "faiss_idx": 448,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "6475778c-1da8-43ac-b22c-4ad9afeef0da",
+    "faiss_idx": 449,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "7a30cf9e-e1f5-46fa-aac2-f5f8b65d106e",
+    "faiss_idx": 450,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "810c42c5-130d-44e8-813f-ac587f060210",
+    "faiss_idx": 451,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "d8ade0cc-ffb6-44f8-b9f8-c2ff78d7f2bf",
+    "faiss_idx": 452,
+    "model": "specter"
+  },
+  {
+    "chunk_id": "60ef4f8b-dc80-48ce-aa81-53728ae09dad",
+    "faiss_idx": 453,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "a7f36d8a-5016-4961-ac36-52790afb3e57",
+    "faiss_idx": 454,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "36428c3e-3d39-461e-b11b-cc94240dc76b",
+    "faiss_idx": 455,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "890e665f-9fd8-41a8-a777-46f9a020dda4",
+    "faiss_idx": 456,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "db2e7908-f1c9-4a59-a547-9bbbdf4fd4fc",
+    "faiss_idx": 457,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "29fdeaa0-e694-4bb9-ab3c-9e12dd4b0c47",
+    "faiss_idx": 458,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "ba3a5c09-8dd1-40e7-b395-ef1017d172c3",
+    "faiss_idx": 459,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "d4f50723-12b6-400f-811a-b5a637d19a97",
+    "faiss_idx": 460,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "960a4a10-4d3d-429c-8bb1-5399f959e391",
+    "faiss_idx": 461,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "9aee4d8c-2a4c-4b13-81a2-2581d3f1249e",
+    "faiss_idx": 462,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "9b4f45e6-2028-43e8-98de-4c83bfcc01b9",
+    "faiss_idx": 463,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "076d1ed9-e696-4df5-b413-3a64735ef756",
+    "faiss_idx": 464,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "06717f2b-42ef-4882-a353-b7b9b77c45e6",
+    "faiss_idx": 465,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "64922326-2d7c-4cf2-9038-b8f1dd07c6fc",
+    "faiss_idx": 466,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "39d7b180-5e19-4402-baa6-77cfd08675be",
+    "faiss_idx": 467,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "ceec3d18-c0a7-4192-b045-285f207174e1",
+    "faiss_idx": 468,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "c17bcd34-2bb8-4273-a6cc-8b4ccf9b729c",
+    "faiss_idx": 469,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "fa2d5d9f-9dbe-4f18-8588-be29605126fb",
+    "faiss_idx": 470,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "f656088e-0944-4544-b761-780e142729e5",
+    "faiss_idx": 471,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "ce272a8a-7389-4764-99b1-d86981de524f",
+    "faiss_idx": 472,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "28f070aa-a545-443d-9f41-0d09d328773e",
+    "faiss_idx": 473,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "7a72c876-9d0e-4c22-98fe-7fe96a628e29",
+    "faiss_idx": 474,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "e61949c2-1caa-4253-b86d-476d4353bf7b",
+    "faiss_idx": 475,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "0e8126bf-782b-4ef6-9669-5418fbb7286c",
+    "faiss_idx": 476,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "40db667c-a335-4cb0-b0e4-2fcc55f81ad5",
+    "faiss_idx": 477,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "42323819-3d0e-4db8-86f1-848a8709879e",
+    "faiss_idx": 478,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "0654560d-2408-44bf-9788-3160f67d5faa",
+    "faiss_idx": 479,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "f625b93e-5e89-422a-9239-d54b21696198",
+    "faiss_idx": 480,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "9b67c202-c8e0-4ddb-aae7-a5fda01f2793",
+    "faiss_idx": 481,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "d9e7f8eb-d282-43e8-97e9-afb6450a24a6",
+    "faiss_idx": 482,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "21df0914-17e8-4efc-9ccb-56c33a2339ce",
+    "faiss_idx": 483,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "ac116013-d6ba-40d9-b2ba-9cb21e00773c",
+    "faiss_idx": 484,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "16619c02-6f76-4750-a38c-4ace848205b0",
+    "faiss_idx": 485,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "204d8f11-23ab-4f13-bab7-633b9b4e26e7",
+    "faiss_idx": 486,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "239fbb49-c302-4251-b902-08b9d4a812f0",
+    "faiss_idx": 487,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "f6e81fa7-8f60-4b0d-9f65-7f63f536d573",
+    "faiss_idx": 488,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "516b9085-caff-4e92-9937-012a47c3b785",
+    "faiss_idx": 489,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "fc62962d-d205-4285-b9b5-fcbc535f32e0",
+    "faiss_idx": 490,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "aae184d1-3012-41d5-9a9e-fe9d4954d3d5",
+    "faiss_idx": 491,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "9cd7359c-f566-45b8-b834-16c0182310e2",
+    "faiss_idx": 492,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "f5aed1eb-f00d-448a-aa35-7b0db53ef5f5",
+    "faiss_idx": 493,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "514ab67f-504c-414b-a85a-4b36777abd96",
+    "faiss_idx": 494,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "ce698d68-1242-4fd3-a5f3-768a9a2bd650",
+    "faiss_idx": 495,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "1be8a4cf-f33b-4667-98fe-fa7e4262dec0",
+    "faiss_idx": 496,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "e7802843-171c-4249-8f6d-a8deef435019",
+    "faiss_idx": 497,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "ae4e15d4-da8c-4220-8f39-0b6c313d7a65",
+    "faiss_idx": 498,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "a85984f5-68fa-4cdc-a5f4-5addddb8b322",
+    "faiss_idx": 499,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "c0e0cf55-e50b-4306-ba63-1acf0b8ad88a",
+    "faiss_idx": 500,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "bef986ea-72e5-4322-ab96-ed8d3903f411",
+    "faiss_idx": 501,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "e9be4188-013a-40de-bd14-c5206ced19ee",
+    "faiss_idx": 502,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "bc294d23-3ecd-413e-ad63-c0259d423611",
+    "faiss_idx": 503,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "0e48bcfc-5ada-4bb8-bdcc-4b2f07e6f4d1",
+    "faiss_idx": 504,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "0f67f972-944d-44ae-9e42-b0cb63230e9b",
+    "faiss_idx": 505,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "9adc83fe-10ac-44f9-8d0d-4931b3fd10f9",
+    "faiss_idx": 506,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "5f64b2c0-0f88-4b51-ab89-88d5f631e540",
+    "faiss_idx": 507,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "b1cd1e22-18ce-46bc-bf98-fd1bd3af9b3f",
+    "faiss_idx": 508,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "fb8136e0-ce3c-4cd1-8f30-f0058db5c4a1",
+    "faiss_idx": 509,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "aa7fa9b5-04b7-4511-8ad0-02b6491f5b63",
+    "faiss_idx": 510,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "bd260a04-bfed-4192-bc33-9ca1f6b263e0",
+    "faiss_idx": 511,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "f6e20da2-707c-4498-a0f2-e7db8ab164cc",
+    "faiss_idx": 512,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "7a6efd56-9989-4616-82a9-750338a4e4f7",
+    "faiss_idx": 513,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "a2c5b995-7ecf-4b2f-899b-bca2d004294d",
+    "faiss_idx": 514,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "f11b0969-e50f-4637-b328-09113f8149d4",
+    "faiss_idx": 515,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "b85e2d4f-213e-40e8-8bf6-5047c4db48f3",
+    "faiss_idx": 516,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "2ff8baa0-244d-44fe-91ca-c2244d9534cb",
+    "faiss_idx": 517,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "4af05423-2bee-4ee9-ba5c-10136ebc3c5d",
+    "faiss_idx": 518,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "09446a6c-365d-4361-9e06-aa786e448a1f",
+    "faiss_idx": 519,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "2eeb7948-0283-4ef8-b58f-f85dbdef2713",
+    "faiss_idx": 520,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "4a257cbe-8a90-4211-b777-ec4068aa233a",
+    "faiss_idx": 521,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "8a31e42b-a9f4-4777-9612-cdc7c28caca2",
+    "faiss_idx": 522,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "fec424b3-4679-472e-add9-54e69380381c",
+    "faiss_idx": 523,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "d7c92705-56e4-4ce2-b19b-a8002498a12a",
+    "faiss_idx": 524,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "00c04545-dfc5-4508-81e6-0ad0c7bc9015",
+    "faiss_idx": 525,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "faedb3c4-b6cb-4e97-b820-d07ddef579ad",
+    "faiss_idx": 526,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "9fd16ae7-dd3e-4d1a-a434-71d4bc2d4d44",
+    "faiss_idx": 527,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "62fae1da-7aa4-4201-855a-9e43c4dd2455",
+    "faiss_idx": 528,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "d46c8f74-9863-4192-8105-256091a53814",
+    "faiss_idx": 529,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "b8cd21e3-81f4-4818-b2b7-3c6dc4f0cce5",
+    "faiss_idx": 530,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "ba4bbe6b-b1eb-4f55-9aac-a15db4d1cb0f",
+    "faiss_idx": 531,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "ee3d222d-9d58-45cf-a52a-95c9e06d189d",
+    "faiss_idx": 532,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "3d8e898f-ffe3-4828-a96c-94dd05f0b3a6",
+    "faiss_idx": 533,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "1c4a0576-e181-4a39-aec9-c9a7e78c2b22",
+    "faiss_idx": 534,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "36236995-1573-4eef-b19c-471e565de21d",
+    "faiss_idx": 535,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "bebf705f-c064-430b-8e50-09e10630763e",
+    "faiss_idx": 536,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "94386455-40ef-4f94-974b-cd503813eeb1",
+    "faiss_idx": 537,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "3dec2cb1-d074-4694-b278-0eeb8c6f8cf6",
+    "faiss_idx": 538,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "8056c875-df61-4bb8-a791-5cd8dbed3e3e",
+    "faiss_idx": 539,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "6cd42710-b602-4f1d-975d-820b33737091",
+    "faiss_idx": 540,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "6e67ad8b-233b-4650-864a-46a55b4eb9e1",
+    "faiss_idx": 541,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "938aeece-8931-42a2-b019-10f0f13ac2cb",
+    "faiss_idx": 542,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "9a701c8f-a1cb-4f41-b385-fcaaa274d248",
+    "faiss_idx": 543,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "84f290ab-3c74-4f9d-ab98-6bd743912bd0",
+    "faiss_idx": 544,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "f9c8806c-340b-4c97-9106-453b63d14a3a",
+    "faiss_idx": 545,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "b053eecd-b993-4afb-9a5c-ce73abdd5952",
+    "faiss_idx": 546,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "c05e158b-ed7a-4756-aa30-b0721e57c986",
+    "faiss_idx": 547,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "e2a9fca1-a93c-4505-be9b-573df4e604b9",
+    "faiss_idx": 548,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "d048f416-1be2-456f-a5ab-6c0d45d50523",
+    "faiss_idx": 549,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "affafab3-cea7-464a-9ad4-1ec887c87735",
+    "faiss_idx": 550,
+    "model": "mpnet"
+  },
+  {
+    "chunk_id": "4724937b-a389-4525-a59e-418008f00ac7",
+    "faiss_idx": 551,
+    "model": "mpnet"
+  }
+]

@@ -1,0 +1,926 @@
+The Science and Legacy of Richard Phillips Feynman
+Avinash Dhara, Apoorva D. Patelb, and Spenta R. Wadiaa
+aInternational Centre for Theoretical Sciences, Tata Institute of Fundamental Research,
+Bangalore 560089
+bCentre for High Energy Physics, Indian Institute of Science, Bangalore 560012
+October 2018
+Abstract
+This year is the 100th birth anniversary of Richard Phillips Feynman. This article commemorates
+his scientiﬁc contributions and lasting legacy.
+1
+Richard Feynman
+Bongo player and
+Theoretical Physicist
+Richard Phillips Feynman was one of the most inﬂuential, iconoclastic and
+famous physicists of the second half of the twentieth century1, who made profound
+contributions to physics and its visual language (the Feynman diagrams). More
+importantly, he provided a new meaning to what it means to understand the
+character of physical law, unfolding it in his uniquely refreshing style to explain
+the ‘beauty of world’.
+Feynman was born on 11th May 1918 in New York city, and grew up in Far
+Rockaway in Queens.
+He was an undergraduate at MIT during 1935-39, and
+got his doctorate from Princeton University in 1942, advised by John Wheeler.
+Besides his work with Wheeler on classical electrodynamics, he wrote a thesis on
+“The Principle of Least Action in Quantum Mechanics” that reformulates non-
+relativistic quantum mechanics in terms of path integrals. During and after his
+PhD, he was involved with the Manhattan Project till 1945. After that he spent
+5 years at Cornell University, where he developed his Nobel prize winning work
+on how to do calculations in quantum electrodynamics using Feynman diagrams.
+Feynman moved to Caltech in 1950, and spent the rest of his career there till he
+died on 15th February 1988. From 1959 onwards he was Richard Chace Tolman
+Professor of Theoretical Physics at Caltech. During his 38 years at Caltech, he
+worked on a variety of problems posed by mother nature, and covering all four
+fundamental interactions. These include the quantum theory of liquid Helium, turbulence, V-A theory of the
+weak force, quantization of gravity and of Yang-Mills theory, quantum theory of open systems, the parton model
+of hadronic physics and quantum computing. To each of these problems he made lasting contributions that
+bear the stamp of his insights and originality.
+He inﬂuenced the way physicists think about physics, especially physical processes whose description requires
+the quantum theory. Feynman’s approach to physics was to show how the solution to a problem unravels, aided
+by a visual language that encapsulates complicated mathematical expressions.
+James Gleick put this very
+succinctly, “Feynman’s reinvention of quantum mechanics did not so much explain how the world was, or why
+it was that way, as to tell how to confront the world. It was not knowledge of or knowledge about. It was
+knowledge how to.” He went to the heart of the problem he was working on, built up the solutions from simple
+ground rules in a step by step nuts and bolts way, articulating the steps as he built up the solution, keeping in
+mind that science is highly constrained by the fact that it is a description of the natural world. He laid bare
+the strategy of the solution, and was explicit about the various diﬃculties that need to be surmounted, perhaps
+now or in the next attempt to solve the problem: “In physics the truth is rarely perfectly clear.” Feynman’s
+1Some general references for Feynman’s life and research are Refs. [1, 2, 3, 4, 5, 6].
+1
+arXiv:1810.07409v2  [physics.hist-ph]  19 May 2019
+
+attitude to ‘fundamental physics’ is well put in the collection, ‘The Pleasure of Finding Things Out’: “People
+say to me, ‘Are you looking for the ultimate laws of physics?’ No, I’m not, I’m just looking to ﬁnd out more
+about the world, and if it turns out there is a simple ultimate law which explains everything, so be it, that
+would be very nice to discover.”
+His most original contribution is the reformulation of quantum mechanics in terms of ‘path integrals’ and
+the visual language of Feynman diagrams that goes with it. Today it is the deﬁning formulation of the standard
+model of elementary particles, non-perturbative gauge theories on a space-time lattice, quantum statistical
+physics, string theory, quantum gravity etc. Feynman’s method and generalizations not only aﬀord a conceptual
+unity in the treatment of quantum systems and their classical limits, but also give at weak coupling a powerful
+computational tool using the pictorial representation of processes using Feynman diagrams. They are the daily
+fare of physicists across the physical sciences. Feynman diagrams are ubiquitous in high energy physics, many
+body physics and statistical physics.
+Feynman was a great teacher: the “Feynman Lectures on Physics” have inspired generations of physicists
+from all over the world. They were introductory physics lectures delivered to beginning students of physics
+at Caltech during 1961-62, but are a learning experience even for mature physicists. Now Caltech has made
+available their high quality internet edition free [2].
+Besides this monumental 3-volume lectures, there are
+numerous talks and interviews in which we see the essential Feynman emerging. He had deep misgivings about
+‘authority’ and was willing to question anybody on any subject that can be discussed using reason.
+This
+liberation from authority was especially true when it came to explaining the real world. He said, “Science is
+the belief in the ignorance of experts.” He took the notion of ‘understanding’ natural phenomena to a diﬀerent
+level: “What I cannot create, I do not understand.”
+There was a deliberate lack of ‘urban polish’ about Feynman. His childhood was in a family of very modest
+means in Far Rockaway, and throughout his life he felt true to his origins and upheld his ‘boy from the country
+image’. He is sometimes accused, by the ‘very cultured’, of building up a certain image of himself to be a cult
+ﬁgure. Any historical ﬁgure that creates a new culture in a society could be accused of this. History abounds
+with examples of people like Newton, Einstein, Beethoven, Dylan, Gandhi, all of whom created a new dimension
+of human culture within their domains. How can one disassociate their persona from what they created? All
+these people stood for a new way of thinking or doing things. Feynman was one of them. He created a new
+social culture by making science the centerpiece of any yearning to grapple at the ‘truth’ about the natural
+world, and went public about it. Not only that, he gave the scientist a new informal look, simplicity of language
+and ﬂair, so that young boys and girls in far away impoverished lands could also be attracted by the romance,
+and believe that they can also do physics...the bongo player who also did theoretical physics! And in there you
+read Feynman talking about all sorts of phenomena...the universe in a glass of wine...the sloshing of turbulent
+ﬂuids...there is a feeling that there is a sort of unity in science and that there are some laws that bring order to
+the immense diversity of the natural world.
+Feynman was one of the few scientists of his generation to grasp the importance of science in promoting
+democracy and human rights.
+He told a Seattle audience [7] in 1963 that the need of scientists to freely
+investigate the world while ‘dealing with doubt and uncertainty...is of very great value, [one that] extends
+beyond the sciences’. He added, “I feel a responsibility as a scientist who knows the great value of a satisfactory
+philosophy of ignorance, and the progress made possible by such a philosophy, progress which is the fruit of
+freedom of thought...to proclaim the value of this freedom and to teach that doubt is not to be feared, but that
+it is to be welcomed as the possibility of a new potential for human beings. If you know that you are not sure,
+you have a chance to improve the situation. I want to demand this freedom for future generations.”
+Feynman remarked while teaching a course, “Einstein was a tall man. He could keep his head above the
+clouds, and his feet on the ground. For those of us who are not as tall, we have to make a choice.” His own
+choice was clearly to keep his feet on the ground. He was often not satisﬁed with high-level review talks. To
+ﬁnd out the details, he would go and talk to the students, technicians and engineers, who did the actual ground
+work. He brought this attitude, together with his imagination, acumen and honesty, to reveal the simple truth
+about the explosion of the Challenger shuttle just after take oﬀ. He demonstrated [8], as the world watched on
+television, the inﬂuence of cold on the resilience of the O-ring rubber by dropping it into a glass of ice water!
+Dyson later said [4], “The public saw with their own eyes how science is done, how a great scientist thinks with
+his hands, how nature gives a clear answer when a scientist asks a clear question.” Feynman himself concluded
+his personal report saying, “For a successful technology, reality must take precedence over public relations, for
+nature cannot be fooled.”
+The rest of this article is devoted to giving the reader a tour of the great scientiﬁc achievements of Richard
+Feynman. The tour is roughly divided into three parts: Quantum Electrodynamics and high energy physics,
+Condensed matter physics and Quantum computing. Also included are some personal reﬂections of some who
+2
+
+knew Feynman to varying degrees, which illustrate his interactions with students. The tour concludes with
+Feynman’s Nobel banquet speech [9].
+2
+Space-time approach to Quantum Electrodynamics
+Feynman did his graduate studies in Princeton University under the guidance of John Wheeler with whom
+he immediately embarked on a quest for a consistent quantum theory of electromagnetism.
+Feynman had
+already become familiar with the problems of quantizing Maxwell’s electromagnetic theory as an undergraduate
+student at MIT, from reading the books of Dirac2 and Heitler. During these studies he had learnt that the main
+diﬃculties lay with the inﬁnities which one encountered in calculating the self-energy and vacuum polarization
+eﬀects. The former arises from the familiar classical divergence associated with the interaction of a charged
+particle with its own ﬁeld while the latter is a purely quantum eﬀect and arises from the possibility of production
+of virtual electron-positron pairs. Feynman was also bothered by the inﬁnities due to the zero point energies of
+an inﬁnite number of degrees of freedom of the electromagnetic ﬁeld. He sought a new formulation of quantum
+electrodynamics (QED) that would eliminate these divergences in a consistent manner. He also wanted the new
+formulation to be manifestly relativistic and gauge invariant.
+Feynman’s ﬁrst attempt (with Wheeler) to deal with the divergence due to self-interaction in classical
+electromagnetism was to eliminate it by deﬁnition.
+The new theory replaced the electromagnetic ﬁeld by
+a delayed action-at-a-distance principle and a non-local theory of charges [10].
+In this theory, each charge
+interacted with all the other charges but not with itself and the electromagnetic ﬁeld was a derived, not
+fundamental, concept. But to get the radiation reaction right, Feynman and Wheeler had to assume that the
+interactions of moving charges occurred via retarded as well as advanced wave propagation; in fact, to get the
+magnitude of the radiation reaction right they found that the precise combination involved was half retarded
+and half advanced. This time-symmetric propagation was to play a crucial role in Feynman’s ﬁnal formulation
+of QED.
+Now although the Wheeler-Feynman theory was able to correctly reproduce all the classical phenomena of
+Maxwell’s theory without having the divergence associated with self-interactions of charges, there were several
+problems in quantizing it. For example, spontaneous emission of a photon from an atom in empty space was
+hard to understand in the absence of electromagnetic ﬁeld degrees of freedom. Moreover, with the measurement
+of Lamb shift, which was understood as the diﬀerence between the self-energies of a free electron and one bound
+inside an atom, it was clear that the Feynman-Wheeler action-at-a-distance theory could not be the classical
+starting point for a quantum electrodynamics theory.
+Even though Feynman’s ﬁnal formulation of QED discarded the Feynman-Wheeler approach, this route to it
+turned out to be crucial for the ﬁnal formulation in two aspects. One was the concept of half-retarded and half-
+advanced wave propagation3, which turned out to be necessary for incorporating positrons in QED4 via their
+interpretation as electrons travelling backward in time [11], an idea that was earlier advocated by St¨uckelberg
+[12]. The second was the diﬃculty in quantizing Feynman-Wheeler theory using the known procedures based on
+Hamiltonian methods. The action for Feynman-Wheeler theory involved entire space-time trajectories, including
+trajectories for two particles (involving two proper time variables) in the interaction term. So Feynman had
+to invent a new quantization procedure which would directly use the action or the Lagrangian rather than the
+Hamiltonian. As described in the next section, this was the motivation to which we owe Feynman’s invention
+of the path integral formulation of quantum mechanics.
+Feynman’s ﬁnal formulation of QED was based on the conventional Maxwell theory. It brought back local
+interactions via the electromagnetic ﬁeld, and consequently the divergences associated with self-energy and
+vacuum polarization. The solution to these divergence problems came from an entirely new direction, and
+involved the new concepts of regularization and renormalization, the ﬁrst rudimentary steps towards which
+were already taken in the works of several scientists since early 1930’s5.
+2Feynman refered to Dirac as “my hero”, and followed his tracks many times while adding his own twists.
+3Modern relativistic quantum ﬁeld theory calculations incorporate this through the famous Feynman propagator, which is an
+essential element of all scattering matrix elements.
+4More generally, it accounts for eﬀects due to antiparticles in any quantum ﬁeld theory, even in bosonic cases where Dirac’s hole
+theory for antiparticles is not available.
+5For a history of these eﬀorts, see for example Ref. [5].
+3
+
+2.1
+Regularization and Renormalization
+Regularization is a “cut-oﬀ” procedure by which divergent calculations are rendered ﬁnite and well-deﬁned. The
+divergences are recovered in the limit in which the cut-oﬀparameter is removed. The main diﬃculty here is that
+of inventing a relativistic and gauge-invariant cut-oﬀprocedure. But once this is done, it enables meaningful
+calculations in theories like QED. Renormalization is a deeper concept which is based on the fact that because
+of interactions the measured parameters of mass, charge, etc. are in general diﬀerent from the corresponding
+‘bare parameters’ which appear in the Lagrangian. The main question then is whether all the divergences can
+be consistently removed by redeﬁning physical parameters in terms of the bare parameters and the cut-oﬀ.
+Feynman’s key contribution to this discussion was to introduce, for the ﬁrst time, a relativistic cut-oﬀin
+QED [13]. The cut-oﬀhad the physical interpretation of the size of an electron. The method reproduced results
+in agreement with those obtained by Schwinger and others. It even applied to mesons and the theories of strong
+nuclear interactions. Soon after this, a technically much simpler, relativistic and gauge-invariant regularization
+procedure was invented by Pauli and Villars, which now bears their names. Feynman quickly adopted this
+method to his formulation of QED to make the self-energy and vacuum polarization calculations ﬁnite. With
+this ingredient in place, he ﬁnally had a simple set of (diagrammatic and visualizable) rules, and an eﬃcient
+calculational technique, for computing the matrix element of any QED process in various orders of perturbation
+theory [14].
+The great simpliﬁcation that Feynman achieved in his way of doing QED was because of his emphasis on
+the overall space-time point of view, as opposed to the prevailing Hamiltonian point of view. Feynman looked
+at the whole space-time evolution of a given system at once, rather than tracing this evolution in detail at every
+instant of time. By forsaking the Hamiltonian method, he was able to accomplish the marriage of relativity and
+quantum theory most naturally, and also achieve great simplicity in calculations, overcoming many technical
+and conceptual diﬃculties.
+2.2
+Feynman Diagrams
+The tools developed by Feynman in the form of space-time diagrams, ‘Feynman diagrams’ as they are
+Tree-level
+Feynman
+diagrams
+for
+Compton scattering:
+solid lines rep-
+resent electron trajectories while wavy
+lines
+represent
+photon
+trajectories.
+Time ﬂows upwards and space extends
+in the horizontal direction.
+called now, were intended to represent physical scattering processes as
+they happened in space and time. In addition, each element in these
+diagrams represented a deﬁnite mathematical expression. Thus the
+mathematical expression for the matrix element for any physical pro-
+cess could be written down simply by following the rules for writing
+mathematical expressions for the various elements in the correspond-
+ing Feynman diagram. The illustration shows examples of Feynman
+diagrams that contribute to the electron-photon scattering matrix el-
+ement.
+Feynman showed that his approach lent enormous simpliﬁcation
+to calculations, and made precision tests of QED possible. He had
+arrived at these rules using his newly developed path integral formula-
+tion of quantum theory. As this formulation was not generally known
+at that time, Feynman’s approach took some time to be widely ac-
+cepted by the scientiﬁc community. But once the practical utility of
+Feynman diagrams and the rules had been demonstrated, they were
+quickly adopted. Eventually Dyson established complete equivalence of Feynman’s approach to the far more
+complicated approaches of Schwinger and Tomonaga.
+Feynman’s space-time diagrams and the associated tools developed by him are truly fundamental, in the
+sense that they have found applications beyond QED and greatly inﬂuenced the development of quantum ﬁeld
+theory in general. The diagrams provide a visual representation of the complex microscopic world of elementary
+particles. Today these tools are an essential element of the scientiﬁc training of every theoretical physicist.
+3
+Path Integrals
+An early by-product of Feynman’s research on electrodynamics was the creation of the ‘path integral’ formulation
+of quantum mechanics (QM). Early days of QM were dominated by Hamiltonian methods. Both Schr¨odinger’s
+and Heisenberg’s formulations of QM, which Dirac showed to be equivalent, used these methods. Feynman
+could not apply these methods, in any known way, to quantize his non-standard action-at-a-distance theory
+4
+
+for electrodynamics involving space-time trajectories of electrons. He needed a Lagrangian formulation of the
+subject, so he created one! It happens to be a rare instance, where the subject went from a thesis [15], to a
+review article [16], to a textbook [17], with not many publications in between. It also illustrates Feynman’s
+style of work, and the care he took in formulating a new approach.
+In an important but not widely known paper published eight years earlier, Dirac had identiﬁed the quantity
+eiS/¯h, where S(X(T), x(t)) =
+R T
+t L(x, ˙x, t) dt is the action corresponding to the propagation trajectory of a
+particle from the initial point x(t) to the ﬁnal point X(T), as the semi classical analogue of the quantum
+mechanical kernel associated with the time evolution [18]. This was done on the basis of the Hamilton-Jacobi
+theory and variational methods, and Dirac did not go beyond making this observation since he believed that
+the correspondence of the action with the phase of the kernel could only work at the semi-classical level, in line
+with the belief generally prevalent from the beginning of QM. This correspondence indeed does not work for
+ﬁnite time evolution, but it does when the evolution interval is divided into an inﬁnite number of inﬁnitesimal
+steps, and a sum over complete set of states is inserted at each time-slice. Feynman asserted that this time-
+sliced correspondence is actually exact, derived the Schr¨odinger equation from it, and demonstrated how the
+time-sliced integrals reproduce well-established results of QM. This deﬁnition produced a space-time picture
+analogous to Huygens’s construction of wave propagation. There is an amplitude exp(iS/¯h) for each possible
+path a particle could traverse from the initial to the ﬁnal point, with S being the action for the path. The
+complete quantum mechanical amplitude for a particle to go from the initial to the ﬁnal point is the superposition
+or ‘sum of all possible paths’ between the two points. Feynman thus established a new general procedure for
+quantizing any classical system starting from its Lagrangian or action. He published all this in his thesis in the
+spring of 1942 [15].
+The meaning of the underlying limiting time-slicing procedure and the precise deﬁnition of the ‘sum of all
+possible paths’ was clariﬁed by Feynman in his famous 1948 review [16], and several connections to the standard
+results of QM were added in his authoritative textbook [17]. The power of the path integral formulation of
+QM lies in the possibility of decomposing a complex system into several pieces and ‘integrating out parts of it’,
+which is not at all easy to do in the Schr¨odinger or Heisenberg formulations of QM. Such a partial integration
+generically converts pure quantum states to mixed states, and has to be implemented on the density matrix and
+not on the wave-function. It is also unavoidable in dealing with practical problems, because no physical system
+can be perfectly insulated from its environment and other inaccessible degrees of freedom. Together with his
+student Vernon, Feynman showed how the behavior of a quantum system of interest can be described in terms of
+its own variables only, once the external (or environmental) quantum systems that it is coupled to are integrated
+out. All the external eﬀects are then included in an ‘inﬂuence functional’, which depends on the system’s own
+variables, and modiﬁes the undisturbed path integral evolution amplitude eiS/¯h. They explicitly evaluated the
+inﬂuence functionals for the cases of Gaussian noise as well as linear coupling to environment (modelled as a set
+of harmonic oscillators), and pointed out how generic ﬂuctuation-dissipation relations emerged from the results.
+This strategy of tackling a complicated quantum problem by integrating out parts of it, and then describing
+the remaining system of interest using an ‘eﬀective action’, is now a well-known powerful technique with a large
+number of applications.
+Since Feynman’s original work on QM for non-relativistic spinless particles, the path integral formulation
+has been extended to include particles with spin, relativity and anomalous quantum ﬁeld theories (where
+symmetries of the classical action are broken by quantization).
+For spin-half particles, it is constructed in
+terms of anti-commuting Grassmann variables and abstract Grassmann integration, while anomalous theories
+need careful deﬁnition of the integration measure. The quantum path integral amplitude eiS/¯h can also be
+converted to the statistical Boltzmann weight e−βH, by analytically continuing the Minkowski time coordinate
+to a Euclidean time coordinate. This relation has proved to be extremely useful in carrying over quantum ﬁeld
+theory methods to statistical mechanics problems and vice versa. With all these features, the path integral
+formulation has proved to be quite powerful in dealing with a variety of problems. Indeed, it is routinely usedas
+a non-perturbative deﬁnition of quantum ﬁeld theories discretized on a lattice. Furthermore, it is essential for
+quantization of non-abelian gauge theories, which lie at the heart of the Standard Model of strong nuclear and
+electroweak interactions. Feynman himself used the formulation in diverse applications such as quantum ﬁeld
+theories, statistical mechanics models, the polaron problem, superﬂuidity in liquid helium, Brownian motion
+and open dissipative systems.
+5
+
+4
+Weak Interactions
+Feynman’s interest in this area was kindled at the 1956 Rochester Conference where he began to seriously
+think about the problem of apparent parity non-conservation in weak interactions. There is the well-publicized
+incident of Feynman repeating the question of Martin Block (an experimentalist with whom Feynman was
+sharing accommodation during the conference) in the discussion session, as to whether parity might be violated
+in K-decays. This was in connection with the hotly debated θ −τ puzzle, which referred to the issue of possible
+existence of two particles which had the same mass, were produced in the same proportion all the time and
+had all other properties identical, except for having opposite parities. The puzzle would disappear if parity was
+not conserved in weak interactions, but at that time such thinking was revolutionary. By early 1957, however,
+this question was settled by Lee and Yang who worked out the consequences of parity violation, and made
+predictions which were quickly veriﬁed by Wu.
+Feynman was excited by these developments as he noticed the appearance of the chiral projection operators
+(1 ± γ5)/2 in these works. They connected with his earlier observations about two-component chiral spinors
+(whose simplifying features he had already discussed almost a decade earlier), which he believed were more
+fundamental than the four-component Dirac spinors. Assuming that only one speciﬁc of the two two-component
+chiral projections of all the fermions appeared in weak interactions, he quickly worked out that the law of weak
+interactions had to be the universal law of Vector-Axial Vector (V-A) interactions.
+Feynman informally reported a preliminary version of this (V-A) theory at the April 1957 Rochester Confer-
+ence. At that time the available experimental data on neutron decay was considered to be explained by scalar
+and tensor couplings. Using the (V-A) theory Feynman could not hope to correctly reproduce the experimental
+observations, and he admitted so in his informal outline of the (V-A) idea at the conference. However, the theo-
+retical beauty of these ideas was compelling and upon re-examining the experiments on neutron decay, it seemed
+to him that the experimental conclusions were based on rather weak evidence. Convinced about the universality
+of (V-A) weak interactions, he wrote his deﬁnitive paper on the subject (with Gell-Mann) in September of the
+same year [19]. This work emphasized the use of two-component spinors, the current-current form of the weak
+interactions (possibly mediated by heavy intermediate bosons) and the conserved vector current, all of which
+were eventually borne out by future experiments.
+Feynman had a great sense of achievement in his discovery of the (V-A) law of weak interactions [5]. He did
+not think that the (V-A) equations were quite as beautiful as Dirac’s equation or Maxwell’s theory, but they
+ﬁlled him with the thrill of a completely new discovery. The (V-A) theory became a starting point for the latter
+work by Glashow, Salam and Weinberg on the SU(2)×U(1) gauge theory of electro-weak interactions.
+As it transpired, Feynman’s discovery was not without controversy concerning his collaboration with Gell-
+Mann, and priority claims and bitterness, especially on the part of Sudarshan who had also, with Marshak,
+arrived at the universal (V-A) law by the April 1957 Rochester Conference, though it was not presented there6.
+Feynman tried to make amends and was eventually quite happy to share the credit for the discovery with
+Sudarshan, Marshak and Gell-Mann.
+5
+Parton Model
+In August 1968, while visiting SLAC to see the experimental measurements on deep inelastic scattering of
+electrons by hadrons, Feynman suddenly realized that these observations were measuring the momentum distri-
+bution of partons, the constituent parts of a hadron. Over the previous two decades or so, Feynman had been
+keenly following the experimental observations and theoretical modelling of composite structure of hadrons,
+including the models of Fermi and Yang, Sakata and his school, the S-matrix bootstrap hypothesis, etc. He
+was also aware of the quark model of hadrons of Gell-Mann and Zweig, but in the absence of any experimental
+observation of fractionally charged quarks, generally physicists did not believe in their existence. Earlier that
+year in 1968, he had begun thinking about a hadron as a collection of many parts, in a way that was not based
+on any speciﬁc microscopic model of hadrons, but incorporated general features expected of a large class of
+composite models that could be described by relativistic quantum ﬁeld theories. The SLAC measurements sud-
+denly seemed to him to bring the partons to life. The SLAC theorist, James Bjorken, who the experimentalists
+consulted, had already deduced [21] that the experimental results pointed to scaling in deep inelastic scattering,
+i.e. he had found that the results depended only on a particular combination of energy and momentum transfer,
+rather than independently on both the variables, and could be understood on the basis of hard scattering by
+point-like constituents of nucleons. However, Bjorken used the language and techniques of current algebra,
+6An account of this history as reported by Marshak is available in Ref. [20].
+6
+
+which was rather too abstract for the SLAC experimentalists, who found the partons concept of Feynman, and
+the associated physical picture of the scattering measuring their momentum distribution, appealing and easy
+to grasp. So his intuitive interpretation, and the parton model on which it was based, quickly became popular.
+Feynman went on to formulate the general problem of deep-inelastic scattering of electrons (equivalently
+virtual photons) and neutrinos (equivalently virtual massive intermediate vector bosons of the weak interactions)
+by nucleons in terms of the parton concept, and he extensively lectured on it [22]. He introduced the concepts
+of inclusive and exclusive processes—the former averages over all possible outcomes of a scattering process,
+while the latter describes detailed properties of each possible outcome. In the absence of any speciﬁc theory of
+strong interactions, his ideas were not based on any particular ﬁeld theory but on the general characteristics of
+such theories. The partons were to be understood as the basic quanta of the underlying ﬁeld theory, and the
+hadronic wavefunction as containing the amplitude for ﬁnding conﬁgurations of partons with various momenta.
+Feynman left the question of whether his partons were merely another name for already proposed quarks, or
+something completely diﬀerent, to be answered by experimentalists. As it turned out, partons could include the
+yet to be introduced gluons as well. With the discovery of asymptotic freedom and the proposal of describing
+nuclear forces by an underlying gauge ﬁeld theory called Quantum Chromodynamics (QCD), partons came to be
+increasingly identiﬁed with quarks and gluons, and that clariﬁed several aspects of the parton model7. Today
+physicists have a more sophisticated understanding of partons as the constituents of hadrons—experimental
+observations are consistent with only half of the momentum of a hadron being carried by the constituent quarks
+(and quark-antiquark pairs from the sea); the other half is carried by the gluons, the gauge ﬁeld quanta of
+QCD. In later years, Feynman increasingly used the language of quarks and gluons for hard processes, such as
+quark and gluon jet production, a phenomenon that was predicted by him (with Rick Field [23]). In his words
+[24], “the more we were guided by the principles of QCD, the better the things ﬁtted, and the better were the
+predictions.” Here at last was evidence enough for him that nature required the identiﬁcation of partons with
+quarks and gluons!
+6
+Quantization of Einstein Gravity and Yang-Mills theory
+In the mid-1950’s and through the 1960’s, Feynman undertook investigation of the quantization of Einstein’s
+theory, because there ought to be a consistent quantum theory of gravity even though there would be no practical
+application given the weak strength of the gravitation ﬁeld. “My interest in it is primarily in the relation of one
+part of nature to another.” [25] His approach was to begin with a massless spin-2 ﬁeld, the graviton, described by
+a symmetric tensor ﬁeld coupled to the energy-momentum tensor of a scalar ﬁeld, in ﬂat Minkowski space-time.
+Gauge invariance is manifest in the fact that the graviton has only two polarizations as opposed to the ﬁve
+independent spatial components that describe a spin-2 ﬁeld. He succeeded in showing that a consistent theory
+naturally includes gauge invariance, and leads to Einstein’s theory. (Here by gauge invariance we mean general
+coordinate invariance). This approach to General Relativity is discussed in his ‘Lectures on Gravitation’ [26].
+Feynman then embarked on the task of ‘quantizing’ this theory using the method of Feynman diagrams,
+given that Newton’s constant and hence gravitational eﬀects are very small. He ﬁrst found that at the one loop
+level there was something wrong if one went about calculating with the rules that were suggested by QED. The
+covariant gauge answer was not unitary! This happened for not only Einstein’s gravitational theory but also
+for the simpler Yang-Mills theory. In a sense this happened because covariant gauge ﬁxing does not eliminate
+the time-like components of the graviton and the time-like component of the gluon.
+He then invented a method of doing a gauge invariant unitary calculation by expressing a closed loop diagram
+in terms of on-shell tree diagrams [27]. Accepting this as the correct way to obtain a gauge invariant and unitary
+answer, he found that the diﬀerence with the closed loop Feynman diagram in gravity can be compensated by
+a ‘ghost’ particle which has spin 1 but Fermi statistics. He did the same but simpler calculation for the Yang-
+Mills theory and discovered the same phenomenon, except that the ghost particle has spin zero [25]. This was
+a startling discovery that would steer the course of the subject.
+This was subsequently extended to all higher loops by Bryce DeWitt [28], and by Faddeev and Popov
+[29], using the Feynman path integral rather than Feynman diagrams. In a gauge theory, the Faddeev-Popov
+method is manifestly unitary, and the path integral measure restricted to the covariant gauge ﬁxing condition,
+7For example, partons were assumed to behave as almost free particles at high momentum transfers, yet only normal hadrons
+were seen in the debris of every deep inelastic scattering process. Normally, for a collection of almost free particles, one might have
+expected a parton to shoot out once in while. In QCD, because of asymptotic freedom and conﬁnement, quarks inside a hadron
+behave as almost free particles at large momentum transfers, but eventually undergo a series of soft momentum transfer processes
+with other quarks to ﬁnally emerge as part of ﬁnal state hadrons.
+7
+
+and naturally leads to a non-trivial determinant. The ghost particles of Feynman emerged as auxiliary ﬁelds in
+exponentiating the determinant. It should be mentioned that this discussion is restricted to ﬁeld conﬁgurations
+near the orbit of the gauge ﬁeld Aµ = 0. As one explores large ﬁeld conﬁgurations ‘simple gauge ﬁxing’ is not
+possible in a non-abelian gauge theory [30]. The Lagrangian of the gauge theory, plus the gauge ﬁxing term, plus
+the ghosts, exhibits a new symmetry called the BRST (Becchi-Rouet-Stora-Tyutin) invariance, and the correct
+principle for covariant quantization is BRST invariance. This symmetry has many interesting applications,
+including to string theory [31].
+Yang-Mills theory is a well deﬁned theory at all length scales. At weak coupling, the theory was shown to
+be asymptotically free by Gross and Wilczek, and by Politzer [32]. An exact non-perturbative formulation was
+given by Wilson [33], on a hypercubic Euclidean lattice where the degrees of freedom are the group elements on
+the lattice links (and not gauge ﬁelds valued in the Lie algebra). A continuum limit consistent with asymptotic
+freedom exists. The situation with the quantization of Einstein’s theory is far more complex. Unlike the case
+of Yang-Mills theory, where the original classical formulation in terms of a non-Abelian gauge ﬁeld is minimally
+modiﬁed to deﬁne a precise relativistic quantum ﬁeld theory, there is no obvious way to deﬁne a quantum theory
+of gravity. The diagramatic method which Feynman pioneered fails to give sensible answers. Neither is there a
+space-time lattice formulation in 4-dim which leads to a sensible quantum theory of gravity. The only known
+formulation which has well deﬁned high-energy (short-distance) properties, and which reproduces Einstein’s
+gravity at low energies (long distances), is string theory. One of the main consequences of this ultra-violet
+completion of the theory of gravity is that the fundamental degrees of freedom of ‘quantum gravity’ are not
+only the gravitons of Einstein’s theory, but other ‘stuﬀ’ called branes as well [31].
+7
+Quantum Theory of Liquid Helium and Superﬂuidity
+Feynman moved to Caltech from Cornell in 1950. During his ﬁrst decade at Caltech, he devoted considerable
+time to several outstanding problems in condensed matter physics, including superﬂuidity in liquid helium,
+superconductivity and the polaron problem. We summarize here his most signiﬁcant contribution to condensed
+matter physics, which had to do with (i) understanding superﬂuidity of Helium-4 and the Landau theory from
+a microscopic quantum mechanical point of view; (ii) the presence of quantized vortices in Helium-II, and (iii)
+quantum turbulence.
+Feynman’s approach to the spectrum and excitations of Helium-II is to discover the
+solution of the theory in close contact with experiment, in a sense the wavefunction describing phonons, rotons
+and vortices is being built up by a theory-experiment dialogue.
+Neutral Helium gas under normal pressure liquiﬁes at a temperature of 4.22K. At a critical temperature
+of Tc = 2.176K it undergoes a superﬂuid phase transition, called the λ transition due to the shape of the
+speciﬁc heat curve as a function of temperature.
+The two phases are named Helium-I and Helium-II, and
+Helium-II exhibits superﬂuidity. A phenomenological model to explain experimental facts about Helium-II, the
+2-ﬂuid model, was put forward by Landau and also independently by Tisza, while London advocated a Bose-
+Einstein condensation at Tc. Landau went ahead and formulated 2-ﬂuid hydrodynamics, which was successful
+in explaining many features of Helium-II. In the 2-ﬂuid model, one component is the superﬂuid, and the other
+component is the normal ﬂuid comprising of a gas of phonons and rotons.
+Feynman undertook to understand and work out a ﬁrst principles understanding of superﬂuidity in the
+strongly interacting system of Helium atoms. He wrote 6 papers on this subject during 1953-57 by himself, and
+three with his student Michael Cohen. He also wrote an excellent exposition of the subject [36].
+7.1
+The λ point and below
+His ﬁrst paper in the subject was on ‘The Atomic Theory of the λ Transition in Helium’ [34]. He formulated
+the partition function of Helium as a path integral for a system of pairwise interacting bosons.
+The path
+integral was in imaginary time and described the partition function. Now knowing the characteristics of the
+Helium atom, he approximated the interatomic interaction as having a hard core, and argued that the eﬀect
+of the interaction would be to renormalize the mass of the Helium atom. The path integral then reduced to
+that of an almost ‘non-interacting’ system of particles governed by Bose-Einstein statistics. In his own words,
+“The physical idea which plays a central role is that in a quantum mechanical Bose liquid the atoms behave
+in some respects like free particles.” The approximate partition function which is a sum over the cycles of the
+permutation group, maps onto a classical polymer problem. Feynman argued that near the transition point the
+partition function is dominated by large cycles, which have a large entropy that can equal and exceed the energy
+causing a transition. The mechanism is similar to the Kosterlitz-Thouless-Berezinsky transition in the 2-dim
+8
+
+XY model. With the approximations Feynman used, he obtained a transition temperature which was roughly
+correct, but the phase transition was of third order. Subsequent more accurate numerical work (decades later)
+implemented Feynman’s path integral program (without making the approximations Feynman had made), to
+give a quantitative theory of the Helium transition and other properties [35].
+A couple of years later in a paper titled ‘Application of Quantum Mechanics to Liquid Helium’ [36], he
+gave a physical picture of the phase transition in terms of the proliferation of a few large quantized vortices:
+“Then suddenly the rings of very largest length are of importance. The state with one vortex line (or very
+few) which winds and winds throughout the liquid like a near approximation to a Jordan curve is no longer
+of negligible weight. The superﬂuid is pierced through and through by the vortex line. We are describing the
+disorder of Helium-I. At ﬁrst the curve doesn’t make full use of all its orientations and higher entropy. But as
+the temperature rises a little more it squeezes into the last corners and pockets of superﬂuid until it has no more
+ﬂexibility available. The speciﬁc heat curve drops oﬀfrom the transition to a smooth curve, and the memory
+of the possibility that Helium can exhibit quantum properties in a unique way is lost in the profusion of states
+and in disorder, as it is for more usual liquids.” Incidentally, in the same paper Feynman discussed quantum
+turbulence for the ﬁrst time, in terms of quantized vortices.
+The Landau 2-ﬂuid theory has no mention of Bose-Einstein statistics, and was based on the assumption that
+there are no other low energy excitations in Helium-II besides density waves (phonons). Feynman recognized
+this as a fundamental property of the system, which would explain the mysterious properties of Helium-II, and
+set out to understand this from ﬁrst principles [37]. He was also aware that the transition temperature, and
+the speciﬁc heat curves of Bose-Einstein condensation of a system of free bosons, are signiﬁcantly diﬀerent from
+those of Helium. All his works on Helium, except the one on the λ transition, used the Schr¨odinger picture
+(not path integrals), and based the analysis of the ground state wavefunction and its excitations on physical
+arguments involving the variational method.
+Two
+conﬁgurations
+(solid
+and dotted) resulting from
+large
+displacements
+(long
+arrows) of atoms can ac-
+tually be accomplished by
+much smaller adjustments
+(short arrows) because of
+the identity of atoms.
+Using elementary reasoning, Feynman argued that the ground state wavefunc-
+tion of liquid Helium is non-degenerate, real positive and without nodes. Given
+the repulsive nature of the interatomic interaction of Helium, the wavefunction
+vanishes if the atoms come within a distance of 2.14˚A. Since the Helium atom
+has spin zero, the wavefunction is totally symmetric in the positions of all the
+atoms.
+He therefore argued that the low energy spectrum consists entirely of
+density waves (phonons) with a linear dispersion law. No other long wavelength
+(low energy) excitations are allowed by Bose-Einstein statistics. Any other move
+of Helium atoms over long distances would be a permutation of the atoms that
+would leave the wavefunction unchanged! See illustration from Ref. [36]. This
+was the key insight.
+The excitation spectrum as argued by Landau from a hydrodynamic point
+of view consists of phonons and rotons. The latter are higher mass excitations
+with the wave number equal to inverse inter-atomic spacing. To calculate this
+spectrum, Feynman set up a variational calculation to derive the Landau curve.
+He obtained a formula in terms of the liquid structure factor (2-point function of
+the density operator in the ground state), which could explain the shape of the
+Landau curve qualitatively but not quantitatively.
+To get better quantitative agreement, Feynman and his student Michael Cohen
+devised a new trial wavefunction that took into account the ‘back ﬂow’ of the ﬂuid
+around the rotons. Feynman’s picture of a roton was that of a ring of Helium atoms so small that only a single
+atom could go through it. While the original Feynman wavefunction contained only one quasi-particle operator,
+the Feynman-Cohen wavefunction contained two quasi-particle operators.
+The Feynman-Cohen theory [38]
+considerably improved the agreement with experiment [39]. Perhaps, in order to do better, one will need to
+include a higher polynomial of quasi-particle operators8.
+7.2
+Quantized vortices and quantum turbulence
+To incorporate local slow velocity variations of the atoms, Feynman introduced local phases S(r) in the wave-
+function, which can account for the velocity v(r) =
+¯h
+m∇S(r). It turns out that liquid Helium-II does have
+vortex excitations as conjectured by Onsager, and discovered independently by Feynman. He went on to give a
+qualitative picture of why and how the vortices can lead to a turbulent ﬂow. This eﬀect was observed shortly
+8We thank H. R. Krishnamurthy for a discussion of this point.
+9
+
+afterwards by Viven [40]. Vortices interacting with each other, and with other excitations namely rotons, play a
+fundamental role in the description of turbulent ﬂow in Helium. This is a very current and fascinating subject
+in quantum ﬂuid dynamics [41].
+8
+Computation
+Feynman had a life-long interest in mathematical puzzles, tricks that speeded up complicated calculations as
+well as novel ways to carry out integrations. This interest naturally expanded to cover design of algorithms and
+eﬃcient use of computers. While still a graduate student at the Princeton university, Feynman was recruited
+to work on the Manhattan project at Los Alamos. One of his assignments there was to look after the ‘IBM
+group’, calculating the energy release for diﬀerent designs of the plutonium implosion bomb. They used decks
+of program cards to carry out the calculations on the IBM machines, but the speed was much slower than
+required.
+Feynman dramatically boosted this performance, ﬁguring out strategies of parallel computation,
+and the problem was solved in time. Several independent computational threads were executed together, by
+interspersing diﬀerent sets of cards with a phase lag. Also, with proper organization, a change in a parameter
+(or a mistake in the calculation) at some step in the calculation aﬀected only nearby steps; so only those nearby
+steps needed reevaluation instead of the whole calculation. Feynman also constructed a fast iterative method
+to calculate logarithms bit by bit, which was implemented years later on the Connection Machine.
+In the 1950’s, rapid advances in molecular biology prompted Feynman to think about manipulating and
+controlling things on a tiny scale. His inspirational talk “There’s plenty of room at the bottom” was an open
+invitation to enter a new ﬁeld of physics [42]. He pointed out that the entire Encyclopedia Britannica can
+be written on the head of a pin, by reducing the size of writing by a factor of 25000, and a little dot would
+still contain 1000 atoms in its area. He argued that improved photo- and ion-lithography techniques would be
+able to do that, and so pack enormous amount of information in a small space. He emphasized that there are
+no hurdles of principle in reducing the resolution of an electron microscope, or the size of mechanical devices
+and computer circuits, all the way to the atomic scale. He stressed that the tiny machines would not just be
+a scaled down version of the macroscopic ones, but would require redesign in accordance with physical laws,
+and he held that out as a challenge. To motivate research in this ﬁeld, which is now called nanotechnology, he
+personally oﬀered two prizes of $1000—one to the ﬁrst person who prints the page of a book with the linear
+scale reduced by a factor of 25000, and the other to the ﬁrst person who makes an operating electric motor
+that is only 1/64 inch cube. The second prize was awarded within a year to Bill McLellan, and Feynman was
+slightly disappointed that no major new technique was developed for it. The ﬁrst prize awarded a quarter of a
+century later to Tom Newman, who accomplished it using electron beam lithography.
+Feynman loved to get involved in the nitty-gritty details of the projects that he liked. To be close to his son
+Carl, who became a computer scientist, Feynman worked as a consultant for the Thinking Machines Corporation
+in the summer of 1983. They developed the Connection Machine, which was a massively parallel computer
+working in the single-instruction-multiple-data mode. The machine was designed as a 20-dimensional hypercube,
+and Feynman was assigned the job to design the router that would allow the processors to communicate with
+each other. To avoid traﬃc-jams, the messages needed to be held in buﬀers until the required path became
+free. Feynman converted the message passing problem to a set of partial diﬀerential equations, and came up
+with a solution that required ﬁve buﬀers per chip. That was better than the seven buﬀers per chip solution
+obtained by the engineers using conventional discrete analysis. It had to be ultimately used because the small
+chips could accommodate only ﬁve buﬀers, and it worked.
+In his later years, Feynman became interested in the potentialities and the limitations of computers, as
+determined by the laws of physics, speciﬁcally quantum physics.
+In 1982, he taught a course at Caltech
+titled ‘The Physics of Computation’, together with John Hopﬁeld (a biologist) and Carver Mead (a computer
+scientist). The syllabus of that course was vague, and the lecturers covered various topics in a rather chaotic
+manner, often without knowing what would come next. At times, Feynman talked about what he had thought
+of the night before while falling asleep. Three diﬀerent view-points, and open critique of each other’s analysis,
+made a thrilling combination, and many students religiously attended the course. In this environment, the
+course material rapidly grew in content, and one course subsequently split into three courses. What Feynman
+talked about developed into ‘Quantum Computation’, what Hopﬁeld discussed became ‘Neural Networks’, and
+what Mead talked about led to ‘Neuromorphic Systems’.
+After the split, Feynman titled his course as ‘Potentialities and Limitations of Computing Machines’. He
+took help of several guest lecturers to introduce various topics.
+Then in his inimitable style, proceeded to
+develop the subject from his own perspective, without worrying about what all was already known. A reﬁned
+10
+
+version of what was taught in that course, and the exciting ideas that developed from it, is now available as
+two excellent books [43, 44]. In particular, the concept of quantum computers developed there has now become
+a thriving ﬁeld of research.
+Feynman’s motivation in pursuing the subject of quantum computation was two-fold. The ﬁrst was the
+realization that with shrinking size of its elementary components, sooner or later, the computer technology
+will inevitably encounter the dynamics of the atomic scale. The laws that apply there are those of quantum
+mechanics and not those of electrical circuits. The classical computational framework based on Boolean algebra
+is inadequate in the quantum regime. Some aspects have to be generalized, while some others need reformulation.
+Quantum objects possess both ‘particle-like’ and ‘wave-like’ properties—the discrete eigenstates that form the
+Hilbert space basis as well as the superposition principle that allows for simultaneous existence of multiple
+components. In what way would this combination alter the axioms of the classical information theory, and in
+what way would that change the design and the performance of computers? Feynman wanted to explore that.
+The second motivation was that quantum computers would be ideal for simulation of physical systems.
+In Feynman’s own words, “Nature isn’t classical, dammit, and if you want to make a simulation of nature,
+you’d better make it quantum mechanical, and by golly it’s a wonderful problem, because it doesn’t look easy.”
+Feynman was aware that classical numerical investigations of many body quantum systems and quantum ﬁeld
+theories, using importance sampling methods to sum over contributions of various allowed conﬁgurations (e.g.
+Monte Carlo calculations in lattice QCD), are highly ineﬃcient. He knew that a quantum computer would sum
+up many such contributions in one go, as superposition in his path integral formulation of quantum dynamics,
+and produce much better results. He wanted to realize this advantage, although he did not quantify it in terms
+of what is called computational complexity. Another aspect that he did not deal with was imperfections in the
+physical device components, and what would be required to make a quantum computer fault tolerant. A decade
+passed before computer scientists came up with answers to these questions, that the quantum advantage in
+computational complexity can be exponential in the input size, and that error correction procedures can allow
+the computer to work for as long as one wishes provided that the error rate is below a speciﬁc threshold, and
+that is when research in the subject really took oﬀ.
+Feynman looked up on the subject of computation as engineering. The laws of physics are well-established,
+and the task is all about converting the known science to useful technology, i.e. make something to do something.
+He wanted to ﬁgure out the limits the laws of physics placed on computation—what we can and cannot do with
+computers and why. He was also perplexed by the exponential growth of computational resources in tackling
+hard problems on present-day computers, and wondered whether human intelligence can get around that. In
+his lectures, he described the computer as a ‘ﬁle clerk’, who most of the time shuﬄes data from one place to
+another and does some processing of information intermittently. This analogy is suitable for explaining many
+concepts: computer organization, instructions, hierarchy of languages, ﬁnite state machines as well as universal
+Turing machines. In discussing formal computer science topics such as computability, information theory and
+coding, he skipped many details but ﬁrmly emphasized the essentials needed in practice. He illustrated reversible
+computation and constraints of thermodynamics of computing, by constructing and working out simple examples
+in his own style. His original contribution was of course about designing quantum computers. He explained how
+quantum interactions can implement reversible logic operations, constructed a Hamiltonian that would execute
+a set of instructions step by step, and pointed out that quantum computers will have novel capabilities because
+certain quantum correlations cannot be simulated by a local probabilistic classical computer.
+Feynman’s course was largely treated as curiosity, and no one came forward to teach it after he taught it
+for several years. Still he was very keen that his lectures on computation be published, just like several of
+the courses that he taught at Caltech were. Tony Hey did the painstaking job superbly, guided by Feynman’s
+notebooks and tapes of the lectures. The two books that came out posthumously [43, 44] are now pioneering
+contributions to a ﬁeld with tremendous technological potential.
+Acknowledgments
+We would like to thank Dipan Ghosh and Swaminathan Kailas for inviting this article for Physics News. We
+thank Rajan Gupta for providing a copy of his homework assignment corrected by Feynman, and Sandip Trivedi
+for sharing his reminiscences of Feynman. The images of Feynman that we have used in this article are taken
+from various internet resources. SRW would like to acknowledge the Infosys Foundation Homi Bhabha Chair
+at ICTS-TIFR.
+11
+
+My Fond Memories of Feynman as a Teacher
+I arrived at Caltech, in Fall 1980 as a graduate student in High Energy Physics. As I familiarized myself with
+the new environment, I learned many stories about Richard Feynman, not all of them charitable, and how
+the Caltech community absolutely adored him. He was suﬀering from cancer at that time, but the medical
+treatment he received kept him going. The following story of my interaction with him illustrates his persistent
+hunt for innovative solutions to physics problems, as well as his irrepressible curiosity and generosity.
+I took the course ‘Topics in Theoretical Physics’ taught by Feynman in Spring 1983. Feynman discussed
+his ideas about QCD in that course. In the later part of this course, Feynman decided to talk about what
+would happen to QCD at ﬁnite temperature. He was using a ﬂux tube picture to describe conﬁnement in
+QCD [46], and argued that the ﬂuctuations of the ﬂux tube with increasing temperature would increase the
+entropy and produce a transition to the deconﬁned phase. This was in analogy to his work on behavior
+of vortices in liquid He, which I was not aware of. I was working on lattice gauge theories at that time,
+and pointed out to him that the situation for SU(2) and SU(3) gauge theories was quite diﬀerent.
+The
+deconﬁnement transition is of second order for SU(2), but of ﬁrst order for SU(3). The diﬀerence is due to
+the the center symmetries Z(2) and Z(3) of the gauge groups, which control the ﬁnite temperature dynamics
+of the Wilson line, and Monte Carlo calculations have conﬁrmed it. Feynman wanted a physical picture, and
+not a lattice QCD description in terms of the abstract Wilson line. I argued that a description using the ﬂux
+tube connecting a quark and an antiquark cannot be the full story. The baryons would have to play a role,
+even though they were too heavy compared to the transition temperature. Our arguments did not converge
+for a few lectures, because we could not adapt them to each-other’s language. After one such inconclusive
+discussion in the lecture, I left for lunch. When I had gone just outside the Lauritsen laboratory building,
+a student informed me that Feynman wanted to tell me something. So I returned to the building, entering
+at the bottom of the stairwell. Feynman was waiting at the top. He shouted, frantically waving his arms,
+“Percolation, percolation!”, and went back to his oﬃce. I was too stunned to say anything. I met him later
+in the day, and he asked me to make a model of this picture. I did that, explaining how the dynamics of the
+same Z(3) center symmetry governs the baryons as well as the Wilson line. Feynman was happy with this
+result, and his secretary (Helen Tuck) gave me the privilege of calling him at his home to discuss physics. I
+prepared a draft of the paper, and asked Feynman about including him as an author. He declined, but also
+said that he would proof-read the paper. He carefully went through the draft, made some changes in what I
+had written, and then the paper was published [45].
+Closer to my graduation, I asked Feynman whether he would write a letter of recommendation for me. He
+said “with pleasure”, and that was good enough for me. He also became my thesis examiner. My thesis was
+on ‘Monte Carlo Renormalization Group for Lattice QCD’. He was not impressed by the brute force numerical
+simulations using a lot of computational power, and used to remark with a chuckle “make a quantum computer
+and all your problems will be solved”.
+Apoorva and Feynman
+Feynman often attended the convocation ceremony, and he was
+present on my convocation too.
+I was a member of the Caltech
+Men’s Glee Club, which was to perform at the beginning of the
+ceremony. On getting the cue, I strode right down the middle of
+the congregation to the back of the stage, sang “Hallelujah”, and
+then returned to my seat. I met Feynman after the ceremony. He
+asked me whether my name had any meaning. I said, “Yes, it is
+an adjective.
+Can you guess?” He immediately replied, “Related
+to what, truth, beauty?” I said no, it means “unprecedented”. He
+smiled, and I had my photograph taken with him. After leaving
+Caltech, I could not interact with him again, unfortunately. I learned
+about his passing away, when I was working at CERN.
+—Apoorva D. Patel
+12
+
+Feynman’s comments on Rajan Gupta’s homework assignment
+A Conversation with Feynman
+Feynman in 1986
+In 1986, I visited Caltech for a couple of weeks because my friend and colleague
+Sumit Das was a post-doctoral fellow there. The memory of my meeting with
+Feynman is still very vivid.
+I was keen to speak with Feynman, so I kept
+pacing outside his oﬃce till a surge of courage took me right in. The oﬃce
+was not well-lit, and the furniture was of a darkish hue. He was sitting there
+in his casual style, and was very welcoming when I asked to speak with him.
+My reason was that I became a physicist because of his Lectures on Physics!
+He called me in and had me sit near him, and asked, “What are you working
+on?” I replied, “String theory.” He asked me immediately, almost as a reaction,
+“What are the important problems of particle physics?” My answer included
+calculation of the parameters of the Standard Model that would explain the
+mass hierarchy of leptons; the smallness of CP violation etc.. He was satisﬁed,
+and then he wanted to know about some interesting result in string theory.
+I was surprised, especially because Caltech had distinguished string theorists,
+but decided to tell him about Dan Friedan’s derivation of Einstein’s equations
+as the vanishing of the beta function using the sigma model approach. I started
+out by saying, “Let us consider the Feynman path integral,” and he snapped
+back laughing, “O, what is that?” Continuing, I presented a short derivation of
+the beta function equation. He was very impressed by this connection: “You
+mean renormalization stops!, and gives Einstein’s equations.”
+He mentioned that he had his worries about string theory, but then he had been wrong on many occa-
+sions in his career, including electro-weak uniﬁcation. So I should not be discouraged. He then started to
+explain to me his work on the existence of a mass gap in 2+1 dim pure Yang-Mills theory, using large gauge
+transformations and a variational method similar to the one he had used for explaining superﬂuidity in liquid
+Helium. He drew an analogy between large gauge transformations in the gauge theory and Bose statistics in
+liquid Helium [46]. This was a truly original way to approach the problem. It was a wonderful discussion
+because my work with Sumit Das from a few years ago had applied the self-consistent method of instantons
+in the Euclidean path integral to the same problem [47]. After the discussion he remarked, “The 4-dim case
+is too diﬃcult, because of the goddam logarithms!, and that time is running out for me.” I did not quite
+understand the import of the last statement at that time. Meeting Feynman was a truly very intense and
+inspiring experience.
+—Spenta R. Wadia
+13
+
+Reminiscences of my Interactions with Feynman
+As a beginning graduate student, I was part of Feynman’s study group. The group included my batchmates
+Arun Gupta and Olivier Espinoza (now deceased), some senior students such as Alexios Polychronakos (who
+left at some point after graduation), and some undergraduates like Vineer Bhansali.
+Feynman’s idea was to use the progress in integrability in two dimensions to study fragmentation or
+hadronisation in QCD. Consider a high energy scattering process, which gives rise to a quark or gluon moving
+at high energy that fragments as it moves away from the interaction region. There is one preferred direction
+along which the quark or gluon moves, where the momentum is high and the physics is ‘hard’, and two
+transverse directions where it is ‘soft’. Feynman’s idea was to separate these directions. Since high energy
+physics is simple in QCD due to asymptotic freedom, the hard physics would be easy to deal with. That
+would then leave the two transverse directions where the physics is soft and non-trivial, and perhaps the
+progress in integrability could be used here to understand the process of fragmentation.
+The ﬁrst, and perhaps the most important lesson, for a beginning graduate student like me was just how
+thorough Feynman was. He believed that to understand what had been achieved in the study of integrability,
+we should simply solve all known integrable models! The Bethe ansatz, if I recall correctly, worked well, but
+only for some models. Feynman had already worked out these cases by the time I joined, and had detailed
+meticulous notes, a model for how careful and thorough one should be.
+However, and this is where things stood when I started interacting with him, the Bethe ansatz technique
+did not directly work for the Baxter 6 and 8 vertex models. Feynman explained the 6 vertex model to us, and
+his instructions were for us to try and solve it without looking at Baxter’s solution, already in print. “I have
+told you all you need to know,” he said. We met week after week on Wednesday afternoons and discussed the
+problem. We students made very little progress. Amongst the three of us, Arun made some headway, but
+we were still far from solving the model. It did not help that Baxter had been awarded the Heinemann prize
+that year for solving the 6 and 8 vertex models!
+Feynman was remarkably patient and spent a lot of time explaining the solutions that he had ﬁgured
+out using the Bethe ansatz technique for various models (which were all special cases of Baxter’s models).
+We also went over a review on integrable models written by Hank Thacker, who Feynman always called
+“Thaxter” (he also refered to the Zamolodchikov brothers as Zamaldovich and Zamaldovich driving us to
+splits of laughter). The high point for me of these sessions though were his digressions where he explained
+all kinds of physics to us. Occasionally, the discussions would extend over dinner—for which Feynman often
+generously paid. I remember one great dinner at a Mexican restaurant on Colorado Boulevard, where he
+explained the spin-statistics theorem, using a belt which he took oﬀfrom his pants, while exclaiming loudly
+to the waiter that she need not worry for he wasn’t going to disrobe any further! This belt trick of Feynman
+is of course well-known and also discussed in his Dirac lecture.
+To come back to the Baxter models, one day Feynman called us to his oﬃce. His eyes were shinning. “I
+have solved it!” he exclaimed. “Get me some multi-colored chalk,” he yelled to his secretary Helen. What
+followed was pure Feynman genius, in equal measure physics and showmanship of the highest order. The
+key, as Feynman explained, was to look at the lattice not in the standard fashion, as we had been doing,
+but at 45 degrees. Then due to the presence of particle number conservation in the 6 vertex case, a solution
+easily presented itself in a few lines of algebra, and the elliptic functions of Baxter’s solution appeared almost
+miraculously! The underlying reason for the simpliﬁcation at 45 degrees was that the system had eﬀectively
+massless degrees of freedom. This was pure magic for me! Later on, experts told me that Feynman’s solution
+is probably closely related to a well-known technique in integrable models involving corner transfer matrices.
+I have not followed up on this, but I am quite sure that Feynman did not know about this beforehand.
+Feynman’s last blackboard
+We students were then sent oﬀto solve the 8 vertex model.
+This was more complicated because there was no particle number
+conservation, and particles could be created and destroyed.
+But
+Feynman was optimistic as ever. “I invented all the tricks on how
+to deal with the creation and destruction of particles in QED,” he
+said to us with a wink, “We will surely get there.” Sadly, Feynman
+fell quite ill soon thereafter, and our meetings grew infrequent. We
+never did solve the 8 vertex model, although we did sneak a look
+at Baxter’s work, and ﬁgured out the solution that way. Feynman’s
+dream of using integrability for QCD remained incomplete in our
+hands, and he passed away a few months later.
+—Sandip P. Trivedi
+14
+
+Richard P. Feynman’s speech at the Nobel Banquet, 10 December 1965
+Your Majesty, Your Royal Highnesses, Ladies and Gentlemen.
+The work I have done has, already, been adequately rewarded and recognized.
+Imagination reaches out repeatedly trying to achieve some higher level of
+understanding, until suddenly I ﬁnd myself momentarily alone before one new
+corner of nature’s pattern of beauty and true majesty revealed. That was my
+reward.
+Then, having fashioned tools to make access easier to the new level, I
+see these tools used by other men straining their imaginations against further
+mysteries beyond. There, are my votes of recognition.
+Then comes the prize, and a deluge of messages. Reports of fathers turn-
+ing excitedly with newspapers in hand to wives; of daughters running up and
+down the apartment house ringing neighbors’ doorbells with news; victorious
+cries of “I told you so” by those having no technical knowledge—their success-
+ful prediction being based on faith alone; from friends, from relatives, from
+students, from former teachers, from scientiﬁc colleagues, from total strangers;
+formal commendations, silly jokes, parties, presents; a multitude of messages in
+a multitude of forms.
+But, in each I saw the same two common elements. I saw in each, joy; and I saw aﬀection (you see,
+whatever modesty I may have had has been completely swept away in recent days).
+The prize was a signal to permit them to express, and me to learn about, their feelings. Each joy, though
+transient thrill, repeated in so many places amounts to a considerable sum of human happiness. And, each
+note of aﬀection released thus one upon another has permitted me to realize a depth of love for my friends
+and acquaintances, which I had never felt so poignantly before.
+For this, I thank Alfred Nobel and the many who worked so hard to carry out his wishes in this particular
+way.
+And so, you Swedish people, with your honors, and your trumpets, and your king—forgive me. For I
+understand at last—such things provide entrance to the heart. Used by a wise and peaceful people they can
+generate good feeling, even love, among men, even in lands far beyond your own. For that lesson, I thank
+you. Tack!
+15
+
+References
+[1] http://www.richardfeynman.com/
+[2] http://www.feynmanlectures.caltech.edu/
+[3] https://feynman100.caltech.edu/
+[4] J. Gleick, Genius: The Life and Science of Richard Feynman (Pantheon Books, 1992).
+[5] J. Mehra, The Beat of a Diﬀerent Drum: The Life and Science of Richard Feynman (Oxford University
+Press, 1994).
+[6] J. Gribbin and M. Gribbin, Richard Feynman: A Life in Science (Dutton, 1997).
+[7] R. P. Feynman, The Meaning of It All: Thoughts of a Citizen-Scientist (Addison-Wesley, 1998).
+[8] https://www.youtube.com/watch?v=uljATTG58TY
+[9] https://www.nobelprize.org/prizes/physics/1965/feynman/speech/
+[10] J. A. Wheeler and R. P. Feynman, Classical Electrodynamics in Terms of Direct Interparticle Action, Rev.
+Mod. Phys. 21 (1949) 425-433.
+[11] R. P. Feynman, The Theory of Positrons, Phys. Rev. 76 (1949) 749-759.
+[12] E. C. G. St¨uckelberg, La m´ecanique du point mat´eriel en th´eorie de relativit´e et en th´eorie des quants,
+Helv. Phys. Acta 15 (1942) 23-37.
+[13] R. P. Feynman, Relativistic cut-oﬀfor Quantum Electrodynamics, Phys. Rev. 74 (1948) 1430-1438.
+[14] R. P. Feynman, Space-Time Approach to Quantum Electrodynamics, Phys. Rev. 76 (1949) 769-789.
+[15] R. P. Feynman, The Principle of Least Action in Quantum Mechanics, Princeton University (1942). Pub-
+lished as Feynman’s Thesis: A New Approach to Quantum Theory, Ed. L. M. Brown, (World Scientiﬁc,
+2005).
+[16] R. P. Feynman, Space-Time Approach to Non-Relativistic Quantum Mechanics, Rev. Mod. Phys. 20 (1948)
+367-387.
+[17] R. P. Feynmand and A. R. Hibbs, Path Integrals and Quantum Mechanics, (McGraw-Hill, 1965).
+[18] P. A. M. Dirac, The Principles of Quantum Mechanics, Fourth Edition (Oxford University Press, 1958).
+[19] R. P. Feynman amd M. Gell-Mann, Theory of Fermi Interactions, Phys. Rev. 109 (1958) 193-198.
+[20] E. C. G. Sudarshan and R. E. Marshak, Origin of the Universal V-A Theory, In Proceedings of “50 Years
+of Weak Interactions”, Wingspread Conference, University of Wisconsin, Madison, Wisconsin (1984), pp.
+1-15
+[21] J. D. Bjorken, Asymptotic Sum Rules at Inﬁnite Momentum, Phys. Rev. 179 (1969) 1547-1553; Inequality
+for Backward Electron- and Muon-Nucleon Scattering at High Momentum Transfer, Phys. Rev. 163 (1967)
+1767-1769.
+[22] R. P. Feynman, Photon-hadron Interactions, (CRC Press, 1972).
+[23] R. D. Field and R. P. Feynman Quark elastic scattering as a source of high-transverse-momentum mesons,
+Phys. Rev. D15 (1977) 2590-2615.
+[24] R. P. Feynman, R. D. Field and G. C. Fox, Quantum-chromodynamic Approach for the Large-transverse-
+momentum Production of Particles and Jets, Phys. Rev. D17 (1978) 3320-3343.
+[25] R. P. Feynman, Quantum Theory of Gravitation, Acta Physica Polonica 24 (1963) 697-722; R. P. Feynman
+Problems in quantizing the gravitational ﬁeld and massless Yang-Mills ﬁeld, in Magic without Magic: John
+Archibald Wheeler, Ed. J. R. Klauder (W. H. Freeman & Co, 1973).
+16
+
+[26] R. P. Feynman, F. B. Morinigo and W. Wagner, Feynman Lectures on Gravitation, (Addison-Wesley, 1995).
+[27] R. P. Feynman, Closed loop and tree diagrams, in Magic without Magic: John Archibald Wheeler, Ed. J.
+R. Klauder (W. H. Freeman & Co, 1973).
+[28] B. DeWitt, Quantum Theory of Gravity II: The manifest covariant theory, Phys. Rev. 162 (1967) 1195–
+1239.
+[29] L. D. Faddeev and V. N. Popov, Feynman Diagrams for the Yang-Mills Field, Phys. Lett. B25 (1967) 29-30.
+[30] S. R. Wadia and T. Yoneya, The Role of Surface Variables in the Vacuum Structure of Yang-Mills Theory,
+Phys. Lett. 66B (1977) 341-345; V. N. Gribov, Quantization of Nonabelian Gauge Theories, Nucl. Phys.
+B139 (1978) 1.
+[31] J. Polchinski, String Theory: Vol 1 and 2, Cambridge Monographs on Mathematical Physics (1998).
+[32] D. J. Gross and F. Wilczek, Ultraviolet Behavior of Non-abelian Gauge Theories, Phys. Rev. Lett. 30 (1973)
+1343-1346; H. D. Politzer, Reliable Perturbative Results for Strong Interactions, Phys. Rev. Lett. 30 (1973)
+1346-1349.
+[33] K. G. Wilson, Conﬁnement of Quarks, Phys. Rev. D10 (1974) 2445-2459.
+[34] R. P. Feynman, Atomic Theory of the Lambda Transition in Helium, Phys. Rev. 90 (1953) 1291-1301.
+[35] D. M. Ceperley, Path Integrals in the Theory of Condensed Helium, Rev. Mod. Phys. 67 (1995) 279-355.
+[36] R. P. Feynman, Application of Quantum Mechanics to Liquid Helium, Progress in Low Temperature
+Physics: Vol 1, (North-Holland, 1955), pp. 17-53.
+[37] R. P. Feynman, Atomic Theory of the Liquid Helium near Absolute Zero, Phys. Rev. 91 (1953) 1301-1308;
+R. P. Feynman, Atomic Theory of the 2-Fluid Model of Liquid Helium, Phys. Rev. 94 (1954) 262-277.
+[38] R. P. Feynman and M. Cohen, Energy Spectrum of the Excitations in Liquid Helium, Phys. Rev. 102
+(1956) 1189-1204; M. Cohen and R. P. Feynman, Theory of Inelastic Scattering of Cold Neutrons from
+Liquid Helium, Phys. Rev. 107 (1957) 13-24.
+[39] P. Nozieres and D. Pines, Quantum Theory of Liquids: Vol II, Section 3.5, (CRC Press, 1990).
+[40] W. F. Vinen, Mutual Friction in a Heat Current in Liquid Helium II, Proc. Roy. Soc. A 240 (1957) 114-127.
+[41] W. F. Viven and L. Skrbek, Quantum Turbulence Generated by Oscillating Structures, PNAS 111, Suppl. 1
+(2014) 4699-4706; C. F. Barenghi, L. Skrbek and K.R. Sreenivasan, Introduction to Quantum Turbulence,
+PNAS 111, Suppl. 1 (2014) 4647-4652.
+[42] R. P. Feynman, There’s Plenty of Room at the Bottom, Talk at the 1959 Annual Meeting of the American
+Physical Society, Published in Caltech’s Engineering and Science (1960).
+[43] R. P. Feynman, Feynman Lectures on Computation, Eds. A. J. G. Hey and R. W. Allen, (Perseus Books,
+1996).
+[44] Feynman and Computation: Exploring the Limits of Computers, Ed. A. J. G. Hey, (Perseus Books, 1999).
+[45] A. Patel, A Flux Tube Model of the Finite Temperature Deconﬁning Transition in QCD, Nucl. Phys. B243
+(1984) 411-422.
+[46] R.P. Feynman, The Qualitative Behavior of Yang-Mills Theory in 2+1 Dimensions, Nucl. Phys. B188
+(1981) 479-512.
+[47] S. R. Wadia, Gauge Theories of Quark Conﬁnement in 2+1 Dim: A Comparative Study of SU(2) Yang-
+Mills and Yang-Mills-Higgs, Particles and Fields 2, Eds. A. Z. Capri and A. N. Kamal, (Plenum Press,
+1983); S. R. Das and S. R. Wadia, Quark conﬁnement and dual representation in (2+1) dimensional pure
+Yang-Mills theory, Phys. Rev. D 53 (1996) 5856.
+17

@@ -1,0 +1,88 @@
+[
+  {
+    "query": "What is the path integral formulation of quantum mechanics?",
+    "expected_topics": [
+      "path integral",
+      "quantum mechanics",
+      "action"
+    ],
+    "topic_hits": [
+      "path integral",
+      "quantum mechanics",
+      "action"
+    ],
+    "recall": 1.0,
+    "bm25_count": 0,
+    "faiss_count": 3,
+    "both_count": 0,
+    "num_chunks_returned": 5
+  },
+  {
+    "query": "How did Feynman approach the problem of quantum electrodynamics?",
+    "expected_topics": [
+      "QED",
+      "renormalization",
+      "Feynman diagrams"
+    ],
+    "topic_hits": [
+      "renormalization",
+      "Feynman diagrams"
+    ],
+    "recall": 0.67,
+    "bm25_count": 2,
+    "faiss_count": 3,
+    "both_count": 2,
+    "num_chunks_returned": 5
+  },
+  {
+    "query": "What are Feynman diagrams and what do they represent?",
+    "expected_topics": [
+      "Feynman diagrams",
+      "perturbation theory",
+      "particles"
+    ],
+    "topic_hits": [
+      "Feynman diagrams",
+      "particles"
+    ],
+    "recall": 0.67,
+    "bm25_count": 2,
+    "faiss_count": 2,
+    "both_count": 1,
+    "num_chunks_returned": 5
+  },
+  {
+    "query": "What did Feynman think about the importance of not knowing?",
+    "expected_topics": [
+      "uncertainty",
+      "doubt",
+      "scientific method"
+    ],
+    "topic_hits": [
+      "doubt"
+    ],
+    "recall": 0.33,
+    "bm25_count": 0,
+    "faiss_count": 1,
+    "both_count": 0,
+    "num_chunks_returned": 5
+  },
+  {
+    "query": "Describe Feynman's work on the Manhattan Project.",
+    "expected_topics": [
+      "Los Alamos",
+      "atomic bomb",
+      "Manhattan Project"
+    ],
+    "topic_hits": [
+      "Los Alamos",
+      "atomic bomb",
+      "Manhattan Project"
+    ],
+    "recall": 1.0,
+    "bm25_count": 3,
+    "faiss_count": 2,
+    "both_count": 1,
+    "num_chunks_returned": 5
+  }
+]

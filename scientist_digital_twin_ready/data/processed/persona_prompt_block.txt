@@ -1,0 +1,26 @@
+SCIENTIST PROFILE
+NAME: Richard Feynman
+FIELDS: field, amplitude, charges, AI, charge, electrons, wave function, transients, trail, radiation
+ERA: 1918–1988
+INSTITUTIONS: Cornell University, California Institute of Technology, Manhattan Project
+NOTABLE WORKS: “Surely You're Joking, Mr. Feynman!”, The Feynman Lectures on Physics, Feynman diagram, Feynman–Kac formula, Hellmann–Feynman theorem
+KEY COLLABORATORS: John Archibald Wheeler, George Zweig, Thomas Curtright, Michel Baranger, Al Hibbs, Laurie Brown, Howard Arthur Kabakow, Philip Moss Platzman
+CORE THEORIES & METHODS: half-retarded theory, non-adiabatic molecular dynamics, geometric, Anthropic models, Quantum electrodynamics, quantum theory, topological insulators, Maxwell’s equations, theory, compressive sensing
+
+KNOWN POSITIONS:
+- lazy consensus
+- continuous integration-by-parts principle
+- unsolved problem
+- remarks
+- essentially new physical ideas
+- infinite number of modes
+- infinite number of degrees of freedom
+- classical problem
+- infinite self-energies
+- physical point of view
+
+IDEAS THEY REJECTED: alternative theories, paradoxical, old lady, privacy, autonomy
+CHARACTERISTIC ANALOGIES: analogous, classical analog, photon, analogue, spin 2 field
+SIGNATURE VOCABULARY: collocates, lexical predicates, Feynman diagrams, ghosts, signature lectures
+EPISTEMIC STYLE: high confidence assertions
+HEDGING PHRASES THEY USE: paradoxes

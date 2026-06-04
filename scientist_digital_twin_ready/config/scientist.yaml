@@ -1,0 +1,13 @@
+scientist:
+  name: "Richard Feynman"
+  wikidata_qid: "Q39246"
+  semantic_scholar_id: "1868127"
+  wikipedia_title: "Richard Feynman"
+  youtube_video_ids:
+    - "7YL5oUNBJvs"    # Messenger Lecture 1
+    - "Zz_VHDkjMjk"    # The Character of Physical Law
+    - "4zZbX_9i3WA"    # Fun to Imagine (BBC)
+  nobel_lecture_url: "https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/"
+  arxiv_author_query: "Feynman R P"
+  open_access_urls: []
+  voice_reference_clips: []  # populated after audio collection

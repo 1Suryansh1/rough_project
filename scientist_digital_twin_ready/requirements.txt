@@ -1,0 +1,40 @@
+# Core retrieval
+bm25s==0.2.12
+faiss-cpu==1.9.0.post1
+sentence-transformers==3.4.1
+
+# NLP / extraction
+gliner==0.2.13
+sumy==0.11.0
+nltk==3.9.1
+
+# Data ingestion
+requests==2.32.3
+wikipedia-api==0.7.1
+youtube-transcript-api==0.6.3
+pdfminer.six==20231228
+pymupdf==1.24.11
+
+# F5-TTS for zero-shot voice
+f5-tts @ git+https://github.com/SWivid/F5-TTS.git
+yt-dlp==2024.12.23
+pydub==0.25.1
+sounddevice==0.5.1
+soundfile==0.12.1
+scipy==1.14.1
+
+# Gemini generation
+google-generativeai==0.8.3
+
+# Evals
+bert-score==0.3.13
+
+# Utilities
+pyyaml==6.0.2
+tqdm==4.67.1
+numpy>=1.26.4
+rich==13.9.4
+torch>=2.6.0
+transformers==4.47.1
+
+# sqlite3 is stdlib — no pip needed

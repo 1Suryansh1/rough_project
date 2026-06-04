@@ -1,0 +1,1152 @@
+arXiv:1902.05799v2  [physics.hist-ph]  16 Oct 2019
+Feynman’s diﬀerent approach to electromagnetism
+Roberto De Luca1, Marco Di Mauro1,2,3, Salvatore Esposito2,
+Adele Naddeo2
+1Dipartimento di Fisica “E.R. Caianiello”, Universit´a di Salerno, Via Giovanni Paolo II, 84084 Fisciano, Italy.
+2INFN Sezione di Napoli, Via Cinthia, 80126 Naples, Italy.
+3E-mail: madimauro@unisa.it
+October 17, 2019
+Abstract
+We discuss a previously unpublished description of electromagnetism outlined by Richard P. Feyn-
+man in the 1960s in ﬁve handwritten pages, recently uncovered among his papers, and partly
+developed in later lectures. Though similar to the existing approaches deriving electromagnetism
+from special relativity, the present one extends a long way towards the derivation of Maxwell’s
+equations with minimal physical assumptions. In particular, without postulating Coulomb’s law,
+homogeneous Maxwell’s equations are written down by following a route diﬀerent from the stan-
+dard one, i.e.
+ﬁrst introducing electromagnetic potentials in order to write down a relativistic
+invariant action, which is just the inverse approach to the usual one. Also, Feynman’s derivation
+of the Lorentz force exclusively follows from its linearity in the charge velocity and from relativis-
+tic invariance. Going further, i.e. adding the inhomogeneous Maxwell’s equations, requires some
+more physical input, and can be done by just following conventional lines, hence this task was not
+pursued here. Despite its incompleteness, this way of proceeding is of great historical and episte-
+mological signiﬁcance. We also comment about its possible relevance to didactics, as an interesting
+supplement to usual treatments.
+One man’s assumption is another man’s conclusion [1]
+1
+Introduction
+It is a well-known story that Richard P. Feynman was not satisﬁed with his presentation of electricity
+and magnetism in his second year general physics lectures, which he gave at Caltech in 1961-63. In
+his preface to the published version [2] he wrote:
+In the second year I was not so satisﬁed. In the ﬁrst part of the course, dealing with
+electricity and magnetism, I couldn’t think of any really unique or diﬀerent way of doing
+it – or any way that would be particularly more exciting than the usual way of presenting
+it. So I don’t think I did very much in the lectures on electricity and magnetism.
+1
+
+As a matter of fact, indeed, the way of presenting electromagnetism in the second volume of Feynman’s
+Lectures [2] is quite similar to many existing books on the subject at various level – for example the
+golden standard [3] – where a historical/experimental path starting with electrostatics is followed,
+then moving on to magnetostatics, Faraday’s law of induction, Maxwell’s equations, electromagnetic
+waves and, ﬁnally, showing the consistency of Maxwell’s equations with the special theory of relativity
+(which is however introduced in the ﬁrst volume of Ref. [2]).
+Later on, in 1966, in an interview for the American Institute of Physics with Charles Weiner [4],1
+Feynman said:
+Now I think I know how to do it. [...] I’ve now cooked up a much better way of presenting
+the electrodynamics, a much more original and much more powerful way than is in the
+book.
+Unfortunately, however, no such presentation appears to have been published or used by Feynman.
+Motivated by the natural curiosity aroused by such claims, M.A. Gottlieb sought for an answer in
+the Caltech archives, where he discovered ﬁve pages of handwritten notes, dating from 13 December
+1963, in which Feynman sketched his ideas. Since it was natural for Gottlieb to assume that these
+notes are what Feynman was referring to, without hesitation we here assume this to be the case. The
+notes (both the originals and a transcript by Gottlieb himself) were made available online [6]. To
+the best of our knowledge, no attempt to explain the physics contained in those notes was made by
+Gottlieb or anyone else up to now, and thus, the aim of the present paper is to study and clarify these
+notes, in order to make their content usable. We believe that, besides the obvious historical interest,
+this work can be useful for teaching purposes, since it suggests an alternative view on at least part of
+the fundamentals of electromagnetism.
+Feynman’s notes contain an outline of a possible course on electromagnetism, along with some
+reﬂections on possible disadvantages and advantages (interestingly, the disadvantages come ﬁrst), and
+a sketch of a derivation of the Lorentz force law from the requirements of special relativity and of
+charge invariance, which is the ﬁrst point in the outline.
+The idea of deriving electromagnetism from relativity (rather than following the inverse, historical
+route) is not new, dating back at least to 1912 [7]. The idea is to start from Coulomb’s law and
+then derive Lorentz force from Lorentz transformations. While mentioned in most textbooks about
+electromagnetism, this viewpoint has been chosen as the true way to proceed in many other textbooks
+and papers, see e.g.
+[8]-[16] and references therein.2
+Some of these references content themselves
+with the derivation of magnetostatics from electrostatic and relativity, while others try to get the full
+electrodynamics by extending to accelerated charges. Very interestingly, this same viewpoint has been
+1The relevant part of that interview is also reported in [5].
+2Such an approach, in order to be logically consistent, would of course require the introduction of special relativity
+independently of electromagnetism, which is indeed possible.
+For example, it was used by Feynman himself in the
+ﬁrst volume of his lectures, or in many of the references cited in the main text. Moreover, it was explored in many
+other references about special relativity, such as Ref. [17], where special relativity is developed from the idea that any
+interaction should have a limiting speed, only later to be identiﬁed with the speed of light, and Ref. [18], where the
+relativistic law of addition of parallel velocities is derived only from the ﬁrst of Einstein’s postulates, while not invoking
+the second one.
+2
+
+adopted by Feynman in teaching Electromagnetism at the Hughes Aircraft company in 1967-68 [1],
+and some comment about it is also included in the chapter about magnetostatics in the second volume
+of the lectures.
+While sharing with the above viewpoint the idea of deriving electromagnetism from relativity
+(rather than the opposite), Feynman’s approach sketched in his 1963 notes is radically diﬀerent.
+Feynman, indeed, derives the form of the interaction (i.e. Lorentz force) just from the requirements of
+charge invariance (coming from experiments), relativity and linearity. Such a derivation, to the best of
+our knowledge, is absent in the literature, and was not even used by Feynman in later courses, including
+the Hughes lectures. This was probably due to the fact that he did not continue along this line of
+reasoning in the derivation of Maxwell’s equations and, more in general, of the full electrodynamics.
+Nevertheless, some material in the Hughes Lectures, as we shall see, might be in line with Feynman’s
+ideas in these notes, since, after a long introduction about the least action principle (notoriously one
+of Feynman’s favorites), he described a relativistically invariant generalization of it where force is
+implemented by the addition of a 4-vector potential. Upon comparison of the resulting equations
+of motion with the Lorentz force – which may well have been derived using the approach sketched
+in the notes, Feynman was able to ﬁnd the link between the electric and magnetic ﬁelds and the
+components of the 4-potential. These expressions, upon using well known vector analysis identities,
+led to the homogeneous Maxwell equations. Moreover, by allowing diﬀerent potentials while requiring
+the invariance of the classical equations of motions resulting from minimizing the action, Feynman was
+able to introduce gauge transformations from perspective diﬀerent than the usual one. By combining
+Feynman’s approach to the Lorentz force with his derivation of the homogeneous Maxwell’s equations,
+it is then possible to go quite a long way towards the full derivation of electromagnetism, just with
+a minimal physical input.3 After that, it is possible to complete the construction of the theory by
+adding the inhomogeneous Maxwell’s equations in a more standard way.
+2
+Deriving the Lorentz force
+In the ﬁrst page of his notes, Feynman outlined a possible full course on electrodynamics, articulated
+in seven points as follows:
+1. Get the Lorentz force equation from charge conservation4 and relativity, get the potentials or at
+least the homogeneous Maxwell equations.
+3Interesting enough, this was not the only time Feynman entertained himself with original presentations of electro-
+magnetism. As reported by Freeman Dyson (quoted in [19]), in 1948 he was able to derive the homogeneous Maxwell’s
+equations solely from Newton’s law and from the canonical Poisson brackets (or even canonical commutation relations)
+for a non-relativistic particle; such a derivation was much later published by Dyson himself [20], and was soon recognized
+as a particular case of inverse variational problem (see e.g. [21] and references therein). Notice that Feynman’s proof
+of 1948 is given in a Galilei invariant context, while the proof we are studying here is given in a Lorentz invariant con-
+text. However, there is no contradiction since both proofs concern only the Lorentz force and the homogeneous Maxwell
+equations, which are invariant under both groups (the deep origin of this is that the homogeneous Maxwell equations
+are topological in nature, since they do not depend on the metric, see e.g. [22]).
+4Actually, from what follows it is clear that here Feynman really means relativistic invariance of the charge, rather
+than charge conservation, as in the usual sense.
+3
+
+2. Discuss the ﬁeld idea, discuss the qualitative properties and shapes of the ﬁelds in some situa-
+tions, diﬀerential operators, motion of electrons on given ﬁelds, induction, etc.
+3. Get the inhomogeneous Maxwell’s equations, either by arriving at the wave equation for the
+potentials from relativity or from some other principle, or even through the experimental, usual
+route (Coulomb, Amp`ere, . . . ).
+4. Discuss the ﬁelds produced in several semi-static circumstances, e.g. condensers, inductances,
+etc.
+5. Discuss the ﬁeld in wave situations, e.g. radiation, waveguides, etc.
+6. Energy and related problems, self-mass, Lienard-Wiechert potential, etc.
+7. Fields in matter: D, H, etc.
+Points 1 and 3 are, of course, the crucial ones, as pointed out by Feynman himself, while the other
+ones only concern applications of electrodynamics, rather than the formulation of electromagnetic
+laws, so that it is very much plausible that he aimed to address them in a standard way, similar to
+the one adopted in the Caltech or Hughes Lectures. Remarkably, however, in his notes Feynman
+only addressed the ﬁrst part of point 1, relegating the second part just to a question (posed but not
+answered, at least not in the notes): “Can you ﬁnd other ways? – Can you get potentials in?”. Point
+3 is not addressed as well.
+Feynman’s approach to electromagnetism can be traced back to the fundamental assumptions that
+matter has an atomic structure (a well-known citation shows that he considered this to be the single
+most important scientiﬁc fact, as stated at the very beginning of [2]), and electric current is due to
+the motion of electric charges in matter.
+2.1
+Linear dependence on the velocity
+The starting point, as delineated in the ﬁfth page of his notes, is that motion does not alter charge,
+i.e. electric charge is Lorentz invariant. The usual argument for this, followed by Feynman too, went
+as follows. Atoms are electrically neutral, but electrons in them move, even at very high speeds, this
+meaning that the electron charge is not aﬀected by such motion. This is in contrast with what happens
+for mass-energy, which does depend on the velocity. Here Feynman referred properly to relativistic
+energy, which may be described in terms of a velocity-dependent “relativistic mass”, considered as
+a gravitational mass (i.e.
+weight) rather than inertial mass, though the two coincide due to the
+equivalence principle. For atoms, this is exempliﬁed by the fact that an excited atom weights more
+than an atom in its ground state, and Feynman also referred to a possible experimental proof of this
+fact, while not explicitly mentioning it.5
+5It is worth noting that this same line of reasoning was followed by Feynman in [23], in order to argue that gravitation
+must be mediated by a spin-2 ﬁeld rather than a spin-0 ﬁeld, whose charge would decrease with velocity, instead of
+increasing.
+4
+
+Having established Lorentz invariance for the electric charge, the next step was the observation
+that a conducting wire, where an electric current is present, is electrically neutral. If two such wires
+are placed next to each other, however, a net force between them is observed (and here probably
+Feynman planned a demonstration of this eﬀect): this suggests that the force between electric charges
+depends not only on their position, but also on their velocity. Therefore, we conclude that a point
+charge q, moving anyhow in the presence of other charges, experiences a force F which is a function
+of its position and velocity:
+F = F(x, v) .
+(1)
+Charge invariance can be used again to observe that, a charge moving in such a way that its average
+velocity is zero (such as for example an electron in an atom), will feel an average force F(x, v) acting
+on it because of the presence of other charges which must be equal to the force felt by a charge of
+equal magnitude at rest,6 i.e.
+F(x, v) = F(x, 0)
+if
+v = 0 .
+(2)
+This fact excludes the dependence of the force from any even power of the velocity7. Moreover, since
+this must be true independently of the distribution of v, provided only that the condition v = 0
+holds, but without requirements on higher moments, it necessarily implies that force depends linearly
+on velocity,8 that is Fi(x, v) = ai + bijvj, where ai, bij are coeﬃcients which can be cast in the more
+expressive following form (making explicit the electric charge q):
+Fi(x, v) = q(Ei + vj Bij),
+i, j = 1, 2, 3.
+(3)
+Ei and Bij are just coeﬃcients depending on the other surrounding charges and on position, while
+the proportionality to q can be veriﬁed experimentally. It is worth commenting here that this line
+of reasoning seems to exclude damping terms which may depend on higher powers of v, but with
+coeﬃcients which go to zero very rapidly, i.e. with times much smaller than the time scales considered
+above. Since the above reasoning should be valid at least down to atomic scales, such damping terms
+would be anyway out of the range of validity of classical electromagnetism.
+In hindsight, it is immediate to infer that Ei are the components of the electric ﬁeld (or in other
+words, we can call electric the part of the force which does not depend on the velocity), but the
+identiﬁcation of Bij with the magnetic induction (which is of course suggested by the notation) is
+not so obvious: as a matter of fact, it constitutes the main part of Feynman’s notes. Crucial for
+6Notice that we are considering a charge moving in the presence of other charges, but the motion is not considered
+to be the consequence of the force exerted by these other charges, rather of some other unspeciﬁed external force.
+7As an example, let us show that for a quadratic force the condition (2) is easily violated. Consider a force of the
+form F(v) = kqv2, where k is a constant and, as said, the charge q does not depend on the velocity . Suppose that
+the charge undergoes a periodic motion, for example v = v0 cos(2πt/T ). Then we clearly have v = 0 over a period, but
+v2 ̸= 0, hence F ̸= 0, which contradicts the condition (2). In a similar way all even powers of v can be excluded.
+8The fact that the Lorentz force is linear in the velocity was also emphasized by Feynman in chapter 12 of Volume I
+of his Lectures [2], although there he then derived the complete expression from experiment.
+5
+
+this passage is to bring relativity into play: the 3-vector in Eq. (3) must be related to the spatial
+components of a 4-force. By imposing that the Lorentz transformation under a boost of this 4-force
+is linear in the velocity, Feynman was able both to ﬁx the functional form of the force in (3), thus
+recovering the Lorentz force, and to derive the behavior of the coeﬃcients Ei and Bij under the boost.
+And, not surprisingly, such transformation laws turn out to be the correct ones for the electric and
+magnetic ﬁelds.
+The reasoning can be sketched as follows. For simplicity we set q = 1; it is only a pre-factor that
+can be reinserted in any moment (i.e. F →qF). Also, we set c = 1, since it will always be possible to
+reinsert it by dimensional analysis.
+The 4-force associated with the 3-force in (3) is constructed using the well-known formulae from
+relativistic mechanics, that is:
+F µ = γ (Ft, Fx, Fy, Fz) ,
+(4)
+where Ft = F · v and γ = 1/
+√
+1 −v2. Let us perform a boost with velocity u, for simplicity assumed
+directed along the x-axis:
+
+
+
+
+
+
+
+
+
+
+
+x′
+=
+γu(x −ut),
+y′
+=
+y,
+z′
+=
+z,
+t′
+=
+γu(t −ux),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v′
+x
+=
+vx −u
+1 −uvx
+,
+v′
+y
+=
+vy
+γu(1 −uvx) ,
+v′
+z
+=
+vz
+γu(1 −uvx) ,
+(5)
+where γu = 1/
+√
+1 −u2 is the gamma factor associated with the boost velocity u. Under such a boost,
+the component x of the 4-vector (4) transforms in the usual way, that is
+F ′
+x = Fx −uFt
+1 −uvx
+.
+(6)
+By inserting the explicit expressions for Fx and Ft, and expressing the result in terms of only the
+primed velocity components, after some algebra9 we arrive at:
+F ′
+x
+=
+Ex −uγuv′
+yEy −uγuv′
+zEz + γuv′
+yBxy + γuv′
+zBxz + v′
+x + u
+1 + uv′x
+Bxx −u(v′
+y)2Byy
+1 + uv′x
+−u(v′
+z)2Bzz
+1 + uv′x
+−uγu
+(v′
+x + u)v′
+y
+1 + uv′x
+(Bxy + Byx) −uv′
+yv′
+z
+1 + uv′x
+(Byz + Bzy) −uγu
+(v′
+x + u)v′
+z
+1 + uv′x
+(Bxz + Bzx).
+(7)
+9Useful relations, which may be employed in order to reduce calculations, are the following:
+1 −uvx =
+γ′
+γγu ,
+(1 + uvx)(1 −uvx) = 1 −u2,
+where γ′ = 1/
+√
+1 −v
+′2.
+6
+
+We have now to require that F ′
+x must have the same form as Fx, that is
+F ′
+x = E′
+x + v′
+xB′
+xx + v′
+yB′
+xy + v′
+zB′
+xz .
+(8)
+Since the argument requiring linearity in the velocity should be valid in any inertial frame, this implies
+that all the terms of (7) that are quadratic in the velocity components should vanish; the same applies
+to the term in (7) with no component of v′ in the numerator. Then, the B coeﬃcients have to satisfy
+the following relations:
+Bxy + Byx = 0,
+Byz + Bzy = 0,
+Bxz + Bzx = 0,
+Bxx = 0,
+Byy = 0,
+Bzz = 0.
+(9)
+Such conditions (9) imply that the B coeﬃcients are antisymmetric, i.e. Bij = −Bji. It is customary to
+rearrange the three independent components of an antisymmetric matrix in the form of a 3-component
+vector, deﬁned in the present case by Bi = 1
+2ǫijkBjk, or Bx = Byz, By = Bzx, Bz = Bxy. This allows
+us to write the force (3) in the familiar form (where we restore the q dependence)
+F = q (E + v × B) ,
+(10)
+which is the usual expression for the Lorentz force acting on the charge q, provided we identify the
+coeﬃcients E and B with the electric and magnetic ﬁelds respectively.
+2.2
+Relativistic invariance and the E, B ﬁelds
+Such identiﬁcation requires that those quantities transform correctly under Lorentz boosts, and Feyn-
+man’s proof proceeds as follows.
+First of all, by comparing the non-vanishing terms in (7) (after
+imposing conditions (9)) with the analogous terms in (8), we can infer the behavior of some of the E,
+B coeﬃcients under a boost, i.e.
+E′
+x = Ex,
+B′
+y = γu(By + uEz),
+B′
+z = γu(Bz −uEy).
+(11)
+We recognize here just the usual transformation laws of some of the components of the electric and mag-
+netic ﬁeld under a boost with velocity u directed along the positive x-axis: in the present framework,
+they directly follow from the linearity in the velocity and relativistic mechanics. However, we are not
+done yet, since the transformation rules for Ey, Ez and Bx still lack. The ﬁrst two come from requiring
+that the fourth component of the 4-vector (4) transform in the usual way, i.e. γ′F ′
+t = γuγ(Ft −uFx).
+By exploiting the conditions (9) and (11) and the Lorentz transformation laws of the ﬁelds we have
+just derived, as well as the fact that, because of (10), Ft = E·v (q = 1), along the same lines as above
+we obtain:
+F ′
+t
+=
+1
+1 −uvx
+[Ex(vx −u) + Eyvy + Ezvz −uvyBz + uvzBy]
+=
+v′
+xE′
+x + v′
+yγu(Ey −uBz) + v′
+zγu(Ez + uBy).
+(12)
+7
+
+And, by imposing that F ′
+t = F′ · v′ = E′ · v′, the following transformation rules follow
+E′
+y = γu(Ey −uBz),
+E′
+z = γu(Ez + uBy),
+(13)
+which again are the expected ones. The last transformation rule for Bx can be obtained by considering
+the third or fourth component of the 4-vector (4). For the boost considered here, such components
+must be invariant, they being orthogonal to the boost velocity, so that γ′F ′
+y = γFy. By proceeding as
+above, we get
+F ′
+y
+=
+1
+γu(1 −uvx)(Ey −vxBz + vzBx)
+=
+γu(1 + uv′
+x)Ey −γu(v′
+x + u)Bz + v′
+zBx,
+(14)
+or, by using the inverse transformation laws of Ey and Bz,10
+F ′
+y = [γ2
+u(1 + uv′
+x) −γ2
+uuv′
+x −γuu2]E′
+y + [γ2
+u(1 + uv′
+x)u −γ2
+uv′
+x −γ2
+uu]B′
+z + v′
+zBx.
+(15)
+Upon simple manipulation, this reduces to F ′
+y = E′
+y −v′
+xB′
+z + v′
+zBx, so that by imposing this to be of
+the form F ′
+y = E′
+y −v′
+xB′
+z + v′
+zB′
+x, we ﬁnally get the last transformation law,
+B′
+x = Bx,
+(16)
+as expected.
+3
+Least action principle
+A possible way to address the second part of Feynman’s point 1 above – i.e. introduce the homogeneous
+Maxwell equations –can be traced in his Hughes lectures [1], where the vector potential was there
+introduced in order to write down a relativistically invariant least action principle for a particle in a
+given potential energy V. It is conceivable that Feynman had something like this in mind in 1963,
+when he wrote his notes, but it is as well possible that he thought about this way of proceeding
+sometime between 1963 and 1967. Part of this discussion is already present in Chapter 19 of Volume
+II of the Lectures [2], though in a much less detail; similar reasoning is also taken up e.g. by Susskind
+in his Theoretical Minimum [16]. As is well known, Feynman was convinced that potentials had the
+same level of reality as the ﬁelds. Quite illuminating, in this respect, is what quoted in [24]:
+Yet, the Schr¨odinger equation can only be written neatly with A and V explicitly there and
+it was pointed out by Bohm and Aharonov (or something like that), that this means that
+the vector potential has a reality and that in quantum mechanical interference experiments
+there can be situations in which classically there would be no expected inﬂuence whatever.
+But nevertheless there is an inﬂuence. Is it action at a distance? No, A is as real as
+10That is: Ey = γu(E′
+y + uB′
+z), Bz = γu(B′
+z + uE′
+y).
+8
+
+B-realer, whatever that means.
+3.1
+Homogeneous Maxwell equations
+The starting point is the generalization of the least action principle in classical mechanics to the
+relativistic case. Since in relativistic mechanics the momentum of a particle of mass m0 is given by
+m0 ˙x/
+√
+1 −v2, as a ﬁrst naive guess we may seek for an action S from which the equations of motion
+d
+dt
+
+m0v
+√
+1 −v2
+
+= −∇V,
+(17)
+can be obtained. Such an action may be identiﬁed as
+S =
+Z t2
+t1
+h
+−m0
+p
+1 −v2 −V(x, t)
+i
+dt =
+Z t2
+t1
+[−m0 ds −V(x, t) dt]
+(18)
+(ds =
+√
+1 −v2 dt), since it can be easily checked that, indeed, Eq. (17) just follows from requiring
+the expression in (18) to be an extremum. The point here, however, is the relativistic invariance
+of the action or, in Feynman’s words, to establish if the action keeps its extremum in any inertial
+reference frame. Since the potential energy term is evidently non invariant, it must be modiﬁed. The
+obvious choice would be an invariant scalar potential term X(x, y, z, t) ds but, as quickly stated by
+Feynman, such a term does not lead to any known law of nature. A more elaborate discussion on
+scalar ﬁeld forces can be found in [23] and [25], where Feynman notices that such ﬁelds would require
+sources which – unlike the electric charge – decrease with the velocity. As the next simplest possibility,
+Feynman then suggested the use of a 4-potential Aµ(x, y, z, t), in order for the action to assume the
+form11
+S =
+Z t2
+t1
+[−m0 ds −At dt + Ax dx + Ay dy + Az dz] =
+Z t2
+t1
+[−m0 ds −Aµ dxµ] .
+(19)
+In the following we shall set At = φ, thus matching the usual notation. The next step is, of course, to
+vary this action in order to see what equations of motion result; this is done in Appendix C, and the
+result is the equation
+d
+dt
+
+m0v
+√
+1 −v2
+
+= F,
+(20)
+with the force F given by:
+F = −∇φ −∂
+∂tA + v × (∇× A).
+(21)
+11Feynman brieﬂy goes on suggesting a 10-potential term of the form −gtt dt
+ds
+dt
+dsds −gtx dt
+ds
+dx
+ds ds −. . ., mentioning that
+such term allows to derive the force of gravity. It is interesting to note that in [25] Feynman also gives some references
+to an approach to gravity which mimics the one given here for electrodynamics, in particular suggesting that in the case
+of gravity Eq. (3) should be replaced by a quadratic expression.
+9
+
+Such expression looks just like that of the Lorentz force (provided we restore q in front of it, amounting
+to use qAµdxµ in place of Aµdxµ in the action), when we identify:
+E = −∇φ −∂
+∂tA;
+B = ∇× A .
+(22)
+Using well-known vector analysis formulae, namely ∇· (∇× V) = 0 and ∇× (∇f) = 0, valid for any
+vector ﬁeld V and any scalar function f, we can then write down the homogeneous Maxwell equations:
+∇· B = 0,
+∇× E = −∂
+∂tB.
+(23)
+3.2
+Gauge transformations
+In the Hughes lectures, Feynman deepened his discussion of the least action principle by discussing the
+gauge transformations of the potentials. Starting again from the action (19), which is now rewritten
+as
+S = −m0
+Z
+ds +
+Z
+(φ −A · v) dt ,
+(24)
+we can ask whether we could use a diﬀerent set of potentials φ′, A′ and still get the same physical
+trajectory, i.e. the same minimum of the action. This evidently happens if the diﬀerence of the action
+written in terms of the ﬁrst set of potentials and the action written in terms of the second set of
+potentials is independent of the path. Such diﬀerence,
+S −S′ =
+Z
+(ϕ −a · v) dt ,
+(25)
+(ϕ = φ−φ′, a = A−A′) is independent of the integration path if the integrand is a perfect diﬀerential,
+i.e. ϕ −a · v = dχ(x, y, z, t)/dt, so that
+S −S′
+=
+Z tf
+ti
+dχ(x, y, z, t)
+dt
+=
+Z tf
+ti
+∂χ
+∂t + ∂χ
+∂x ˙x + ∂χ
+∂y ˙y + ∂χ
+∂z ˙z
+
+dt
+=
+χ(x, y, z, tf) −χ(x, y, z, ti) .
+(26)
+Comparing (25) with (26) we see that such condition is satisﬁed if ϕ = ∂χ/∂t and a = −∇χ, so that
+the two actions S and S′ lead to the same equations of motion if the potentials are related by the
+gauge transformations
+φ′ = φ + ∂χ
+∂t ,
+A′ = A −∇χ .
+(27)
+The fact that the equations of motion do not change under such transformations is also evident from
+the fact that the electric and magnetic ﬁelds deﬁned in (22), which are just the quantities appearing
+in the equations of motion, are left unchanged. Quite noticeable is this reversed line of reasoning with
+respect to the standard presentation; the latter was indeed followed by Feynman, in particular, in his
+10
+
+Caltech lectures.
+4
+Discussion and conclusions
+We have discussed and partially developed a previously unpublished description of electromagnetism
+outlined by Richard Feynman. Notwithstanding the fact that such description was left incomplete, the
+key epistemological interest in the exploration of alternative formulations of classical electrodynamics
+is evident by itself. How much can we deduce from charge conservation alone, or from special relativity,
+or from the more elusive assumptions of Lagrangian ﬁeld theory? Much genuine physical insight can
+be derived from such questions.
+Motivated by his involvement in undergraduate physics teaching at Caltech in 1961-63, Feynman
+obtained what we described above only in late 1963, when this involvement was already over, so that
+it was deﬁnitively not published. The approach adopted was similar to the existing ones deriving
+electromagnetism from special relativity, but manages to go a long way towards obtaining Maxwell’s
+equations with minimal physical assumptions, in particular without postulating Coulomb’s law. We do
+not know why Feynman thought Coulomb’s law was – in a sense – so wicked, but we may argue that his
+foundation of electrodynamics upon forces between two (electrically neutral) current-carrying wires,
+instead of forces between two charged particles, was favored by the certainly simpler experimental
+deﬁnition of currents compared to that of pointlike charges, irrespective of his simpler conceptual
+atomic vision of electric currents as due to the motion of electric charges in matter, which evidently
+is more abstract in nature. To the best of our knowledge, after sketching such an approach, Feynman
+never used it, even when he taught electromagnetism again, at the Hughes Aircraft Company in 1967.
+In the latter lectures, however, he adopted an approach which was closer in spirit to the one described
+here.
+As evident from what reported in the previous sections, Feynman’s description of electromagnetism
+was left incomplete, the part remaining in classical electrodynamics discussing the inhomogeneous
+Maxwell equations: this would require to go well beyond what has been done so far. Indeed, electric
+and magnetic ﬁelds have been considered merely with respect to their eﬀects on charged particles,
+this allowing to go quite far, up to the homogeneous Maxwell equations and the related gauge trans-
+formations, but this is only half of the story. As a matter of fact, it is as well necessary to consider
+the eﬀect of charges on the ﬁelds, i.e. what kind of electric and magnetic ﬁelds are generated by
+charges, and this is evidently the content of inhomogeneous Maxwell’s equations. Feynman was of
+course aware that some new input was necessary at this stage, so that in point 3 of the outline above
+he proposed to follow the usual experimental route going through Coulomb’s inverse square law and
+Amp`ere’s law for the force between currents. He also suggested that it may be possible to arrive at the
+wave equation for the potentials (but how?). We do not know whether Feynman thought about this
+point, but it would certainly be of interest to try to develop it, even though we may never know if and
+how the result will be close to Feynman’s ideas). De facto, in the derivation above we have not used
+any experimental input about the electric and magnetic forces, except the fact that they exist and
+depend on charge and velocity. In all attempts in the literature to deduce magnetostatics or even full
+11
+
+electrodynamics from relativity, one always starts from the experimental Coulomb law, or at least, as
+in [15], from the additional requirement (which again comes from experiment) that the superposition
+principle holds, which, together with covariance, forces the action for the electromagnetic ﬁeld to be
+linear.
+Bringing to light this approach is of obvious historical signiﬁcance, adding a further piece to the
+already variegated Feynman jigsaw. However, in view of its originality, it is not inconceivable that
+this work can have some interest from the point of view of physics teaching. While this approach
+is clearly not suitable for a ﬁrst course, it provides a novel way to develop part of the foundations
+of electromagnetism, which might fruitfully supplement a more conventional treatment. The most
+original points are, in our view, the derivation of the Lorentz force and the inverse route in the
+derivation of the homogeneous Maxwell’s equation, i.e. ﬁrst introducing electromagnetic potentials in
+order to write down a relativistically invariant action. A very interesting development of this work
+would then involve putting these ideas to test in the classroom. For example, some bits of an advanced
+undergraduate course in electromagnetism and special relativity could be devoted to an exposition
+of the matter following the lines discussed in the present paper, and monitoring the response of the
+students to it.
+It is certainly highly desirable that other pieces of Feynman “magic” come to light in the near
+future, especially concerning the completion of this picture. In particular, from [1], [23], and [25],
+as remarked above, we found evidence that an approach to gravity which is analogous to the one
+discussed here for electrodynamics was in Feynman’s thoughts. The development of such an approach
+will be the subject of a forthcoming publication [26].
+Appendix A
+Useful formulae
+Consider a boost with velocity u in the positive x−direction
+x′
+=
+γu(x −ut)
+(A.1)
+y′
+=
+y
+z′
+=
+z
+t′
+=
+γu(t −ux)
+where γu = (1−u2)−1/2 is the gamma factor associated with the boost velocity u. Then the components
+of the velocity v of a particle transform in the well known way:
+v′
+x
+=
+vx −u
+1 −uvx
+,
+(A.2)
+v′
+y
+=
+vy
+γu(1 −uvx),
+v′
+z
+=
+vz
+γu(1 −uvx).
+12
+
+Using these relations, it is straightforward to prove the following relations:
+1 + uv′
+x = 1 + u vx −u
+1 −uvx
+= 1 −u2
+1 −uvx
+(A.3)
+p
+1 −(v′)2 =
+q
+1 −(v′x)2 −(v′y)2 −(v′z)2 =
+√
+1 −v2 √
+1 −u2
+1 −uvx
+(A.4)
+These relations will be useful in the calculations performed in the main text. For convenience, we also
+write down the inverses of (A.2) and (A.3), which can be obtained simply by exchanging primed and
+unprimed components of v and inverting u →−u:
+vx
+=
+v′
+x + u
+1 + uv′x
+,
+(A.5)
+vy
+=
+v′
+y
+γu(1 + uv′x),
+vz
+=
+v′
+z
+γu(1 + uv′x),
+1 −uvx = 1 −u v′
+x + u
+1 + uv′x
+= 1 −u2
+1 + uv′x
+or
+1
+1 −uvx
+= γ2
+u(1 + uv′
+x).
+(A.6)
+Appendix B
+Some details on the derivation of (7)
+The explicit expressions for Fx, Fy, Fz and Ft are respectively (we put q = 1):
+Fx
+=
+Ex + vxBxx + vyBxy + vzBxz
+(B.1)
+Fy
+=
+Ey + vxByx + vyByy + vzByz
+(B.2)
+Fz
+=
+Ez + vxBzx + vyBzy + vzBzz
+(B.3)
+and
+Ft
+=
+v · F
+=
+vx(Ex + vxBxx + vyBxy + vzBxz) + vy(Ey + vxByx + vyByy + vzByz)
++vz(Ez + vxBzx + vyBzy + vzBzz).
+(B.4)
+13
+
+Therefore, substituting in (6), we get
+F ′
+x
+=
+1
+1 −uvx
+[Ex + vxBxx + vyBxy + vzBxz −uvx(Ex + vxBxx + vyBxy + vzBxz)
+−uvy(Ey + vxByx + vyByy + vzByz) −uvz(Ez + vxBzx + vyBzy + vzBzz)]
+=
+1
+1 −uvx
+[Ex(1 −uvx) −uvyEy −uvzEz + vx(1 −uvx)Bxx + vyBxy + vzBxz
+−uvxvy(Bxy + Byx) −uvzvx(Bxz + Bzx) −uv2
+yByy −uv2
+zBzz −uvxvz(Byz + Bzy)].(B.5)
+Using now (A.5) and (A.6) we can put everything in terms of the primed velocity components. After
+some straightforward algebra we arrive at (7).
+Appendix C
+Variational calculations
+By following [1], we here ﬁnd the Euler-Lagrange equations for the action (19), which we rewrite here
+as follows:
+S = −
+Z tf
+ti
+
+−m0
+p
+1 −˙x2 −˙y2 −˙z2 −φ + Ax ˙x + Ay ˙y + Az ˙z
+
+dt
+(C.1)
+We have to vary the path (x(t), y(t), z(t)) by inﬁnitesimal quantities (ξ(t), η(t), ζ(t)),
+x(t) →x(t) + ξ(t),
+y(t) →y(t) + η(t),
+z(t) →z(t) + ζ(t),
+(C.2)
+with the constraint that the variations vanish at the endpoints ti, tf, and keep only ﬁrst order terms
+in ξ, η and ζ and their time derivatives. This induces the action S to vary as well by S →S +δS and,
+by requiring it to be stationary, the equations of motion for all three coordinates x, y and z follow.
+This procedure, however, would involve a lot of terms, so that, by following Feynman, we choose to
+vary only one coordinate at a time, in order to get only one component of the equation of motion:
+since calculations are very similar in the three cases, we here perform it only for the x case, leaving
+the other two to the reader. We have:
+S + δS
+=
+Z tf
+ti
+
+−m0
+q
+1 −( ˙x + ˙ξ)2 −˙y2 −˙z2 −φ(x + ξ, y, z, t) + Ax(x + ξ, y, z)( ˙x + ˙ξ)
++ Ay(x + ξ, y, z, t) ˙y + Az(x + ξ, y, z, t) ˙z
+
+dt.
+(C.3)
+14
+
+By Taylor expanding at ﬁrst order the integrand, we have:
+q
+1 −( ˙x + ˙ξ)2 −˙y2 −˙z2
+≃
+q
+1 −v2 −2 ˙x ˙ξ ≃
+p
+1 −v2
+ 
+1 −
+˙x ˙ξ
+1 −v2
+!
+=
+p
+1 −v2 −
+˙x ˙ξ
+√
+1 −v2 ,
+φ(x + ξ, y, z, t)
+≃
+φ(x, y, z, t) + ξ ∂φ
+∂x(x, y, z, t),
+Ax(x + ξ, y, z, t)
+≃
+Ax(x, y, z, t) + ξ ∂Ax
+∂x (x, y, z, t),
+Ay(x + ξ, y, z, t)
+≃
+Ay(x, y, z, t) + ξ ∂Ay
+∂x (x, y, z, t),
+Az(x + ξ, y, z, t)
+≃
+Az(x, y, z, t) + ξ ∂Az
+∂x (x, y, z, t),
+so that:
+S + δS
+≃
+Z tf
+ti
+
+−m0
+p
+1 −v2 −φ + Ax ˙x + Ay ˙y + Az ˙z
+
+dt
++
+Z tf
+ti
+
+m0 ˙x
+√
+1 −v2 + Ax
+
+˙ξ dt +
+Z tf
+ti
+ξ
+
+−∂φ
+∂x + ∂Ax
+∂x ˙x + ∂Ay
+∂x ˙y + ∂Az
+∂x ˙z
+
+dt. (C.4)
+The ﬁrst integral build up again the action S we started with, while the second one can be integrated
+by parts to give:
+Z tf
+ti
+
+m0 ˙x
+√
+1 −v2 + Ax
+
+˙ξ dt =
+
+m0 ˙x
+√
+1 −v2 + Ax
+
+ξ
+tf
+ti
+−
+Z tf
+ti
+ξ d
+dt
+
+m0 ˙x
+√
+1 −v2 + Ax
+
+dt,
+(C.5)
+where the ﬁrst term vanishes since we assumed that at the endpoints ξ(ti) = ξ(tf) = 0. Therefore we
+get:
+δS =
+Z
+ξ
+
+−d
+dt
+m0 ˙x
+√
+1 −v2 −˙Ax −∂φ
+∂x + ∂Ax
+∂x ˙x + ∂Ay
+∂x ˙y + ∂Az
+∂x ˙z
+
+dt.
+(C.6)
+Here, ˙Ax is a total derivative, i.e.
+˙Ax = ∂Ax
+∂x ˙x + ∂Ax
+∂y ˙y + ∂Ax
+∂z ˙z + ∂Ax
+∂t .
+(C.7)
+By requiring δS = 0, since the variation of ξ is arbitrary, the equation of motion follows:
+d
+dt
+
+m0 ˙x
+√
+1 −v2
+
+=
+−∂φ
+∂x −∂Ax
+∂t + ˙y
+∂Ay
+∂x −∂Ax
+∂y
+
++ ˙z
+∂Az
+∂x −∂Ax
+∂z
+
+.
+(C.8)
+15
+
+Similarly, by requiring the action to be stationary when varying y(t) and z(t), we arrive at the other
+two equations of motion:
+d
+dt
+
+m0 ˙y
+√
+1 −v2
+
+=
+−∂φ
+∂y −∂Ay
+∂t + ˙z
+∂Az
+∂y −∂Ay
+∂z
+
++ ˙x
+∂Ax
+∂y −∂Ay
+∂x
+
+,
+(C.9)
+d
+dt
+
+m0 ˙z
+√
+1 −v2
+
+=
+−∂φ
+∂z −∂Az
+∂t + ˙x
+∂Ax
+∂z −∂Az
+∂x
+
++ ˙y
+∂Ay
+∂z −∂Az
+∂y
+
+.
+(C.10)
+In vector form, these three equations of motion rewrite as
+d
+dt
+
+m0v
+√
+1 −v2
+
+= F
+(C.11)
+with F = −∇φ −∂
+∂tA + v × (∇× A), as in Eq. (21).
+References
+[1] R.P. Feynman. Lectures on Electrostatics, Electrodynamics, Matter-Waves Interacting, Relativ-
+ity. Lectures at the Hughes Aircraft Company; notes taken and transcribed by John T. Neer,
+[http://www.thehugheslectures.info/wp-content/uploads/lectures/FeynmanHughesLectures_Vol2.p
+(1967-8).
+[2] R. P. Feynman, R. B. Leighton and M. Sands. The Feynman Lectures on Physics. Addison-Wesley,
+Reading, MA, (1963).
+[3] J. D. Jackson. Classical Electrodynamics, 3rd ed. Wiley, New York (1998).
+[4] Interview
+of
+Richard
+Feynman
+by
+Charles
+Weiner
+(1966,
+March
+4).
+Niels
+Bohr
+Library
+&
+Archives,
+American
+Institute
+of
+Physics,
+College
+Park,
+MD
+USA
+[www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-1].
+[5] R.P. Feynman, M.A. Gottlieb and R. Leighton. Feynman’s Tips on Physics. Perseus, New York
+(2013).
+[6] http://www.feynmanlectures.caltech.edu/info/other/Alternate_Way_to_Handle_Electrodynamics.h
+[7] L. Page, Am. J. Sci. 34 (1912) 57.
+[8] L. Page and N.I. Adams. Electrodynamics. Van Nostrand, New York (1940).
+[9] E.M. Purcell and D.J. Morin. Electricity and Magnetism, 3rd ed. Cambridge University Press,
+Cambridge (2013).
+[10] J.R. Tessman, Am. J. Phys. 34 (1966) 1048.
+[11] W.G.V. Rosser. Classical Electromagnetism via Relativity. Plenum Press, New York (1968).
+16
+
+[12] M. Schwartz. Principles of electrodynamics. McGraw-Hill, New York (1972).
+[13] A. French. Special Relativity. Norton & Co., New York (1968).
+[14] D. Corson and P. Lorrain. Electromagnetic Fields and Waves. Freeman, San Francisco, CA (1970).
+[15] L.D. Landau and E.M. Lifshits. The Classical Theory of Fields, 4th ed. Pergamon Press, Oxford
+(1975).
+[16] L. Susskind and A. Friedman. Special Relativity and Classical Field Theory. Penguin, London
+(2017).
+[17] V.A. Ugarov. Special Theory of Relativity. MIR, Paris (1979).
+[18] N.D. Mermin, Am. J. Phys. 52 (1984) 119.
+[19] F.J. Dyson, Physics Today 42 (1989) 2, 32.
+[20] F.J. Dyson, Am. J. Phys. 58 (1990) 209.
+[21] J. F. Carinena, L. A. Ibort, G. Marmo and A. Stern, Phys. Rept. 263 (1995) 153.
+[22] C. W. Misner, K. S. Thorne and J. A. Wheeler. Gravitation. Freeman, San Francisco, CA (1973).
+[23] R. P. Feynman, F. B. Morinigo, W. G. Wagner and B. Hatﬁeld. Feynman lectures on gravitation.
+Addison-Wesley, Reading, MA (1995).
+[24] D. Goodstein and J. Goodstein, Phys. Perspect. 2 (2000) 3-47.
+[25] R.P.
+Feynman.
+Lectures
+on
+Astronomy,
+Astrophysics,
+and
+Cosmology.
+Lectures
+at
+the
+Hughes
+Aircraft
+Company;
+notes
+taken
+and
+transcribed
+by
+John
+T.
+Neer,
+[http://www.thehugheslectures.info/wp-content/uploads/lectures/FeynmanHughesLectures_Vol1.p
+(1966-7).
+[26] R. De Luca, M. Di Mauro, S. Esposito and A. Naddeo, work in preparation.
+17

@@ -1,0 +1,7 @@
+{
+  "specter_model": "allenai/specter",
+  "mpnet_model": "all-mpnet-base-v2",
+  "dim": 768,
+  "normalize": true,
+  "total_vectors": 552
+}

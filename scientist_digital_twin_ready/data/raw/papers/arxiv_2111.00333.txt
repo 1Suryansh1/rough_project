@@ -1,0 +1,688 @@
+arXiv:2111.00333v1  [physics.hist-ph]  30 Oct 2021
+November 2, 2021 0:59
+ws-procs961x669
+WSPC Proceedings - 9.61in x 6.69in
+Paper1˙mod
+page 1
+1
+A look inside Feynman’s route to gravitation
+M. Di Mauro
+Dipartimento di Matematica, Universit`a di Salerno, Via Giovanni Paolo II,
+Fisciano (SA), 84084, Italy
+E-mail: madimauro@unisa.it
+S. Esposito∗and A. Naddeo∗∗
+INFN, Sezione di Napoli, C. U. Monte S. Angelo, Via Cinthia,
+Napoli, 80125, Italy
+∗E-mail: sesposit@na.infn.it
+∗∗E-mail: anaddeo@na.infn.it
+In this contribution we report about Feynman’s approach to gravitation, starting from
+the records of his interventions at the Chapel Hill Conference of 1957. As well known,
+Feynman was concerned about the relation of gravitation with the rest of physics. Proba-
+bly for this reason, he promoted an unusual, ﬁeld theoretical approach to general relativ-
+ity, in which, after the recognition that the interaction must be mediated by the quanta of
+a massless spin-2 ﬁeld, Einstein’s ﬁeld equations should follow from the general properties
+of Lorentz-invariant quantum ﬁeld theory, plus self-consistency requirements. Quantum
+corrections would then be included by considering loop diagrams. These ideas were fur-
+ther developed by Feynman in his famous lectures on gravitation, delivered at Caltech
+in 1962-63, and in a handful of published papers, where he also introduced some ﬁeld
+theoretical tools which were soon recognized to be of general interest, such as ghosts and
+the tree theorem. Some original pieces of Feynman’s work on gravity are also present
+in a set of unpublished lectures delivered at Hughes Aircraft Company in 1966-67 and
+devoted primarily to astrophysics and cosmology. Some comments on the relation be-
+tween Feynman’s approach to gravity and his ideas on the quantum foundations of the
+fundamental interactions are included.
+Keywords: Gravitation; Quantum ﬁeld theory; Loop diagrams.
+1. Introduction: a timeline
+Among the many scientiﬁc interests that Feynman had in the 1950s and in the 1960s,
+a prominent place was taken by the understanding of the relation of gravitation to
+the rest of physics,a and in particular the assessment of its consistency with the
+uncertainty principle.b Feynman likely began to seriously think about gravity in
+a“Next we shall discuss the possible relation of gravitation to other forces. There is no explanation
+of gravitation in terms of other forces at the present time. It is not an aspect of electricity or
+anything like that, so we have no explanation. However, gravitation and other forces are very
+similar, and it is interesting to note analogies.” (Ref. 1, Vol. 1, Sec. 7-7); “My subject is the
+quantum theory of gravitation. My interest in it is primarily in the relation of one part of nature
+to another.” (Ref. 2, p. 697)
+b“...it would be important to see whether Newton’s law modiﬁed to Einstein’s law can be further
+modiﬁed to be consistent with the uncertainty principle. This last modiﬁcation has not yet been
+completed.”(Ref. 1, Vol. 1, Sec. 7-8)
+
+November 2, 2021 0:59
+ws-procs961x669
+WSPC Proceedings - 9.61in x 6.69in
+Paper1˙mod
+page 2
+2
+the early 1950s, just after completing his work on quantum electrodynamics. This
+was attested by Murray Gell-Mann3 in a paper written for a Physics Today special
+issue devoted to Feynman’s legacy,c as well as by Bryce S. DeWitt4, in a letter to
+Agnew Bahnson written in November 19555. Feynman’s eﬀorts began in a period
+in which general relativity, after a stagnation which lasted about thirty years, was
+gradually emerging as a mainstream research area, giving rise to a process known
+as the renaissance of general relativity6.
+A crucial event to consider, in order to reconstruct Feynman’s approach to grav-
+itation, is the 1957 Chapel Hill conference4 on The Role of Gravitation in Physics,
+which was also pivotal to the renaissance of general relativity. At that conference,
+the gravitational physics community delineated the tracks along which subsequent
+work would develop in the subsequent decades. The main threads were the fol-
+lowing7: classical gravity, quantum gravity, and the classical and quantum theory
+of measurement (as a bridge between the previous two topics). In that conference
+Feynman’s work on gravity, of which nothing had been published yet, was pre-
+sented for the ﬁrst time, and put on paper in the records4. In fact these written
+records testify that by the time of the conference he had already deeply thought,
+and performed computations, about each of the above listed three topics, focusing
+in particular on classical gravitational waves, on the arguments in favor of quan-
+tum gravity from fundamental quantum mechanics, and ﬁnally on quantum gravity
+itself. Thus, in this contribution, we take as starting point for our reconstruction
+Feynman’s interventions at Chapel Hill and follow the development of his work in
+the subsequent years, until the late sixties, where he apparently lost interest in the
+subject.
+The ultimate goal of Feynman’s work was the development of a quantum ﬁeld
+theory of gravitation, which led him to face deep conceptual as well as mathematical
+issues, such as divergent integrals and the lack of unitarity beyond the tree level
+approximation. This task accompanied Feynman for some years, as stated in a
+letter8 he wrote to Viktor F. Weisskopf in 1961 (“As you know, I am studying the
+problem of quantization of Einstein’s General Relativity. I am still working out the
+details of handling divergent integrals which arise in problems in which some virtual
+momentum must be integrated over”), as well as reported by William R. Frazer9
+in a short summary of the talks given at the La Jolla conference, later in the same
+year.d A ﬁrst comprehensive account of Feynman’s results on quantum gravity can
+cIndeed here Gell-Mann remembered his visit to Caltech during the Christmas vacation of 1954-
+55, the discussions with Feynman about quantum gravity, and the fact that Feynman “had made
+considerable progress”.
+dThe International Conference on the Theory of Weak and Strong Interactions was held in June
+14-16, 1961, at the University of California, San Diego, in La Jolla. Here, Geoﬀrey F. Chew gave
+his celebrated talk on the S-matrix 10, while an afternoon session was devoted to the theory of
+gravitation, where Feynman reported on his work on the renormalization of the gravitational ﬁeld,
+and recognized non-unitarity as the main diﬃculty, which was shared also by Yang-Mills theory.
+
+November 2, 2021 0:59
+ws-procs961x669
+WSPC Proceedings - 9.61in x 6.69in
+Paper1˙mod
+page 3
+3
+be found in the talk he gave in 1962 at the Warsaw conference,e whose written
+version was later published as a regular paper in Acta Physica Polonica2. Further
+details were given by Feynman much later, in a couple of papers11,12 published in
+1972 in the Festschrift for John A. Wheeler’s 60th birthday13, which were written
+in a period in which he was already deeply absorbed in the study of partons and
+strong interactions.
+Among the main sources which contribute to oﬀer a clear account of Feynman’s
+work on gravity issues, it is mandatory to include the famous Caltech Lectures on
+Gravitation14, delivered in 1962-63 and aimed to advanced graduate students and
+postdocs. Finally, there is some unpublished material, included in two sets of lec-
+tures, given in the 1960s at the Hughes Aircraft Company, which only recently have
+been made available on the web.f In particular, the 1966-67 set of lectures16, which
+were devoted to astronomy, astrophysics and cosmology, contains an introductory
+treatment of general relativity, with an emphasis on applications to the main sub-
+jects. While sharing many similarities with the above quoted Caltech lectures14,
+the Hughes treatment oﬀers to the attentive reader several original points. In those
+same years Feynman had succeeded in ﬁnding a new derivation of Maxwell’s equa-
+tions17,18, and a generalization of this approach to gravity is suggested (but not
+pursued) in several places in the Hughes lectures on astrophysics, as well as in the
+set of lectures given in the following year and devoted to electromagnetism19.
+After outlining the main steps and sources which helped us to reconstruct the
+full development of Feynman’s work on gravitation,g in this contribution we focus
+on two key issues: the formulation of quantum gravity as a quantum ﬁeld theory of a
+massless spin-2 ﬁeld, the graviton, in whole analogy with quantum electrodynamics,
+which is the content of Section 2, and the unitarity and renormalization issues
+arising beyond the tree level approximation, presented in Section 3. Our concluding
+remarks close the paper.
+2. Gravity as a quantum ﬁeld theory
+Feynman’s strategy in approaching gravity was ﬁrstly outlined at Chapel Hill confer-
+ence in a series of critical comments (Ref. 4, pp. 272-276), in which a non-geometric
+and ﬁeld theoretical line of attack is put forward. His starting point was an hypo-
+thetical, counterfactual situation, in which scientists would discover the principles
+of Lorentzian quantum ﬁeld theories before general relativity.h The main concern
+eThe International Conference on General Relativity and Gravitation was held in Jab lonna and
+Warsaw in July 25-31, 1962, with Leopold Infeld as the chairman of the local organizing committee.
+The discussion focused on three main topics: the general properties of gravitational radiation, the
+quantization of gravity and the exact solutions of the Einstein ﬁeld equations.
+fSee Ref. 15 for a brief account of Feynman’s involvement in teaching at the Hughes Aircraft
+Company.
+gSee Ref. 20 for a comprehensive account of this work.
+hIn fact, in Ref. 4, p. 273, Feynman said: “Instead of trying to explain the rest of physics in terms
+of gravity I propose to reverse the problem by changing history. Suppose Einstein never existed
+
+November 2, 2021 0:59
+ws-procs961x669
+WSPC Proceedings - 9.61in x 6.69in
+Paper1˙mod
+page 4
+4
+in such a situation would then be to include a new force, the gravitational one, in
+the framework of quantum ﬁeld theory. This approach would be later completed
+in the ﬁrst part of the Caltech lectures14. Feynman’s reasoning was the following:
+on the basis of the general principles of quantum ﬁeld theory and of experimental
+results it is possible to conclude that gravity, as any other force, has to be mediated
+by exchanges of a virtual particle, which in this case is a massless neutral spin-2
+quantum, the graviton. Thus, by constructing a Lorentz invariant quantum ﬁeld
+theory of the gravitoni and by imposing certain consistency requirements, full gen-
+eral relativity should be recovered. Clearly, by following the same procedure for the
+spin-1 case Maxwell’s equations are obtained (in this case it is much simpler, being
+the theory linear). Such an approach testiﬁes his ideas about fundamental interac-
+tions as manifestations of underlying quantum theories18, which were expressed by
+him several times, for example in the Hughes Lectures19:
+I shall call conservative forces, those forces which can be deduced from
+quantum mechanics in the classical limit. As you know, Q.M. is the under-
+pinning of Nature (Ref. 19, p.35).
+Let us describe the steps in more detail. First of all, one has to establish the spin
+of the mediating quantum. Both in the Caltech14 and in the 1966-67 Hughes lec-
+tures16, the choice of a spin-2 mediator was justiﬁed by the observation that energy,
+which is the source of the gravitational force, grows with the velocity. The same
+observation ruled out the possibility of a spin-0 ﬁeld, because the associated charge
+would decrease with the velocity. This result can be traced back to an old argu-
+ment by Einstein (never published but recalled in Ref. 26, pp. 285-290), according
+to which the vertical acceleration of a body would depend on its horizontal velocity,
+and in particular would be zero for light, making light deﬂection impossible. Once
+the spin of the graviton is established, one can easily construct the linearized theory
+of the associated ﬁeld, which is a massless spin-2 ﬁeld. Nonlinearity then comes into
+play because the graviton has to couple with anything carrying energy-momentum,
+then also with itself, and this coupling must be universal. The resulting nonlinear
+theory is general relativity. General covariance and the geometric interpretation
+of general relativity are ﬁnally recovered as a byproduct of the gauge invariance
+of the theory j. For Feynman, this was only half of the whole story. In fact, by
+pushing calculations beyond tree level, quantum gravity eﬀects would be taken into
+account. This was Feynman’s ultimate goal, i.e. obtaining a quantum theory of
+gravity, which in this approach amounts to the quantization of another ﬁeld.
+[...]”.
+iThe linear theory for a massless spin-2 ﬁeld and its massive counterpart was completely worked
+out by Markus Fierz and Wolfgang E. Pauli in Ref. 21, on the basis of a previous work by Paul A.
+M. Dirac 22, while iterative arguments similar to Feynman’s ones were later put forward by Suraj
+N. Gupta 23 and Robert H. Kraichnan 24 in an attempt to generate inﬁnite nonlinear terms both
+in the Lagrangian and in the stress-energy tensor. See for details Ref. 25.
+jSee Ref. 14, p. 113.
+
+November 2, 2021 0:59
+ws-procs961x669
+WSPC Proceedings - 9.61in x 6.69in
+Paper1˙mod
+page 5
+5
+Let us describe how Feynman sketched the above procedure at the Chapel Hill
+conference (Ref. 4, pp. 272-276). In whole analogy with electrodynamics, he wrote
+down the following action:
+Z ∂Aµ
+∂xν
+−∂Aν
+∂xµ
+2
+d4x +
+Z
+Aµjµd4x + m
+2
+Z
+˙z2
+µds + 1
+2
+Z
+Tµνhµνd4x
++
+Z
+(second power of ﬁrst derivatives of h),
+(1)
+where hµν is the new ﬁeld associated with the graviton, i.e. a symmetric second-
+order tensor ﬁeld, which satisﬁes second order linear equations of the kind:
+hµν,σ
+,σ −2h
+µ
+σ
+,νσ = T
+µν,
+(2)
+where the bar operation is deﬁned on a generic second rank tensor Xµν as:
+Xµν = 1
+2 (Xµν + Xνµ) −1
+2ηµνXσ
+σ.
+(3)
+The equations of motion for particles also follow from the above action:
+gµν ¨zν = −[ρσ, µ] ˙zρ ˙zσ,
+(4)
+where gµν = ηµν + hµν, ηµν is the Minkowski metric, and [ρσ, µ] are the Christoﬀel
+symbols of the ﬁrst kind.
+However, when the ﬁeld hµν is coupled to the matter according to Eq.(4), the
+corresponding stress energy tensor Tµν does not obey to a conservation law, leading
+to a consistency problem. This happens at variance with electromagnetism, where
+Maxwell equations guarantee conservation of the current jµ. Instead here Tµν does
+not take into account the eﬀect of gravity on itself, which requires nonlinearity.k
+Thus a suitable Tµν has to be found in order to satisfy the condition ∂νT µν = 0.
+The solution to this consistency issuel can be obtained by adding to the action a
+nonlinear third order term in hµν, which leads to the following equation for Tµν:
+gµλT µν
+,ν = −[ρν, λ] T ρν.
+(5)
+One can then go on to higher order approximations, until the procedure converges.
+But ﬁnding the general solution of Eq. (5) is a really diﬃcult task in the absence
+of a standard procedure.
+Feynman’s idea was to look for an expression for the
+Tµν, and hence for the action, that is invariant under the following inﬁnitesimal
+transformation of the whole tensor ﬁeld gµν:
+g′
+µν = gµν + gµλ
+∂Aλ
+∂xν + gνλ
+∂Aλ
+∂xµ + Aλ ∂gµν
+∂xλ .
+(6)
+where the 4−vector Aλ is the generator. This is a geometric transformation in
+a Riemannian manifold with metric, hence one can say that geometry gives the
+kFeynman noticed that nonlinearity was necessary in order to explain the precession of the peri-
+helion of Mercury (as discussed in Ref. 14, p. 75).
+lSee for details Refs. 4, p. 274 and 14, pp. 78-79.
+
+November 2, 2021 0:59
+ws-procs961x669
+WSPC Proceedings - 9.61in x 6.69in
+Paper1˙mod
+page 6
+6
+metric gµν. As such, in Feynman’s approach geometry comes into play at the end
+and not at the beginning. By working out calculations, the full nonlinear Einstein
+gravitational ﬁeld equations are obtained.
+Lectures 3-6 of Feynman’s graduate course on gravitation (Ref. 14) contain all
+the details of the above procedure. Interestingly, a proof is also given of the ability
+of this ﬁeld theory based formalism to reproduce key physical eﬀects of curved
+spacetime geometry. For instance, in Lecture 5 (Ref. 14, pp. 66-69) it is shown
+that, in the action of a scalar ﬁeld, the time dilation t →t′ = t√1 + ǫ exactly
+reproduces the eﬀect of a constant weak gravitational ﬁeld described by the tensor
+g44 = 1 + ǫ, gii = −1, i = 1, 2, 3. Incidentally such an eﬀect plays a pivotal role
+in producing the right result for the precession of Mercury’s perihelion.
+Before
+moving to applications, Feynman devoted some lectures to the discussion of the
+usual geometric approach to gravity and of its link with the ﬁeld theory based
+approach (Ref. 14, Lectures 7-10):
+Let us try to discuss what it is that we are learning in ﬁnding out that
+these various approaches give the same results (Ref. 14, p. 112).
+Despite advocating one approach over another, Feynman was in fact intrigued by
+the double nature of gravity, which has both a geometrical interpretation and a ﬁeld
+interpretation, and in Section 8.4 of Ref. 14 he recognized how an explanation may
+be provided by gauge invariance. Indeed a viable procedure may be established in
+order to obtain the invariance of the equations of physics under space dependent
+variable displacements. This amounts to looking for a more general Lagrangian, to
+be obtained by adding to the old one new terms, involving a gravity ﬁeld. The net
+result is a new picture of gravity, as the ﬁeld corresponding to a gauge invariance
+with respect to displacement transformations.
+Summing up, Feynman succeeded in obtaining the full nonlinear Einstein equa-
+tions by means of a consistency argument applied to a Lorentz invariant quantum
+ﬁeld theory of the graviton. According to John Preskill and Kip S. Thorne25, it is
+likely that he was completely unaware of the earlier work by Gupta23 and Kraich-
+nan24, which as mentioned had been developed along a similar line of attack, but
+was still incomplete. So he would have developed his approach independently, be-
+sides getting more complete results. A Lorentz-invariant ﬁeld theoretical approach
+to gravity would have been later pursued also by Steven Weinberg27,28, albeit quite
+diﬀerent from Feynman’s one,m as well as by Stanley Deser29–32. Indeed Deser’s
+approach, while being similar to Feynman’s one, was more elegant and general and
+led to completion the whole program started with Kraichnan and Gupta. Finally,
+a rigorous and general analysis of the relation between spin-2 theories and general
+mWeinberg’s approach relied on the analyticity properties of graviton-graviton scattering ampli-
+tudes, and it was quite more general, since Weinberg actually proved that a quantum theory of a
+massless spin-2 ﬁeld can only be consistent if this ﬁeld universally couples to the energy-momentum
+of matter, hence the equivalence principle has to be obeyed.
+
+November 2, 2021 0:59
+ws-procs961x669
+WSPC Proceedings - 9.61in x 6.69in
+Paper1˙mod
+page 7
+7
+covariance was carried out by Robert M. Wald33.
+3. Fighting with loops: the renormalization of gravity
+After obtaining the Einstein-Hilbert action and the full nonlinear Einstein gravi-
+tational ﬁeld equations, Feynman’s eﬀorts were mainly directed towards discussing
+quantum ﬁeld theory issues beyond the tree level approximation, i.e. loop diagrams,
+unitarity and renormalization.
+To the best of our knowledge, these issues were publicly addressed for the ﬁrst
+time by Feynman in 1961 at the already mentioned La Jolla conference9, where
+nonlinearity was recognized as the very source of diﬃculty within both gravitation
+and Yang-Mills theories. Indeed the sources of the gravitational ﬁeld are energy
+and momentum, and the gravitational ﬁeld carries energy and momentum itself. In
+the same way, the source of a Yang-Mills ﬁeld is the isotopic spin current, and the
+Yang-Mills ﬁeld carries isotopic spin itself. This means that both the gravitational
+ﬁeld and the Yang-Mills ﬁeld are self-coupled, resulting in nonlinear ﬁeld theories.
+A diﬃculty that nonlinearity brings about is the fact that loop diagrams seem to
+clash with unitarity.
+As recalled in the introduction, Feynman’s results on quantum gravity can be
+found in a report of the talk given at the 1962 Warsaw conference, later published
+in Acta Physica Polonica2,n with many details discussed much later in the two 1972
+Wheeler Festschrift papers11,12.
+Also in this case Feynman followed his original strategy, leaving aside quantiza-
+tion of space-time geometry, constructing a quantum ﬁeld theory for the graviton,
+and working out results at diﬀerent perturbative orders. Since the goal was the
+quantum theory, the Einstein equations and the corresponding Lagrangian were
+assumed as a starting point, rather than derived from scratch. The theory was cou-
+pled to a scalar ﬁeld, and perturbative calculations up to the next to leading order
+were pursued. This implied the inclusion of loop diagrams, which make quantum
+corrections to enter the game. In Feynman’s own words:
+I started with the Lagrangian of Einstein for the interacting ﬁeld of gravity
+and I had to make some deﬁnition for the matter since I’m dealing with
+real bodies and make up my mind what the matter was made of; and then
+later I would check whether the results that I have depend on the speciﬁc
+choice or they are more powerful (Ref. 2, p. 698).
+The metric was split in the following way:
+gµν = δµν + κhµν;
+(7)
+nAs pointed out by Trautman in some recently published memories ( 34, p.
+406), the text of
+Feynman’s plenary lecture became available too late to be included in the proceedings, therefore
+it was published only in 1963 as a regular paper.
+
+November 2, 2021 0:59
+ws-procs961x669
+WSPC Proceedings - 9.61in x 6.69in
+Paper1˙mod
+page 8
+8
+where the Minkowski metric is here denoted by δµν and κ is a dimensionful coupling
+constant. Substituting (7) and expanding, the Lagrangian for gravity coupled with
+a scalar ﬁeld can be cast in the form:
+L =
+Z  hµν,σhµν,σ −2hµσ,σhµσ,σ
+
+dτ + 1
+2
+Z  φ2
+,µ −m2φ2
+dτ
+(8)
++κ
+Z 
+hµνφ,µφ,ν −m2 1
+2hσσφ2
+
+dτ + κ
+Z
+(hhh) dτ + κ2
+Z
+(hhφφ) dτ + ...
+where the bar operation has been deﬁned in (3) and a schematic notation has been
+adopted for the highly complex higher order terms. The ﬁrst two terms are simply
+the free Lagrangians of the gravitational ﬁeld and of matter, respectively. Before
+considering radiative corrections the classical solution of the problem was worked
+out, which involved the variation of Eq. (8) with respect to h and, then, to φ, giving
+rise to the following equations of motion with a source term:
+hµν,σσ −hσν,σµ −hσµ,σν = Sµν (h, φ) ,
+(9)
+φ,σσ −m2φ = χ (φ, h) .
+(10)
+A close inspection revealed that Eq. (9) was singular, so that Feynman was forced
+to resort to the invariance of the Lagrangian under the transformation:
+h
+′
+µν = hµν + 2ξµ,ν + 2hµσξσ,ν + ξσhµν,σ,
+(11)
+ξµ being arbitrary. This meant that the source Sµν had to be divergenceless in order
+to make Eq. (9) consistent. Finally, by making the gauge choice hµσ,σ = 0, the law
+of the gravitational interaction of two systems by means of the exchange of a virtual
+graviton was obtained. Feynman then went on computing other processes, such as
+an interaction vertex coupling two particles and a graviton and the gravitational
+analog of gravitational Compton eﬀect (i.e. with a graviton replacing the photon).
+After these preliminary calculations, Feynman went to the next to leading order
+approximation, thus encountering diagrams with closed loops:
+However the next step is to take situations in which we have what we call
+closed loops, or rings, or circuits, in which not all momenta of the problem
+are deﬁned (Ref. 2, pp. 703-704).
+He realized that working out closed loop diagrams required the solution of a number
+of conceptual issues, and he succeeded in showing that any diagram with closed loops
+can be expressed in terms of sums of on shell tree diagrams, which is the content
+of his celebrated tree theorem (which was treated in detail in Ref. 11). Further
+details on the statement of the tree theorem and, in particular, on the nature of the
+proof for the one-loop case were given by Feynman in the discussion section (Ref.
+2, pp. 714-717), while answering some related questions by DeWitt. But the main
+problem to face in carrying out one-loop calculations was the lack of unitarity, due to
+the presence of contributions arising from the unphysical longitudinal polarization
+states of the graviton, which did not cancel as they should. Following a suggestion
+
+November 2, 2021 0:59
+ws-procs961x669
+WSPC Proceedings - 9.61in x 6.69in
+Paper1˙mod
+page 9
+9
+by Gell-Mann,o Feynman considered the simpler Yang-Mills case (his results in this
+case were summarized in Ref. 12) and found the same pathological behavior:
+But this disease which I discovered here is a disease which exist in other
+theories. So at least there is one good thing: gravity isn’t alone in this
+diﬃculty. This observation that Yang-Mills was also in trouble was of very
+great advantage to me. [...] the Yang-Mills theory is enormously easier to
+compute with than the gravity theory, and therefore I continued most of
+my investigations on the Yang-Mills theory, with the idea, if I ever cure
+that one, I’ll turn around and cure the other (Ref. 2, p. 707).
+The solution to this issue was obtained by expressing each loop diagram as a sum
+of trees and then computing the trees. This worked even if the process of opening a
+loop by cutting a graviton line implies the replacement of a virtual graviton with a
+real transverse one. Finally, in order to guarantee gauge invariance the sum of the
+whole set of tree diagrams corresponding to a given process has to be taken.
+The same results, according to Feynman, could be obtained by direct integra-
+tion of the closed loop. In the last case a mass-like term has to be added to the
+Lagrangian to avoid singularity but at the price of breaking gauge invariance. At
+the same time a contribution has to be subtracted, which is obtained by making a
+ghost particle (with spin-1 and Fermi statistics) to go around the loop and artiﬁ-
+cially coupled to the external ﬁeld. In this way both unitarity and gauge invariance
+would be restored. This procedure was worked out also for Yang-Mills theory, but
+in that case the ghost particle has spin-012.
+Once successfully solved the one-loop case, Feynman’s eﬀorts pointed toward a
+further generalization of the above procedure to two or more loops:
+Now, the next question is, what happens when there are two or more loops?
+Since I only got this completely straightened out a week before I came
+here, I haven’t had time to investigate the case of 2 or more loops to my
+own satisfaction. The preliminary investigations that I have made do not
+indicate that it’s going to be possible so easily gather the things into the
+right barrels. It’s surprising, I can’t understand it; when you gather the
+trees into processes, there seems to be some loose trees, extra trees (Ref. 2,
+p. 710).
+But, in Feynman’s words, preliminary attempts seem to suggest that novel diﬃcul-
+ties enter the game when dealing with two or more loops, as also mentioned in the
+last of his published Lectures on Gravitation (Ref. 14, Lecture 16, pp. 211-212).
+Here, once again, he recognized in the lack of unitarity of some sums of diagrams
+the main source of the observed pathological behavior and pointed out that a sim-
+ilar feature was shared also by Yang-Mills theory.
+Finally, while hinting at the
+o“I suggested that he try the analogous problem in Yang-Mills theory, a much simpler nonlinear
+gauge theory than Einsteinian gravitation.” (Ref. 3, p. 53).
+
+November 2, 2021 0:59
+ws-procs961x669
+WSPC Proceedings - 9.61in x 6.69in
+Paper1˙mod
+page 10
+10
+problem of ﬁnding ghost rules for high order diagrams, he argued in favor of the
+non-renormalizability of gravity as a consequence of these diﬃculties:
+I do not know whether it will be possible to develop a cure for treating
+the multi-ring diagrams. I suspect not – in other words, I suspect that the
+theory is not renormalizable. Whether it is a truly signiﬁcant objection to a
+theory, to say that it is not renormalizable, I don’t know (Ref. 14, Lecture
+16, pp. 211-212).
+It is not clear whether Feynman was suggesting a link between non-unitarity and
+non-renormalizability issues. But in any case Feynman’s results played a prominent
+role in the development of gauge theory and quantum gravity. Feynman’s rules
+for ghosts were later generalized to all orders by DeWitt35–37, while Ludvig D.
+Faddeev and Viktor N. Popov38 derived them in a much simpler way, by means
+of functional integral quantization, setting the standard for all subsequent work
+in the ﬁeld. In particular, DeWitt proved that Yang-Mills theory and quantum
+gravity are in fact unitary at two35 and arbitrarily many loops36,37. However, while
+Yang-Mills theory was later shown to be renormalizable (cf. Refs. 39- 42), gravity
+presented divergences which could not be renormalized (cf. Refs. 43- 46), conﬁrming
+Feynman’s suspect. It should be mentioned that, in subsequent years, modiﬁed
+theories of gravity, characterized by an action quadratic in the curvature, have been
+put forward. Unlike ordinary general relativity, these theories are renormalizable
+but not unitary47.
+It is worth mentioning that, unlike most of his contemporaries, Feynman did
+not think about non-renormalizability as a signature of inconsistency of a theory,
+as also recalled by Gell-Mann,p and claimed by Feynman himself in one of his last
+interviews, given in January 1988:
+The fact that the theory has inﬁnities never bothered me quite so much as
+it bother others, because I always thought that it just meant that we’ve
+gone too far: that when we go to very short distances the world is very
+diﬀerent; geometry, or whatever it is, is diﬀerent, and it’s all very subtle
+(48, p. 507).
+In fact, within the modern view on quantum ﬁeld theory, which was developed
+in 1970s, non-renormalizability is considered only a signature of the fact that the
+theory loses its validity at energies higher that a certain scale. Nevertheless, one has
+an eﬀective ﬁeld theory, which works and can be useful to make predictions under
+that scale (interesting historical discussions can be found in Refs. 49 and 50). This
+is true also for gravity51. But, as remembered by John P. Preskill in a recent talk
+(Ref. 52, slide 37), although he anticipated this view, apparently Feynman was not
+really at ease with it:
+p“He was always very suspicious of unrenormalizability as a criterion for rejecting theories” (Ref.
+3, p. 53).
+
+November 2, 2021 0:59
+ws-procs961x669
+WSPC Proceedings - 9.61in x 6.69in
+Paper1˙mod
+page 11
+11
+I spoke to Feynman a number of times about renormalization theory during
+the mid-80s (I arrived at Caltech in 1981 and he died in 1988).
+I was
+surprised on a few occasions how the eﬀective ﬁeld theory viewpoint did
+not come naturally to him”. [...] Feynman brieﬂy discusses in his lectures on
+gravitation (1962) why there are no higher derivative terms in the Einstein
+action, saying this is the “simplest” theory, not mentioning that higher
+derivative terms would be suppressed by more powers of the Planck length.
+As a further remark, let us notice that in the last years Feynman’s tree theorem
+has spurred a renewed interest in researchers working in the context of advanced
+perturbative calculations and generalized unitarity (cf. Refs. 53 - 57).
+4. Concluding remarks
+In this paper we focused on Feynman’s contributions to the research in quantum
+gravity, starting from his interventions at Chapel Hill conference in 1957 and ending
+with the Wheeler festschrift papers. His approach was ﬁeld theoretical rather than
+geometric, reﬂecting his strong belief in the unity of Nature, which is quantum
+at the deepest level. Quantization of gravity, according to him, simply had to be
+considered as the quantization of another ﬁeld, the spin-2 graviton ﬁeld. In this
+way full general relativity would be recovered at leading order, while the inclusion
+of loop diagrams brought into the picture a bunch of new diﬃculties. In this respect,
+Feynman’s struggle against loops, while succeeding at one-loop order, failed with
+two- and higher-loop diagrams. Nevertheless, his results triggered further eﬀorts
+and some tools he developed, such as the tree theorem, have recently become of
+widespread use among people working on scattering amplitudes.
+References
+1. R. P. Feynman, R.B. Leighton and M. Sands, The Feynman Lectures on Physics
+(Addison-Wesley, Reading, MA, 1963).
+2. R. P. Feynman, Quantum theory of gravitation, Acta Phys. Polon. 24, 697 (1963).
+3. M. Gell-Mann, Dick Feynman - The guy in the oﬃce down the hall, Phys. Today 42,
+50 (1989).
+4. C. DeWitt-Morette and D. Rickles, The Role of Gravitation in Physics, Report from
+the 1957 Chapel Hill Conference (Edition Open Access, 2011).
+5. Letter from Bryce DeWitt to Agnew Bahnson, dated 15 November 1955, as cited in4,
+p. 25.
+6. A.S. Blum, R. Lalli and J. Renn, The renaissance of General Relativity: How and
+why it happened, Annalen der Physik 528, 344 (2016).
+7. P. G. Bergmann, Summary of the Chapel Hill Conference, Rev. Mod. Phys. 29, 352
+(1957).
+8. R. P. Feynman, unpublished letter to Victor F. Weisskopf, February 1961; in Richard
+P. Feynman Papers, California Institute of Technology Archives, Box 3, Folder 8.
+9. W. R. Frazer, Theory of Weak and Strong Interactions, Physics Today 14(12), 80
+(1961).
+
+November 2, 2021 0:59
+ws-procs961x669
+WSPC Proceedings - 9.61in x 6.69in
+Paper1˙mod
+page 12
+12
+10. G. F. Chew, S-matrix theory of strong interactions: a lecture note and reprint volume,
+Frontiers in physics series (W. A. Benjamin, New York, 1961).
+11. R. P. Feynman, Closed loop and tree diagram, in Ref.13.
+12. R. P. Feynman, Problems in quantizing the gravitational ﬁeld and the massless Yang-
+Mills ﬁeld, in Ref.13.
+13. J. R. Klauder (ed.), Magic Without Magic - John Archibald Wheeler. A Collection Of
+Essays In Honor Of His 60th Birthday (Freeman, San Francisco, 1972).
+14. R. P. Feynman, F. B. Morinigo, W. G. Wagner and B. Hatﬁeld, Feynman Lectures on
+Gravitation (Addison-Wesley, Reading, MA, 1995).
+15. M. Di Mauro, S. Esposito and A. Naddeo, When Physics Meets Biology: A Less
+Known Feynman, Transversal Int. J. Hist. Sci. 4, 163 (2018).
+16. R.P. Feynman, Astronomy, Astrophysics, and Cosmology, lectures at Hughes Aircraft
+Company, Notes taken and transcribed by John T. Neer, 1966-67.
+17. R. De Luca, M. Di Mauro, S. Esposito and A. Naddeo, Feynman’s diﬀerent approach
+to electromagnetism, Eur. J. Phys. 40, 065205 (2019).
+18. M. Di Mauro, R. De Luca, S. Esposito and A. Naddeo, Some insight into Feynman’s
+approach to electromagnetism, Eur. J. Phys. 42, 025206 (2021).
+19. R.P. Feynman, Electrostatics, Electrodynamics, Matter-Waves Interacting, Relativity,
+lectures at Hughes Aircraft Company, Notes taken and transcribed by John T. Neer,
+1967-68.
+20. M. Di Mauro, S. Esposito and A. Naddeo, A road map for Feynman’s adventures in
+the land of gravitation, Eur. Phys. H 46, 22 (2021).
+21. M. Fierz and W. Pauli, On relativistic wave equations for particles of arbitrary spin
+in an electromagnetic ﬁeld, Proc. Roy. Soc. Lond. A 173, 211 (1939).
+22. P. A. M. Dirac, Relativistic wave equations, Proc. Roy. Soc. Lond. A 155, 447 (1936).
+23. S. N. Gupta, Gravitation and Electromagnetism, Phys. Rev. 96, 1683 (1954).
+24. R. H. Kraichnan, Special-Relativistic Derivation of Generally Covariant Gravitation
+Theory, Phys. Rev. 98, 1118 (1955).
+25. J. Preskill and K. S. Thorne, Foreword to Ref.14.
+26. A. Einstein, Notes on the Origin of the General Theory of Relativity, in Ideas and
+Opinions, translated by Sonja Bargmann, (Crown, New York, 1954).
+27. S. Weinberg, Derivation of gauge invariance and the equivalence principle from Lorentz
+invariance of the S- matrix, Phys. Lett. 9, 357 (1964).
+28. S. Weinberg, Photons and gravitons in perturbation theory: Derivation of Maxwell’s
+and Einstein’s equations, Phys. Rev. 138, B988 (1965), B988.
+29. S. Deser, Self-interaction and gauge invariance, Gen. Rel. Grav. 1, 9 (1970).
+30. D. G. Boulware and S. Deser, Classical General Relativity Derived from Quantum
+Gravity, Annals Phys. 89, 193 (1975).
+31. S. Deser, Gravity From Self-interaction in a Curved Background, Class. Quant. Grav.
+4, L99 (1987).
+32. S. Deser, Gravity from self-interaction redux, Gen. Rel. Grav. 42, 641 (2010).
+33. R. M. Wald, Spin-2 Fields and General Covariance, Phys. Rev. D 33, 3613 (1986).
+34. A. Trautman and D. Salisbury, Memories of my early career in relativity physics, Eur.
+Phys. J. H 44, 391 (2019).
+35. B. S. DeWitt, Theory of radiative corrections for non-abelian gauge ﬁelds, Phys. Rev.
+Lett. 12, 742 (1964).
+36. B. S. DeWitt, Quantum Theory of Gravity. 2. The Manifestly Covariant Theory, Phys.
+Rev. 162, 1195 (1967).
+37. B. S. DeWitt, Quantum Theory of Gravity. 3. Applications of the Covariant Theory,
+Phys. Rev. 162, 1239 (1967).
+
+November 2, 2021 0:59
+ws-procs961x669
+WSPC Proceedings - 9.61in x 6.69in
+Paper1˙mod
+page 13
+13
+38. L. D. Faddeev and V. N. Popov, Feynman Diagrams for the Yang-Mills Field, Phys.
+Lett. B 25 , 29 (1967).
+39. G. ’t Hooft, Renormalization of Massless Yang-Mills Fields, Nucl. Phys. B
+33, 173
+(1971).
+40. G. ’t Hooft, Renormalizable Lagrangians for Massive Yang-Mills Fields, Nucl. Phys.
+B 35, 167 (1971).
+41. G. ’t Hooft and M. J. G. Veltman, Regularization and Renormalization of Gauge
+Fields, Nucl. Phys. B 44, 189 (1972).
+42. G. ’t Hooft and M. J. G. Veltman, Combinatorics of gauge ﬁelds, Nucl. Phys. B 50,
+318 (1972).
+43. G. ’t Hooft and M. J. G. Veltman, One loop divergencies in the theory of gravitation,
+Ann. Inst. H. Poincare Phys. Theor. A 20, 69 (1974).
+44. M. H. Goroﬀand A. Sagnotti, Quantum gravity at two loops, Phys. Lett. B 160, 81
+(1985).
+45. M. H. Goroﬀand A. Sagnotti, The Ultraviolet Behavior of Einstein Gravity, Nucl.
+Phys. B 266, 709 (1986).
+46. A. E. M. van de Ven, Two loop quantum gravity, Nucl. Phys. B 378, 309 (1992).
+47. K. S. Stelle, Renormalization of Higher Derivative Quantum Gravity, Phys. Rev. D
+16, 953 (1977).
+48. J. Mehra, The Beat of a diﬀerent drum: The Life and science of Richard Feynman
+(Oxford University Press, Oxford, 1994).
+49. S. Weinberg, On the Development of Eﬀective Field Theory, Eur. Phys. J. H 46, 6
+(2021).
+50. S. Weinberg, Eﬀective ﬁeld theory, past and future, Int. J. Mod. Phys. A 31, 1630007
+(2016).
+51. C. P. Burgess, Quantum gravity in everyday life: General relativity as an eﬀective
+ﬁeld theory, Living Rev. Rel. 7, 5 (2004), and references therein.
+52. J.
+Preskill,
+Feynman
+af-
+ter 40, Talk given at APS April Meeting, 16 April 2018, http://theory.caltech.
+edu/~preskill/talks/APS-April-2018-Feynman-4-3.pdf.
+53. R. Britto, Loop Amplitudes in Gauge Theories: Modern Analytic Approaches, J.
+Phys. A 44, 454006 (2011).
+54. I. Bierenbaum, S. Catani, P. Draggiotis and G. Rodrigo, Feynman’s Tree Theorem
+and Loop-Tree Dualities, PoS LC2010, 034 (2010).
+55. S. Caron-Huot, Loops and trees, JHEP 05, 080 (2011).
+56. M. Maniatis, Application of the Feynman-tree theorem together with BCFW recursion
+relations, Int. J. Mod. Phys. A 33, 1850042 (2018).
+57. M. Maniatis, Application of Britto-Cachazo-Feng-Witten recursion relations and the
+Feynman-tree theorem to the four-gluon amplitude with all plus helicities, Phys. Rev.
+D 100, 096022 (2019).

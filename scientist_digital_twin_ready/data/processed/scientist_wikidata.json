@@ -1,0 +1,253 @@
+{
+  "instance_of": [
+    {
+      "value": "human"
+    }
+  ],
+  "gender": "male",
+  "date_of_birth": "1918-05-11T00:00:00Z",
+  "date_of_death": "1988-02-15T00:00:00Z",
+  "country_of_citizenship": "United States",
+  "place_of_birth": "Queens",
+  "educated_at": [
+    {
+      "value": "Far Rockaway High School",
+      "start": "1931-00-00",
+      "end": "1935-00-00"
+    },
+    {
+      "value": "Massachusetts Institute of Technology",
+      "start": "1935-00-00",
+      "end": "1939-00-00"
+    },
+    {
+      "value": "Princeton University",
+      "start": "1939-00-00",
+      "end": "1942-00-00"
+    }
+  ],
+  "employer": [
+    {
+      "value": "Cornell University",
+      "start": "1945-00-00",
+      "end": "1950-00-00"
+    },
+    {
+      "value": "California Institute of Technology",
+      "start": "1950-00-00",
+      "end": "1988-00-00"
+    },
+    {
+      "value": "Manhattan Project",
+      "start": "1941-00-00",
+      "end": "1945-00-00"
+    }
+  ],
+  "doctoral_advisor": [
+    {
+      "value": "John Archibald Wheeler"
+    }
+  ],
+  "doctoral_students": [
+    {
+      "value": "George Zweig"
+    },
+    {
+      "value": "Thomas Curtright"
+    },
+    {
+      "value": "Michel Baranger"
+    },
+    {
+      "value": "Al Hibbs"
+    },
+    {
+      "value": "Laurie Brown"
+    },
+    {
+      "value": "Howard Arthur Kabakow"
+    },
+    {
+      "value": "Philip Moss Platzman"
+    },
+    {
+      "value": "Marvin Chester"
+    },
+    {
+      "value": "Koichi Mano"
+    },
+    {
+      "value": "Michael Cohen"
+    },
+    {
+      "value": "Sam M. Berman"
+    },
+    {
+      "value": "Frank Lee Vernon, Jr."
+    },
+    {
+      "value": "Willard Henry Wells"
+    },
+    {
+      "value": "Carl Iddings"
+    },
+    {
+      "value": "Henry Hoyt Hilton"
+    },
+    {
+      "value": "Giovanni Rossi Lomanitz"
+    },
+    {
+      "value": "Finn Ravndal"
+    },
+    {
+      "value": "Elisha R. Huggins"
+    },
+    {
+      "value": "Steven Kenneth Kauffmann"
+    },
+    {
+      "value": "James M. Bardeen"
+    },
+    {
+      "value": "Frank Edward Barnes"
+    }
+  ],
+  "fields_of_work": [
+    {
+      "value": "quantum electrodynamics"
+    },
+    {
+      "value": "particle physics"
+    },
+    {
+      "value": "physics"
+    }
+  ],
+  "influenced_by": [
+    {
+      "value": "Paul Adrien Maurice Dirac"
+    }
+  ],
+  "awards_received": [
+    {
+      "value": "Nobel Prize in Physics",
+      "year": "1965"
+    },
+    {
+      "value": "Oersted Medal",
+      "year": "1972"
+    },
+    {
+      "value": "Niels Bohr International Gold Medal",
+      "year": "1973"
+    },
+    {
+      "value": "Albert Einstein Award",
+      "year": "1954"
+    },
+    {
+      "value": "Foreign Member of the Royal Society",
+      "year": "1965"
+    },
+    {
+      "value": "National Medal of Science",
+      "year": "1979"
+    },
+    {
+      "value": "Fellow of the American Physical Society"
+    },
+    {
+      "value": "Ernest Orlando Lawrence Award",
+      "year": "1962"
+    },
+    {
+      "value": "Putnam Fellow",
+      "year": "1939"
+    }
+  ],
+  "notable_works": [
+    {
+      "value": "“Surely You're Joking, Mr. Feynman!”"
+    },
+    {
+      "value": "The Feynman Lectures on Physics"
+    },
+    {
+      "value": "Feynman diagram"
+    },
+    {
+      "value": "Feynman–Kac formula"
+    },
+    {
+      "value": "Hellmann–Feynman theorem"
+    },
+    {
+      "value": "Cargo Cult Science"
+    },
+    {
+      "value": "The Character of Physical Law"
+    },
+    {
+      "value": "Bethe–Feynman formula"
+    },
+    {
+      "value": "Feynman checkerboard"
+    },
+    {
+      "value": "Feynman parametrization"
+    },
+    {
+      "value": "Feynman point"
+    },
+    {
+      "value": "Feynman slash notation"
+    },
+    {
+      "value": "reverse sprinkler"
+    },
+    {
+      "value": "Feynman-Stueckelberg interpretation"
+    },
+    {
+      "value": "Wheeler–Feynman absorber theory"
+    }
+  ],
+  "participant_of": [
+    {
+      "value": "Manhattan Project"
+    }
+  ],
+  "occupation": [
+    {
+      "value": "physicist"
+    },
+    {
+      "value": "quantum physicist"
+    },
+    {
+      "value": "inventor"
+    },
+    {
+      "value": "writer"
+    },
+    {
+      "value": "university teacher"
+    },
+    {
+      "value": "percussionist"
+    },
+    {
+      "value": "theoretical physicist"
+    },
+    {
+      "value": "science communicator"
+    },
+    {
+      "value": "politician"
+    }
+  ],
+  "name": "Richard Feynman",
+  "qid": "Q39246",
+  "description": "American theoretical physicist (1918–1988)"
+}

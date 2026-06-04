@@ -1,0 +1,393 @@
+arXiv:2405.03366v1  [quant-ph]  6 May 2024
+Feynman’s “Simulating Physics with Computers”
+Paul M. Alsing1, Carlo Cafaro1,2, Stefano Mancini3,4
+1University at Albany-SUNY, Albany, NY 12222, USA
+2SUNY Polytechnic Institute, Utica, NY 13502, USA
+3University of Camerino, I-62032 Camerino, Italy and
+4INFN, Sezione di Perugia, 06123 Perugia, Italy
+This invited essay belongs to a series considering highly inﬂuential articles published by the
+International Journal of Theoretical Physics.
+In this paper, we highlight the physical content and the profound consequences of Richard Feyn-
+man’s 1982 paper on “Simulating Physics with Computers”.
+PACS numbers: Quantum Computation (03.67.Lx), Quantum Information (03.67.Ac).
+Feynman delivered his seminal lecture “Simulating physics with computers” at the Physics of Computation Confer-
+ence at the MIT Endicott House in May of 1981. The content of his lecture was later published by the International
+Journal of Theoretical Physics in 1982 [1]. Nowadays, Feynman’s 1982 paper is properly regarded as one of the most
+inﬂuential pieces of work that helped laying out the foundations of quantum computing as a research discipline in its
+own right.
+In Ref. [1], Feynman starts from the observation that natural phenomena are quantum rather than classical in their
+essence. Therefore, he focuses on the simulation of quantum systems. He employs counting arguments to preliminarily
+deduce that probabilistic simulations of quantum systems by means of classical digital computers with local connections
+are not eﬃcient since they use resources that do not scale well with the size of the system. He then further supports
+his deduction by focusing on the quantum mechanics of a two-photon correlation experiment. This experiment can
+be described as follows. Consider a source (an atom, for instance) that emits two maximally entangled photons in
+opposite directions (one going to the right and the other to the left, for instance) toward detector-1 and detector-2
+[1, 2]. An analyzer is placed before each detector so that a photon polarized along the x-axis (horizontal polarization)
+goes through detector-1, while a photon polarized along the y-axis (vertical polarization) is blocked. Analogously, a
+photon polarized along the y-axis goes through detector-2, while a photon polarized along the x-direction is blocked.
+Each analyzer is assumed to be rotated independently of the other. For example, when the transmission axis of
+analyzer-1 is rotated by the angle φ1 ≥0, analyzer-2 is set to φ2 ≥0. Choosing φ2 −φ1 = 30o, Feynman states that
+quantum mechanical predictions agree with experimental results. Speciﬁcally, the probability of agreement between
+the two detector outputs (i.e., both collect a photon or neither does) calculated with standard quantum mechanics
+techniques equals cos2 (φ2 −φ1) = 3/4 = 75%. Subsequently, Feynman also shows essentially that quantum theory
+is not compatible with a local hidden-variable theory of classical type since imposing this compatibility leads to
+theoretical predictions that are in disagreement with experimental observations. Indeed, admitting a realistic local
+hidden variable description of quantum mechanics, Feynman makes use of clever counting arguments to show that the
+probability of agreement between the two detector outputs is necessarily less than 2/3 ≈67% < 75%. The value 2/3
+emerges from the fact that when φ2 −φ1 = 30o, the probability of agreement is given by the fraction of experiments
+in which the readings of the two detectors agree and equals the ratio between the number of successful experiments
+(i.e., 8 in the best possible scenario) and the number of possible experiments (i.e., 12) [3]. Remarkably, without ever
+mentioning Bell [4], Feynman oﬀers in Ref. [1] an alternative demonstration of Bell’s Theorem [5]. In a sense, this
+comes as no surprise today given that Feynman’s approach to quantum theory is well-known for being simple and
+extremely powerful [6]. In view of this discrepancy between experiments and local hidden-variable theories of classical
+type, Feynman concludes that in order to eﬃciently simulate large quantum systems speciﬁed by highly entangled
+states, one needs a computer itself built of quantum mechanical elements that are governed by quantum mechanical
+rules. With this conclusion, Feynman envisions the concept of a quantum computer. For this reason, Ref. [1] can
+be justly regarded as one of the most inﬂuential written pieces of work that set in motion the hunt for a physical
+realization of a quantum computer [7].
+Despite the relevance of Feynman’s insights, the content of the work in Ref. [1] does not oﬀer speciﬁc technical
+details on how a quantum mechanical computer was presumed to run or how a simulation itself would come to a
+physical realization [8]. Of course, Feynman arrived at his work in Ref. [1] after quite some deep thinking with
+a sound knowledge of the existing models of computation [9] together with their most relevant thermodynamical
+aspects [10]. Furthermore, among other things, he was rather mindful of the fact that the physical realization of
+such a quantum computing machine would have been rather challenging. In Ref. [11], for instance, he points out
+the signiﬁcance of deepening our understanding about how to manipulate and control the arrangements of things (for
+instance, spins) on an atomic scale. Speciﬁcally, he argues that the meaningfulness of eﬃciently performing these tasks
+
+2
+permits to get access to an enormously greater range of possible chemical and physical properties that materials and
+substances can exhibit. In Ref. [12], Feynman presented a new work on the relation between physics and computation
+where he tried to describe with more technical details (compared with the more abstract and general content of the
+work in Ref. [1]) the functioning of an ideal quantum computer along with the design of quantum algorithms to be
+run on it. Despite the assumed ideality of the quantum machine analyzed, Feynman warns (yet again) his readers
+that this quantum computer seems to be rather delicate, and the presence of imperfections may cause considerable
+damage in practical scenarios. Indeed, in actual scenarios, the quantum computer is expected to interact with the
+external world, both for putting data in and for taking data out. Focusing on the register for holding the data, for
+instance, there may be issues of cross-talk, interactions between one atom and another in the register, or interactions
+of atoms in the register directly with computer components that are responsible for what is occurring along the
+program line, that one did not exactly factor in. In other words, Feynman states that one needs to be mindful of
+the fact that there may be small terms in the actual Hamiltonian besides the ones deﬁning the ideal Hamiltonian of
+the quantum-mechanical machine. To combat some of these imperfections and noisy sources of errors causing loss
+of coherence (i.e., decoherence) in quantum systems, Feynman points out that error correcting codes developed for
+“normal” computers might help mitigating the number of errors that can happen during the run of an algorithm on
+a quantum machine [12].
+Finally, Feynman also kept thinking about the meaning of negative probabilities in science [13], an issue that he
+mentioned in Ref. [1] while discussing the incompatibility of quantum theory with a local hidden-variable theory
+of classical type. Originally, this concept of negative probability captured Feynman’s attention while attempting
+to quantize electrodynamics with cutoﬀs (a work on quantum electrodynamics that jointly gave Feynman, Julian
+Schwinger, and Sin-Itiro Tomonaga the Nobel prize in physics in 1965, seventeen years before his 1982 IJTP paper).
+In Ref. [13], Feynman argues that while the ﬁnal probability of an observable physical event must be positive, a ﬁnal
+negative probability simply means that scenario is not attainable or not experimentally veriﬁable. Most interestingly,
+during a calculation of probabilities of physical events or states, conditional probabilities and probabilities of imagined
+intermediary events or states may be negative. Most compellingly for our speciﬁc discussion on quantum simulations,
+as we shall discuss later, the degree of negativity of (quasi) probabilities happens to play a key role in determining
+the upper bounds on the experimental conditions for which classical simulations of suﬃciently noisy quantum systems
+can be eﬃciently performed [14].
+What happened during the last forty years? From Feynman’s 1982 proposal [1], the amount of research and progress
+made by a number of experts in a range of areas towards the physical realization of a fully functioning quantum
+computer has been impressive. However, during these years, there has been a persistent bouncing from excitement to
+dismay. We passed from the level of “conjecture” to the level of “proof” for the universality of quantum simulators
+[15]. Indeed, Lloyd described in Ref. [15] how to perform an operation on a quantum computer by providing an
+approximate decomposition of the time evolution operator for a quantum system of interacting particles by means of
+a short sequence of elementary gates. The ﬁrst two historical “textbook quantum algorithms” of practical importance
+in which a quantum computer exhibited a substantial speedup over the best-known classical approaches were invented
+by Shor (superpolynomial speedup in factoring large integer numbers [16]) and Grover (quadratic speedup in an
+unstructured database search [17]). Moreover, the ﬁrst quantum codes for combatting the loss of coherence caused be
+noisy errors in quantum computational tasks in a quantum computer were constructed by Shor [18, 19], Calderbank
+[19], and Steane [20].
+In Ref. [1], Feynman mentioned the potential diﬃculties with simulating a quantum system of interacting fermions.
+Feynman was probably referring to the “sign problem” that happens in the numerical simulation of fermionic or
+frustrated models by means of Monte Carlo simulations [21]. The origin of the problem resides in the fact that when
+one maps the quantum system to an equivalent classical system, this mapping can give rise to conﬁgurations with
+negative Boltzmann weights (ultimately, a consequence of the Pauli uncertainty principle). This situation, in turn,
+results in an exponential growth of the simulation time with the number of fermionic particles (a consequence, this,
+of the exponential growth of the statistical error during the numerical simulations). This sign problem was shown
+to be NP-hard in Ref. [22]. Fortunately, a quantum version of the Metropolis algorithm was proposed in [23]. This
+quantum algorithm allows to avoid the sign problem that occurs in classical simulations thanks to the direct sampling
+from the eigenstates of the Hamiltonian of the quantum system whose equilibrium and static properties one wishes to
+simulate. In Ref. [1], Feynman estimated that one needs generally an exponentially large number of steps to simulate
+a quantum process on a classical computer.
+In his argumentation, Feynman also discusses the properties of the phase-space quasiprobability distribution (i.e.,
+the Wigner distribution). This quasiprobability distribution is almost a classical probability distribution since, unlike
+
+3
+classical probabilities, it can assume negative values that underline the quantum-mechanical nature of the physical
+system being considered. Interestingly, it was reported in Ref. [14] that for suﬃciently large loss and noise in the
+system (i.e., photons) where the quantum process (i.e., boson sampling) occurs, the Wigner function can become
+positive. Then, thanks to this achieved positivity, an ordinary classical simulation of the quantum process can be
+performed eﬃciently without the need of an exponentially large number of computational steps. The ﬁndings of Ref.
+[14] are signiﬁcant since, without suppressing Feynman’s 1982 suggestion about the necessity for quantum simulation,
+they specify upper bounds on the experimental conditions for which an ordinary classical computer can work eﬃciently
+(with, ideally, a runtime that scales polynomially with the size of the physical system) as a simulator of certain classes
+of quantum systems and quantum processes [24]. Note that while the Wigner distribution is a valid positive probability
+distribution on Gaussian states (for example, the ground state of the harmonic oscillator and coherent states) and
+plays a fundamental role in quantum information and metrology [25], for the purposes of quantum simulation and
+computation, non-Gaussian states are desired.
+So, when is a quantum-mechanical simulation envisioned in Feynman’s 1982 IJTP paper strictly necessary? When
+does it show a clear advantage over the best classical simulations? There are important questions that, unfortunately,
+need much more work to be addressed in a meaningful manner [26]. Part of the problem resides in the fact that
+two major challenges with quantum computers are the identiﬁcation of good a quantum computer technology and
+the selection of a suitable set of scientiﬁc applications for quantum simulations [27]. Current technologies for the
+physical implementation of quantum simulations include trapped ions, electronic spins (quantum dots), supercon-
+ducting circuits, photons (linear optics), and nuclear spins (NMR-nuclear magnetic resonance). Each technology has
+its own strengths and weaknesses, as observed from actual experimental realizations [8]. Two of the most important
+performance measures are controllability (i.e., the ability of controlling and measuring each individual qubit) and
+scalability (i.e., controlling an array of at least a few tens of qubits). The healthy competition between these diﬀerent
+technological platforms for quantum simulations is not a “winner takes all” scenario. Each platform has its own
+advantages and limitations, and diﬀerent approaches often address complementary features of quantum simulation.
+By a quantum computer, one usually implies a (universal) quantum machine able of performing full blown quantum
+computational tasks, including running general algorithms, classical data on quantum devices, or quantum data on
+quantum devices. The most prominent model of universal quantum computation is the gate-based quantum computing
+model [28]. The process of applying these gates is commonly considered to be controlled by an algorithm that runs
+on a digital computer [29]. A fact that is reﬂected into the emergence of quantum programming languages. Indeed,
+in recent years, there has been the making of several open source quantum computing program languages such
+as Google’s Cirq, IBM’s QisKit, Microsoft’s Quantum Development Kit, and Rigetti’s Quil [27].
+However, tasks
+like compiling quantum algorithms to gate-circuits, or compiling quantum gate-circuit emulation functions, should
+be analyzed in terms of a rigorous mathematical theory of computability [30]. This, in turn, might hide serious
+diﬃculties and hinder the possibility for quantum information processing hardware to become relevant in practice.
+Returning to the concept of quantum simulations, we remark that it is essentially possible to identify three types
+of simulation [8]: i) digital simulation; ii) analog quantum simulation (including, for instance, quantum annealing
+[31]); iii) quantum-information inspired algorithms for the classical simulation of quantum systems. It is clear that
+within this classiﬁcation of types, a (universal) quantum computer can function as a quantum simulator. However,
+one can also use as a quantum simulator an alternative device built speciﬁcally for the simulation, for instance a
+quantum annealer.
+Then, a digital simulation is intended to run on a (universal) quantum computer, while the
+analog quantum simulation is performed on an application-speciﬁc device. Finally, a quantum information inspired
+simulation generally runs on (universal) a classical computer. In general, during a quantum simulation, a quantum
+simulator is a controllable quantum system used to simulate other quantum-mechanical systems (for instance: time
+evolution, ground state, energy levels, thermal energy, heat capacity, correlation functions, and other static and
+dynamic observable properties). A successful digital quantum simulation, for instance, happens when the initial-state
+preparation, the implementation of the time evolution, and the measurement are realized employing solely polynomial
+resources [8]. In Ref. [1], Feynman requires that for an exact simulation to happen, the quantum-mechanical computer
+should do exactly as Nature. This statement is reminiscent of what today is known as analog quantum simulation. In
+this type of simulation, the Hamiltonian Hsys of the system is directly mapped onto the (controllable) Hamiltonian
+Hsim of the simulator, Hsys ↔Hsim. The third type of simulation, instead, is characterized by the use of methods of
+quantum information theory into classical numerical algorithms for the simulation of quantum many-body systems.
+Interestingly, the above-mentioned sign problem insinuated by Feynman in Ref. [1] was addressed in the context of
+this type of quantum simulation in Ref. [23].
+In theory, it seems that a clear quantum advantage is expected to occur in the simulation of the quantum dynamics
+(i.e., solving the time-dependent Schr¨odinger equation) of highly entangled systems of many particles, especially
+
+4
+chaotic quantum systems characterized by a signiﬁcant temporal rate of change of entanglement [32]. Indeed, when
+the Hamiltonian is local, simulating the temporal evolution with a quantum computer scales polynomially with the
+number n of qubits in the system. The best classical algorithms, instead, are speciﬁed by a runtime that scales
+exponentially with the number of qubits n. As a matter of fact, the unitary evolution matrix U (t) is exponentially
+large, since its size scales like 2n × 2n = en ln(4) ∼en. Speciﬁc applications of quantum simulations are expected to
+occur in several ﬁelds of science, including condensed matter, high-energy physics, cosmology, atomic physics, nuclear
+physics, and quantum chemistry [8], as well as in the information sciences such as machine learning [33]. Hubbard
+models, spin systems, quantum phase transitions, spin glasses, superconductivity, and topological order are excellent
+condensed matter phenomena for which quantum simulations are expected to be of great usefulness [8]. For example,
+an exact simulation of a one-dimensional transverse Ising spin chain on Rigetti’s and IBM’s quantum processors was
+performed in Ref. [34]. Speciﬁcally, the expected value of the transverse magnetization of the ground state of a n = 4
+Ising chain as a function of the transverse ﬁeld strength was simulated with Rigetti’s 19-qubit processor (processor
+Acorn with quantum software pyQuil) and the two IBM 5-qubit and 16-qubit processors (ibmq×4 and ibmq×5,
+respectively, with software QisKit). Furthermore, using these same three quantum processors, the time evolution
+simulation of the transverse magnetization for the state |↑↑↑↑⟩of a n = 4 Ising chain was executed. In this second
+set of simulations, in particular, the magnetization turns out to be smaller than expected in intensity. However, the
+simulation does reproduce the expected oscillatory pattern [34].
+It is worthwhile pointing out that classical simulations are one of the possible techniques to benchmark quantum
+computers, even though these simulations are exponentially demanding due to the exponential scaling of the Hilbert
+space in which the quantum state is deﬁned, as a function of the system size. Nonetheless, people are often interested
+in particular states that belong to peculiar subspaces of the full Hilbert space. Then several techniques were introduced
+over the years to represent and evolve such states, culminating with Tensor Network Methods [35–37]. Tensor network
+methods allow to approximate a quantum state by eﬃciently compressing its information, introducing a controllable
+error, and can be used for the simulation of quantum computers behavior. It is still unclear where which approach
+exhibits an advantageous behavior. For instance, a recent experiment on IBM’s superconducting quantum processor
+with 127 qubits claiming a quantum advantage [38] was outperformed by tensor network methods shortly after [39]
+in terms of accuracy and precision in simulating a kicked Ising quantum system.
+Moreover, an excellent proving ground for studying the power of quantum simulations is high energy physics
+because of its very rich quantum-mechanical content [40]. In particular, the theory of strong interactions mediated
+by gluons (i.e., QCD-quantum chromodynamics) has several challenging simulation problems, given the enormous
+dimension of the Hilbert space together with the intense coupling strength between the interacting components of
+the larger composite quantum systems. Indeed, QCD theory necessitates of a larger number of qubits per site since
+it is speciﬁed by six ﬂavors of quarks- each one with four Dirac degrees of freedom and three colors [27].
+The
+application of quantum simulators to cosmology is especially useful because, in general, cosmological phenomena are
+not experimentally accessible. In this context, fascinating applications include the quantum simulation of the Unruh
+eﬀect [41] and the quantum simulation of the Hawking black-hole radiation [42, 43]. In Ref. [41], the observation of
+a thermal ﬂux of particles in vacuum by an accelerating observer was suggested to be emulated in terms of phonon
+excitation of trapped ions. In Ref. [42], a ﬂowing ﬂuid of ultracold atoms divided into
+two connected regions is
+considered. In one region, the ﬂuid moves at a supersonic speed. In the other one, it moves at subsonic speed. Then,
+the black hole event horizon is simulated by the boundary between these two regions. Furthermore, when a pair of
+sound waves is produced in the vicinity of this boundary (in analogy to a pair of particles created from vacuum of
+space near a black hole event horizon), one of the waves is absorbed into the supersonic region, and the other one is
+radiated away from the region (in analogy to the Hawking radiation). Quite remarkably, recent promising applications
+of quantum computing and simulation have been proposed in the ﬁeld of drug discovery [44] and ﬁnance [45] as well.
+Current focus in the ﬁeld of quantum simulation and computation emphasizes the search algorithms that demon-
+strate a quantum advantage over comparable classical computation, vs. quantum supremacy, where the latter demon-
+strates the execution of a quantum algorithm (not necessarily “practical”) that is computationally diﬃcult or near
+impossible to perform on a classical computing resource. In Ref. [46], Google’s 53-qubit Weber quantum processor
+with programmable superconducting qubits based on the Sycamore architecture was used for sampling the output of a
+pseudo-random quantum circuit acting on 53 working qubits arranged in a two-dimensional array such that entangling
+two-qubit quantum gates can be performed on neighboring qubits in the array. Comparing with the state-of-the-art
+classical supercomputers, the authors arrived at the conclusion that, despite the artiﬁcial nature of the analyzed
+quantum task, a signiﬁcant quantum advantage (quantum supremacy) was achieved [46]. However, the very same
+Google’s 53-qubit Weber quantum processor was used in Ref. [47] in simulations of properties of actual correlated
+molecules in quantum chemistry and, its performance was not equally successful. The processor was used for two
+
+5
+types of simulations. In the ﬁrst task, the objective was to simulate the energy states of an 8-atom cluster of iron
+(Fe) and sulfur (S) found in the catalytic core of the enzyme nitrogenase. In the second task, the aim was to study
+the collective behavior (for instance, thermal energy and heat capacity) of magnetic spins in the crystalline material
+alpha-ruthenium trichloride (α-RuCl3). Despite the fact that the largest simulations for α-RuCl3 performed with
+11 qubits, 310 two-qubit gates, and 782 single-qubit gates were not successful, simulations with a smaller number of
+two-qubit gates performed much better (most likely attributed to less overall system noise/decoherence issues associ-
+ated with smaller circuit depth, in the absence of any currently reliable quantum error correction implementations).
+Speciﬁcally, simplifying the Hamiltonians into eﬀective low-energy spin models and exploiting signiﬁcant processing of
+data from exact classical simulations of similar tractable problems, the quantum simulations with up to 100 two-qubit
+gates lead to qualitatively correct properties of the spin structure, the spectrum of the excited-state, and the heat
+capacity of the materials [47].
+We do not claim of having discussed in this paper the state of the art of quantum computers. Indeed, this was not
+our goal. However, in an attempt to get closer to such a state of the art, we point out that there exist nowadays
+hardware platforms with an order of thousands qubits. Furthermore, digital quantum simulations with more than
+100 qubits are performed for the study of hadron dynamics in the Schwinger model [48] or, alternatively, up to 64
+qubits for equivariant quantum neural networks investigations [49]. For additional reviews on quantum computing
+applications in high energy physics, we refer to Refs.[50–52]. In particular, the state of the art of quantum computing
+examples, algorithm methods, and hardware challenges are discussed in Ref. [50]. As a curious historical side remark,
+we point out that Feynman’s 1982 IJTP paper was not cited much shortly after publication in the high energy physics
+community. Indeed, a very rapid increase of citations took place only starting approximately twelve years ago. For
+additional interesting reviews on algorithms and methods used in quantum computing for high energy physics as well,
+including the Quantum Approximate Optimization Algorithm (QAOA) and the Variational Quantum Eigensolver
+(VQE), we refer to Refs. [53] and [54], respectively.
+In summary, Feynman’s 1982 IJTP paper has paved the way towards the current state of quantum computing
+which is commonly referred to as the noisy intermediate-scale quantum (NISQ) era [32]. The intermediate-scale is
+speciﬁed by the modest number of qubits and gate ﬁdelity. Within NISQ, quantum processors can contain more that
+thousands qubits. However, these NISQ quantum processors are neither advanced enough yet for fault-tolerance nor
+large enough to achieve quantum advantage. Moreover, NISQ quantum processors cannot yet perform continuous
+quantum correction to mitigate the detrimental eﬀects of quantum decoherence that emerge from their interaction
+with the external environment. These eﬀects, as Feynman warned in 1982, must be taken into account for physically
+meaningful quantum simulations to occur. As progress is made towards these important goals, it seems to be peacefully
+agreed upon that incorporating relevant aspects of the physical problem being investigated into the design of quantum
+algorithms (in analogy, to a certain extent, to the design of approximate quantum error correcting codes [55]) can
+signiﬁcantly enhance the performance the quantum simulators and, consequently, accelerate the progress towards (a
+physically meaningful) quantum advantage [56].
+As scientists, our responsibility is to keep progressing, keep solving wonderful mysteries, use our scientiﬁc imagi-
+nation, do what we can, think freely, welcome doubts, and accept constructive criticisms [57]. Good things happen
+with hard work. With some luck, even in the absence of a new physical theory to be tested, unforeseen discoveries
+might arrive while experimenting with quantum-mechanical simulators of next quantum computing generations.
+Acknowledgments
+S.M. acknowledges support from Italian Ministry of Universities and Research under “PNRR MUR project
+PE0000023-NQSTI”. The authors thank an anonymous referee for useful comments leading to an improved ver-
+sion of this manuscript. Any opinions, ﬁndings and conclusions or recommendations expressed in this material are
+those of the author(s) and do not necessarily reﬂect the views of their home Institutions.
+[1] R. P. Feynman, Simulating physics with computers, Int. J. Theor. Phys. 21, 467 (1982).
+[2] A. Peres, Quantum Theory: Concepts and Methods, Kluwer Academic Publishers (1995).
+[3] M. Mansuripur, Spin-1 photons, spin-1/2 electrons, Bell’s inequalities, and Feynman’s special perspective on quantum
+mechanics, Proceedings of SPIE 12205, Spintronics XV; 12205OB (2022).
+
+6
+[4] A. Whitaker, Richard Feynman and Bell’s Theorem, Am. J. Phys. 84, 493 (2016).
+[5] J. S. Bell, On the Einstein Podolsky Rosen paradox, Physics 1, 195 (1964).
+[6] P. Goyal, Derivation of quantum theory from Feynman’s rules, Phys. Rev. A89, 032120 (2014).
+[7] J. Preskill, Quantum Computing 40 Years Later. In Feynman Lectures on Computation, Chapter 7, pag.193, Tony Hey
+(Editor), CRC Press (2023).
+[8] I. M. Georgescu, S. Ashhab, and F. Nori, Quantum simulation, Rev. Mod. Phys. 86, 153 (2014).
+[9] E. Fredkin and T. Toﬀoli, Conservative logic, Int. J. Theor. Phys. 21, 219 (1982).
+[10] C. H. Bennett, The thermodynamics of computation- a review, Int. J. Theor. Phys. 21, 905 (1982).
+[11] R.
+P.
+Feynman,
+There’s
+plenty
+of
+room
+at
+the
+bottom.
+Transcript
+of
+a
+talk
+given
+by
+Feynman
+on
+De-
+cember
+29,
+1959
+at
+the
+annual
+meeting
+of
+the
+American
+Physical
+Society
+at
+Caltech.
+Available
+at
+http://calteches.library.caltech.edu/47/2/1960Bottom.pdf.
+[12] R. P. Feynman, Quantum mechanical computers, Found. Phys. 16, 507 (1986).
+[13] R. P. Feynman, Negative probability, in Quantum Implications: Essays in Honour of David Bohm, eds. F. David Peat and
+Basil Hiley, Routledge & Kegan Paul Ltd, London, 1987, pp. 235–248.
+[14] S. Rahimi-Keshari, T. C. Ralph, and C. M. Caves, Suﬃcient conditions for eﬃcient classical simulation of quantum optics,
+Phys. Rev. X6, 021039 (2016).
+[15] S. Lloyd, Universal quantum simulators, Science 273, 1073 (1996).
+[16] P. W. Shor, Polynomial-time algorithms for prime factorization and discrete logarithms on a quantum computer, SIAM J.
+Comput. 26, 1484 (1997).
+[17] L. K. Grover, Quantum mechanics helps in searching for a needle in a haystack, Phys. Rev. Lett. 79, 325 (1997).
+[18] P. W. Shor, Scheme for reducing decoherence in quantum computer memory, Phys. Rev. A52, R2493 (1995).
+[19] A. R. Calderbank and P. W. Shor, Good quantum error correcting codes exist, Phys. Rev. A54, 1098 (1996).
+[20] A. M. Steane, Multiple-particle interference and quantum error correction, Proc. R. Soc. Lond. A452, 2551 (1996).
+[21] E. Y. Loh Jr., J. E. Gubernatis, R. T. Scalettar, S. R. White, D. J. Scalapino, and R. L. Sugar, Sign problem in the
+numerical simulation of many-electron systems, Phys. Rev. B41, 9301 (1990).
+[22] M. Troyer and U.-J. Wiese, Computational complexity and fundamental limitations to fermionic quantum Monte Carlo
+simulations, Phys. Rev. Lett. 94, 170201 (2005).
+[23] K. Temme, T. J. Osborne, K. G. Vollbrecht, D. Poulin, and F. Verstrate, Quantum Metropolis sampling, Nature 471, 87
+(2011).
+[24] J. Franson, Classical simulation of quantum systems?, Physics 9, 66 (2016).
+[25] X.-B. Wang, T. Hiroshima, A. Tomita, and M. Hayashi, Quantum information with Gaussian states, Physics
+Reports 448, 1 (2007).
+[26] P. Ball, Simulations using a quantum computer show the technology’s current limits, Physics 15, 175 (2022).
+[27] Y. Alexeev et al., Quantum computer systems for scientiﬁc discovery, PRX Quantum 2, 017001 (2021).
+[28] E. G. Rieﬀel and W. H. Polak, Quantum Computing: A Gentle Introduction, MIT Press (2014).
+[29] M. A. Nielsen and I. L. Chuang, Quantum Computation and Quantum Information, Cambridge University
+Press (2000).
+[30] M. B. Pour-El and J. I. Richards, Computability in Analysis and Physics, Cambridge University Press (2016).
+[31] A. Das and B. K. Chakrabarti, Quantum annealing and analog quantum computation, Rev. Mod. Phys. 80, 1061 (2008).
+[32] J. Preskill, Quantum computing in the NISQ era and beyond, Quantum 2, 79 (2018).
+[33] J. Biamonte et al., Quantum Machine Learning, Nature 549, 195 (2017).
+[34] A. Cervera-Lierta, Exact Ising model simulation on a quantum computer, Quantum 2, 114 (2018).
+[35] R. Orus, A practical introduction to tensor networks: Matrix product states and projected entangled pair states, Annals of
+Physics 349, 117 (2014).
+[36] M. C. Banuls and K. Cichy, Review on novel methods for lattice gauge theories, Rep. Prog. Phys. 83, 024401 (2020).
+[37] J. I. Cirac, D. Perez-Garcia, N. Schuch, and F. Verstraete, Matrix product states and projected entangled pair states:
+Concepts, symmetries, theorems, Rev. Mod. Phys. 93, 045003 (2021).
+[38] Y. Kim et al., Evidence for the utility of quantum computing before fault tolerance, Nature 618, 500 (2023).
+[39] J. Tindall, M. Fishman, E. M. Stoudenmire, and D. Sels, Eﬃcient tensor network simulation of IBM’s Eagle kicked Ising
+experiment, PRX Quantum 5, 010308 (2024).
+[40] C. W. Bauer et al., Quantum simulation for high-energy physics, PRX Quantum 4, 027001 (2023).
+[41] P. M. Alsing, J. P. Dowling, and G. J. Milburn, Ion trap simulations of quantum ﬁelds in an expanding Universe, Phys.
+Rev. Lett. 94, 220401 (2005).
+[42] J. R. M. de Nova, K. Golubkov, V. I. Kolobov, and J. Steinhauer, Observation of thermal Hawking radiation and its
+temperature in an analogue black hole, Nature 569, 688 (2019).
+[43] S. Weinfurtner, Quantum simulation of black-hole radiation, Nature 569, 634 (2019).
+[44] Y. Cao et al., Potential of quantum computing for drug discovery, IBM Journal of Research and Development 62, 1 (2018).
+[45] D. Herman et al., Quantum computing for ﬁnance, Nature Reviews Physics 5, 450 (2023).
+[46] F. Arute et al., Quantum supremacy using a programmable superconducting processor, Nature 574, 505 (2019).
+[47] R. N. Tazhigulov et al., Simulating models of challenging correlated molecules and materials on a Sycamore quantum
+processor, PRX Quantum 3, 040318 (2022).
+[48] R. C. Farrell, M. Illa, A. N. Ciavarella, and M. J. Savage, Quantum simulations of hadron dynamics in the Schwinger
+model using 112 qubits, arXiv:quant-ph/2401.08044 (2024).
+[49] C. Tuysuz, S. Y. Chang, M. Demidik, K. Jansen, S. Vallecorsa, and M. Grossi, Symmetry breaking in geometric quantum
+
+7
+machine learning in the presence of noise, arXiv:quant-ph/2401.10293 (2024).
+[50] A. Di Meglio et al., Quantum computing for high-energy physics: State of the art and challenges. Summary of the QC4HEP
+Working Group, arXiv:quant-ph/2307.03236 (2023).
+[51] M. C. Banuls et al., Simulating lattice gauge theories within quantum technologies, Eur. Phys. J. D74, 165 (2020).
+[52] L. Funcke, T. Hartung, K. Jansen, and S. Kuhn, Review on quantum computing for lattice ﬁeld theory, Proceedings of
+Science 430, The 39th International Symposium on Lattice Field Theory (LATTICE2022), 228 (2023).
+[53] K. Blekos, D. Brand, A. Ceschini, C.-H. Chou, R.-H. Li, K. Pandya, and A. Summer, A review on quantum approximate
+optimization algorithm and its variants, Phys. Rep. 1068, 1 (2024).
+[54] J. Tilly et al., The variational quantum eigensolver: A review of methods and best practices, Phys. Rep. 986, 1 (2022).
+[55] C. Cafaro and P. van Loock, Approximate quantum error correction for generalized amplitude-damping errors, Phys. Rev.
+A89, 022316 (2014).
+[56] L. Clinton et al., Towards near-term quantum simulation of materials, Nature Communications 15, 211 (2024).
+[57] R. P. Feynman, The value of science, Engineering and Science 19, 13 (1955).

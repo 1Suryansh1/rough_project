@@ -1,0 +1,10 @@
+{
+  "total_chunks": 552,
+  "by_source": {
+    "papers": 453,
+    "transcripts": 99
+  },
+  "avg_word_count": 247.1,
+  "min_word_count": 81,
+  "max_word_count": 500
+}

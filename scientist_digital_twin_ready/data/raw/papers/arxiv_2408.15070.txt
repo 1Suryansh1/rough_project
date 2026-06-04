@@ -1,0 +1,809 @@
+Feynman 1947 letter on path integral for the Dirac equation
+Ted Jacobson
+Maryland Center for Fundamental Physics
+University of Maryland
+College Park, MD 20742
+Abstract
+In 1947, four months before the famous Shelter Island conference, Richard Feynman wrote a
+lengthy letter to his former MIT classmate Theodore Welton, reporting on his efforts to develop
+a path integral describing the propagation of a Dirac particle. While these efforts never came to
+fruition, and were shortly abandoned in favor of a very different method of dealing with the electron
+propagator appearing in in QED, the letter is interesting both from the historical viewpoint of re-
+vealing what Feynman was thinking about during that period just before the development of QED,
+and for its scientific ideas. It also contains at the end some philosophical remarks, which Feynman
+wraps up with the comment, “Well enough for the baloney.” In this article, I present a transcription
+of the letter along with editorial notes, and a facsimile of the original handwritten document. I also
+briefly comment on Feynman’s efforts and discuss their relation to some later work.
+Contents
+1
+Introduction
+1
+2
+The letter
+3
+3
+Note on strategy for separating the effect of the mass
+11
+4
+Commentary and relation to later work
+11
+A Supplementary material: facsimiles
+15
+1
+Introduction
+The motivating germ of Feynman’s diagrammatic formulation of QED was the idea that if the electro-
+magnetic field is eliminated in favor of direct inter-particle interaction, then it is possible—classically—
+to exclude the problematic self-interactions that lead to divergent self-energy [1, 2]. Wheeler and Feyn-
+man [3, 4] developed a classical realization of this approach to electrodynamics using a relativistic
+worldline action principle with pairwise interactions.1 To implement this idea in the quantum theory, it
+1What was novel in their work was not the action principle, but the recognition that if the universe is a perfect absorber
+of radiation then the physics of the time symmetric action principle would manifest as if one restricted to purely retarded (or
+purely advanced) electromagnetic fields, which could account for radiation reaction.
+1
+arXiv:2408.15070v2  [physics.hist-ph]  25 Mar 2025
+
+was necessary to develop a worldline action approach to quantum mechanics, which Feynman did for
+nonrelativistic particles in his Ph.D. dissertation [5], and reported in a journal article six years later [6].
+A next step in this program would have been to develop a relativistic worldline path integral for spin-1/2
+particles, so that in particular electrons and positrons could be included in the theory. Feynman never
+published anything along these lines, but we know from comments in his Nobel Prize address [1], and
+from a letter he wrote to his former MIT classmate Theodore (Ted) Welton [7], that this was not for
+want of trying.
+The letter, which consists of thirteen densely handwritten pages, came to light in Schweber’s RMP
+article, Feynman and the Visualization of Spacetime Processes [2], where it was mentioned briefly in
+Section IV.C. In The Genesis of Feynman Diagrams by W¨uthrich [8], it was the subject of extensive dis-
+cussion in Sections 4.3-4.5 of Chapter 4, “The Dirac Equation: Feynman’s Great Struggle”. The focus
+there was on the role this effort played on the path to the diagrams, and on Feynman’s motivations, his
+evaluation of his own attempts, and on his attitude toward visualization and understanding in physics.
+These sections include transcriptions of roughly a page and a half of text from the letter, mostly pertain-
+ing to this focus, as well as facsimiles of all but four of the pages from the letter. The present article,
+in contrast, focuses on parsing and evaluating the technical aspects of Feynman’s efforts to construct a
+path integral for a Dirac particle in three spatial dimensions.
+In view of historical interest in what Feynman was up to just before developing his diagrammatic
+approach to QED, as well as the fact that there has been a continuing small but persistent effort by others
+to develop a spacetime path integral for spin-1/2 particles (without the use of Grassmann variables), it
+seemed worthwhile to transcribe and reproduce the letter in full, to make it more accessible. My own
+interest was driven in large part by the fact that I had developed a similar approach to the problem many
+years ago [9], inspired by Problem 2-6 in the book by Feynman and Hibbs [10], which lays out how the
+propagator for a Dirac particle in 1+1 spacetime dimensions can be obtained from a sum over paths that
+zigzag at the speed of light. It is fascinating to see in the letter how Feynman tried (without success as
+far as I can tell) to handle the 3+1 dimensional case.
+Section 2 of this paper contains a complete transcription of the letter along with editorial footnotes
+aimed at clarifying its content. Section 3 contains a transcription of a brief note, probably written by
+Feynman, outlining a strategy for separating out the effect of the mass term in constructing a path integral
+for the Dirac equation. Section 4 presents commentary on, and evaluation of, Feynman’s efforts, as well
+as discussion their relation to some later work. Facsimiles of the original handwritten letter and note are
+included in Supplementary Material.
+There is no finer way to close this introduction than to quote Feynman’s own comments on his
+efforts in this direction, taken from his Nobel Lecture [1]:
+Another problem on which I struggled very hard, was to represent relativistic electrons with
+this new quantum mechanics. I wanted to do a unique and different way – and not just by
+copying the operators of Dirac into some kind of an expression and using some kind of
+Dirac algebra instead of ordinary complex numbers. I was very much encouraged by the
+fact that in one space dimension, I did find a way of giving an amplitude to every path by
+limiting myself to paths, which only went back and forth at the speed of light. The amplitude
+was simple (iϵ) to a power equal to the number of velocity reversals where I have divided
+the time into steps and I am allowed to reverse velocity only at such a time. This gives (as ϵ
+approaches zero) Dirac’s equation in two dimensions – one dimension of space and one of
+time (ℏ= m = c = 1).
+Dirac’s wave function has four components in four dimensions, but in this case, it has only
+two components and this rule for the amplitude of a path automatically generates the need
+for two components. Because if this is the formula for the amplitudes of path, it will not
+2
+
+do you any good to know the total amplitude of all paths, which come into a given point
+to find the amplitude to reach the next point. This is because for the next time, if it came
+in from the right, there is no new factor iϵ if it goes out to the right, whereas, if it came
+in from the left there was a new factor iϵ. So, to continue this same information forward
+to the next moment, it was not sufficient information to know the total amplitude to arrive,
+but you had to know the amplitude to arrive from the right and the amplitude to arrive to
+the left, independently. If you did, however, you could then compute both of those again
+independently and thus you had to carry two amplitudes to form a differential equation
+(first order in time).
+And, so I dreamed that if I were clever, I would find a formula for the amplitude of a path
+that was beautiful and simple for three dimensions of space and one of time, which would
+be equivalent to the Dirac equation, and for which the four components, matrices, and all
+those other mathematical funny things would come out as a simple consequence – I have
+never succeeded in that either. But, I did want to mention some of the unsuccessful things
+on which I spent almost as much effort, as on the things that did work.
+2
+The letter
+The letter [7] is filed at the Caltech Archives in Box 11, Folder 2 (Dirac Equation). It responds to a prior
+letter from Welton, which is likely the 18 page letter that is in the same Folder (except for the first two
+pages which are missing). Many other papers and notes related to the Dirac equation are filed in Box
+11, Folder 2, although I found no significant development on a path integral for the 3+1 dimensional
+Dirac equation beyond what appears in this letter.
+I have transcribed the letter preserving in most cases notation, punctuation, and placement of text,
+except when that would have been impractical due to the placement of diagrams, side notes, or annota-
+tions on the page. Crossed out text has been omitted, and the equation numbers are added by me in the
+transcription for ease of future reference. Anything in square brackets is clarification or commentary by
+me, including all of the footnotes. A facsimile of the letter is included in the Supplementary Material.
+Monday, Feb. 10.2
+Dear Ted
+I got your very interesting letter today.
+I realized how 2nd quantization in the case of a He atom transformed something that looked like
+Schrodinger’s picture (if ψ is a function) to something that was correct (if ψ is an operator). So I knew
+you are on the right track with your theory & I now believe it to such an extent that I will learn 2nd
+quant. & try to solve your problem of how to deal with the “rest of the universe.”3 I am engaged now
+in a general program of study – I want to understand (not just in a mathematical way) the ideas in all
+branches of theor. physics. As you know I am now struggling with the Dirac Eqn.
+The ideas which you outlined were, as you say, vague, but otherwise they are exactly right in the
+sense that the way I now see the Dirac Eqn. is just a more precise formulation of your (& of course
+my earlier) ideas. There are several ways I can explain it, all leading to the same answer but all not
+2[Schweber’s bibliography in [2] cites 1947 as the year of this letter, and W¨uthrich [8] points out that February 10 fell on
+a Monday only in 1941 and 1947 during the 1940’s.]
+3[Welton’s letter is in part concerned with the effort to develop a relativistic quantum field theoretic version of the Wheeler–
+Feynman absorber theory of radiation, based on half advanced plus half retarded potentials.]
+3
+
+equally precise. The one with the most shaky physical ideas at present, I think is the closest to the truth
+& I would like to explain it to you because (1) you may get nice ideas (2) I will learn something by
+formulating it clearly. In this particular “model” paths do not necessarily go at light velocity – altho I
+may change that later as you shall see.
+The idea which I got to in 2 dimensions, of loading each turn thru θ by eiθ/2 does not work well in 3
+dimensions for the angles θ are in different planes. What is needed is to keep track of 3 dimensional rota-
+tions, and to use a factor instead of eiθ/2 which is capable of keeping track of a complete 3-dimensional
+rotation. To be more precise, one model I had said this: go on any path at light velocity but consider
+only paths that start from A & go to B entering B in the same direction as they left A. Then the factor is
+eia/2 where a is the solid angle enclosed by the tangent (velocity) vector in its gyrations along the path.
+Now we at once ask what information must be kept by the time we reach C. At C the area (solid angle)
+enclosed by the vector is not closed so we have simply to keep track, sort of, of where we are on the
+sphere. But slightly more than that. When we get back to A (at B)4 we have enclosed area & that is what
+we have to keep track of. One geometrical way we can keep track is to put up a small arrowhead at A &
+move it parallel to itself as you go along the trajectory (differential parallelism). When it gets to B (I’m
+on the sphere surface now) it will have rotated, relative to its original position by an angle 2π −a. Thus
+at C we need keep only the axis of C and a direction for our little vector. This we can do by choosing
+a standard direction arbitrarily at each pt of the sphere and saying that at C we have to rotate around
+C by a given angle to define the angle of the little vector with the standard direction. Thus we have at
+the point C in the path to keep track of a rotation in three space (around the axis of the tangent to the
+path). Thus the “wave function” (defined to be that quantity or quantities which if known at C from all
+paths reaching C would permit calculation [of] the same quantities at the next instant of time) must be
+a symbol representing a rotation in space – which can be added & which, if the rotation is “a” around
+some particular axis (say the z axis) must be represented by eia/2. [Added as a footnote:] I forgot to say,
+the whole thing can be put in a very succinct way: any path represents a rotation. For imagine that we
+have a sphere with a pole & keep turning it so that the pole-center line lies in the direction of the path’s
+tangent. Then when we complete the path the sphere has made a net rotation. If the wave function at A
+is ψA, that at B represents the “rotation of the path” ×ψA (summed on all paths). If tangent at A is in
+same direction as at B, net rotation can only be rotation around pole-center axis. It is, by angle a.
+I don’t expect you to understand the above argument because it was a long time for me to figure
+it out too. However, be that as it may, when I studied quaternions which I knew were designed to
+represent rotations I realized that they were the mathematical tool in which to represent my thoughts.
+To remind you:5 a quaternion q is a hybrid addition between a scalar α & vector A.6 q = α + A say.7
+4[This presumably refers to the directions at A and B.]
+5[Here in the right margin Feynman adds the properties of the basis quaternions: i = rot by 180◦about x, j = rot by 180◦
+about y, k = rot by 180◦about z, as well as the multiplication rules, i2 = −1, j2 = −1, k2 = −1, ij = k = −ji etc,
+and q = α + Axi + Ayj + Azk. Near the end of the letter (see footnote 22) he mentions the relation to Pauli matrices (e.g.
+i = −iσz), referring to a notation that Welton had used.]
+6[Feynman writes a vector as well as the corresponding quaternion as a letter with a double line on the left. In this transcript
+instead boldface notation is employed.]
+7[For modern readers, it may be easier to follow the reasoning by identifying q = α + A with the 2 × 2 complex matrix
+4
+
+If q = α + A , p = β + B then qp = αβ −A · B + αB + βA + A × B. q + p = α + β + A + B.
+Symbol ¯q is defined (say adjoint quaternion ←my term) ¯q = α −A. The size of a quaternion squared
+is q¯q = (α + A)(α −A) = α2 + A · A: a scalar. The quaternion representing a rotation about the
+axis n (unit vector) by angle θ is cos θ/2 + n sin θ/2 = enθ/2 = qθ,n.8 Such a quaternion has unit
+size. If n is a unit vector, then considering it as a quaternion it represents a rotation by 180◦around n.
+nn = −n · n + n × n = −1 so rotation by 360◦around any axis is represented by −1. 720◦by +1 &
+is equivalent to no rotation. If n1 and n2 are two unit vectors, what quaternion is −n1n2 = n1¯n2? It is
+the result of 180◦around n2 followed by -180◦around n1. This, by an argument due to Wigner which
+is clear when you think about it, is a rotation around an axis ⊥to n1 & n2 by an angle equal to twice
+the angle between n1 & n2 (because 180◦around n1 moves n2 to the other side, thus moves it by twice
+the angle between n1 & n2.9
+Consider then a path, which may be looked upon as a sequence n1, n2, n3, . . . of unit vectors
+(tangent vectors) (velocity vectors) at successive positions of the path. Suppose there are an even number
+of them (I’ll do that better later). We seek the quaternion representing the rotation for this path resulting
+from turning n1 to n2, from n2 to n3, from n3 to n4 ...etc. This is needed (see footnote above) for
+quantum mech. I assert it is simply n1¯n2n3¯n4 . . . (product of all n’s).10 ¯n = −n. For consider that
+n1 & n2 differ only infinitesimally (?). Then n1n2 is a rotation by twice the angle n1 to n2, & then n3
+to n4 is a rot. by twice angle 3 →4. But angle 2 to 3 or 4 to 5 etc are left out, so assuming continuity
+(?) etc. the factor of two is undone! (What I say is OK in the limit for a continuous path – I don’t know
+what is true for Weierstrass curves with infinite discontinuities in slope or something).
+Thus the factor Φ = e
+i
+ℏS = e
+i
+ℏ
+R t2
+t1 L(x, ˙x) dt in my non-relativistic quantum mech. must be replaced
+by n1¯n2n3 . . . ¯nN, and the wave function is a quaternion.11 Thus one might guess, by reducing the long
+product to a final step, not ψ(r, t + ϵ) =
+R
+nψ(r −ϵn, t)dn but rather
+ψ(r, t + ϵ) =
+Z
+nχ(r −ϵn, t)dn
+(1)
+χ(r, t + ϵ) = −
+Z
+nψ(r −ϵn, t)dn
+(2)
+because with an odd no. of n factors one has quite a different thing (called χ) than one has with even
+no. The symbol dn means some sort (?)(!) of an average over all directions. The right hand side can be
+αI −iA · σ, where σ is the vector of Pauli matrices.]
+8[With the Pauli matrix interpretation of footnote 7, this is the unitary matrix exp(−iθn · σ/2), which is the spin-1/2
+representation of a rotation through angle θn acting on two-component spinors. Alternatively, the conjugation qθ,nA¯qθ,n
+yields the quaternion corresponding to the rotated vector A.]
+9[In the Pauli matrix representation of footnote 7,
+n1¯n2 ←→(−in1 · σ)(in2 · σ) = n1 · n2 + i(n1 × n2) · σ = cos θ12I + i sin θ12n12 · σ = exp(iθ12n12 · σ),
+where θ12 is the angle of rotation from θ1 to θ2 and n12 is the unit vector in the direction of n1 × n2. This seems to differ by
+the sign of the rotation from what Feynman says, but it is not entirely clear to me what he meant.]
+10[It seems to me that the order of multiplication should be the opposite.]
+11[Feynman does not comment on how he would connect a quaternion wave function to the spinor wave function that is
+governed by the Dirac equation. Perhaps it was just obvious to him that he would eventually take the quaternion to operate on
+an initial two-component spinor, thus yielding another spinor.]
+5
+
+simplified, if we assume dn means just average over all directions of the vector n;
+Eg :
+Z
+nχ(r −ϵn, t)dn =
+Z
+ndn
+
+χ(r, t) −ϵ
+Z
+n(n · ∇)dn
+
+χ(r, t) + · · ·
+(3)
+ Now
+Z
+ndn = 0,
+Z
+n(n · A)dn = A · 1
+3
+
+(4)
+= 0 −1
+3ϵ∇χ
+(5)
+here ∇χ is a quaternion combination, not just ∇of a scalar.12 It is to be figured thus: if χ = α + A,
+then
+∇χ = ∇(α + A) = ∇α + ∇A = (∇α) −(∇· A) + (∇× A).
+(6)
+Now, the factor of 3 and a few other things worry me about this but I realize I am close because in
+quaternion notation Dirac’s equations (with mass) (no field) can be written:
+∂a
+∂t = ∇b + iµb
+∂b
+∂t = −∇a + iµa
+(7)
+so it looks like we are close to the equations with mass µ = mc
+ℏequal to zero.13 Or maybe if we average
+just right, or add another effect we could get mass. (Note the imaginary.) To get the fields, multiply
+n1¯n2n3 . . . by exp ie
+ℏc
+R
+(n · A)ds14
+Now, if you are still staggering but on your feet I will tell you more, which is even harder to un-
+derstand. My purpose now is to consider a path as a set of four functions xµ(s) = x, y, z, t(s) of a
+parameter s. Thus the speed need not be that of light — but for simplicity I want to restrict it to veloci-
+ties less than that (or at most equal to c). The idea now is to consider a path is a succession of 4-vectors
+v(1)
+µ , v(2)
+µ , v(3)
+µ . . . representing successive proper velocities (vµvµ = 1) on the path. Then each path
+represents a net Lorentz-Rotation transformation. (I mean a combination of a Rot. & a Lorentz). Thus
+take the Lorentz trans. which carries v(1)
+µ
+to v(2)
+µ . Then that which carries v(2)
+µ
+to v(3)
+µ
+etc. What is the
+net? We desire a symbolism, which by analogy works in 4 space (3+1) like the quaternions do in 3. I
+shall show that this symbolism is furnished by quaternions using complex numbers for components!
+I have trouble visualizing 3+1 space, but I have become an expert at visualizing (really!) 4 dimen-
+sions with all dimensions equivalent. ds2 = dx2 +dy2 +dz2 +dt2. What are the properties of rotations
+in this space? First a simple rotation called turn from on vector n1 to another n2 is not around just one
+axis, but around two, (since there are 2 perpend. directions both ⊥to n1 & n2). More precisely for any
+plane (e.g. of n1 & n2) there is a completely ⊥plane (I call it the antipodal plane) such that if n1 is any
+vector in the first plane, & n2 is any vector in the second plane, then n1 is ⊥to n2. A plane (& hence
+its antipodal plane) is determined by 4 parameters {2 perpendicular unit vectors = 8 - 2 (unit) - 1(perp)
+= 5 nos. but they can be set at any angle in the plane ∴4 para.}. A complete 4 dim. rot. is characterized
+by 6 parameter & can always be resolved into a turn (1 parameter) in a certain plane (4 para.) and in
+addition some other rotational angle (turn) in the antipodal plane (1 para). Turns in two antipodal planes
+12[The implication of (5) is that ψ(r, t + ϵ) in (1) is smaller than χ(r, t) by a factor of O(ϵ). This shows that the amplitude
+rule proposed in the previous paragraph cannot yield the Dirac propagator, since every step would entail another factor of ϵ.
+Feynman’s comparison with (7) suggests that he may have intended to subtract ψ(r, t) from the left hand side of (1), in which
+case that side would also be O(ϵ). However, the resulting equation would not correspond to his proposed amplitude rule.]
+13[I suspect that in the first equation ∇b should be ∇a, and in the second equation vice versa, presuming that a and b are
+supposed to describe opposite chiralities.]
+14[Annotations indicate that the integral is “along path”, and the integrand quantity in parentheses is “ordinary scalar”.]
+6
+
+commute, obviously. (Example a Lorentz trans. from velocity in z direction is a turn in the zt plane,
+this commutes with space rotations about the z axis (turns in the xy plane).).
+Now (lets call these octonions15) the “quaternions” representing 4 space rotations will probably have
+among their fundamental unit vectors, a set of six: Ixy, Iyz, Izx, Ixw, Iyw, Izw such that I2
+xy = −1 etc.
+and such relations as are true with one dimension lacking are still true, such as IxyIyz = Izx = −IyzIxy.
+(We can identify Ixy = k, Iyz = i, Izx = j). These fundamental units represent turns of 180◦in the
+various planes xy etx. Hypothesis; (I) the octonion representing a rotation of φ in the xy plane is
+e
+φ
+2 Ixy = cos φ
+2 + sin φ
+2 Ixy.
+(8)
+Etc. for other planes. (II) If we go φ on xy plane, and θ on antipodal zw plane the octonion is16
+e
+φ
+2 Ixye
+θ
+2 Izw = cos φ
+2 cos θ
+2 + sin φ
+2 cos θ
+2Ixy + sin θ
+2 cos φ
+2 Izw + sin φ
+2 sin θ
+2IxyIzw.
+(9)
+There is no ambiguity about the order of factors since rotations about the antipodal planes commute.
+(hence also IxyIzw = IzwIxy).
+I have just explained how to define the octonions for a special pair xy & zw but it is clear what to
+do for any two antipodal planes (the I for any plane is the appropriate (by coordinate transformation as
+tensor 2nd rank) linear combination of the I’s for xy, xz, etc. - In fact define Iyx = −Ixy & the I’s form
+& transform like an antisym. tensor 2nd rank).
+Now we need one other fact to finish the description. We see we have new “unit vectors” or quan-
+tities such as IxyIzw. How many of these are there (for other pairs of planes e.g. IxzIyw) & what
+are their properties? Well they represent two 180◦turns, one around each of two antipodal planes.
+The first turns x to −x and y to −y; the second z to −z and w to −w. Hence, (III) two 180◦rot.
+about antipodal planes, represented hereafter by the symbol R simply reverses direction of all axes and
+is the same no matter which pair of antipodal planes is used. Further, clearly R commutes with every
+operation. In 4 space R2 = 1 (since R2 = 360◦around two axes, & each one is −1. As I find, but don’t
+see, R2 = −1 in (3+1) dimens. space. Hence
+IxyIzw = −R = IyzIxw
+(10)
+etc.17 Hence multiplying both sides by Ixy, note:
+IxyIxyIzw = −RIxy = −Izw.
+∴Izw = RIxy
+(11)
+hence we have 4 unit vectors , i, j, k, R. R commutes with all!
+R2 = +1
+(4 space)
+1
+(3+1 space)
+i2 = j2 = k2 = −1.
+ij = k = −ji.
+Ri = iR etc.
+(12)
+Ixy = k
+Ixw = Ri
+Iyz = i
+Iyw = Rj
+Izx = j
+Ixw = Rk
+(13)
+15[This is not the standard meaning of the term “octonion”. Below, Feynman will conclude that, in Lorentz signature, what
+he calls octonions can be identified with quaternions with complex coefficients.]
+16[For the last term Feynman wrote sin φ
+2 cos φ
+2 IxyIzw, but this must have been a slip of the pen, since the expression
+should be symmetric under φ ↔θ interchange. Also, obviously if θ = 0 there should be no term involving Izw.]
+17[Pointing to the minus sign in front of R, Feynman inserts “arbitrary choice for convenience”.]
+7
+
+Every octonion then is of the form,
+q = α1 + Rα2 + A1 + RA2
+(14)
+where α1 and α2 are nos. and A1, A2 represent 3 vectors, A1 = A1xi + A1yj + A1zk, A2 = A2xi +
+A2yj + A2zk. Thus, an octonion is a quaternion whose coefficients are of form a + Rb. In 3+1 space
+R2 = −1 and we can take R = i if we wish, so octonions for Lorentz Trans & Rotations are quaternions
+with complex (a + ib) coefficients. QED. The result for 4 space is independent of which axis is used
+for w, but in 3+1 space, to preserve the 3+1 symmetry we can take the t axis (in some Lorentz frame)
+to be w.
+Now, how can we represent the transformation needed to turn vµ into uµ where vµ, uµ are unit four
+vectors? (In 4 space, first). Consider the octonion +(P
+µ vµuµ) −P
+µ>ν vµuνIµν.18 I say it represents
+a turn in the v, u plane by twice the angle of the turn of vµ to uµ. (Because, the analysis above showed
+us we could take any axis, so choose x, y in plane of v, u. z & w perp. Then vµuµ = cos θ where θ is
+angle between and P
+µ>ν vµuνIµν = (vxuy −uxvy)k = sin θ k.19 ∴q = cos θ + k sin θ = eθk while
+the turn vµ to uµ is eθk/2). Problem is, can we represent it as a product vu of a quaternion depending
+on v only by one depending on u only. Yes. Choose any arbitrary axis (say w). Then consider two
+quaternions vµ into wµ by twice angle, and wµ into uµ by twice angle. Then vµ into uµ by twice angle
+= result of vµ into wµ by twice × wµ into uµ by twice. (Proof: Find the axis perpend. to uµ, vµ, wµ.
+Consider all rotations that keep this axis fixed. Then we are dealing with just 3-space rotations & can
+use Wigner’s idea that vµ into uµ by twice angle = 180◦around vµ × 180◦around uµ. Hence
+vµ →uµ by 2 angle = vµ →wµ by 2 angle × wµ →uµ by 2 angle
+becomes
+180◦on vm × −180◦on um = 180◦on vm × −180◦× wm × 180◦on wm × −180◦on um
+but the two 180◦on wµ cancel out proving the lemma.)
+∴
+X
+µ
+(vµuµ) −
+X
+µ>ν
+vµuνIµν = vµ →uµ at 2 × angle = v¯u
+where v = vµ →wµ at 2 × angle = P
+µ(vµwµ) −P
+µ>ν vµwνIµν. u is defined likewise. ¯u means u
+with every i, j, k (but NOT R) reversed in sign. If wµ is chosen for convenience as the 4th axis,
+v = v4 −(v1i + v2j + v3k)R
+(A)
+where R = i in 3+1 dimensions.
+Hence, the Lorentz transformation defined by a path is
+v(1)¯v(2)v(3)¯v(4) . . .
+where v(i)
+µ
+is the ith velocity (proper velocity) vector in succession and v(i) is the quaternion v(i)
+4
+−
+i(v(i)
+1 i + v(i)
+2 j + v(i)
+3 k). (A)
+18[Feynman probably meant to write the contravariant form vµ, but at many points he does not seem to be concerned with
+index placement.]
+19[Feynman indicated above k that it is equal to Ixy. (Also, he mistakenly wrote uyvx for the second term.)]
+8
+
+Hence the wave equations resulting from the obvious analogy from 3 dim. case are (s is a parameter
+on wave function, Rµ means four vector position, time).20
+ψ(Rµ, s + ϵ) =
+Z
+vχ(Rµ + ϵvµ, s)dvµ.
+χ(Rµ, s + ϵ) =
+Z
+¯vψ(Rµ + ϵvµ, s)dvµ.
+(B)
+Here dvµis an integral in an invariant way over all directions (in forward light cone) equally weighted.
+Assume ψ, χ independent of s, or varying exponentially with s and you obtain Dirac’s eqn. with mass
+by inserting appropriate constants (for fields add factor ei P
+µ
+R
+vµAµds whose significance I am now pur-
+suing). Or again do not assume vµ is of unit length but write
+R
+vχ(Rµ+vµ; s)F(P vµvµ)dv1dv2dv3dv4
+where F is an arbitrary function. Mass is determined by the eigenvalue (values?) of F. Or again, take
+most simply for F,21 iδ′(vµvµ). That is,
+ψ(Rµ) = ic
+Z
+(R −R′)χ(R′
+µ)dR1dR2dR3dR4 δ′ (Rµ −R′
+µ)2
+(C)
+where R is a quaternion R4 −i(R1i + R2j + R3k) and choose c appropriately. This goes back to the
+light cone idea and everything is back, but I point out the 4 dimens. view because it lends (?) more
+complete understanding. With this choice for F, you see we get exactly your equations because22
+(Rµ −R′
+µ)δ′ (R −R′)2
+≡
+∂
+∂xµ
+δ
+ (R −R′)2
+(15)
+∴(R −R′)δ′ ≡
+n ∂
+∂t −i
+
+i ∂
+∂x + j ∂
+∂y + k ∂
+∂z
+o
+δ
+ (R −R′)2)
+
+(16)
+So
+ic
+Z
+(R −R′) χ(R′
+µ) δ′ dR = ic
+Z  ∂
+∂t −i∇
+
+δ χ dR
+= ic
+ ∂
+∂t −i∇
+
+(□2χ)
+= ic k2 ∂
+∂t −i∇
+
+χ
+= ψ .
+(17)
+Now I would like to add a little hooey. The reason I am so slow is not that I do not know what
+the correct equations, in integral or differential form are (Dirac tells me) but rather that I would like to
+understand these equations from a many points of view as possible. So I do it in 1,2,3,& 4 dimensions
+with different assumptions etc. It is just that vagueness which you mention which I would like to try to
+clear up. I was especially impressed by your intuition in guessing just what the ψ’s would mean (I mean
+the odd & even deflections, etc.). I hope you get something out of my point of view. I am attempting
+this to see how to alter things in a natural way. (Eg. should the δ function be exactly a δ function?) What
+is interaction between particles? For fields it is easy to define as eiv·A factor, which is sensible if the v is
+infinitesimal per step – and in the integrals on the left of (B) and (C) ought to extend over short distances
+20[Feynman indicated “Quat. (see eqn (A))” above v in the first integrand.]
+21[Pointing to the prefactor i, Feynman writes “Meaning what?”]
+22[Pointing to (R −R′) after ∴Feynman writes “quat”, and after that equation he adds parenthetically “(Needless to say,
+what you call σx I call ii; σy = ij, σz = ik.)”]
+9
+
+so eiv·A is OK, but right along light cones the distances get long – finite in fact, but usually one gets
+no contribution from large distances because usually the ψ or χ function oscillates rapidly, but I want
+to investigate this more thoroughly. It is very interesting that if you integrate e
+ℏc
+R
+Aµdxµ along a long
+finite section of straight light ray the biggest contributions come from electrons exactly in the direction
+of the ray and the result is then simply e2
+ℏc ln(r1/r2), where r1 and r2 are the distances (or times) of the
+end pts of integration away from the electron producing the field.23 Can all electrodynamics be stated
+by this simple logarithm rule?
+I find physics is a wonderful subject. We know so very much and then subsume it into so very few
+equations that we can say we know very little (except these equations - Eg. Dirac, Maxwell, Schrod).
+Then we think we have the physical picture with which to interpret the equations. But there are so
+very few equations that I have found that many physical pictures can give the same equations. So I am
+spending my time in study – in seeing how may new viewpoints I can take of what is known.
+Of course, the hope is that a slight modification of one of the pictures will straighten out some of
+the present troubles.
+I dislike all this talk of there not being a picture possible, but we only need know how to go about
+calculating any phenomena. True we only need calculate. But a picture is certainly a convenience & one
+is not doing anything wrong in making one up. It may prove to be entirely haywire while the equations
+are nearly right – yet for a while it helps. The power of mathematics is terrifying – and too many
+physicists finding they have the correct equations without understanding them have been so terrified
+they give up trying to understand them. I want to go back & try to understand them. What do I mean by
+understanding? Nothing deep or accurate — just to be able to see some of the qualitative consequences
+of the equations by some method other than solving them in detail.
+For example, I’m beginning to get a mild “understanding” of the place of Dirac’s α matrices which
+were invented by him “to produce an equation of first order in the differential coefficient in the time”,
+but by me in order “to keep track of the result of a succession of changes of coordinate system”. Still
+my stuff sounds mathematical – & insofar as it is, I still don’t understand it — but I will try soon to
+reformulate in terms of seeing how things look to someone riding with the electron. (For instance when
+an electron appears to go completely around a proton, the proton does not appear from the point of
+view of the electron to complete its circuit around the electron! (See Thomson24 on spin orbit interac-
+tion.) Because the succession of Lorentz transformations come out at the end as a small rotation of the
+electron’s axes).
+Why should the fundamental laws of Nature be so that one cannot explain them to a high-school
+student – but only to a quite advanced graduate student in physics? And we claim they are simple! In
+what sense are they simple? Because we can write them in one line. But it takes 8 years of college
+education to understand the symbols. Is there any simple ideas in the laws?
+Well enough for the baloney. I’ll get back to work on understanding better my new Dirac Equ. (By
+the way I did all this before I got your letter, except to notice that the choice leading from (B) to (C)
+gave the Dirac Eqn. in a particularly direct way — but I did notice that any function F(vµvµ) gives
+Dirac equations if correctly normalized. I was engaged in studying this: Certainly
+Z
+v χ(Rµ −vµ) dv F(vµvµ) =
+Z
+v
+
+vµ
+∂
+∂xµ
+χ
+
+dv F(vµvµ) =
+n ∂
+∂t −∇
+
+χ
+o Z
+vµvµ F(vµvµ) dv
+|
+{z
+}
+a number
+(18)
+so Dirac’s Eqn. comes out. But if vµvµ is nearly zero (assuming F(s2) is small unless s2 is small) it
+23[Feynman seems to have assumed here that the ray and the inertial charge wordline lie in a common plane, and he has
+chosen Coulomb gauge for the vector potential (the integral in question is not gauge invariant).]
+24[Feynman probably intended to refer to Thomas (precession) here.]
+10
+
+might still be true that vµ is not small enough to allow replacement in χ(Rµ −vµ) of χ by its first order
+Taylor expansion χ(R) + vµ
+∂
+∂xµ χ.
+Thanx for your suggestions and I look forward to hearing anything else you might think about this.
+If you don’t want to read this letter over & over could you send it back so if someone else wants an
+explanation they can read it.
+I will work on your 2nd quantization, when I get time. I really believe it is correct – but is another
+example of the terrifying power of math. to make us say things which we don’t understand but are true.
+Sincerely
+Dick .
+3
+Note on strategy for separating the effect of the mass
+This section contains a transcription of a note, filed in Box 11, Folder 2, in which the author, who is
+probably Feynman, sets out a strategy for separating out the effects of the mass term in seeking a path
+integral for the Dirac equation. My guess is that the note was written after the letter to Welton, since the
+strategy did not seem to be clear to Feynman in the letter. A facsimile of the original note is included in
+the Supplementary Material.
+1. If a rule of track will work then if it will apply for very small time intervals ϵ then the mass term
+in the Dirac Equ. can be neglected (ϵ ≪ℏ/mc). Hence look at neutrino.
+2. Field effects are also small.
+3. The is no length scale for (free) neutrino case.
+4. Hence either free neutrino rule is exact.
+5. Or it is not readily reduced to infinitesimal ϵ.
+Hence either find exact neutrino rule (Huygens Princ.) or expect a rule that shows up correctly only
+after an unlimited number of steps!
+Thus all you need is a rule that works OK when ψ is nearly constant – i.e.: small gradients!
+4
+Commentary and relation to later work
+• First of all, it is important to emphasize that the letter is an informal, private communication with
+a friend, describing work in progress, so should not be held to the standards one expects of a
+publication or even of an informal report on established results.
+• Feynman was strongly motivated to “understand” the Dirac equation from an elementary view-
+point that could be guessed from simple principles, as he says both in the letter and in his Nobel
+Lecture quoted in the Introduction. Rather than just working backward from a finite-differenced
+Dirac or Weyl equation, which would have been easier, Feynman aimed to infer the path inte-
+gral on purely geometric and algebraic grounds, using the fact that the spin is correlated with
+11
+
+the displacement of the particle, together with relations between rotations and quaternions. It
+appears that his motivation for that came in part from the case in two spatial dimensions, which
+he mentions in the letter. The notes in the archives contain some analysis of the two dimensional
+case.
+• The role that Feynman’s unsuccessful attempts at a path integral for the Dirac particle played
+in his progress toward the fantastically successful perturbative diagrammatic method for QED is
+explored in depth in Ref. [8]. There are at least two facets to this role. One is the mere fact that, in
+formulating quantum mechanics in terms of a path integral, Feynman was led to draw spacetime
+diagrams associated to complex numbers that are summed to obtain the full quantum transition
+amplitude. This carries over directly into Feynman diagrams. Another facet is that, lacking a path
+integral for the free Dirac particle transition amplitude, Feynman shifted attention to the object
+that this path integral should have yielded, namely, the propagator, which ends up attached to a
+diagram line that replaces the role of a spacetime path. His experience associating quaternions
+to path steps would have made the introduction of the Dirac-matrix-valued propagator a natural
+construction.
+• Feynman’s intuitive, heuristic methods that failed for the Dirac path integral were nevertheless
+effective in navigating his way from the classical Wheeler-Feynman formulation of electrody-
+namics and the Dirac equation to his diagrammatic, perturbative formulation of quantum field
+theory. Illuminating accounts and analyses of Feynman’s development of these ideas can be
+found in Refs. [1, 2, 8], as well as in more recent articles by Blum [11] and by Darrigol [12].
+• Feynman’s description of the path amplitude defined in terms of the solid angle on the sphere of
+tangent directions is not entirely clear to me, but it seems to be very close to Polyakov’s spin factor
+[13]. Some problematic aspects of Polyakov’s proposal are pointed out and corrected in [14], by
+working backwards from the retarded propagator for a (massless) Weyl spinor, expressing it as a
+path integral over a sequence of steps defined by spinors. The result appears to agree with what
+Feynman seems to be saying, at least concerning the phase associated with a path. Feynman’s
+“small arrowhead” sounds like the “flag” of Penrose’s “flagpole plus flag” representation of a two
+component spinor (up to a sign) [15]. The wave function at a point would thus correspond, apart
+from the sign ambiguity, to a such a spinor, as in [14]. However, in [14] it is argued that a more
+careful consideration of the continuum limit indicates that the correct step speed is not the speed
+of light (as both Feynman and Polyakov said) but rather three times that. That the discrete step
+speed should exceed the speed of light is consistent with the Courant–Friedrichs–Lewy step speed
+convergence condition, which is required for a finite differenced hyperbolic equation to converge
+to the continuum equation.
+• Although, as noted in footnote 12, Feynman’s quaternion chain guess for the spin-1/2 path integral
+is not correct as it stands, it is quite close to the approach taken in [9] which does work. The
+method in [9] is to first derive a path integral for the chiral (massless) case, and then to describe
+a Dirac particle of mass m by a pair of spinors of opposite chirality, which at each step of time
+duration ϵ have an amplitude iϵm to flip chirality. To derive the chiral path integral, the partial
+derivatives in the Weyl equation are replaced by finite differences, and the value of the two-
+component spinor wave function ψ(x, t + ϵ) is expressed in terms of the values of ψ(x′, t) at
+the points x′ on a sphere of radius 3ϵ (as it turns out) surrounding x. The amplitude for the
+step from x′ to x is obtained by multiplying the spinor ψ(x′, t) by the spin projection operator
+1
+2(I ± n · σ) = |±n⟩⟨±n|, where the ± sign corresponds to the fixed chirality of the Weyl
+particle, n is the unit vector pointing from x′ to x, and |±n⟩is the eigenspinor of positive spin in
+12
+
+the ±n direction (n · σ|±n⟩= ±|±n⟩). The spin projection operator is very close to Feynman’s
+quaternion path step, but he was missing the scalar part (1
+2I) of the quaternion that corresponds to
+the spin projection operator. Iteration of this one-step amplitude evolution yields a path integral in
+which a path is determined by a sequence of unit vectors ni, and the path amplitude is the product
+of the corresponding spin projection operators. The result is a path integral for the retarded
+propagator of a spinor wave function in which the steps move at 3 times the speed of light, and
+which converges to the continuum propagator.
+• The second approach Feynman sketches uses complex quaternions (which are also known as
+biquaternions, whose algebra is equivalent to that of the complex 2 × 2 matrices). The aim
+is a Lorentz covariant formulation, involving path steps that are 4-vectors. After developing
+some relations between the algebra of biquaternions and four-dimensional rotations or Lorentz
+transformations, he describes the proposed amplitude for a path, and then writes down a one-step
+evolution rule in Eqn. (B). A number of aspects look problematic. I may have misunderstood;
+but, for what it’s worth, my critiques are the following:
+– The argument of the wave function ψ(Rµ, s) is the four spacetime coordinates Rµ and a
+path parameter s. The usual Dirac wave function is a function on spacetime, and the role of
+s is unexplained.
+– The integral is over a Lorentz-invariant measure on the unit future timelike 4-vectors. Since
+a unit timelike vector can be arbitrarily “long”, the proposed amplitude evolution rule is
+highly nonlocal in spacetime.
+– It is not clear why the step vectors are chosen future pointing rather than past pointing.
+– The unit future timelike 4-vectors form a noncompact hyperbolic space, with infinite vol-
+ume, so the integral in (B) is generally not convergent.
+– Feynman goes on to consider other measures for the integral, one of which is the derivative
+of a delta function of vµvµ. With this measure he sees an indication of the Dirac equation
+emerging in (17), however I have been unable to follow the equality in the second line. (In
+the final line he seems to assume that χ has the form of a plane wave with squared wave
+4-vector k2, and has dropped a minus sign.)
+– The first equality of (18) seems to be missing a contribution from the zeroth order term in
+the Taylor expansion of χ. Such a term was not present in the prior construction with quater-
+nions, but in (18) the biquaternion v contains a scalar piece v0I which does not integrate to
+zero.
+– As Feynman recognizes below (18), the truncation of the Taylor expansion is not justified
+even when vµ is null or nearly null, because the components of such vµ can nevertheless be
+“large” (in some fixed coordinate system).
+– The second equality of (18) relies on the fact that the integral of vµvν with respect to a
+Lorentz-invariant measure is proportional to the (inverse) Minkowski metric ηµν. While
+this tensor structure is formally correct, for any choice of the weight F(vµvµ) other than
+zero the integral is not convergent.
+• A brief review of work on path integrals for particles with spin in the framework of discrete time
+quantum walks, beginning with Feynman’s checkerboard [10], can be found in section i.3.1 of
+[16].
+13
+
+Acknowledgments
+I am grateful to the Feynman Estate for permission to reproduce the letter, for which it holds the copy-
+right. This work was supported in part by NSF grant PHY-2309634 and by Perimeter Institute where
+part of this work was carried out. Research at Perimeter Institute is supported in part by the Govern-
+ment of Canada through the Department of Innovation, Science and Economic Development and by the
+Province of Ontario through the Ministry of Colleges and Universities.
+References
+[1] Richard P. Feynman.
+The development of the space-time view of quantum electrodynam-
+ics. http://www.nobelprize.org/prizes/physics/1965/feynman/lecture/,
+1965. Nobel Lecture. NobelPrize.org. Nobel Prize Outreach AB 2024. Thu. 15 Aug 2024. © The
+Nobel Foundation 1965. Published with permission.
+[2] S. S. Schweber. Feynman and the Visualization of Space-time Processes. Rev. Mod. Phys., 58:449–
+508, 1986.
+[3] John Archibald Wheeler and Richard Phillips Feynman. Interaction with the absorber as the mech-
+anism of radiation. Rev. Mod. Phys., 17:157–181, 1945.
+[4] John Archibald Wheeler and Richard Phillips Feynman. Classical electrodynamics in terms of
+direct interparticle action. Rev. Mod. Phys., 21:425–433, 1949.
+[5] Richard Phillips Feynman.
+The principle of least action in quantum mechanics.
+PhD thesis,
+Princeton U., 1942.
+[6] R. P. Feynman. Space-time approach to nonrelativistic quantum mechanics. Rev. Mod. Phys.,
+20:367–387, 1948.
+[7] R. P. Feynman. Letter to T. A. Welton, 10 February, 1947. California Institute of Technology
+Archives, Box 11, Folder 2.
+[8] A. W¨uthrich. The Genesis of Feynman Diagrams. Archimedes. Springer Netherlands, 2010.
+[9] Theodore Jacobson. Spinor Chain Path Integral for the Dirac Electron. J. Phys. A, 17:2433, 1984.
+[10] R.P. Feynman, A.R. Hibbs, and D.F. Styer. Quantum Mechanics and Path Integrals. Dover Books
+on Physics. Dover Publications, 2010.
+[11] Alexander S. Blum. The state is not abolished, it withers away: How quantum field theory became
+a theory of scattering. Stud. Hist. Phil. Sci. B, 60:46–80, 2017.
+[12] Olivier Darrigol. The magic of Feynman’s QED: from field-less electrodynamics to the Feynman
+diagrams. Eur. Phys. J. H, 44(4-5):349–369, 2019.
+[13] Alexander M. Polyakov. Fermi-Bose Transmutations Induced by Gauge Fields. Mod. Phys. Lett.
+A, 3:325, 1988.
+[14] Ted Jacobson. Bosonic Path Integral for Spin 1/2 Particles. Phys. Lett. B, 216:150–154, 1989.
+[15] Roger Penrose and Wolfgang Rindler. Spinors and Space-Time. Cambridge Monographs on Math-
+ematical Physics. Cambridge Univ. Press, Cambridge, UK, 4 2011.
+14
+
+[16] Pablo Arnault. Discrete-time quantum walks and gauge theories, arXiv:1710.11123. PhD thesis,
+UPMC, Paris (main), 2017.
+A
+Supplementary material: facsimiles
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+29

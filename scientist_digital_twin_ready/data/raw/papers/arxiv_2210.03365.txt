@@ -1,0 +1,2107 @@
+1/21 
+Spin-1 photons, spin-½ electrons, Bell’s inequalities, and Feynman’s 
+special perspective on quantum mechanics 
+Masud Mansuripur 
+James C. Wyant College of Optical Sciences, The University of Arizona, Tucson 
+[Published in Proceedings of SPIE 12205, Spintronics XV, 122050B (3 October 2022); doi: 10.1117/12.2633646] 
+Abstract. The Einstein-Podolsky-Rosen (EPR) paradox that argues for the incompleteness of quantum 
+mechanics as a description of physical reality has been put to rest by John Bell’s famous theorem, 
+which inspired numerous experimental tests and brought about further affirmations of quantum reality. 
+Nevertheless, in his writings and public presentations, Richard Feynman never acknowledged the 
+significance of Bell’s contribution to the resolution of the EPR paradox. In this paper, we discuss 
+several variants of the Bell inequalities (including one that was specifically espoused by Feynman), and 
+explore the ways in which they demolish the arguments in favor of local hidden-variable theories. We 
+also examine the roots of Feynman’s attitude toward Bell’s theorem in the context of Feynman’s special 
+perspective on quantum mechanics. 
+1. Introduction. Quantum weirdness is rooted in the fact that the states of a quantum system have 
+probability amplitudes, that these amplitudes are complex numbers, and that the evolution, 
+superposition, and combination of these complex amplitudes give rise to phenomena that often 
+seem strange, counterintuitive, and outright paradoxical to the worldview that is firmly rooted in our 
+understanding of classical physics, where probability amplitudes play no role. Richard Feynman has 
+consistently and persistently emphasized the importance of probability amplitudes in his teachings 
+and his descriptions of quantum phenomena.1,2 In fact, his path integral formulation of quantum 
+mechanics is based on the fundamental idea that one must add up all the probability amplitudes that 
+contribute to an event along different paths — so long as the paths are physically allowed and are, in 
+principle, indistinguishable from one another.3 The squared magnitude of the sum total of these 
+complex amplitudes will then yield the ordinary probability of occurrence of the event.1-3 
+Given Feynman’s profound understanding of physics, in general, and of quantum mechanics, in 
+particular, one would be inclined to think that he had reached the point where quantum weirdness 
+no longer disturbed him. Yet, as late as 1982, he would write:4 “we always have had a great deal of 
+difficulty in understanding the world view that quantum mechanics represents. At least I do, because I’m an old 
+enough man that I haven’t got to the point that this stuff is obvious to me. Okay, I still get nervous with it.” In 
+the same paper,4 Feynman describes an experiment with a pair of polarization entangled photons 
+which demonstrates the incompatibility of quantum mechanical predictions with the existence of 
+local hidden variables. While the argument is very much in line with John Bell’s views on the 
+subject,5-7 Feynman does not credit Bell, and indeed appears to have quietly known and internalized 
+the implications of such local hidden-variable theories (LHVTs) for quite some time.8,9 Be it as it 
+may, the goal of the present paper is not to adjudicate the issue for purposes of parceling out 
+historical credit, but rather to provide an accessible account of Bell’s inequalities that is informed 
+by Feynman’s special perspective on quantum mechanics — specifically, his belief in the primacy 
+of probability amplitudes.1-4 
+The organization of the paper is as follows. The maximally entangled photon pair discussed by 
+Feynman in the aforementioned paper4 is the subject of Sec.2. Here, we begin by describing the 
+polarization state of the photon pair, then present the quantum mechanical explanation of 
+experiments in which each photon passes through a linear polarizer (also known as polarization 
+analyzer) before being detected. This is followed by a concise argument as to why any LHVT 
+cannot possibly explain the observed correlations in certain experiments of the sort. In the particular 
+arrangement of polarizers chosen by Feynman, the probability of agreement between the signals of 
+
+2/21 
+the two detectors (i.e., both receive a photon or neither does) is ¾ according to the quantum theory, 
+but cannot exceed ⅔ if an LHVT happens to be operative. It is in the context of this observation 
+that Feynman concludes by saying: “I have entertained myself always by squeezing the difficulty of 
+quantum mechanics into a smaller and smaller place, so as to get more and more worried about this particular item. 
+It seems to be almost ridiculous that you can squeeze it to a numerical question that one thing is bigger than 
+another. But there you are — it is bigger than any logical argument can produce, if you have this kind of logic.”4 
+The maximally-entangled photon pair aside, there exist other entangled states that also 
+demonstrate the incompatibility of quantum mechanics with LHVTs.10-12 In Sec.3, we discuss the 
+case of a photon pair in the Hardy state, and follow this in Sec.4 by examining the case of a triplet 
+of photons in the Greenberger-Horne-Zeilinger (GHZ) thought experiment. 
+In photon-polarization-state studies, the Poincaré sphere serves as a powerful tool by mapping 
+each and every state of polarization to a unique point on a unit-sphere’s surface. Section 5 provides 
+a detailed description of the Poincaré sphere in conjunction with the Stokes parameters, first defined 
+in a basis of linearly-polarized states, then translated to a basis of right- and left-circularly-polarized 
+states. This provides a segue into Sec.6, where the Bloch sphere, a close relative of the Poincaré 
+sphere, is briefly introduced to help visualize the polarization states of spin-½ particles such as 
+electrons and protons. The spin polarization of such particles can be examined with the aid of Stern-
+Gerlach analyzers,1 which — much the same as polarizing beam-splitters used in photon 
+experiments — can be oriented in three-dimensional space for purposes of separating spin-up and 
+spin-down electrons (relative to an axis of the analyzer) by directing the particles of differing spins 
+along divergent paths. For particles with nonzero mass (e.g., electrons, protons, neutrons, atoms), 
+the mathematics of coordinate rotations is more nuanced than that needed for zero-mass particles 
+(e.g., photons, neutrinos), which lack a rest frame. Thus, we devote Sec.7 to a systematic study of 
+2 × 2 unitary operators whose action on the spin state of a spin-½ particle at rest can bring about an 
+arbitrary rotation of the coordinate system.† 
+In Sec.8, a pair of maximally entangled electrons is sent through two Stern-Gerlach analyzers 
+with their axes oriented in different directions. For a particular setting of the analyzer angles, 
+quantum mechanics predicts a probability of ¼ for the electrons emerging from the Stern-Gerlach 
+devices to have anti-parallel spins. In contrast, LHVTs put the chances of such occurrences at 
+greater than ⅓. Once again, the incompatibility of LHVTs with a description of Nature in quantum 
+mechanical terms is brought into sharp focus. 
+Up to this point in the paper, we have managed to discuss the predictions of LHVTs on a case 
+by case basis. Section 9 presents a formal (and more general) formulation of these theories, where 
+one of Bell’s inequalities (the one due to Clauser, Holt, Horne, and Shimony) is rigorously derived. 
+The unitary 2 × 2 rotation operator developed in Sec.7 for our subsequent study (in Sec.8) of a 
+pair of entangled spin-½ particles, has numerous interesting properties and applications in quantum 
+mechanics that go beyond the immediate concerns of the present paper. As an example, we show 
+how the rotation operator helps to derive the spin angular momentum operator 𝑺𝑺෡= 𝑆𝑆̂𝑥𝑥𝒙𝒙ෝ+ 𝑆𝑆̂𝑦𝑦𝒚𝒚ෝ+ 𝑆𝑆̂𝑧𝑧𝒛𝒛ො 
+for spin-½ particles, then use the latter operator in Sec.10 to examine the singlet and triplet states of 
+a pair of electrons.1 This leads to a derivation of the 3 × 3 rotation operator for spin-1 particles of 
+nonzero mass, thus providing a useful comparison with the 2 × 2 rotation operator for spin-1 
+photons mentioned toward the end of Sec.8. 
+                                                            
+† These 2 × 2 unitary operators act within the rest frame of two-state particles to bring about desired coordinate 
+reorientations. However, they are not applicable to two-state particles with zero-mass, such as single photons, whose 
+allowed rotations are restricted to those around the particle’s propagation direction.1 
+
+3/21 
+𝑦𝑦’ 
+𝑦𝑦 
+𝑥𝑥 
+𝑥𝑥 
+𝑥𝑥′ 
+𝑦𝑦 
+𝜃𝜃1 
+𝑥𝑥′ 
+𝑦𝑦′ 
+𝜃𝜃2 
+source 
+photon 1 
+photon 2 
+analyzer 1 
+analyzer 2 
+detector 1 
+detector 2 
+𝑧𝑧 
+𝑧𝑧 
+With the 3 × 3 rotation operator for spin-1 particles at hand, we proceed to derive in Sec.11 the 
+angular momentum operator 𝑱𝑱෠= 𝐽𝐽̂𝑥𝑥𝒙𝒙ෝ+ 𝐽𝐽̂𝑦𝑦𝒚𝒚ෝ+ 𝐽𝐽̂𝑧𝑧𝒛𝒛ො for spin-1 particles of nonzero mass, then use the 
+results to examine the states of a two-particle system consisting of a spin-1 particle 𝑎𝑎 and a spin-½ 
+particle 𝑏𝑏. Once again, the methodology used and the insights gained from these last sections are in 
+keeping with Feynman’s unique approach to quantum mechanics.1 The paper closes with a brief 
+summary and a few concluding remarks in Sec.12. 
+2. Maximally entangled photon pair. The state of a maximally entangled pair of photons having 
+linear polarization along the 𝑥𝑥 and 𝑦𝑦 axes is4 
+ 
+|𝜓𝜓⟩=
+1
+√2 (|𝑥𝑥⟩1|𝑦𝑦⟩2 + |𝑦𝑦⟩1|𝑥𝑥⟩2). 
+(1) 
+With reference to Fig.1, if analyzer 1 is rotated through an angle 𝜃𝜃1 around the 𝑧𝑧-axis, photon 1 
+may be described as being in a superposition of |𝑥𝑥′⟩1 and |𝑦𝑦′⟩1, in which case the state of photon 2 
+automatically becomes a superposition of |𝑥𝑥⟩2 and |𝑦𝑦⟩2 corresponding to |𝑥𝑥′⟩2 and |𝑦𝑦′⟩2 associated 
+with a rotated analyzer 2 through the same angle 𝜃𝜃1, as follows: 
+ 
+|𝜓𝜓⟩=
+1
+√2 [(cos 𝜃𝜃1 |𝑥𝑥′⟩1 −sin 𝜃𝜃1 |𝑦𝑦′⟩1)|𝑦𝑦⟩2 + (sin 𝜃𝜃1 |𝑥𝑥′⟩1 + cos 𝜃𝜃1 |𝑦𝑦′⟩1)|𝑥𝑥⟩2] 
+ 
+=
+1
+√2 [|𝑥𝑥′⟩1(sin 𝜃𝜃1 |𝑥𝑥⟩2 + cos 𝜃𝜃1 |𝑦𝑦⟩2) + |𝑦𝑦′⟩1(cos 𝜃𝜃1 |𝑥𝑥⟩2 −sin 𝜃𝜃1 |𝑦𝑦⟩2)] 
+ 
+=
+1
+√2 (|𝑥𝑥′⟩1|𝑦𝑦′⟩2 + |𝑦𝑦′⟩1|𝑥𝑥′⟩2). 
+(2) 
+Clearly, when analyzers 1 and 2 are set to the same angle 𝜃𝜃1, detectors 1 and 2 both detect a 
+photon, or both fail to detect a photon, irrespective of the specific value of 𝜃𝜃1. 
+Digression: For a single photon in the pure state |𝜑𝜑⟩= 𝛼𝛼|𝑥𝑥⟩+ 𝛽𝛽|𝑦𝑦⟩, one can write |𝜑𝜑⟩= (𝛼𝛼cos 𝜃𝜃+ 𝛽𝛽sin 𝜃𝜃)|𝑥𝑥′⟩−
+(𝛼𝛼sin 𝜃𝜃−𝛽𝛽cos 𝜃𝜃)|𝑦𝑦′⟩. Thus, when 𝜃𝜃= ±90°, |𝜑𝜑⟩= ±(𝛽𝛽|𝑥𝑥′⟩−𝛼𝛼|𝑦𝑦′⟩), indicating that a 90° rotation of the analyzer 
+turns the probability |𝛼𝛼|2 of passage into that of blockage, and vice-versa. Consistency requires that two successive 90° 
+rotations restore the analyzer to its initial state. Indeed, when 𝜃𝜃= ±180°, |𝜑𝜑⟩= −(𝛼𝛼|𝑥𝑥′⟩+ 𝛽𝛽|𝑦𝑦′⟩), which has the same 
+probability |𝛼𝛼|2 of passage and |𝛽𝛽|2 = 1 −|𝛼𝛼|2 of blockage as the original setting at 𝜃𝜃= 0°. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig.1. A source emits a pair of maximally entangled photons, one going to the left, the other to the right, 
+toward detectors 1 and 2. (This could be due to a 3𝑠𝑠→2𝑝𝑝→1𝑠𝑠 transition in a hydrogen atom, resulting in 
+two successive photoemissions.) Analyzers are placed before each detector, so that a photon polarized along 
+the 𝑥𝑥-axis passes through to detector 1, whereas a photon polarized along 𝑦𝑦 is blocked. Similarly, a photon 
+polarized along 𝑦𝑦 passes through to detector 2, while a photon polarized along 𝑥𝑥 is blocked. Each analyzer 
+can be rotated independently of the other, so that when the transmission axis of the first analyzer is rotated 
+through the angle 𝜃𝜃1, that of the second analyzer is set to 𝜃𝜃2. [The 𝑥𝑥𝑥𝑥𝑥𝑥 and 𝑥𝑥′𝑦𝑦′𝑧𝑧′ coordinate systems are 
+right-handed (with the thumb along the 𝑧𝑧-axis). Both depicted angles 𝜃𝜃1 and 𝜃𝜃2 are taken to be positive.] 
+
+4/21 
+Next, assume analyzer 1 is set to 𝜃𝜃1 while analyzer 2 is set to 𝜃𝜃2. The entangled state |𝜓𝜓⟩ of the 
+photon pair may now be written as 
+ 
+|𝜓𝜓⟩=
+1
+√2 [(cos 𝜃𝜃1 |𝑥𝑥′⟩1 −sin 𝜃𝜃1 |𝑦𝑦′⟩1)(−sin 𝜃𝜃2 |𝑥𝑥′⟩2 + cos 𝜃𝜃2 |𝑦𝑦′⟩2) 
+ 
++(sin 𝜃𝜃1 |𝑥𝑥′⟩1 + cos 𝜃𝜃1 |𝑦𝑦′⟩1)(cos 𝜃𝜃2 |𝑥𝑥′⟩2 + sin 𝜃𝜃2 |𝑦𝑦′⟩2)] 
+ 
+=
+1
+√2 [sin(𝜃𝜃1 −𝜃𝜃2) |𝑥𝑥′⟩1|𝑥𝑥′⟩2 + cos(𝜃𝜃1 −𝜃𝜃2) |𝑥𝑥′⟩1|𝑦𝑦′⟩2 
+ 
++ cos(𝜃𝜃1 −𝜃𝜃2) |𝑦𝑦′⟩1|𝑥𝑥′⟩2 −sin(𝜃𝜃1 −𝜃𝜃2) |𝑦𝑦′⟩1|𝑦𝑦′⟩2]. 
+(3) 
+In this case, the probability that both detectors click, or that neither clicks, is cos2(𝜃𝜃1 −𝜃𝜃2), 
+whereas the probability of only one detector clicking is sin2(𝜃𝜃1 −𝜃𝜃2). 
+Digression: The state |𝜓𝜓⟩ in Eq.(1) may be written in terms of the right and left circularly-polarized states (i.e., the “up” 
+and “down” angular momentum states), where |↑⟩= (|𝑥𝑥⟩+ i|𝑦𝑦⟩) √2
+⁄
+ and |↓⟩= (|𝑥𝑥⟩−i|𝑦𝑦⟩) √2
+⁄
+, as follows: 
+ 
+|𝜓𝜓⟩=
+1
+2√2 [(|↑⟩+ |↓⟩)1(|↑⟩−|↓⟩)2 + (|↑⟩−|↓⟩)1(|↑⟩+ |↓⟩)2] =
+1
+√2 (|↑⟩1|↑⟩2 −|↓⟩1|↓⟩2). 
+(4) 
+Note that the angular momentum of each photon in its up and down states is aligned with its own ±𝑧𝑧-axis, where 𝑧𝑧 
+is the direction of propagation. Thus, both the |↑⟩1|↑⟩2 and |↓⟩1|↓⟩2 states have zero net angular momentum. In spite of 
+the distinguishability of photons of different color emitted in the 3𝑠𝑠→2𝑝𝑝→1𝑠𝑠 transition in a hydrogen atom, there is 
+no a priori way to know whether the emitted pair is in the angular momentum state |↑⟩1|↑⟩2 or |↓⟩1|↓⟩2, hence the 
+necessity of describing the state as a superposition of the two. For our pair of photons, not only is it necessary for the 
+total 𝐽𝐽𝑧𝑧, whose operator is 𝐽𝐽̂𝑧𝑧1 −𝐽𝐽̂𝑧𝑧2, to vanish, but also the total angular momentum 𝑱𝑱, associated with the operator 
+𝑱𝑱෠∙𝑱𝑱෠= 𝑱𝑱෠2 = (𝐽𝐽̂𝑧𝑧1 −𝐽𝐽̂𝑧𝑧2)2 = 𝐽𝐽̂𝑧𝑧1
+2 + 𝐽𝐽̂𝑧𝑧2
+2 −2𝐽𝐽̂𝑧𝑧1𝐽𝐽̂𝑧𝑧2, must vanish as well. This is the fundamental reason why the photon pair 
+must be in the superposition state |𝜓𝜓⟩ given by Eq.(4) — the singlet state. 
+Given that photons are spin-1 particles, one might be curious as to why their spin angular momenta assume only 
+the eigenvalues 𝐽𝐽𝑧𝑧= ±ℏ; shouldn’t there be a 𝐽𝐽𝑧𝑧= 0 eigenvalue as well? Here is how Feynman explains the absence of 
+the corresponding quantum number 𝑗𝑗= 0: “But light is screwy; it has only two states. It does not have the zero case. 
+This strange lack is related to the fact that light cannot stand still. For a particle of spin 𝑗𝑗 which is standing still, there 
+must be the 2𝑗𝑗+ 1 possible states with values of 𝑗𝑗𝑧𝑧 going in steps of 1 from −𝑗𝑗 to +𝑗𝑗. But it turns out that for something 
+of spin 𝑗𝑗 with zero mass only the states with the components +𝑗𝑗 and −𝑗𝑗 along the direction of motion exist. For 
+example, light does not have three states, but only two — although a photon is still an object of spin one.”1 
+2.1. Density matrix. The two-particle pure state |𝜓𝜓⟩ of Eq.(3) has a 4 × 4 density matrix13 (or 
+density operator) consisting of 16 elements, as follows: 
+ 
+𝜌𝜌ො12(𝜃𝜃1, 𝜃𝜃2) = |𝜓𝜓⟩⟨𝜓𝜓| = ½[sin2(𝜃𝜃1 −𝜃𝜃2) |𝑥𝑥′⟩1|𝑥𝑥′⟩2⟨𝑥𝑥′|2⟨𝑥𝑥′|1 
+ 
++ sin(𝜃𝜃1 −𝜃𝜃2) cos(𝜃𝜃1 −𝜃𝜃2) |𝑥𝑥′⟩1|𝑥𝑥′⟩2⟨𝑦𝑦′|2⟨𝑥𝑥′|1 
+ 
+⋮ 
+ 
+−sin(𝜃𝜃1 −𝜃𝜃2) cos(𝜃𝜃1 −𝜃𝜃2) |𝑦𝑦′⟩1|𝑦𝑦′⟩2⟨𝑥𝑥′|2⟨𝑦𝑦′|1 
+ 
++ sin2(𝜃𝜃1 −𝜃𝜃2) |𝑦𝑦′⟩1|𝑦𝑦′⟩2⟨𝑦𝑦′|2⟨𝑦𝑦′|1]. 
+(5) 
+The trace of 𝜌𝜌ො12 over particle 1 now yields the density matrix 𝜌𝜌ො2 of particle 2, namely, 
+ 
+𝜌𝜌ො2(𝜃𝜃1, 𝜃𝜃2) = ⟨𝑥𝑥′|1|𝜓𝜓⟩⟨𝜓𝜓||𝑥𝑥′⟩1 + ⟨𝑦𝑦′|1|𝜓𝜓⟩⟨𝜓𝜓||𝑦𝑦′⟩1 = ½|𝑥𝑥′⟩2⟨𝑥𝑥′|2 + ½|𝑦𝑦′⟩2⟨𝑦𝑦′|2. 
+(6) 
+This is the 2 × 2 matrix ½𝕀𝕀෠, showing that the state of particle 2 is maximally mixed, with |𝑥𝑥′⟩ 
+and |𝑦𝑦′⟩ each having probability ½. 
+
+5/21 
+2.2. A local hidden-variable theory. Suppose each photon carries an instruction set as to which 
+setting of an analyzer it is allowed to pass through, and which setting it is not.4 Considering that the 
+two (maximally entangled) photons behave in precisely the same way when the two analyzers are 
+identically oriented (i.e., when 𝜃𝜃1 = 𝜃𝜃2), it is natural to assume that the instructions carried by the 
+two photons are identical. However, in each photon-pair-emission event, the pair is expected to 
+receive a new (perhaps randomly selected) instruction set. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig.2. The two (maximally entangled) photons of Fig.1 are assumed to abide by identical instruction sets that 
+specify the settings of their respective analyzer at which they are permitted to pass through to the corresponding 
+detector. The instruction sets, although always identical for the two photons, change (perhaps randomly) from 
+one emitted photon pair to the next. In each experiment, the angle 𝜃𝜃1 of the first analyzer is set to a random 
+multiple of 30° (relative to the 𝑥𝑥-axis), while the second analyzer is set to 𝜃𝜃2 = 𝜃𝜃1 + 30° (relative to the 𝑦𝑦-axis). 
+In each realization, the photons are instructed to pass or not pass through their respective analyzer when the 
+analyzer is set at 𝜃𝜃= 0°, 30° and 60°. Considering that the rotation of an analyzer by 90° must result in the 
+opposite outcome, the behavior of each photon for all the remaining angles (at integer-multiples of 30°) is 
+automatically determined by their instructions for 𝜃𝜃= 0°, 30° and 60°. In the diagrams, a green dot at a given 
+angle instructs the photon to pass through, whereas a red dot is an instruction to stop. There are numerous 
+possible instruction sets, of course, but they can all be neatly divided into the depicted eight categories 
+depending on the specific instructions they contain for the 0°, 30° and 60° analyzer settings. In the cases 
+identified with the numerals 3 and 6, one detector always detects a photon and the other does not. For each of the 
+remaining six cases, however, given that 𝜃𝜃1 is randomly set to an integer-multiple of 30°, in eight out of twelve 
+possible experiments (i.e., an average of two-thirds), the outputs of the two detectors will agree with each other. 
+Consequently, no matter what fraction of the instruction sets falls into each of the eight possible categories, the 
+fraction of experiments in which the readings of the two detectors agree with each other cannot exceed ⅔. 
+Now, in each repetition of our experiment, we randomly set the angle 𝜃𝜃1 of the first analyzer to 
+an integer-multiple of 30°, while fixing the second analyzer at 𝜃𝜃2 = 𝜃𝜃1 + 30°.‡ Considering that the 
+allowed orientation angles of both analyzers are integer-multiples of 30°, all conceivable instruction 
+sets can be divided into the eight categories depicted in Fig.2. Here a green dot associated with a 
+given angle (𝜃𝜃1 or 𝜃𝜃2) indicates that the photon will pass through to the detector, whereas a red dot 
+                                                            
+‡To avoid the need to decide the values of 𝜃𝜃1 and 𝜃𝜃2 prior to the release of each photon pair, the two measurements can be done 
+independently of each other, where, in each trial, the analyzer angles are set to random multiples of 30°. Afterward, when the 
+experimenters come together, they compare only the results of those measurements that pertain to cases where 𝜃𝜃2 = 𝜃𝜃1 + 30°. Also, 
+to ensure that coincidences are properly recorded, it is necessary in practice to replace the analyzers with polarizing beam-splitters, 
+each followed by two photodetectors, one for detecting 𝑥𝑥-polarized photons, the other for 𝑦𝑦-polarized photons.  
+0° 
+30° 
+60° 
+90° 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+
+6/21 
+𝑦𝑦’ 
+𝑥𝑥 
+𝑥𝑥′ 
+𝑦𝑦 
+𝜃𝜃 
+instructs the photon to stop. It is clear that, in cases marked as 3 and 6, one detector picks up a 
+photon and the other does not, whereas in each of the remaining cases, for eight out of twelve 
+possible settings of the analyzers, the outputs of the two detectors will agree with each other — that 
+is, either both detectors pick up a photon or neither does. The probability of agreement between the 
+two detector outputs (i.e., both receive a photon or neither does) is seen to be at most ⅔; that is, the 
+probability of observing identical detector signals is below 67%. In contrast, the quantum 
+mechanical theory of the preceding section predicts a coincidence rate of cos2(𝜃𝜃1 −𝜃𝜃2) =
+cos2(30°) = 3 4
+⁄ , whose validity has been amply confirmed by experiments.14. These results clearly 
+indicate the incompatibility of quantum mechanics with the existence of local hidden variables. 
+Digression: An alternative argument can be based on setting each analyzer (randomly and independently of the other) to 
+𝜃𝜃= 0°, or 120°, or 240°. According to quantum mechanics, in cases where |𝜃𝜃2 −𝜃𝜃1| = 120°, the two detector signals 
+must agree with a probability of cos2(120°) = ¼. In contrast, should the photon pair emerge from the source with 
+individual instruction sets (as described above), the chances of agreement between the detector signals must exceed 
+33%, in clear violation of the dictates of quantum mechanics. 
+3. Photon pair in the Hardy state.12 The Hardy state of a hypothetical photon pair is given by 
+ 
+|𝜓𝜓⟩=
+1
+√12 ൫|𝑥𝑥⟩1|𝑥𝑥⟩2 −|𝑥𝑥⟩1|𝑦𝑦⟩2 −|𝑦𝑦⟩1|𝑥𝑥⟩2 −3|𝑦𝑦⟩1|𝑦𝑦⟩2൯. 
+(7) 
+In what follows, we shall assume that both analyzers transmit along their 
+𝑥𝑥′-axes and block along their 𝑦𝑦′-axes, with 𝑥𝑥′𝑦𝑦′ rotated around 𝑧𝑧 through the 
+angle 𝜃𝜃. (Viewed from the corresponding detector, each analyzer is rotated 
+counterclockwise.) In the state |𝜓𝜓⟩ of Eq.(7), the probability of |𝑥𝑥⟩1|𝑥𝑥⟩2 is 
+1 12
+⁄
+, indicating that, when the analyzers are set to 𝜃𝜃1 = 𝜃𝜃2 = 0°, there exists an 
+8.33% chance that detectors 1 and 2 will simultaneously pick up a photon. If 
+analyzer 1 is rotated to 𝜃𝜃1 = 45°, the state of the photon pair in terms of |𝑥𝑥′⟩1 and |𝑦𝑦′⟩1 becomes 
+ 
+|𝜓𝜓⟩=
+1
+√24 ൣ(|𝑥𝑥′⟩1 −|𝑦𝑦′⟩1)|𝑥𝑥⟩2 −(|𝑥𝑥′⟩1 −|𝑦𝑦′⟩1)|𝑦𝑦⟩2 −(|𝑥𝑥′⟩1 + |𝑦𝑦′⟩1)|𝑥𝑥⟩2 
+ 
+−3(|𝑥𝑥′⟩1 + |𝑦𝑦′⟩1)|𝑦𝑦⟩2൧= −
+1
+√6 ൫2|𝑥𝑥′⟩1|𝑦𝑦⟩2 + |𝑦𝑦′⟩1|𝑥𝑥⟩2 + |𝑦𝑦′⟩1|𝑦𝑦⟩2൯. 
+(8) 
+Considering that |𝑥𝑥′⟩1|𝑥𝑥⟩2 is missing from |𝜓𝜓⟩, there is no chance that the two detectors will 
+simultaneously pick up photons when 𝜃𝜃1 = 45° and 𝜃𝜃2 = 0°. Similarly, if analyzer 1 remains at 
+𝜃𝜃1 = 0° while analyzer 2 is rotated to 𝜃𝜃2 = 45°, we will have 
+ 
+|𝜓𝜓⟩=
+1
+√24 ൣ|𝑥𝑥⟩1(|𝑥𝑥′⟩2 −|𝑦𝑦′⟩2) −|𝑥𝑥⟩1(|𝑥𝑥′⟩2 + |𝑦𝑦′⟩2) −|𝑦𝑦⟩1(|𝑥𝑥′⟩2 −|𝑦𝑦′⟩2) 
+ 
+−3|𝑦𝑦⟩1(|𝑥𝑥′⟩2 + |𝑦𝑦′⟩2)൧= −
+1
+√6 ൫|𝑥𝑥⟩1|𝑦𝑦′⟩2 + 2|𝑦𝑦⟩1|𝑥𝑥′⟩2 + |𝑦𝑦⟩1|𝑦𝑦′⟩2൯. 
+(9) 
+This time, |𝑥𝑥⟩1|𝑥𝑥′⟩2 drops out of |𝜓𝜓⟩, indicating the impossibility of simultaneous detection of 
+both photons when 𝜃𝜃1 = 0° and 𝜃𝜃2 = 45°. Finally, when the analyzers are set to 𝜃𝜃1 = 𝜃𝜃2 = 45°, we 
+will have 
+ 
+|𝜓𝜓⟩=
+1
+√48 ൣ(|𝑥𝑥′⟩1 −|𝑦𝑦′⟩1)(|𝑥𝑥′⟩2 −|𝑦𝑦′⟩2) −(|𝑥𝑥′⟩1 −|𝑦𝑦′⟩1)(|𝑥𝑥′⟩2 + |𝑦𝑦′⟩2) 
+ 
+−(|𝑥𝑥′⟩1 + |𝑦𝑦′⟩1)(|𝑥𝑥′⟩2 −|𝑦𝑦′⟩2) −3(|𝑥𝑥′⟩1 + |𝑦𝑦′⟩1)(|𝑥𝑥′⟩2 + |𝑦𝑦′⟩2)൧ 
+ 
+= −
+1
+√3 ൫|𝑥𝑥′⟩1|𝑥𝑥′⟩2 + |𝑥𝑥′⟩1|𝑦𝑦′⟩2 + |𝑦𝑦′⟩1|𝑥𝑥′⟩2൯. 
+(10) 
+
+7/21 
+In this case, |𝑦𝑦′⟩1|𝑦𝑦′⟩2 is missing from |𝜓𝜓⟩, indicating that at least one of the photons must be 
+picked up by a detector when 𝜃𝜃1 = 𝜃𝜃2 = 45°. 
+Now, if we assume that each photon leaves the source with instructions as to how to behave 
+upon reaching an analyzer, then all possible combinations of the instruction sets must adhere to the 
+rules summarized in Table 1. In case 𝐵𝐵, corresponding to (𝜃𝜃1, 𝜃𝜃2) = (45°, 0°), combinations 
+marked as ×𝐵𝐵 are prohibited; in case 𝐶𝐶, where (𝜃𝜃1, 𝜃𝜃2) = (0°, 45°), combinations marked as ×𝐶𝐶 are 
+prohibited; and in case 𝐷𝐷, where (𝜃𝜃1, 𝜃𝜃2) = (45°, 45°), combination marked as ×𝐷𝐷 are prohibited. 
+Under these circumstances, there is no chance of both detectors picking up photons in case 𝐴𝐴 
+corresponding to (𝜃𝜃1, 𝜃𝜃2) = (0°, 0°), hence the incompatibility of quantum mechanics with LHVTs. 
+ 
+Photon 2, 𝜃𝜃2 = 0°/45° → 
+↓ Photon 1, 𝜃𝜃1 = 0°/45° 
+pass/pass 
+stop/pass 
+pass/stop 
+stop/stop 
+pass/pass 
+×𝐵𝐵,𝐶𝐶 
+×𝐶𝐶 
+×𝐵𝐵 
+ 
+stop/pass 
+×𝐵𝐵 
+ 
+×𝐵𝐵 
+ 
+pass/stop 
+×𝐶𝐶 
+×𝐶𝐶 
+×𝐷𝐷 
+×𝐷𝐷 
+stop/stop 
+ 
+ 
+×𝐷𝐷 
+×𝐷𝐷 
+Table 1. Certain combinations of the instruction sets carried by photons 1 and 2 are prohibited because 
+simultaneous passage is disallowed in cases 𝐵𝐵 and 𝐶𝐶, while simultaneous blockage is disallowed in case 𝐷𝐷. 
+4. Triplet of photons in the GHZ state.12 In the Greenberger-Horne-Zeilinger (GHZ) thought 
+experiment, three photons are polarization-entangled in the following state: 
+ 
+|𝜓𝜓⟩= ½(|𝑦𝑦𝑦𝑦𝑦𝑦⟩1,2,3 −|𝑦𝑦𝑦𝑦𝑦𝑦⟩1,2,3 −|𝑥𝑥𝑥𝑥𝑥𝑥⟩1,2,3 −|𝑥𝑥𝑥𝑥𝑥𝑥⟩1,2,3). 
+(11) 
+The notation |𝑎𝑎𝑎𝑎𝑎𝑎⟩1,2,3 used here is an abbreviation for |𝑎𝑎⟩1|𝑏𝑏⟩2|𝑐𝑐⟩3. Upon their release from a 
+common source, the photons travel to three (mutually distant) detection stations, where each photon 
+faces an analyzer followed by a detector. The analyzers placed in the paths of photons 1, 2, 3 have 
+their transmission axes rotated by 𝜃𝜃1, 𝜃𝜃2, 𝜃𝜃3 from a common 𝑥𝑥-axis. Four different experiments are 
+carried out with these three (entangled) photons, as follows: 
+Case A: 𝜃𝜃1 = 𝜃𝜃2 = 𝜃𝜃3 = 0°. Considering the structure of |𝜓𝜓⟩, either none or exactly two photons 
+are detected; i.e., the total number of photons detected in any such event is an even number. 
+Case B: 𝜃𝜃1 = 𝜃𝜃2 = 45° while 𝜃𝜃3 = 0°. The states of photons 1 and 2 must now be expressed in 
+terms of the 45°-rotated axes 𝑥𝑥′ and 𝑦𝑦′, where |𝑥𝑥⟩=
+1
+√2 (|𝑥𝑥′⟩−|𝑦𝑦′⟩) and |𝑦𝑦⟩=
+1
+√2 (|𝑥𝑥′⟩+ |𝑦𝑦′⟩). We 
+will have 
+ 
+|𝜓𝜓⟩= ¼ൣ(|𝑥𝑥′⟩1 + |𝑦𝑦′⟩1)(|𝑥𝑥′⟩2 + |𝑦𝑦′⟩2)|𝑦𝑦⟩3 −(|𝑥𝑥′⟩1 + |𝑦𝑦′⟩1)(|𝑥𝑥′⟩2 −|𝑦𝑦′⟩2)|𝑥𝑥⟩3 
+ 
+−(|𝑥𝑥′⟩1 −|𝑦𝑦′⟩1)(|𝑥𝑥′⟩2 + |𝑦𝑦′⟩2)|𝑥𝑥⟩3 −(|𝑥𝑥′⟩1 −|𝑦𝑦′⟩1)(|𝑥𝑥′⟩2 −|𝑦𝑦′⟩2)|𝑦𝑦⟩3൧ 
+ 
+= ½(|𝑥𝑥′𝑦𝑦′𝑦𝑦⟩1,2,3 + |𝑦𝑦′𝑥𝑥′𝑦𝑦⟩1,2,3 −|𝑥𝑥′𝑥𝑥′𝑥𝑥⟩1,2,3 + |𝑦𝑦′𝑦𝑦′𝑥𝑥⟩1,2,3). 
+(12) 
+The total number of detected photons in this case will be either 1 or 3, i.e., an odd number. 
+Case C: 𝜃𝜃1 = 𝜃𝜃3 = 45° while 𝜃𝜃2 = 0°. Expressed in terms of |𝑥𝑥′⟩1, |𝑦𝑦′⟩1, |𝑥𝑥⟩2, |𝑦𝑦⟩2, |𝑥𝑥′⟩3 and 
+|𝑦𝑦′⟩3, the state |𝜓𝜓⟩ now becomes 
+
+8/21 
+ 
+|𝜓𝜓⟩= ½(|𝑥𝑥′𝑦𝑦𝑦𝑦′⟩1,2,3 + |𝑦𝑦′𝑦𝑦𝑥𝑥′⟩1,2,3 −|𝑥𝑥′𝑥𝑥𝑥𝑥′⟩1,2,3 + |𝑦𝑦′𝑥𝑥𝑦𝑦′⟩1,2,3). 
+(13) 
+As in the Case 𝐵𝐵, the total number of detected photons (either 1 or 3) will be an odd number. 
+Case D: 𝜃𝜃2 = 𝜃𝜃3 = 45° while 𝜃𝜃1 = 0°. Expressed in terms of |𝑥𝑥⟩1, |𝑦𝑦⟩1, |𝑥𝑥′⟩2, |𝑦𝑦′⟩2, |𝑥𝑥′⟩3 and 
+|𝑦𝑦′⟩3 the state |𝜓𝜓⟩ becomes 
+ 
+|𝜓𝜓⟩= ½(|𝑦𝑦𝑥𝑥′𝑦𝑦′⟩1,2,3 + |𝑦𝑦𝑦𝑦′𝑥𝑥′⟩1,2,3 −|𝑥𝑥𝑥𝑥′𝑥𝑥′⟩1,2,3 + |𝑥𝑥𝑦𝑦′𝑦𝑦′⟩1,2,3). 
+(14) 
+Again, the total number of detected photons (either 1 or 3) is seen to be an odd number. 
+An LHVT would equip each photon with instructions as to how to behave upon encountering 
+an analyzer oriented at 𝜃𝜃= 0° or 45°. Figure 3 shows 32 (out of a possible 64) combinations of 
+such instruction sets in the form of triplets of colored cards, with the upper half of each card 
+corresponding to 𝜃𝜃= 0°, and the lower half to 𝜃𝜃= 45°. The green color instructs the photon to pass 
+through an analyzer set at 𝜃𝜃, whereas the red color tells it to stop. Considering that in the Case 𝐴𝐴 
+(where 𝜃𝜃1 = 𝜃𝜃2 = 𝜃𝜃3 = 0°) an even number of photons must pass through to the detectors, the top-
+half colors of any 3-card set cannot be 𝐺𝐺𝐺𝐺𝐺𝐺, 𝐺𝐺𝐺𝐺𝑅𝑅, 𝑅𝑅𝑅𝑅𝑅𝑅, or 𝑅𝑅𝑅𝑅𝑅𝑅. This eliminates 32 out of 64 
+possible 3-card combinations, which explains their exclusion from Fig.3. None of the 3-card 
+combinations that comply with the Case 𝐴𝐴 requirement (and, therefore, appear in Fig.3) complies 
+with the expected behavior in the remaining cases 𝐵𝐵, 𝐶𝐶, and 𝐷𝐷. The symbol × placed below each 3-
+card set in Fig.3 is meant to cross-out that particular combination due to its violation of the 
+requirements of cases 𝐵𝐵, 𝐶𝐶, or 𝐷𝐷, as indicated by the corresponding subscript of ×. Given that all 
+possible 3-card combinations are thus rejected, there is no viable explanation that can be based on 
+the existence of local hidden variables for the observed behavior of the entangled photons in the 
+GHZ thought experiment. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig.3 (next page). These 32 possible combinations of instruction sets carried by three photons reveal the 
+impossibility of invoking the existence of local hidden variables to account for the actual behavior observed 
+in the four experiments conducted with the photon triplet in the GHZ state |𝜓𝜓⟩. Each photon carries a card 
+with its top and bottom halves colored in green (for pass) or red (for stop) when it encounters an analyzer set 
+to 𝜃𝜃= 0° or 45°. Considering that, in the state |𝜓𝜓⟩, either no photons or exactly two photons are allowed to 
+pass through when the analyzers are set to 𝜃𝜃1 = 𝜃𝜃2 = 𝜃𝜃3 = 0° (Case 𝐴𝐴), the color combinations 𝐺𝐺𝐺𝐺𝐺𝐺, 𝐺𝐺𝐺𝐺𝐺𝐺, 
+𝑅𝑅𝑅𝑅𝑅𝑅, and 𝑅𝑅𝑅𝑅𝑅𝑅 for the top halves of a 3-card set need not be considered. This eliminates 32 out of 64 
+possible card combinations, which explains why none of the combinations depicted here violate the 
+requirements for case 𝐴𝐴. In cases 𝐵𝐵, 𝐶𝐶, and 𝐷𝐷, where one analyzer is set to 𝜃𝜃= 0° while the other two are at 
+𝜃𝜃= 45°, the GHZ state requires that either 1 or 3 photons pass through the analyzers. Each of the depicted 
+3-card combinations violates this requirement and is, therefore, crossed out with the symbol × placed below 
+the combination. The subscript of × indicates the specific case (𝐵𝐵, 𝐶𝐶, or 𝐷𝐷) which the combination violates. 
+
+9/21 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0° 
+45° 
+1 
+0° 
+45° 
+2 
+0° 
+45° 
+3 
+0° 
+45° 
+1 
+0° 
+45° 
+2 
+0° 
+45° 
+3 
+0° 
+45° 
+1 
+0° 
+45° 
+2 
+0° 
+45° 
+3 
+0° 
+45° 
+1 
+0° 
+45° 
+2 
+0° 
+45° 
+3 
+×BCD 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×D 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×C 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×B 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×B 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×C 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×D 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×BCD 
+×B 
+×C 
+×D 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×C 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×D 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×BCD 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×BCD 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×D 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×C 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×B 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×BCD 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×B 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×C 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×C 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×B 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×BCD 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×D 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×B 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×BCD 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×D 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×D 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×BCD 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×B 
+0° 
+45° 
+0° 
+45° 
+0° 
+45° 
+×C 
+
+10/21 
+5. The Poincaré sphere. Let a photon be in a superposition of |𝑥𝑥⟩ and |𝑦𝑦⟩ polarization states with 
+corresponding complex amplitudes 𝛼𝛼𝑥𝑥𝑒𝑒i𝜑𝜑𝑥𝑥 and 𝛼𝛼𝑦𝑦𝑒𝑒i𝜑𝜑𝑦𝑦, where 𝛼𝛼𝑥𝑥
+2 + 𝛼𝛼𝑦𝑦
+2 = 1. We write 
+ 
+|𝜓𝜓⟩= 𝛼𝛼𝑥𝑥𝑒𝑒i𝜑𝜑𝑥𝑥|𝑥𝑥⟩+ 𝛼𝛼𝑦𝑦𝑒𝑒i𝜑𝜑𝑦𝑦|𝑦𝑦⟩. 
+(15) 
+The Stokes parameters for this state are defined as 
+ 
+𝑆𝑆0 = 𝛼𝛼𝑥𝑥
+2 + 𝛼𝛼𝑦𝑦
+2, 
+(16a) 
+ 
+𝑆𝑆1 = 𝛼𝛼𝑥𝑥
+2 −𝛼𝛼𝑦𝑦
+2, 
+(16b) 
+ 
+𝑆𝑆2 = 2𝛼𝛼𝑥𝑥𝛼𝛼𝑦𝑦cos(𝜑𝜑𝑦𝑦−𝜑𝜑𝑥𝑥), 
+(16c) 
+ 
+𝑆𝑆3 = 2𝛼𝛼𝑥𝑥𝛼𝛼𝑦𝑦sin(𝜑𝜑𝑦𝑦−𝜑𝜑𝑥𝑥). 
+(16d) 
+Clearly, 𝑆𝑆1
+2 + 𝑆𝑆2
+2 + 𝑆𝑆3
+2 = 𝑆𝑆0
+2 = 1. The Poincaré sphere is a unit-radius sphere centered at 
+(𝑥𝑥, 𝑦𝑦, 𝑧𝑧) = (0, 0, 0). As shown in Fig.4(a), the polarization state |𝜓𝜓⟩ is represented by a point on the 
+sphere’s surface located at (𝑥𝑥, 𝑦𝑦, 𝑧𝑧) = (𝑆𝑆1, 𝑆𝑆2, 𝑆𝑆3). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig.4. (a) The Poincaré sphere is a sphere of radius 1 centered at the origin of a coordinate system whose 
+𝑆𝑆1𝑆𝑆2𝑆𝑆3 axes represent the Stokes parameters of a photon in the polarization state |𝜓𝜓⟩ of Eq.(15). The state is 
+uniquely represented by a point on the surface of the Poincaré sphere. (b) The state |𝜓𝜓⟩ corresponds to an 
+ellipse of polarization in the 𝑥𝑥𝑥𝑥-plane, whose major axis makes an angle 𝜌𝜌 with the 𝑥𝑥-axis. The polarization 
+ellipticity is specified by the angle 𝜂𝜂, which is the arctangent of the ratio of the minor to major axes of the 
+ellipse. On the Poincaré sphere, the point representing |𝜓𝜓⟩ has longitude 2𝜌𝜌 and latitude 2𝜂𝜂. Alternatively, one 
+may use the polar and azimuthal angles (𝜃𝜃0, 𝜙𝜙0) of a point on the sphere’s surface to identify the corresponding 
+state of polarization in a basis of right- and left-circular polarizations, namely, |RCP⟩= (|𝑥𝑥⟩+ i|𝑦𝑦⟩) √2
+⁄
+ and 
+|LCP⟩= (|𝑥𝑥⟩−i|𝑦𝑦⟩) √2
+⁄
+. Ignoring an insignificant phase factor, the polarization state can be written as 
+|𝜓𝜓⟩= cos(½𝜃𝜃0) |RCP⟩+ sin(½𝜃𝜃0) 𝑒𝑒i𝜙𝜙0|LCP⟩. 
+The ellipse of polarization is an ellipse in the 𝑥𝑥𝑥𝑥-plane, having ellipticity 𝜂𝜂 and a major axis 
+that is rotated through an angle 𝜌𝜌 from the 𝑥𝑥-axis toward the 𝑦𝑦-axis, as shown in Fig.4(b). The 
+probability amplitudes along the major and minor axes of this ellipse are denoted by (cos 𝜂𝜂)𝑒𝑒i𝜒𝜒 and 
+i(sin 𝜂𝜂)𝑒𝑒i𝜒𝜒, respectively. Projection of the above amplitudes onto |𝑥𝑥⟩ and |𝑦𝑦⟩ yields 
+ 
+cos 𝜌𝜌cos 𝜂𝜂𝑒𝑒i𝜒𝜒−i sin 𝜌𝜌sin 𝜂𝜂𝑒𝑒i𝜒𝜒= 𝛼𝛼𝑥𝑥𝑒𝑒i𝜑𝜑𝑥𝑥, 
+(17a) 
+ 
+sin 𝜌𝜌cos 𝜂𝜂𝑒𝑒i𝜒𝜒+ i cos 𝜌𝜌sin 𝜂𝜂𝑒𝑒i𝜒𝜒= 𝛼𝛼𝑦𝑦𝑒𝑒i𝜑𝜑𝑦𝑦. 
+(17b) 
+From Eqs.(16b), (17a), and (17b), we find 
+𝑆𝑆1 
+𝑆𝑆2 
+𝜙𝜙0 = 2𝜌𝜌 
+𝑆𝑆3 
+2𝜂𝜂 
+𝑥𝑥 
+𝑦𝑦 
+𝜌𝜌 
+𝜂𝜂 
+(a) 
+(b) 
+𝜃𝜃0 
+
+11/21 
+ 𝑆𝑆1 = 𝛼𝛼𝑥𝑥
+2 −𝛼𝛼𝑦𝑦
+2 = |cos 𝜌𝜌cos 𝜂𝜂−i sin 𝜌𝜌sin 𝜂𝜂|2 −|sin 𝜌𝜌cos 𝜂𝜂+ i cos 𝜌𝜌sin 𝜂𝜂|2 = cos(2𝜂𝜂) cos(2𝜌𝜌). 
+ 
+(18) 
+Also, upon multiplying the conjugate of Eq.(17a) into Eq.(17b), we arrive at 
+ 
+(cos 𝜌𝜌cos 𝜂𝜂+ i sin 𝜌𝜌sin 𝜂𝜂)(sin 𝜌𝜌cos 𝜂𝜂+ i cos 𝜌𝜌sin 𝜂𝜂) = 𝛼𝛼𝑥𝑥𝛼𝛼𝑦𝑦𝑒𝑒i൫𝜑𝜑𝑦𝑦−𝜑𝜑𝑥𝑥൯. 
+(19) 
+Equating the real and imaginary parts on both sides of Eq.(19) now yields 
+ 
+𝑆𝑆2 = cos(2𝜂𝜂) sin(2𝜌𝜌), 
+(20) 
+ 
+𝑆𝑆3 = sin(2𝜂𝜂). 
+(21) 
+Equations (18), (20), (21) reveal the longitude and latitude of the point 𝑺𝑺= 𝑆𝑆1𝒙𝒙ෝ+ 𝑆𝑆2𝒚𝒚ෝ+ 𝑆𝑆3𝒛𝒛ො on 
+the surface of the Poincaré sphere to be 2𝜌𝜌 and 2𝜂𝜂, respectively. 
+Digression: Suppose an analyzer is placed in the path of the photon, perpendicular to the 𝑧𝑧-axis and 
+oriented with its transmission axis at an angle 𝜃𝜃 with the 𝑥𝑥-axis. In the equatorial plane of the 
+Poincaré sphere, the unit-vector 𝑨𝑨= cos(2𝜃𝜃) 𝒙𝒙ෝ+ sin(2𝜃𝜃) 𝒚𝒚ෝ represents the transmission axis. The 
+probability of transmission through the analyzer is readily seen to be 
+ 
+𝑃𝑃trans = |𝛼𝛼𝑥𝑥𝑒𝑒i𝜑𝜑𝑥𝑥cos 𝜃𝜃+ 𝛼𝛼𝑦𝑦𝑒𝑒i𝜑𝜑𝑦𝑦sin 𝜃𝜃|2 
+ 
+= 𝛼𝛼𝑥𝑥
+2 cos2 𝜃𝜃+ 𝛼𝛼𝑦𝑦
+2 sin2 𝜃𝜃+ 2𝛼𝛼𝑥𝑥𝛼𝛼𝑦𝑦cos(𝜑𝜑𝑥𝑥−𝜑𝜑𝑦𝑦) sin 𝜃𝜃cos 𝜃𝜃 
+ 
+= ½(𝛼𝛼𝑥𝑥
+2 + 𝛼𝛼𝑦𝑦
+2) + ½(𝛼𝛼𝑥𝑥
+2 −𝛼𝛼𝑦𝑦
+2) cos(2𝜃𝜃) + 𝛼𝛼𝑥𝑥𝛼𝛼𝑦𝑦cos(𝜑𝜑𝑥𝑥−𝜑𝜑𝑦𝑦) sin(2𝜃𝜃) 
+ 
+= ½[1 + 𝑆𝑆1 cos(2𝜃𝜃) + 𝑆𝑆2 sin(2𝜃𝜃)] = ½(1 + 𝑺𝑺∙𝑨𝑨). 
+(22) 
+If the photon’s state is expressed as a superposition of right- and left-circular polarization 
+states, we will have 
+ 𝛼𝛼𝑥𝑥𝑒𝑒i𝜑𝜑𝑥𝑥|𝑥𝑥⟩+ 𝛼𝛼𝑦𝑦𝑒𝑒i𝜑𝜑𝑦𝑦|𝑦𝑦⟩= ½(𝛼𝛼𝑥𝑥𝑒𝑒i𝜑𝜑𝑥𝑥−i𝛼𝛼𝑦𝑦𝑒𝑒i𝜑𝜑𝑦𝑦)(|𝑥𝑥⟩+ i|𝑦𝑦⟩) + ½(𝛼𝛼𝑥𝑥𝑒𝑒i𝜑𝜑𝑥𝑥+ i𝛼𝛼𝑦𝑦𝑒𝑒i𝜑𝜑𝑦𝑦)(|𝑥𝑥⟩−i|𝑦𝑦⟩), (23) 
+where the amplitudes of the right- and left-circular polarization states, namely, (|𝑥𝑥⟩± i|𝑦𝑦⟩) √2
+⁄
+, are 
+ 
+𝛽𝛽RCP =
+1
+√2 (𝛼𝛼𝑥𝑥𝑒𝑒i𝜑𝜑𝑥𝑥−i𝛼𝛼𝑦𝑦𝑒𝑒i𝜑𝜑𝑦𝑦), 
+(24a) 
+ 
+𝛽𝛽LCP =
+1
+√2 (𝛼𝛼𝑥𝑥𝑒𝑒i𝜑𝜑𝑥𝑥+ i𝛼𝛼𝑦𝑦𝑒𝑒i𝜑𝜑𝑦𝑦). 
+(24b) 
+The Stokes parameters can now be related to the circular polarization amplitudes, as follows: 
+ 
+2𝛽𝛽LCP𝛽𝛽RCP
+∗
+= 𝛼𝛼𝑥𝑥
+2 −𝛼𝛼𝑦𝑦
+2 + i2𝛼𝛼𝑥𝑥𝛼𝛼𝑦𝑦cos(𝜑𝜑𝑦𝑦−𝜑𝜑𝑥𝑥) = 𝑆𝑆1 + i𝑆𝑆2, 
+(25a) 
+ 
+|𝛽𝛽RCP|2 −|𝛽𝛽LCP|2 = 2𝛼𝛼𝑥𝑥𝛼𝛼𝑦𝑦sin(𝜑𝜑𝑦𝑦−𝜑𝜑𝑥𝑥) = 𝑆𝑆3. 
+(25b) 
+Apparently, the same Stokes parameters, albeit rearranged, are obtained when the state of the 
+photon is described in a different orthonormal basis. Defining the angles 𝜃𝜃0 and 𝜙𝜙0 = 𝜑𝜑LCP −𝜑𝜑RCP 
+such that 𝛽𝛽RCP = cos(½𝜃𝜃0) exp(i𝜑𝜑RCP) and 𝛽𝛽LCP = sin(½𝜃𝜃0) exp(i𝜑𝜑LCP), it is seen that 𝑆𝑆1 =
+sin 𝜃𝜃0 cos 𝜙𝜙0, 𝑆𝑆2 = sin 𝜃𝜃0 sin 𝜙𝜙0, and  𝑆𝑆3 = cos 𝜃𝜃0. The photon’s state is thus associated with the 
+point (𝜃𝜃0, 𝜙𝜙0) on the surface of the Poincaré sphere, where, aside from an overall phase factor, 
+|𝜓𝜓⟩= cos(½𝜃𝜃0) |RCP⟩+ sin(½𝜃𝜃0) 𝑒𝑒i𝜙𝜙0|LCP⟩. Referring to Fig.4(a), the state at the sphere’s north 
+pole, where 𝜃𝜃0 = 0°, is RCP, whereas that at the south pole, corresponding to 𝜃𝜃0 = 180°, is LCP. 
+
+12/21 
+6. Spin-1 photons, spin-½ electrons, and the Bloch sphere. Writing the states of right and left 
+circularly-polarized photons as |±⟩=
+1
+√2 (|𝑥𝑥⟩± i|𝑦𝑦⟩), where |RCP⟩= |+⟩= |↑⟩ and |LCP⟩= |−⟩= |↓⟩, 
+we note that the Stokes parameters for the |±⟩ states are 𝑆𝑆= (𝑆𝑆1, 𝑆𝑆2, 𝑆𝑆3) = (0, 0, ±1). These spin 
+angular momentum eigenstates, each having their angular momentum aligned with or against the 𝑧𝑧-
+axis, appear at the north and south poles of the Poincaré sphere. Let |𝜓𝜓⟩= 𝛽𝛽+|+⟩+ 𝛽𝛽−|−⟩. 
+Defining 𝛽𝛽+ = cos(𝜗𝜗) exp(i𝜑𝜑+) and 𝛽𝛽−= sin(𝜗𝜗) exp(i𝜑𝜑−), we may write 
+ 
+|𝑥𝑥⟩=
+1
+√2 (|+⟩+ |−⟩)          →            𝜗𝜗= 45°, 𝜑𝜑+ = 0°, 𝜑𝜑−= 0°. 
+(26) 
+ 
+|𝑦𝑦⟩= −
+i
+√2 (|+⟩−|−⟩)         →        𝜗𝜗= 45°, 𝜑𝜑+ = −90°, 𝜑𝜑−= 90°. 
+(27) 
+This suggests that the conventional spherical coordinates of the various points on the Poincaré 
+sphere are (𝜃𝜃0, 𝜙𝜙0) = (2𝜗𝜗, 𝜑𝜑−−𝜑𝜑+). Writing the general polarization state of a photon as |𝜓𝜓⟩=
+exp(i𝜑𝜑+) ൣcos(½𝜃𝜃0) |+⟩+ sin(½𝜃𝜃0) 𝑒𝑒i𝜙𝜙0|−⟩൧ and proceeding to ignore the overall phase factor, it 
+is seen that, at the north pole, where 𝜃𝜃0 = 0°, |𝜓𝜓⟩= |+⟩, whereas at the south pole, where 𝜃𝜃0 =
+180°, |𝜓𝜓⟩= |−⟩. On the positive 𝑥𝑥-axis, (𝜃𝜃0, 𝜙𝜙0) = (90°, 0°) and |𝜓𝜓⟩= |𝑥𝑥⟩, while on the negative 
+𝑥𝑥-axis (corresponding to 𝜌𝜌= 90°, 𝜂𝜂= 0°), where (𝜃𝜃0, 𝜙𝜙0) = (90°, 180°), |𝜓𝜓⟩= |𝑦𝑦⟩. 
+For spin-½ particles such as electrons and protons, it is customary to use the Bloch sphere 
+instead of Poincaré’s sphere. The Bloch sphere is a sphere of radius 1, centered at the origin of an 
+𝑥𝑥𝑥𝑥𝑥𝑥 coordinate system. The general state of a spin-½ particle expressed relative to 𝒛𝒛ො is written 
+ 
+|𝜓𝜓⟩= 𝛼𝛼1|↑⟩+ 𝛼𝛼2|↓⟩= 𝑒𝑒i𝜒𝜒0ൣcos(½𝜃𝜃0) |↑⟩+ sin(½𝜃𝜃0) 𝑒𝑒i𝜙𝜙0|↓⟩൧. 
+(28) 
+Ignoring the absolute phase, the state along 𝒙𝒙ෝ, where (𝜃𝜃0, 𝜙𝜙0) = (90°, 0°), becomes 
+1
+√2 (|↑⟩+ |↓⟩). 
+Similarly, the state along 𝒚𝒚ෝ, where (𝜃𝜃0, 𝜙𝜙0) = (90°, 90°), becomes 
+1
+√2 (|↑⟩+ i|↓⟩). 
+7. Unitary transformations. To discuss the effect of coordinate rotations on a spin-½ particle with 
+nonzero mass (e.g., an electron or a proton), one must resort to 2 × 2 unitary transformations whose 
+general structure and properties are the subject of the present section.12 We begin by introducing the 
+2 × 2 identity matrix 𝕀𝕀෠ and the Pauli matrices 𝜎𝜎ො𝑥𝑥, 𝜎𝜎ො𝑦𝑦, 𝜎𝜎ො𝑧𝑧, which have the following properties: 
+ 
+𝕀𝕀෠= ቀ1
+0
+0
+1ቁ,         𝜎𝜎ො𝑥𝑥= ቀ0
+1
+1
+0ቁ,              𝜎𝜎ො𝑦𝑦= ቀ0
+−i
+i
+0 ቁ,              𝜎𝜎ො𝑧𝑧= ቀ1
+0
+0
+−1ቁ. 
+(29a) 
+ 
+𝜎𝜎ො𝑥𝑥𝜎𝜎ො𝑦𝑦= −𝜎𝜎ො𝑦𝑦𝜎𝜎ො𝑥𝑥= i𝜎𝜎ො𝑧𝑧,             𝜎𝜎ො𝑦𝑦𝜎𝜎ො𝑧𝑧= −𝜎𝜎ො𝑧𝑧𝜎𝜎ො𝑦𝑦= i𝜎𝜎ො𝑥𝑥,             𝜎𝜎ො𝑧𝑧𝜎𝜎ො𝑥𝑥= −𝜎𝜎ො𝑥𝑥𝜎𝜎ො𝑧𝑧= i𝜎𝜎ො𝑦𝑦. 
+(29b) 
+ 
+𝜎𝜎ො𝑥𝑥
+2 = 𝜎𝜎ො𝑦𝑦
+2 = 𝜎𝜎ො𝑧𝑧
+2 = 𝕀𝕀෠. 
+(29c) 
+Let 𝒂𝒂ሬ⃗= 𝑎𝑎𝑥𝑥𝒙𝒙ෝ+ 𝑎𝑎𝑦𝑦𝒚𝒚ෝ+ 𝑎𝑎𝑧𝑧𝒛𝒛ො and 𝒃𝒃ሬ⃗= 𝑏𝑏𝑥𝑥𝒙𝒙ෝ+ 𝑏𝑏𝑦𝑦𝒚𝒚ෝ+ 𝑏𝑏𝑧𝑧𝒛𝒛ො be two arbitrary vectors in three-
+dimensional Euclidean space. Using the identities in Eqs.(29b) and (29c) it is easy to show that 
+ 
+(𝒂𝒂ሬ⃗∙𝝈𝝈ෝ)(𝒃𝒃ሬ⃗∙𝝈𝝈ෝ) = (𝒂𝒂ሬ⃗∙𝒃𝒃ሬ⃗)𝕀𝕀෠+ i(𝒂𝒂ሬ⃗× 𝒃𝒃ሬ⃗) ∙𝝈𝝈ෝ. 
+(30) 
+(This identity holds even if the components of 𝒂𝒂ሬ⃗ and 𝒃𝒃ሬ⃗ are complex, although, in what follows, 𝒂𝒂ሬ⃗ 
+and 𝒃𝒃ሬ⃗ are assumed to be real vectors.) Now, with the aid of four arbitrary complex numbers 
+𝑢𝑢0, 𝑢𝑢1, 𝑢𝑢2, 𝑢𝑢3,  any 2 × 2 matrix (or operator) can be written as a linear combination of 𝜎𝜎ො𝑥𝑥, 𝜎𝜎ො𝑦𝑦, 𝜎𝜎ො𝑧𝑧, 
+and 𝕀𝕀෠; that is, 
+
+13/21 
+ 
+𝑢𝑢ො= 𝑢𝑢0𝕀𝕀෠+ 𝑢𝑢1𝜎𝜎ො𝑥𝑥+ 𝑢𝑢2𝜎𝜎ො𝑦𝑦+ 𝑢𝑢3𝜎𝜎ො𝑧𝑧= ቆ
+𝑢𝑢0 + 𝑢𝑢3
+𝑢𝑢1 −i𝑢𝑢2
+𝑢𝑢1 + i𝑢𝑢2
+𝑢𝑢0 −𝑢𝑢3
+ቇ= ቆ
+𝑢𝑢11
+𝑢𝑢12
+𝑢𝑢21
+𝑢𝑢22
+ቇ. 
+(31) 
+Our goal is to specify 𝑢𝑢0, 𝑢𝑢1, 𝑢𝑢2, 𝑢𝑢3 such that 𝑢𝑢ො is a general-purpose unitary operator; that is, 
+𝑢𝑢ො𝑢𝑢ො† = 𝑢𝑢ො†𝑢𝑢ො= 𝕀𝕀෠. We start by restricting 𝑢𝑢0 to real values, which renders the resulting 𝑢𝑢ො a general-
+purpose unitary operator to within an overall phase-factor exp(i𝜑𝜑0). Defining the complex vector 
+𝒖𝒖ሬ⃗= 𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗+ i𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗= 𝑢𝑢1𝒙𝒙ෝ+ 𝑢𝑢2𝒚𝒚ෝ+ 𝑢𝑢3𝒛𝒛ො and the (Hermitian) vector operator 𝝈𝝈ෝ= 𝜎𝜎ො𝑥𝑥𝒙𝒙ෝ+ 𝜎𝜎ො𝑦𝑦𝒚𝒚ෝ+ 𝜎𝜎ො𝑧𝑧𝒛𝒛ො, we 
+write 
+ 
+𝑢𝑢ො𝑢𝑢ො† = ൣ𝑢𝑢0𝕀𝕀෠+ (𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗+ i𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗) ∙𝝈𝝈ෝ൧ൣ𝑢𝑢0𝕀𝕀෠+ (𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗−i𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗) ∙𝝈𝝈ෝ൧ 
+ 
+= 𝑢𝑢0
+2𝕀𝕀෠+ 2𝑢𝑢0(𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗∙𝝈𝝈ෝ) + (𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗∙𝝈𝝈ෝ)(𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗∙𝝈𝝈ෝ) −i(𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗∙𝝈𝝈ෝ)(𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗∙𝝈𝝈ෝ) + i(𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗∙𝝈𝝈ෝ)(𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗∙𝝈𝝈ෝ) 
+ 
++(𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗∙𝝈𝝈ෝ)(𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗∙𝝈𝝈ෝ) 
+ 
+= (𝑢𝑢0
+2 + 𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗∙𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗+ 𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗∙𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗)𝕀𝕀෠+ 2𝑢𝑢0(𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗∙𝝈𝝈ෝ) + 2(𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗× 𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗) ∙𝝈𝝈ෝ. 
+(32a) 
+ 
+𝑢𝑢ො†𝑢𝑢ො= (𝑢𝑢0
+2 + 𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗∙𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗+ 𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗∙𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗)𝕀𝕀෠+ 2𝑢𝑢0(𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗∙𝝈𝝈ෝ) −2(𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗× 𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗) ∙𝝈𝝈ෝ. 
+(32b) 
+Since unitarity demands that 𝑢𝑢ො𝑢𝑢ො† = 𝑢𝑢ො†𝑢𝑢ො= 𝕀𝕀෠, we must have 𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗× 𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗= 0; that is, 𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗ and 𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗ are 
+required to be parallel vectors. Now, if 𝑢𝑢0 ≠0, we must set 𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗= 0 to eliminate the term 2𝑢𝑢0(𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗∙𝝈𝝈ෝ) 
+from Eq.(32) — otherwise, this term would prevent 𝑢𝑢ො𝑢𝑢ො† and 𝑢𝑢ො†𝑢𝑢ො from equaling the identity matrix. 
+If 𝑢𝑢0 happens to be zero, we may retain 𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗, but, recalling that 𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗∥𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗, the only effect of 𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗ in this 
+case would be to multiply 𝑢𝑢ො= (𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗+ i𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗) ∙𝝈𝝈ෝ with a phase-factor, which we have been ignoring 
+anyway. So, once again, 𝒖𝒖𝑟𝑟
+ሬሬሬሬ⃗= 0 will be an acceptable choice. We thus set 𝑢𝑢ො= 𝑢𝑢0𝕀𝕀෠+ i𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗∙𝝈𝝈ෝ and 
+require that 𝑢𝑢0
+2 + 𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗∙𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗= 1 to guarantee that 𝑢𝑢ො𝑢𝑢ො† = 𝑢𝑢ො†𝑢𝑢ො= 𝕀𝕀෠ is satisfied. 
+Next, setting 𝑢𝑢0 = cos(𝜃𝜃2
+⁄ ) and 𝒖𝒖𝒾𝒾
+ሬሬሬሬ⃗= sin(𝜃𝜃2
+⁄ ) 𝒏𝒏ሬ⃗, where 𝜃𝜃 is an arbitrary angle and 𝒏𝒏ሬ⃗=
+𝑛𝑛𝑥𝑥𝒙𝒙ෝ+ 𝑛𝑛𝑦𝑦𝒚𝒚ෝ+ 𝑛𝑛𝑧𝑧𝒛𝒛ො is an arbitrary real-valued unit-vector in three-dimensional space, we arrive at the 
+following expression for a 2 × 2 unitary operator that, aside from a constant phase-factor, is 
+completely general: 
+ 
+𝑢𝑢ො= cos(𝜃𝜃2
+⁄ ) 𝕀𝕀෠+ i sin(𝜃𝜃2
+⁄ ) 𝒏𝒏ሬ⃗∙𝝈𝝈ෝ. 
+(33) 
+Digression: Occasionally, it is convenient to express the above unitary operator as 𝑢𝑢ො= exp[½i𝜃𝜃(𝒏𝒏ሬ⃗∙𝝈𝝈ෝ)], which is 
+easily proven via the following identities: 
+ 
+exp(𝐴𝐴) = ෌
+𝐴𝐴𝑘𝑘𝑘𝑘!
+⁄
+∞
+𝑘𝑘=0
+, 
+(34a) 
+ 
+(𝒏𝒏ሬ⃗∙𝝈𝝈ෝ)2 = (𝒏𝒏ሬ⃗∙𝒏𝒏ሬ⃗)𝕀𝕀෠+ i(𝒏𝒏ሬ⃗× 𝒏𝒏ሬ⃗) ∙𝝈𝝈ෝ= 𝕀𝕀෠, 
+(34b) 
+ 
+sin 𝑥𝑥= 𝑥𝑥෌
+(−𝑥𝑥2)𝑘𝑘(2𝑘𝑘+ 1)!
+⁄
+∞
+𝑘𝑘=0
+, 
+(34c) 
+ 
+cos 𝑥𝑥= ෌
+(−𝑥𝑥2)𝑘𝑘(2𝑘𝑘)!
+⁄
+∞
+𝑘𝑘=0
+. 
+(34d) 
+Let us now consider the effect of our unitary transformation 𝑢𝑢ො on the operator 𝒂𝒂ሬ⃗∙𝝈𝝈ෝ, which is 
+defined via the real-valued but otherwise arbitrary vector 𝒂𝒂ሬ⃗= 𝑎𝑎𝑥𝑥𝒙𝒙ෝ+ 𝑎𝑎𝑦𝑦𝒚𝒚ෝ+ 𝑎𝑎𝑧𝑧𝒛𝒛ො. We find 
+ 
+𝑢𝑢ො(𝒂𝒂ሬ⃗∙𝝈𝝈ෝ)𝑢𝑢ො† = ൣcos(𝜃𝜃2
+⁄ ) 𝕀𝕀෠+ i sin(𝜃𝜃2
+⁄ ) 𝒏𝒏ሬ⃗∙𝝈𝝈ෝ൧(𝒂𝒂ሬ⃗∙𝝈𝝈ෝ)ൣcos(𝜃𝜃2
+⁄ ) 𝕀𝕀෠−i sin(𝜃𝜃2
+⁄ ) 𝒏𝒏ሬ⃗∙𝝈𝝈ෝ൧ 
+ 
+= cos2(𝜃𝜃2
+⁄ ) (𝒂𝒂ሬ⃗∙𝝈𝝈ෝ) −i cos(𝜃𝜃2
+⁄ ) sin(𝜃𝜃2
+⁄ ) (𝒂𝒂ሬ⃗∙𝝈𝝈ෝ)(𝒏𝒏ሬ⃗∙𝝈𝝈ෝ) 
+ 
++i sin(𝜃𝜃2
+⁄ ) cos(𝜃𝜃2
+⁄ ) (𝒏𝒏ሬ⃗∙𝝈𝝈ෝ)(𝒂𝒂ሬ⃗∙𝝈𝝈ෝ) + sin2(𝜃𝜃2
+⁄ ) (𝒏𝒏ሬ⃗∙𝝈𝝈ෝ)(𝒂𝒂ሬ⃗∙𝝈𝝈ෝ)(𝒏𝒏ሬ⃗∙𝝈𝝈ෝ) 
+use Eq.(30) 
+
+14/21 
+ 
+= cos2(𝜃𝜃2
+⁄ ) 𝒂𝒂ሬ⃗∙𝝈𝝈ෝ+ sin 𝜃𝜃(𝒂𝒂ሬ⃗× 𝒏𝒏ሬ⃗) ∙𝝈𝝈ෝ 
+ 
++ sin2(𝜃𝜃2
+⁄ ) (𝒏𝒏ሬ⃗∙𝝈𝝈ෝ)ൣ(𝒂𝒂ሬ⃗∙𝒏𝒏ሬ⃗)𝕀𝕀෠+ i(𝒂𝒂ሬ⃗× 𝒏𝒏ሬ⃗) ∙𝝈𝝈ෝ൧ 
+ 
+= cos2(𝜃𝜃2
+⁄ ) 𝒂𝒂ሬ⃗∙𝝈𝝈ෝ+ sin 𝜃𝜃(𝒂𝒂ሬ⃗× 𝒏𝒏ሬ⃗) ∙𝝈𝝈ෝ+ sin2(𝜃𝜃2
+⁄ ) (𝒂𝒂ሬ⃗∙𝒏𝒏ሬ⃗)(𝒏𝒏ሬ⃗∙𝝈𝝈ෝ) 
+ 
++i sin2(𝜃𝜃2
+⁄ ) (𝒏𝒏ሬ⃗∙𝝈𝝈ෝ)[(𝒂𝒂ሬ⃗× 𝒏𝒏ሬ⃗) ∙𝝈𝝈ෝ] 
+ 
+= [cos2(𝜃𝜃2
+⁄ ) 𝒂𝒂ሬ⃗+ sin 𝜃𝜃(𝒂𝒂ሬ⃗× 𝒏𝒏ሬ⃗) + sin2(𝜃𝜃2
+⁄ ) (𝒂𝒂ሬ⃗∙𝒏𝒏ሬ⃗)𝒏𝒏ሬ⃗] ∙𝝈𝝈ෝ 
+ 
++i sin2(𝜃𝜃2
+⁄ ) ൛[𝒏𝒏ሬ⃗∙(𝒂𝒂ሬ⃗× 𝒏𝒏ሬ⃗)]𝕀𝕀෠+ i[𝒏𝒏ሬ⃗× (𝒂𝒂ሬ⃗× 𝒏𝒏ሬ⃗)] ∙𝝈𝝈ෝൟ 
+ 
+= [cos2(𝜃𝜃2
+⁄ ) 𝒂𝒂ሬ⃗+ sin 𝜃𝜃(𝒂𝒂ሬ⃗× 𝒏𝒏ሬ⃗) + sin2(𝜃𝜃2
+⁄ ) (𝒂𝒂ሬ⃗∙𝒏𝒏ሬ⃗)𝒏𝒏ሬ⃗] ∙𝝈𝝈ෝ 
+ 
+−sin2(𝜃𝜃2
+⁄ ) [(𝒏𝒏ሬ⃗∙𝒏𝒏ሬ⃗)𝒂𝒂ሬ⃗−(𝒂𝒂ሬ⃗∙𝒏𝒏ሬ⃗)𝒏𝒏ሬ⃗] ∙𝝈𝝈ෝ 
+ 
+= [(cos 𝜃𝜃)𝒂𝒂ሬ⃗+ sin 𝜃𝜃(𝒂𝒂ሬ⃗× 𝒏𝒏ሬ⃗) + (1 −cos 𝜃𝜃)(𝒂𝒂ሬ⃗∙𝒏𝒏ሬ⃗)𝒏𝒏ሬ⃗] ∙𝝈𝝈ෝ 
+ 
+= {(𝒂𝒂ሬ⃗∙𝒏𝒏ሬ⃗)𝒏𝒏ሬ⃗+ sin 𝜃𝜃(𝒂𝒂ሬ⃗× 𝒏𝒏ሬ⃗) + cos 𝜃𝜃[𝒂𝒂ሬ⃗−(𝒂𝒂ሬ⃗∙𝒏𝒏ሬ⃗)𝒏𝒏ሬ⃗]} ∙𝝈𝝈ෝ= 𝒂𝒂′
+ሬሬሬ⃗∙𝝈𝝈ෝ. 
+(35) 
+As shown in Fig.5, 𝒂𝒂′
+ሬሬሬ⃗ is the vector 𝒂𝒂ሬ⃗ rotated around the unit-vector 𝒏𝒏ሬ⃗ through the angle 𝜃𝜃 in 
+accordance with the left-hand rule (with thumb along 𝒏𝒏ሬ⃗). This is equivalent to a rotation of the 
+coordinate system by 𝜃𝜃 around 𝒏𝒏ෝ in the opposite direction (i.e., following the right-hand rule). In 
+general, 𝑢𝑢ො acting on a state vector |𝜓𝜓⟩ corresponds to a right-handed rotation of the coordinate 
+system around 𝒏𝒏ሬ⃗ through the angle 𝜃𝜃. For the expected value ⟨𝜓𝜓|𝒂𝒂ሬ⃗∙𝝈𝝈ෝ|𝜓𝜓⟩ to remain the same before 
+and after the rotation of coordinates, the operator 𝒂𝒂ሬ⃗∙𝝈𝝈ෝ 
+must be transformed to 𝑢𝑢ො(𝒂𝒂ሬ⃗∙𝝈𝝈ෝ)𝑢𝑢ො†. Another way of seeing 
+this is to note that an operator 𝑂𝑂෠ with orthonormal eigen-
+states |𝑖𝑖⟩ and corresponding eigenvalues 𝛼𝛼𝑖𝑖 can, in general, 
+be written as 𝑂𝑂෠= ∑𝛼𝛼𝑖𝑖|𝑖𝑖⟩⟨𝑖𝑖|
+𝑖𝑖
+, hence the necessity of 
+transforming it to 𝑢𝑢ො𝑂𝑂෠𝑢𝑢ො† upon a coordinate rotation.  
+Fig.5. The vector (𝒂𝒂ሬ⃗∙𝒏𝒏ሬ⃗)𝒏𝒏ሬ⃗+ sin 𝜃𝜃(𝒂𝒂ሬ⃗× 𝒏𝒏ሬ⃗) + cos 𝜃𝜃[𝒂𝒂ሬ⃗−(𝒂𝒂ሬ⃗∙𝒏𝒏ሬ⃗)𝒏𝒏ሬ⃗] 
+arises from a left-hand-rule rotation of 𝒂𝒂ሬ⃗ around the unit-vector 𝒏𝒏ሬ⃗ 
+through the angle 𝜃𝜃. 
+8. Rotating the coordinates of a spin-½ particle via unitary transformations. With reference to 
+Fig.6, consider a unitary transformation 𝑢𝑢ො corresponding to a rotation around 𝑧𝑧 through the angle 𝜒𝜒, 
+followed by tilting the rotated 𝑥𝑥′𝑦𝑦′𝑧𝑧′ system in such a way as to 
+bring the 𝑧𝑧′-axis onto 𝑧𝑧″, whose polar and azimuthal coordinates 
+within 𝑥𝑥′𝑦𝑦′𝑧𝑧′ are 𝜃𝜃 and 𝜙𝜙. (Note: Any 𝑥𝑥″𝑦𝑦″𝑧𝑧″ can be brought into 
+alignment with 𝑥𝑥𝑥𝑥𝑥𝑥 by the same procedure in reverse.) We will have 
+Fig.6. The Euler angles (𝜃𝜃, 𝜙𝜙, 𝜒𝜒) define a solid rotation of the 𝑥𝑥𝑥𝑥𝑥𝑥 coordinate 
+system in three-dimensional space. A first rotation around the 𝑧𝑧-axis through 
+the angle 𝜒𝜒 brings 𝑥𝑥𝑥𝑥𝑥𝑥 to 𝑥𝑥′𝑦𝑦′𝑧𝑧′. The 𝑥𝑥′𝑦𝑦′𝑧𝑧′ system is then tilted by 𝜃𝜃 to bring 
+its 𝑧𝑧′-axis to 𝑧𝑧″ while keeping the projection of 𝑧𝑧′ onto the original 𝑥𝑥𝑥𝑥-plane 
+along a fixed direction (i.e., keeping the angle 𝜒𝜒+ 𝜙𝜙 fixed as 𝑧𝑧′ moves away 
+from 𝑧𝑧 toward 𝑧𝑧″). Note that 𝜒𝜒 is measured in the 𝑥𝑥𝑥𝑥-plane from 𝑥𝑥 toward 𝑦𝑦, 
+while 𝜙𝜙 is measured in the 𝑥𝑥′𝑦𝑦′-plane from 𝑥𝑥′ toward 𝑦𝑦′. In this way, 𝑥𝑥″𝑦𝑦″𝑧𝑧″ 
+can be made to have any desired orientation relative to 𝑥𝑥𝑥𝑥𝑥𝑥. 
+𝒏𝒏ሬ⃗ 
+𝒂𝒂ሬ⃗ 
+(𝒂𝒂ሬ⃗∙𝒏𝒏ሬ⃗)𝒏𝒏ሬ⃗ 
+𝒂𝒂ሬ⃗−(𝒂𝒂ሬ⃗∙𝒏𝒏ሬ⃗)𝒏𝒏ሬ⃗ 
+𝒂𝒂ሬ⃗× 𝒏𝒏ሬ⃗ 
+𝜃𝜃 
+use Eq.(30) 
+0 
+𝒂𝒂ሬ⃗× (𝒃𝒃ሬ⃗× 𝒄𝒄ሬ⃗) = (𝒂𝒂ሬ⃗∙𝒄𝒄ሬ⃗)𝒃𝒃ሬ⃗−(𝒂𝒂ሬ⃗∙𝒃𝒃ሬ⃗)𝒄𝒄ሬ⃗  
+1 
+𝑥𝑥′ 
+𝑦𝑦 
+𝜙𝜙 
+𝜒𝜒 
+𝑧𝑧, 𝑧𝑧′ 
+𝑥𝑥 
+𝑦𝑦′ 
+𝜃𝜃 
+𝑧𝑧″ 
+𝜒𝜒 
+
+15/21 
+ 
+𝑢𝑢ො= exp[½i𝜃𝜃𝜎𝜎ො∙(−sin 𝜙𝜙𝒙𝒙ෝ+ cos 𝜙𝜙𝒚𝒚ෝ)] exp(½i𝜒𝜒𝜎𝜎ො∙𝒛𝒛ො) 
+ 
+= ൤cos(𝜃𝜃2
+⁄ ) 𝕀𝕀෠+ i sin(𝜃𝜃2
+⁄ ) ൬0
+−i𝑒𝑒−i𝜙𝜙
+i𝑒𝑒i𝜙𝜙
+0
+൰൨ቂcos(𝜒𝜒2
+⁄ ) 𝕀𝕀෠+ i sin(𝜒𝜒2
+⁄ ) ቀ1
+0
+0
+−1ቁቃ 
+ 
+= cos(𝜃𝜃2
+⁄ ) cos(𝜒𝜒2
+⁄ ) 𝕀𝕀෠+ i cos(𝜃𝜃2
+⁄ ) sin(𝜒𝜒2
+⁄ ) ቀ1
+0
+0
+−1ቁ 
+ 
+ +i sin(𝜃𝜃2
+⁄ ) cos(𝜒𝜒2
+⁄ ) ൬0
+−i𝑒𝑒−i𝜙𝜙
+i𝑒𝑒i𝜙𝜙
+0
+൰−sin(𝜃𝜃2
+⁄ ) sin(𝜒𝜒2
+⁄ ) ൬0
+i𝑒𝑒−i𝜙𝜙
+i𝑒𝑒i𝜙𝜙
+0
+൰ 
+ 
+= ቈ
+cos(𝜃𝜃2
+⁄ ) 𝑒𝑒i𝜒𝜒2
+⁄
+sin(𝜃𝜃2
+⁄ ) 𝑒𝑒−i(𝜙𝜙+½𝜒𝜒)
+−sin(𝜃𝜃2
+⁄ ) 𝑒𝑒i(𝜙𝜙+½𝜒𝜒)
+cos(𝜃𝜃2
+⁄ ) 𝑒𝑒−i𝜒𝜒2
+⁄
+቉. 
+(36) 
+For the spin state |𝜓𝜓⟩ of Eq.(28), rotating the coordinates through the Euler angles (𝜃𝜃, 𝜙𝜙, 𝜒𝜒) 
+now yields 
+ 
+ቈ
+cos(½𝜃𝜃) 𝑒𝑒i𝜒𝜒2
+⁄
+sin(½𝜃𝜃) 𝑒𝑒−i(𝜙𝜙+½𝜒𝜒)
+−sin(½𝜃𝜃) 𝑒𝑒i(𝜙𝜙+½𝜒𝜒)
+cos(½𝜃𝜃) 𝑒𝑒−i𝜒𝜒2
+⁄
+቉ቈ
+cos(½𝜃𝜃0)
+sin(½𝜃𝜃0) 𝑒𝑒i𝜙𝜙0቉ 
+ 
+= 𝑒𝑒i𝜒𝜒2
+⁄ ቈ
+cos(½𝜃𝜃) cos(½𝜃𝜃0) + sin(½𝜃𝜃) sin(½𝜃𝜃0) 𝑒𝑒i(𝜙𝜙0−𝜙𝜙−𝜒𝜒)
+−sin(½𝜃𝜃) cos(½𝜃𝜃0) 𝑒𝑒i𝜙𝜙+ cos(½𝜃𝜃) sin(½𝜃𝜃0) 𝑒𝑒i(𝜙𝜙0−𝜒𝜒)቉. 
+(37) 
+Thus, when (𝜃𝜃0, 𝜙𝜙0) = (0°, 0°), the state ends up as cos(½𝜃𝜃) |↑⟩+ sin(½𝜃𝜃) 𝑒𝑒i(𝜙𝜙+𝜋𝜋)|↓⟩. 
+Similarly, when (𝜃𝜃0, 𝜙𝜙0) = (180°, 0°), the state after the rotation becomes cos[½(𝜋𝜋−𝜃𝜃)] |↑⟩+
+sin[½(𝜋𝜋−𝜃𝜃)] 𝑒𝑒i𝜙𝜙|↓⟩. Consider now the unitary rotation operator around 𝒚𝒚ෝ through 𝜃𝜃, namely, 
+ 
+𝑢𝑢ො= cos(½𝜃𝜃) 𝕀𝕀෠+ i sin(½𝜃𝜃) (𝜎𝜎ො∙𝒚𝒚ෝ) = ቈ
+cos(½𝜃𝜃)
+sin(½𝜃𝜃)
+−sin(½𝜃𝜃)
+cos(½𝜃𝜃)
+቉. 
+(38) 
+Let the electrons in the state |𝜓𝜓⟩= (|↑⟩1|↓⟩2 −|↓⟩1|↑⟩2) √2
+⁄
+ of a maximally entangled pair of 
+electrons pass through Stern-Gerlach analyzers that have been rotated around 𝒚𝒚ෝ through the angles 
+𝜃𝜃1 and 𝜃𝜃2, respectively. In the new (rotated) basis, the state |𝜓𝜓⟩ is expressed as 
+ 
+|𝜓𝜓⟩=
+1
+√2 {[cos(½𝜃𝜃1) |↑⟩−sin(½𝜃𝜃1) |↓⟩]1[sin(½𝜃𝜃2) |↑⟩+ cos(½𝜃𝜃2) |↓⟩]2 
+ 
+−[sin(½𝜃𝜃1) |↑⟩+ cos(½𝜃𝜃1) |↓⟩]1[cos(½𝜃𝜃2) |↑⟩−sin(½𝜃𝜃2) |↓⟩]2} 
+ 
+=
+1
+√2 ൛sin[½(𝜃𝜃2 −𝜃𝜃1)] |↑⟩1|↑⟩2 + cos[½(𝜃𝜃2 −𝜃𝜃1)]|↑⟩1|↓⟩2 
+ 
+ −cos[½(𝜃𝜃2 −𝜃𝜃1)] |↓⟩1|↑⟩2 + sin[½(𝜃𝜃2 −𝜃𝜃1)] |↓⟩1|↓⟩2ൟ . 
+(39) 
+Clearly, when 𝜃𝜃1 = 𝜃𝜃2, the electron pair remains in its initial state, and when 𝜃𝜃1 ≠𝜃𝜃2, the two 
+spins remain antiparallel with a probability of cos2[½(𝜃𝜃2 −𝜃𝜃1)]. If each pair of electrons carried 
+instructions as to how to emerge from Stern-Gerlach analyzers set at different angles 𝜃𝜃, the 
+instruction set for each member of the pair would have to be the exact opposite of that for the other 
+member for any specific 𝜃𝜃. Assuming each analyzer is randomly set to 𝜃𝜃= 0°, 120°, or 240°, the 
+instruction sets must belong to one of the eight possible categories listed in Table 2. In the case of 
+instruction sets 1 and 8, all measurements at the output of the two stern-Gerlach analyzers would 
+yield antiparallel spins. For all the remaining instruction sets, the electrons will emerge with 
+antiparallel spins in one-third of the experiments in which 𝜃𝜃1 ≠𝜃𝜃2. It is thus clear that the overall 
+Same as Feynman’s Table 6-1, with 
+𝜃𝜃= 𝛼𝛼, 𝜙𝜙= −(90° + 𝛾𝛾), 𝜒𝜒= 𝛽𝛽+ 𝛾𝛾.1 
+Same as Eq.(36), 
+with 𝜙𝜙= 𝜒𝜒= 0 
+𝜎𝜎ො= 𝜎𝜎ො𝑥𝑥𝒙𝒙ෝ+ 𝜎𝜎ො𝑦𝑦𝒚𝒚ෝ+ 𝜎𝜎ො𝑧𝑧𝒛𝒛ො 
+
+16/21 
+𝑦𝑦’ 
+𝑥𝑥 
+𝑥𝑥′ 
+𝑦𝑦 
+𝜒𝜒 
+𝑧𝑧 ∙  
+chances of observing antiparallel spins at the exit ports of the analyzers will be greater than 33.3%. 
+In contrast, since cos2[½(𝜃𝜃2 −𝜃𝜃1)] = cos2(60°) = 0.25, the quantum mechanical expression in 
+Eq.(39) predicts that only 25% of the experiments would result in antiparallel spins. Once again, 
+quantum mechanics is seen to be incompatible with LHVTs. 
+𝜃𝜃↓        instruction set → 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+  0°  
+↑↓ 
+↓↑ 
+↑↓ 
+↓↑ 
+↑↓ 
+↓↑ 
+↑↓ 
+↓↑ 
+120°  
+↑↓ 
+↑↓ 
+↓↑ 
+↓↑ 
+↑↓ 
+↑↓ 
+↓↑ 
+↓↑ 
+240°  
+↑↓ 
+↑↓ 
+↑↓ 
+↑↓ 
+↓↑ 
+↓↑ 
+↓↑ 
+↓↑ 
+Table 2. In experiments where each Stern-Gerlach analyzer is rotated around the 𝑦𝑦-axis and set randomly 
+and independently of the other analyzer to 𝜃𝜃= 0°, 120°, or 240°, each pair of entangled electrons must 
+carry one of eight possible instruction sets corresponding to the three analyzer settings that they might 
+encounter. The arrow on the left-hand side in each depicted pair tells the first electron how to emerge, 
+while the arrow on the right-hand side gives the second electron its instructions. In cases 1 and 8, the two 
+electrons will always be observed with antiparallel spins. In all the other cases, antiparallel spins will be 
+observed, on average, in one third of the experiments in which 𝜃𝜃1 ≠𝜃𝜃2. 
+Digression. A photon propagating along the 𝑧𝑧-axis is, in general, in the superposition state |𝜓𝜓⟩= 𝛼𝛼1|↑⟩+ 𝛼𝛼2|↓⟩=
+[(𝛼𝛼1 + 𝛼𝛼2)|𝑥𝑥⟩+ i(𝛼𝛼1 −𝛼𝛼2)|𝑦𝑦⟩] √2
+⁄
+. Rotating the 𝑥𝑥𝑥𝑥𝑥𝑥 coordinate system through the angle 𝜒𝜒 around 𝒛𝒛ො requires a 
+different unitary transformation than that for spin-½ particles (compare Feynman’s Tables 17-1 and 17-31), namely, 
+ 
+𝑢𝑢ොph = cos 𝜒𝜒𝕀𝕀෠+ i sin 𝜒𝜒(𝜎𝜎ො∙𝒛𝒛ො) = ൬𝑒𝑒i𝜒𝜒
+0
+0
+𝑒𝑒−i𝜒𝜒൰. 
+(40) 
+The state of the photon in the rotated coordinates is thus written as follows: 
+ 
+𝑢𝑢ොph|𝜓𝜓⟩= 𝛼𝛼1𝑒𝑒i𝜒𝜒|↑⟩+ 𝛼𝛼2𝑒𝑒−i𝜒𝜒|↓⟩=
+1
+√2 [𝛼𝛼1𝑒𝑒i𝜒𝜒(|𝑥𝑥′⟩+ i|𝑦𝑦′⟩) + 𝛼𝛼2𝑒𝑒−i𝜒𝜒(|𝑥𝑥′⟩−i|𝑦𝑦′⟩)] 
+ 
+=
+1
+√2 [(𝛼𝛼1 + 𝛼𝛼2)(cos 𝜒𝜒|𝑥𝑥′⟩−sin 𝜒𝜒|𝑦𝑦′⟩) + i(𝛼𝛼1 −𝛼𝛼2)(sin 𝜒𝜒|𝑥𝑥′⟩+ cos 𝜒𝜒|𝑦𝑦′⟩)]. 
+(41) 
+This is what one would obtain by expressing |𝑥𝑥⟩ and |𝑦𝑦⟩ in the original expression of |𝜓𝜓⟩ in terms of |𝑥𝑥′⟩ and |𝑦𝑦′⟩. 
+Note, however, that 𝑢𝑢ොph will not act correctly on the photon’s state if |𝜓𝜓⟩ is expressed in linearly-polarized |𝑥𝑥⟩, |𝑦𝑦⟩ basis. 
+Digression. The rotation operator of Eq.(36) can be used to arrive at the spin angular momentum operators 𝑆𝑆̂𝑥𝑥, 𝑆𝑆̂𝑦𝑦, 𝑆𝑆̂𝑧𝑧.1 
+Noting that rotation around the 𝑥𝑥-axis through the small angle 𝜀𝜀 corresponds to 𝜃𝜃= 𝜀𝜀, 𝜙𝜙= −90°, 𝜒𝜒= 0°, we write 
+ 
+𝑅𝑅෠𝑥𝑥(𝜀𝜀) = ൤cos(𝜀𝜀2
+⁄ )
+i sin(𝜀𝜀2
+⁄ )
+i sin(𝜀𝜀2
+⁄ )
+cos(𝜀𝜀2
+⁄ ) ൨≅ቀ1
+½i𝜀𝜀
+½i𝜀𝜀
+1 ቁ= 𝕀𝕀෠+ i(𝜀𝜀ℏ
+⁄ )𝑆𝑆̂𝑥𝑥      →     𝑆𝑆̂𝑥𝑥= ½ℏቀ0
+1
+1
+0ቁ. 
+(42a) 
+Similarly, given that a rotation around 𝑦𝑦 through the small angle 𝜀𝜀 corresponds to 𝜃𝜃= 𝜀𝜀, 𝜙𝜙= 𝜒𝜒= 0°, we will have 
+ 
+𝑅𝑅෠𝑦𝑦(𝜀𝜀) = ൤cos(𝜀𝜀2
+⁄ )
+sin(𝜀𝜀2
+⁄ )
+−sin(𝜀𝜀2
+⁄ )
+cos(𝜀𝜀2
+⁄ )൨≅ቀ1
+½𝜀𝜀
+−½𝜀𝜀
+1 ቁ= 𝕀𝕀෠+ i(𝜀𝜀ℏ
+⁄ )𝑆𝑆̂𝑦𝑦    →     𝑆𝑆̂𝑦𝑦= ½ℏቀ0
+−i
+i
+0 ቁ. 
+(42b) 
+Finally, since a rotation around 𝑧𝑧 through the small angle 𝜀𝜀 corresponds to 𝜃𝜃= 𝜙𝜙= 0°, 𝜒𝜒= 𝜀𝜀, we will have 
+ 
+𝑅𝑅෠𝑧𝑧(𝜀𝜀) = ൤𝑒𝑒i𝜀𝜀2
+⁄
+0
+0
+𝑒𝑒−i𝜀𝜀2
+⁄ ൨≅ቀ1 + ½i𝜀𝜀
+0
+0
+1 −½i𝜀𝜀ቁ= 𝕀𝕀෠+ i(𝜀𝜀ℏ
+⁄ )𝑆𝑆̂𝑧𝑧        →     𝑆𝑆̂𝑧𝑧= ½ℏቀ1
+0
+0
+−1ቁ. 
+(42c) 
+9. A Bell inequality. In our discussion of hidden variables in Sec.2, we assumed that each 
+entangled pair of photons came equipped with an instruction set that told photon 1 (2) to pass or not 
+pass through analyzer 1 (2) if the analyzer’s angle was set to 𝜃𝜃1 (𝜃𝜃2). We also assumed the 
+instructions varied randomly from one photon pair to the next, so that, upon emerging from the 
+source, each pair received a randomly drawn instruction set from a pile of conceivable such sets. 
+
+17/21 
+Let us now formalize the procedure by introducing the hidden random variable 𝜁𝜁 which has 
+some (unknown) probability distribution 𝑝𝑝(𝜁𝜁) that satisfies the conventional requirements for such 
+distributions; that is, 𝑝𝑝(𝜁𝜁) ≥0 and ∫
+𝑝𝑝(𝜁𝜁)d𝜁𝜁
+∞
+−∞
+= 1. Each instruction set contains two graphs, 
+𝛺𝛺1(𝜃𝜃1) for use by photon 1, and 𝛺𝛺2(𝜃𝜃2) for photon 2. In each graph, the range of 𝜃𝜃 is [0,90°) and 
+𝛺𝛺(𝜃𝜃) is +1 for some values of 𝜃𝜃 and −1 for all the remaining values, so that the corresponding 
+photon, upon encountering an analyzer oriented at 𝜃𝜃, would pass through to the detector if 𝛺𝛺(𝜃𝜃) =
++1, but refuse to go through if 𝛺𝛺(𝜃𝜃) = −1. To acknowledge the random nature of these graphs, we 
+denote their dependence on the hidden variable 𝜁𝜁 by writing them as 𝛺𝛺1(𝜃𝜃1; 𝜁𝜁) and 𝛺𝛺2(𝜃𝜃2; 𝜁𝜁). Also, 
+considering that each photon is known to have a 50% chance of being transmitted (and 50% chance 
+of not being transmitted) to a detector irrespective of the corresponding analyzer’s orientation angle, 
+one may assume that ∫
+𝑝𝑝(𝜁𝜁)𝛺𝛺1(𝜃𝜃1; 𝜁𝜁)d𝜁𝜁
+∞
+−∞
+= ∫
+𝑝𝑝(𝜁𝜁)𝛺𝛺2(𝜃𝜃2; 𝜁𝜁)d𝜁𝜁
+∞
+−∞
+= 0, although this assumption 
+has no effect on the arguments that follow. 
+We shall be interested in the correlations between the outputs of detectors 1 and 2 depicted in 
+Fig.1. Specifically, we aim to keep track of the product 𝛺𝛺1(𝜃𝜃1; 𝜁𝜁)𝛺𝛺2(𝜃𝜃2; 𝜁𝜁) after each run of the 
+experiment, recognizing that the product will be +1 if both photons reach their respective detectors 
+or both fail to do so; the product will be −1 if only one of the photons arrives at its designated 
+detector. Quantum mechanics tells us that the photon pair behaves in accordance with Eq.(3); that 
+is: (i) both photons reach their respective detectors with probability ½ cos2(𝜃𝜃1 −𝜃𝜃2), (ii) neither 
+photon reaches its detector with probability ½ cos2(𝜃𝜃1 −𝜃𝜃2), (iii) only detector 1 picks up a photon 
+with probability ½ sin2(𝜃𝜃1 −𝜃𝜃2), and (iv) only detector 2 picks up a photon with probability 
+½ sin2(𝜃𝜃1 −𝜃𝜃2). All in all, presuming the validity of quantum mechanical predictions, the expected 
+value (identified with an overbar) of the product 𝛺𝛺1(𝜃𝜃1; 𝜁𝜁)𝛺𝛺2(𝜃𝜃2; 𝜁𝜁) must be 
+ 
+𝛺𝛺1(𝜃𝜃1; 𝜁𝜁)𝛺𝛺2(𝜃𝜃2; 𝜁𝜁)
+തതതതതതതതതതതതതതതതതതതതതതത= cos2(𝜃𝜃1 −𝜃𝜃2) −sin2(𝜃𝜃1 −𝜃𝜃2) = cos[2(𝜃𝜃1 −𝜃𝜃2)]. 
+(43) 
+ A similar argument can be advanced for the entangled pair of electrons examined in Sec.8, 
+with each electron emerging from its analyzer in either spin-up |↑⟩ or spin-down |↓⟩ state depending 
+on whether the corresponding 𝛺𝛺(𝜃𝜃; 𝜁𝜁) is +1 or −1. For this case, Eq.(39) yields the expected value 
+of the correlation between the joint detection outcomes as 𝛺𝛺1(𝜃𝜃1; 𝜁𝜁)𝛺𝛺2(𝜃𝜃2; 𝜁𝜁)
+തതതതതതതതതതതതതതതതതതതതതതത= −cos(𝜃𝜃1 −𝜃𝜃2). 
+Next, let us consider a large number of experiments in which one of two values, 𝜃𝜃1 or 𝜃𝜃1
+′, is 
+randomly chosen for the first analyzer, and also one of two values, 𝜃𝜃2 or 𝜃𝜃2
+′, is randomly chosen for 
+the second analyzer. We thus have four different settings of the two analyzers for each conducted 
+experiment, namely, (𝜃𝜃1, 𝜃𝜃2), (𝜃𝜃1, 𝜃𝜃2
+′), (𝜃𝜃1
+′, 𝜃𝜃2), and (𝜃𝜃1
+′, 𝜃𝜃2
+′) — each chosen randomly and with equal 
+probability. We keep track of the correlations 𝛺𝛺1𝛺𝛺2 of the outcomes of these experiments, each 
+tagged with the corresponding pair of the orientation angles of the analyzers. 
+Returning now to the instruction sets presumed to be carried by our entangled particle pairs, let 
+us consider the following combination of the possible experimental outcomes according to LHVTs: 
+ 𝛤𝛤(𝜃𝜃1, 𝜃𝜃1′, 𝜃𝜃2, 𝜃𝜃2′; 𝜁𝜁) = 𝛺𝛺1(𝜃𝜃1; 𝜁𝜁)𝛺𝛺2(𝜃𝜃2; 𝜁𝜁) + 𝛺𝛺1(𝜃𝜃1; 𝜁𝜁)𝛺𝛺2(𝜃𝜃2′; 𝜁𝜁) + 𝛺𝛺1(𝜃𝜃1′; 𝜁𝜁)𝛺𝛺2(𝜃𝜃2; 𝜁𝜁) −𝛺𝛺1(𝜃𝜃1′; 𝜁𝜁)𝛺𝛺2(𝜃𝜃2′; 𝜁𝜁). 
+ 
+(44) 
+The four terms on the right-hand side of Eq.(44) can be rearranged in the following way: 
+ 
+𝛤𝛤(𝜃𝜃1, 𝜃𝜃1
+′, 𝜃𝜃2, 𝜃𝜃2
+′; 𝜁𝜁) = 𝛺𝛺1(𝜃𝜃1; 𝜁𝜁)[𝛺𝛺2(𝜃𝜃2; 𝜁𝜁) + 𝛺𝛺2(𝜃𝜃2
+′; 𝜁𝜁)] + 𝛺𝛺1(𝜃𝜃1
+′; 𝜁𝜁)[𝛺𝛺2(𝜃𝜃2; 𝜁𝜁) −𝛺𝛺2(𝜃𝜃2
+′; 𝜁𝜁)]. (45) 
+Given that 𝛺𝛺1 and 𝛺𝛺2 assume only ±1 values, it is not difficult to see from Eq.(45) that, for any 
+randomly chosen 𝜁𝜁, the value of 𝛤𝛤 will be either +2 or −2. Thus, the expected value of 𝛤𝛤 must 
+satisfy the inequality 
+
+18/21 
+ 
+−2 ≤𝛤𝛤(𝜃𝜃1, 𝜃𝜃1′, 𝜃𝜃2, 𝜃𝜃2′; 𝜁𝜁)
+തതതതതതതതതതതതതതതതതതതതതത= ∫
+𝑝𝑝(𝜁𝜁)𝛤𝛤(𝜃𝜃1, 𝜃𝜃1
+′, 𝜃𝜃2, 𝜃𝜃2
+′; 𝜁𝜁)d𝜁𝜁
+∞
+−∞
+≤2. 
+(46) 
+Equation (44) in conjunction with inequality (46) leads to the inescapable conclusion that, 
+according to LHVTs, the expected values of the aforementioned four correlation measurements 
+must satisfy the following Bell inequality:§ 
+ 
+−2 ≤𝛺𝛺1(𝜃𝜃1; 𝜁𝜁)𝛺𝛺2(𝜃𝜃2; 𝜁𝜁)
+തതതതതതതതതതതതതതതതതതതതതത+ 𝛺𝛺1(𝜃𝜃1; 𝜁𝜁)𝛺𝛺2(𝜃𝜃2′; 𝜁𝜁)
+തതതതതതതതതതതതതതതതതതതതതത+ 𝛺𝛺1(𝜃𝜃1′; 𝜁𝜁)𝛺𝛺2(𝜃𝜃2; 𝜁𝜁)
+തതതതതതതതതതതതതതതതതതതതതത−𝛺𝛺1(𝜃𝜃1′; 𝜁𝜁)𝛺𝛺2(𝜃𝜃2′; 𝜁𝜁)
+തതതതതതതതതതതതതതതതതതതതതതത≤2. (47) 
+As it turns out, quantum mechanical predictions violate Bell’s inequality in spectacular ways. 
+As a simple example, consider the case of an entangled pair of photons with analyzer settings at  
+𝜃𝜃1 = 45°, 𝜃𝜃1
+′ = 90°, 𝜃𝜃2 = 67.5°, 𝜃𝜃2
+′ = 22.5°. From Eq.(43), one expects to find 𝛺𝛺1(𝜃𝜃1; 𝜁𝜁)𝛺𝛺2(𝜃𝜃2; 𝜁𝜁)
+തതതതതതതതതതതതതതതതതതതതതത=
+𝛺𝛺1(𝜃𝜃1; 𝜁𝜁)𝛺𝛺2(𝜃𝜃2′; 𝜁𝜁)
+തതതതതതതതതതതതതതതതതതതതതത= 𝛺𝛺1(𝜃𝜃1′; 𝜁𝜁)𝛺𝛺2(𝜃𝜃2; 𝜁𝜁)
+തതതതതതതതതതതതതതതതതതതതതത= √2 2
+⁄  and 𝛺𝛺1(𝜃𝜃1′; 𝜁𝜁)𝛺𝛺2(𝜃𝜃2′; 𝜁𝜁)
+തതതതതതതതതതതതതതതതതതതതതതത= −√2 2
+⁄ . The combination 
+of these four expected values at 2√2 is far outside the [−2, 2] range predicted by LHVTs. Once 
+again, quantum mechanics is found to be incompatible with the existence of local hidden variables. 
+10. Singlet and triplet states of a pair of spin-½ particles. The state |𝜓𝜓1⟩= (|↑↓⟩−|↓↑⟩) √2
+⁄
+ is 
+known as the singlet, while the states |𝜓𝜓2⟩= |↑↑⟩, |𝜓𝜓3⟩= (|↑↓⟩+ |↓↑⟩) √2
+⁄
+, and |𝜓𝜓4⟩= |↓↓⟩ are 
+known as the triplet states.1 These four states, being individually normalized and mutually 
+orthogonal, form a basis for our two-spin system. They are also the eigenstates of the operators 
+𝑆𝑆̂𝑧𝑧= ½ℏ(𝜎𝜎ො𝑧𝑧1 + 𝜎𝜎ො𝑧𝑧2) 
+and 
+𝑆𝑆̂2 = 𝑆𝑆̂𝑥𝑥
+2 + 𝑆𝑆̂𝑦𝑦
+2 + 𝑆𝑆̂𝑧𝑧
+2 = ¼ℏ2[(𝜎𝜎ො𝑥𝑥1 + 𝜎𝜎ො𝑥𝑥2)2 + (𝜎𝜎ො𝑦𝑦1 + 𝜎𝜎ො𝑦𝑦2)2 + (𝜎𝜎ො𝑧𝑧1 + 𝜎𝜎ො𝑧𝑧2)2] =
+½ℏ2(3𝕀𝕀෠+ 𝜎𝜎ො𝑥𝑥1𝜎𝜎ො𝑥𝑥2 + 𝜎𝜎ො𝑦𝑦1𝜎𝜎ො𝑦𝑦2 + 𝜎𝜎ො𝑧𝑧1𝜎𝜎ො𝑧𝑧2).** The triplet states |𝜓𝜓2⟩, |𝜓𝜓3⟩, |𝜓𝜓4⟩ have the common eigen-
+value of 2ℏ2 for 𝑆𝑆̂2, and respective eigenvalues of +ℏ, 0, −ℏ for 𝑆𝑆̂𝑧𝑧. The eigenvalue of 𝑆𝑆̂2 is 
+commonly written as 𝑆𝑆(𝑆𝑆+ 1)ℏ2. Thus, each and every one of the triplet states has 𝑆𝑆= 1. In 
+contrast, the eigenvalues of 𝑆𝑆̂2 and 𝑆𝑆̂𝑧𝑧 for the singlet state |𝜓𝜓1⟩ are 𝑆𝑆= 𝑆𝑆𝑧𝑧= 0, corresponding to a 
+state of zero net angular momentum. 
+Using the triplet states as a model for a spin-1 system, we now derive the corresponding 
+rotation operator by invoking the rotation matrix of Eq.(36) for the underlying pair of spin-½ 
+particles. Rotating the 𝑥𝑥𝑥𝑥𝑥𝑥 coordinate system through the Euler angles (𝜃𝜃, 𝜙𝜙, 𝜒𝜒) results in the 
+following transformations for each of the spin-½ particles:  
+ 
+|↑⟩  →   cos(𝜃𝜃2
+⁄ ) 𝑒𝑒i𝜒𝜒2
+⁄  |↑⟩−sin(𝜃𝜃2
+⁄ ) 𝑒𝑒i(𝜙𝜙+½𝜒𝜒)|↓⟩, 
+(48a) 
+ 
+|↓⟩  →   sin(𝜃𝜃2
+⁄ ) 𝑒𝑒−i(𝜙𝜙+½𝜒𝜒) |↑⟩2 + cos(𝜃𝜃2
+⁄ ) 𝑒𝑒−i𝜒𝜒2
+⁄ |↓⟩2. 
+(48b) 
+Applying the above transformations to the particle pair that comprises the spin-1 states yields 
+ 
+|↑⟩1|↑⟩2 = ൣcos(𝜃𝜃2
+⁄ ) 𝑒𝑒i𝜒𝜒2
+⁄  |↑⟩1 −sin(𝜃𝜃2
+⁄ ) 𝑒𝑒i(𝜙𝜙+½𝜒𝜒)|↓⟩1൧ 
+ 
+× ൣcos(𝜃𝜃2
+⁄ ) 𝑒𝑒i𝜒𝜒2
+⁄  |↑⟩2 −sin(𝜃𝜃2
+⁄ ) 𝑒𝑒i(𝜙𝜙+½𝜒𝜒)|↓⟩2൧ 
+ 
+= ½(1 + cos 𝜃𝜃)𝑒𝑒i𝜒𝜒|↑⟩1|↑⟩2 −½ sin 𝜃𝜃𝑒𝑒i(𝜙𝜙+𝜒𝜒)(|↑⟩1|↓⟩2 + |↓⟩1|↑⟩2) 
+ 
++½(1 −cos 𝜃𝜃)𝑒𝑒i(2𝜙𝜙+𝜒𝜒)|↓⟩1|↓⟩2. 
+(49a) 
+                                                            
+§ Inequality (47) is in fact a generalized (and more powerful) version of the original Bell inequality, often referred to as 
+the Clauser-Holt-Horne-Shimony (CHHS) Bell inequality.13 A noteworthy feature of this particular version is that it 
+does not require 𝛺𝛺1(𝜃𝜃1; 𝜁𝜁)𝛺𝛺2(𝜃𝜃2; 𝜁𝜁)
+തതതതതതതതതതതതതതതതതതതതതതത to equal 1 when 𝜃𝜃1 = 𝜃𝜃2. 
+** 𝝈𝝈ෝ∙𝝈𝝈ෝ= 𝜎𝜎ො𝑥𝑥
+2 + 𝜎𝜎ො𝑦𝑦
+2 + 𝜎𝜎ො𝑧𝑧
+2 = ቀ0
+1
+1
+0ቁቀ0
+1
+1
+0ቁ+ ቀ0
+−i
+i
+0 ቁቀ0
+−i
+i
+0 ቁ+ ቀ1
+0
+0
+−1ቁቀ1
+0
+0
+−1ቁ= 3𝕀𝕀෠. 
+
+19/21 
+ 
+1
+√2 (|↑⟩1|↓⟩2 + |↓⟩1|↑⟩2) =
+1
+√2 ൣcos(𝜃𝜃2
+⁄ ) 𝑒𝑒i𝜒𝜒2
+⁄  |↑⟩1 −sin(𝜃𝜃2
+⁄ ) 𝑒𝑒i(𝜙𝜙+½𝜒𝜒)|↓⟩1൧ 
+ 
+× ൣsin(𝜃𝜃2
+⁄ ) 𝑒𝑒−i(𝜙𝜙+½𝜒𝜒) |↑⟩2 + cos(𝜃𝜃2
+⁄ ) 𝑒𝑒−i𝜒𝜒2
+⁄ |↓⟩2൧ 
+ 
++
+1
+√2 ൣsin(𝜃𝜃2
+⁄ ) 𝑒𝑒−i(𝜙𝜙+½𝜒𝜒) |↑⟩1 + cos(𝜃𝜃2
+⁄ ) 𝑒𝑒−i𝜒𝜒2
+⁄ |↓⟩1൧ 
+ 
+× ൣcos(𝜃𝜃2
+⁄ ) 𝑒𝑒i𝜒𝜒2
+⁄  |↑⟩2 −sin(𝜃𝜃2
+⁄ ) 𝑒𝑒i(𝜙𝜙+½𝜒𝜒)|↓⟩2൧ 
+ 
+=
+1
+√2 sin 𝜃𝜃𝑒𝑒−i𝜙𝜙|↑⟩1|↑⟩2 +
+1
+√2 cos 𝜃𝜃(|↑⟩1|↓⟩2 + |↓⟩1|↑⟩2) −
+1
+√2 sin 𝜃𝜃𝑒𝑒i𝜙𝜙|↓⟩1|↓⟩2. 
+(49b) 
+ 
+|↓⟩1|↓⟩2 = ൣsin(𝜃𝜃2
+⁄ ) 𝑒𝑒−i(𝜙𝜙+½𝜒𝜒) |↑⟩1 + cos(𝜃𝜃2
+⁄ ) 𝑒𝑒−i𝜒𝜒2
+⁄ |↓⟩1൧ 
+ 
+× ൣsin(𝜃𝜃2
+⁄ ) 𝑒𝑒−i(𝜙𝜙+½𝜒𝜒) |↑⟩2 + cos(𝜃𝜃2
+⁄ ) 𝑒𝑒−i𝜒𝜒2
+⁄ |↓⟩2൧ 
+ 
+= ½(1 −cos 𝜃𝜃)𝑒𝑒−i(2𝜙𝜙+𝜒𝜒)|↑⟩1|↑⟩2 + ½ sin 𝜃𝜃𝑒𝑒−i(𝜙𝜙+𝜒𝜒)(|↑⟩1|↓⟩2 + |↓⟩1|↑⟩2) 
+ 
++½(1 + cos 𝜃𝜃)𝑒𝑒−i𝜒𝜒|↓⟩1|↓⟩2. 
+(49c) 
+Combining these results and ordering them in terms of the projection of the spin-1 particle 
+along the 𝑧𝑧-axis, i.e., the 𝑆𝑆𝑧𝑧= ℏ state |↑↑⟩, the 𝑆𝑆𝑧𝑧= 0 state (|↑↑⟩+ |↓↓⟩) √2
+⁄
+, and the 𝑆𝑆𝑧𝑧= −ℏ 
+state |↓↓⟩, we arrive at the following 3 × 3 rotation matrix: 
+ 
+𝑢𝑢ො=
+⎣
+⎢
+⎢
+⎢
+⎡
+½(1 + cos 𝜃𝜃)𝑒𝑒i𝜒𝜒
+1
+√2 sin 𝜃𝜃𝑒𝑒−i𝜙𝜙
+½(1 −cos 𝜃𝜃)𝑒𝑒−i(2𝜙𝜙+𝜒𝜒)
+−
+1
+√2 sin 𝜃𝜃𝑒𝑒i(𝜙𝜙+𝜒𝜒)
+cos 𝜃𝜃
+1
+√2 sin 𝜃𝜃𝑒𝑒−i(𝜙𝜙+𝜒𝜒)
+½(1 −cos 𝜃𝜃)𝑒𝑒i(2𝜙𝜙+𝜒𝜒)
+−
+1
+√2 sin 𝜃𝜃𝑒𝑒i𝜙𝜙
+½(1 + cos 𝜃𝜃)𝑒𝑒−i𝜒𝜒
+⎦
+⎥
+⎥
+⎥
+⎤
+. 
+(50) 
+11. The angular momentum operators 𝑱𝑱෠𝒙𝒙, 𝑱𝑱෠𝒚𝒚, 𝑱𝑱෠𝒛𝒛 for a spin-1 particle. Rotating the coordinate 
+system around 𝑥𝑥 through the small angle 𝜀𝜀 (corresponding to 𝜃𝜃= 𝜀𝜀, 𝜙𝜙= −90°, 𝜒𝜒= 0°) yields 
+ 𝑅𝑅෠𝑥𝑥(𝜀𝜀) = ቌ
+1 −¼𝜀𝜀2
+i𝜀𝜀√2
+⁄
+−¼𝜀𝜀2
+i𝜀𝜀√2
+⁄
+1 −½𝜀𝜀2
+i𝜀𝜀√2
+⁄
+−¼𝜀𝜀2
+i𝜀𝜀√2
+⁄
+1 −¼𝜀𝜀2
+ቍ= 1 + i(𝜀𝜀ℏ
+⁄ )𝐽𝐽̂𝑥𝑥  →   𝐽𝐽̂𝑥𝑥=
+ℏ
+√2 ൭
+0
+1
+0
+1
+0
+1
+0
+1
+0
+൱. 
+(51) 
+Next, we rotate the coordinates around the 𝑦𝑦-axis through the small angle 𝜀𝜀 (corresponding to 
+𝜃𝜃= 𝜀𝜀, 𝜙𝜙= 𝜒𝜒= 0°) to obtain 
+ 𝑅𝑅෠𝑦𝑦(𝜀𝜀) = ቌ
+1 −¼𝜀𝜀2
+𝜀𝜀√2
+⁄
+¼𝜀𝜀2
+−𝜀𝜀√2
+⁄
+1 −½𝜀𝜀2
+𝜀𝜀√2
+⁄
+¼𝜀𝜀2
+−𝜀𝜀√2
+⁄
+1 −¼𝜀𝜀2
+ቍ= 1 + i(𝜀𝜀ℏ
+⁄ )𝐽𝐽̂𝑦𝑦 → 𝐽𝐽̂𝑦𝑦=
+ℏ
+√2 ൭
+0
+−i
+0
+i
+0
+−i
+0
+i
+0
+൱. 
+(52) 
+Finally, rotating the coordinates around the 𝑧𝑧-axis through the small angle 𝜀𝜀 (corresponding to 
+𝜃𝜃= 𝜙𝜙= 0°, 𝜒𝜒= 𝜀𝜀) yields 
+ 𝑅𝑅෠𝑧𝑧(𝜀𝜀) = ൭
+𝑒𝑒i𝜀𝜀
+0
+0
+0
+1
+0
+0
+0
+𝑒𝑒−i𝜀𝜀
+൱= 1 + i(𝜀𝜀ℏ
+⁄ )𝐽𝐽̂𝑧𝑧            →             𝐽𝐽̂𝑧𝑧= ℏ൭
+1
+0
+0
+0
+0
+0
+0
+0
+−1
+൱. 
+(53) 
+Squaring the above operators, we find 
+
+20/21 
+ 
+𝐽𝐽̂𝑥𝑥
+2 = ½ℏ2 ൭
+0
+1
+0
+1
+0
+1
+0
+1
+0
+൱൭
+0
+1
+0
+1
+0
+1
+0
+1
+0
+൱= ℏ2 ൭
+½
+0
+½
+0
+1
+0
+½
+0
+½
+൱. 
+(54) 
+ 
+𝐽𝐽̂𝑦𝑦
+2 = ½ℏ2 ൭
+0
+−i
+0
+i
+0
+−i
+0
+i
+0
+൱൭
+0
+−i
+0
+i
+0
+−i
+0
+i
+0
+൱= ℏ2 ൭
+½
+0
+−½
+0
+1
+0
+−½
+0
+½
+൱. 
+(55) 
+ 
+𝐽𝐽̂𝑧𝑧
+2 = ℏ2 ൭
+1
+0
+0
+0
+0
+0
+0
+0
+−1
+൱൭
+1
+0
+0
+0
+0
+0
+0
+0
+−1
+൱= ℏ2 ൭
+1
+0
+0
+0
+0
+0
+0
+0
+1
+൱. 
+(56) 
+Consequently, 𝑱𝑱෠2 = 𝐽𝐽̂𝑥𝑥
+2 + 𝐽𝐽̂𝑦𝑦
+2 + 𝐽𝐽̂𝑧𝑧
+2 = 2ℏ2𝕀𝕀෠. Consider now a two-particle system consisting of a 
+spin-1 particle 𝑎𝑎 and a spin-½ particle 𝑏𝑏. The state |⇑⟩𝑎𝑎|↑⟩𝑏𝑏 of the system is an eigenstate of 
+𝐽𝐽̂𝑧𝑧,𝑎𝑎+ 𝑆𝑆̂𝑧𝑧,𝑏𝑏 with the eigenvalue ℏ+ ½ℏ= 3ℏ2
+⁄ . As for the total angular momentum, we have 
+ 
+(𝑱𝑱෠𝑎𝑎+ 𝑺𝑺෡𝑏𝑏) ∙(𝑱𝑱෠𝑎𝑎+ 𝑺𝑺෡𝑏𝑏)|⇑⟩𝑎𝑎|↑⟩𝑏𝑏= [(𝐽𝐽̂𝑥𝑥+ 𝑆𝑆̂𝑥𝑥)2 + (𝐽𝐽̂𝑦𝑦+ 𝑆𝑆̂𝑦𝑦)2 + (𝐽𝐽̂𝑧𝑧+ 𝑆𝑆̂𝑧𝑧)2] |⇑⟩𝑎𝑎|↑⟩𝑏𝑏 
+ 
+= [𝑱𝑱෠𝑎𝑎
+2 + 𝑺𝑺෡𝑏𝑏
+2 + 2(𝐽𝐽̂𝑥𝑥,𝑎𝑎𝑆𝑆̂𝑥𝑥,𝑏𝑏+ 𝐽𝐽̂𝑦𝑦,𝑎𝑎𝑆𝑆̂𝑦𝑦,𝑏𝑏+ 𝐽𝐽̂𝑧𝑧,𝑎𝑎𝑆𝑆̂𝑧𝑧,𝑏𝑏)] |⇑⟩𝑎𝑎|↑⟩𝑏𝑏 
+ 
+= (2ℏ2𝕀𝕀෠+ ¾ℏ2𝕀𝕀෠)|⇑⟩𝑎𝑎|↑⟩𝑏𝑏+ 2(ℏ√2
+⁄
+)(½ℏ)|0⟩𝑎𝑎|↓⟩𝑏𝑏 
+ 
++2(iℏ√2
+⁄
+)(½iℏ)|0⟩𝑎𝑎|↓⟩𝑏𝑏+ 2ℏ(½ℏ) |⇑⟩𝑎𝑎|↑⟩𝑏𝑏 
+ 
+=
+3
+2 ቀ1 +
+3
+2ቁℏ2|⇑⟩𝑎𝑎|↑⟩𝑏𝑏. 
+(57) 
+A similar treatment shows |⇓⟩𝑎𝑎|↓⟩𝑏𝑏 to be an eigenstate of 𝐽𝐽̂𝑧𝑧,𝑎𝑎+ 𝑆𝑆̂𝑧𝑧,𝑏𝑏 with the eigenvalue 
+−3ℏ2
+⁄ , and a simultaneous eigenstate of (𝑱𝑱෠𝑎𝑎+ 𝑺𝑺෡𝑏𝑏)2 with the eigenvalue 3¾ℏ2. Now, both 
+|⇑⟩𝑎𝑎|↓⟩𝑏𝑏 and |0⟩𝑎𝑎|↑⟩𝑏𝑏 are eigenstates of 𝐽𝐽̂𝑧𝑧,𝑎𝑎+ 𝑆𝑆̂𝑧𝑧,𝑏𝑏 with an eigenvalue of ½ℏ, but neither is an 
+eigenstate of (𝑱𝑱෠𝑎𝑎+ 𝑺𝑺෡𝑏𝑏)2, as seen below: 
+ (𝑱𝑱෠𝑎𝑎+ 𝑺𝑺෡𝑏𝑏)2|⇑⟩𝑎𝑎|↓⟩𝑏𝑏= 2¾ℏ2|⇑⟩𝑎𝑎|↓⟩𝑏𝑏+ 2(ℏ√2
+⁄
+)(½ℏ)|0⟩𝑎𝑎|↑⟩𝑏𝑏+ 2(iℏ√2
+⁄
+)(−½iℏ)|0⟩𝑎𝑎|↑⟩𝑏𝑏 
+ 
++2ℏ(−½ℏ)|⇑⟩𝑎𝑎|↓⟩𝑏𝑏= 1¾ℏ2|⇑⟩𝑎𝑎|↓⟩𝑏𝑏+ √2ℏ2|0⟩𝑎𝑎|↑⟩𝑏𝑏. 
+(58) 
+ (𝑱𝑱෠𝑎𝑎+ 𝑺𝑺෡𝑏𝑏)2|0⟩𝑎𝑎|↑⟩𝑏𝑏= 2¾ℏ2|0⟩𝑎𝑎|↑⟩𝑏𝑏+ 2(ℏ√2
+⁄
+)(½ℏ)(|⇑⟩+ |⇓⟩)𝑎𝑎|↓⟩𝑏𝑏 
+ 
++2(iℏ√2
+⁄
+)(½iℏ)(−|⇑⟩+ |⇓⟩)𝑎𝑎|↓⟩𝑏𝑏 
+ 
+= 2¾ℏ2|0⟩𝑎𝑎|↑⟩𝑏𝑏+ √2ℏ2|⇑⟩𝑎𝑎|↓⟩𝑏𝑏. 
+(59) 
+However, a proper choice of the probability amplitudes 𝑐𝑐1 and 𝑐𝑐2 can turn a superposition of 
+|⇑⟩𝑎𝑎|↓⟩𝑏𝑏 and |0⟩𝑎𝑎|↑⟩𝑏𝑏 into an eigenstate of total angular momentum, namely, 
+ (𝑱𝑱෠𝑎𝑎+ 𝑺𝑺෡𝑏𝑏)2(𝑐𝑐1|⇑⟩𝑎𝑎|↓⟩𝑏𝑏+ 𝑐𝑐2|0⟩𝑎𝑎|↑⟩𝑏𝑏) = (1¾𝑐𝑐1 + √2𝑐𝑐2)ℏ2|⇑⟩𝑎𝑎|↓⟩𝑏𝑏+ (√2𝑐𝑐1 + 2¾𝑐𝑐2)ℏ2|0⟩𝑎𝑎|↑⟩𝑏𝑏. (60) 
+Setting 𝑐𝑐1 = 1 √3
+⁄
+ and 𝑐𝑐2 = ඥ2 3
+⁄ , we find (|⇑⟩𝑎𝑎|↓⟩𝑏𝑏+ √2|0⟩𝑎𝑎|↑⟩𝑏𝑏) √3
+⁄
+ to be an eigenstate of 
+(𝑱𝑱෠𝑎𝑎+ 𝑺𝑺෡𝑏𝑏)2, the eigenvalue being 3¾ℏ2. In similar fashion, (|⇓⟩𝑎𝑎|↑⟩𝑏𝑏+ √2|0⟩𝑎𝑎|↓⟩𝑏𝑏) √3
+⁄
+ is readily 
+seen to be a simultaneous eigenstate of (𝑱𝑱෠𝑎𝑎+ 𝑺𝑺෡𝑏𝑏)2 and 𝐽𝐽̂𝑧𝑧,𝑎𝑎+ 𝑆𝑆̂𝑧𝑧,𝑏𝑏, with the respective eigenvalues 
+3¾ℏ2 and −½ℏ. 
+The states of particle 𝑎𝑎 relative to 
+the 𝑧𝑧-axis are |⇑⟩, |0⟩, and |⇓⟩. 
+
+21/21 
+An alternative solution for the coefficients 𝑐𝑐1 and 𝑐𝑐2 in Eq.(60) is 𝑐𝑐1 = ඥ2 3
+⁄  and 𝑐𝑐2 = −1 √3
+⁄
+, 
+yielding an eigenvalue of ¾ℏ2 = ½(1 + ½)ℏ2 for (𝑱𝑱෠𝑎𝑎+ 𝑺𝑺෡𝑏𝑏)2. The corresponding two-particle 
+states (√2|⇑⟩𝑎𝑎|↓⟩𝑏𝑏−|0⟩𝑎𝑎|↑⟩𝑏𝑏) √3
+⁄
+ and (√2|⇓⟩𝑎𝑎|↑⟩𝑏𝑏−|0⟩𝑎𝑎|↓⟩𝑏𝑏) √3
+⁄
+ represent the |↑⟩ and |↓⟩ 
+states of a spin-½ particle. 
+12. Concluding remarks. Following the lines of reasoning pioneered by John S. Bell5-7 and also 
+advanced by Richard P. Feynman,4 we have given an account of the incompatibility between 
+quantum mechanics and the existence of local hidden variables. In spite of Einstein’s hopes (as 
+expressed at the end of the famous EPR paper15) that such hidden variables would someday help to 
+bring about a “complete description of the physical reality,” it is now understood that the means for 
+“improving” quantum mechanics (if at all necessary) must be sought elsewhere. 
+Already in his Lectures on Physics1 (published in 1965) Feynman was dismissive of the EPR 
+paradox. After describing the entangled photon pair experiment (same as the one discussed here in 
+Sec.2), Feynman continues: “Now many people who learn quantum mechanics in the usual (old fashioned) 
+way find this disturbing. They would like to think that once the photons are emitted it goes along as a wave with 
+a definite character. They would think that since ‘any given photon’ has some ‘amplitude’ to be 𝑥𝑥-polarized or to 
+be 𝑦𝑦-polarized, there should be some chance of picking it up in either the 𝑥𝑥- or 𝑦𝑦-counter and that this chance 
+shouldn’t depend on what some other person finds out about a completely different photon. They argue that 
+‘someone else making a measurement shouldn’t be able to change the probability that I will find something.’ Our 
+quantum mechanics says, however, that by making a measurement on photon number one, you can predict precisely 
+what the polarization of photon number two is going to be when it is detected. This point was never accepted by 
+Einstein, and he worried about it a great deal — it became known as the ‘Einstein-Podolsky-Rosen paradox.’ But 
+when the situation is described as we have done it here, there doesn’t seem to be any paradox at all; it comes out 
+quite naturally that what is measured in one place is correlated with what is measured somewhere else. ⋯ 
+[Nature’s] way requires a description in terms of interfering amplitudes, one amplitude for each alternative. A 
+measurement of which alternative actually occurs destroys the interference, but if a measurement is not made you 
+cannot still say that ‘one alternative or the other is still occurring.’ ”1 
+References 
+1. R. P. Feynman, R. B. Leighton, and M. Sands, The Feynman Lectures on Physics (Volume III), Addison-Wesley, 
+Massachusetts (1965). 
+2. R. P. Feynman, QED: The Strange Theory of Light and Matter, Princeton University Press, New Jersey (1985). 
+3. R. P. Feynman and A. R. Hibbs, Quantum Mechanics and Path Integrals, McGraw-Hill, New York (1965). 
+4. R. P. Feynman, “Simulating Physics with Computers,”  Int. Journal of Theoretical Physics 21, 467-488 (1982). 
+5. J. S. Bell, “On the Einstein Podolsky Rosen Paradox,” Physics 1, 195–200 (1964). 
+6. J. S. Bell, “On the Problem of Hidden Variables in Quantum Mechanics,” Rev. Mod. Phys. 38, 447–452 (1966). 
+7. J. S. Bell. Speakable and Unspeakable in Quantum Mechanics, Cambridge University Press, Cambridge, United 
+Kingdom (1993). 
+8. A. Whitaker, “Richard Feynman and Bell’s Theorem,” American Journal of Physics 84, 493 (2016). 
+9. A. J.G. Hey (editor), Feynman and Computation, Perseus, Reading, Massachusetts (1999). 
+10. N.D. Mermin, Boojums All The Way Through, Cambridge University Press, Cambridge, United Kingdom (1990). 
+11. N.D. Mermin, Why Quark Rhymes with Pork, Cambridge University Press, Cambridge, United Kingdom (2016). 
+12. N.D. Mermin, Quantum Computer Science, Cambridge University Press, Cambridge, United Kingdom (2007). 
+13. G. Grynberg, A. Aspect, and C. Fabre, Introduction to Quantum Optics, Cambridge University Press, Cambridge, 
+United Kingdom (2010). 
+14. A. Aspect, P. Grangier, and G. Roger , “Experimental Tests of Realistic Local Theories via Bell’s Theorem,” 
+Physical Review Letters 47, 460-463 (1981). 
+15. A. Einstein, B. Podolsky, and N. Rosen, “Can Quantum-Mechanical Description of Physical Reality Be Considered 
+Complete?” Physical Review 47, 777-780 (1935). 

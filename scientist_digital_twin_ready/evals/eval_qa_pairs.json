@@ -1,0 +1,10 @@
+[
+  {
+    "query": "What is the path integral?",
+    "reference": "The path integral formulation integrates over all possible paths a particle could take, weighting each by its phase factor determined by the action."
+  },
+  {
+    "query": "How does QED work?",
+    "reference": "QED describes how light and matter interact through the exchange of photons, using Feynman diagrams to represent terms in perturbation expansions."
+  }
+]
