@@ -8,46 +8,84 @@ A retrieval-augmented AI persona system that simulates any notable scientist usi
 
 ## Architecture Overview
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                    DATA SOURCES (Phase 1)                │
-│  Wikidata JSON · Semantic Scholar · Wikipedia            │
-│  YouTube Transcripts · Nobel Lecture · arXiv            │
-└──────────────────────┬──────────────────────────────────┘
-                       │
-┌──────────────────────▼──────────────────────────────────┐
-│              CORPUS PROCESSING (Phase 2)                 │
-│  Section-aware chunker → BM25s index + FAISS HNSW       │
-│  SPECTER2 (papers) · all-mpnet-base-v2 (transcripts)    │
-│  SQLite chunk store + Wikidata facts                     │
-└──────────────────────┬──────────────────────────────────┘
-                       │
-┌──────────────────────▼──────────────────────────────────┐
-│            SCIENTIST PROFILE (Phase 3)                   │
-│  GLiNER-multitask-large-v0.5 over full corpus           │
-│  → scientist_profile.json + persona_prompt_block.txt    │
-└──────────────────────┬──────────────────────────────────┘
-                       │
-┌──────────────────────▼──────────────────────────────────┐
-│           RETRIEVAL + PERSISTENCE (Phase 4+5)            │
-│  RRF fusion (BM25 + FAISS) · GLiNER query metadata      │
-│  SQLite session store · LexRank compression              │
-│  FAISS over session summaries (cross-session memory)     │
-└──────────────────────┬──────────────────────────────────┘
-                       │
-┌──────────────────────▼──────────────────────────────────┐
-│              GENERATION (Phase 6) ← ONLY LLM            │
-│  Google Gemini API (one call per turn)                  │
-│  Persona block + Wikidata facts + RRF chunks             │
-│  + query metadata + session history                      │
-└──────────────────────┬──────────────────────────────────┘
-                       │
-┌──────────────────────▼──────────────────────────────────┐
-│                VOICE (Phase 7, optional)                 │
-│  yt-dlp → Whisper → segment extraction                  │
-│  Zero-shot voice cloning via F5-TTS                     │
-│  15-second clean audio reference used directly          │
-└─────────────────────────────────────────────────────────┘
+```mermaid
+graph TD
+    %% Node Definitions by Phase
+    subgraph Phase1 [Phase 1: Data Ingestion]
+        A1[Wikidata API]
+        A2[arXiv Curated Papers]
+        A3[Wikipedia Sections]
+        A4[YouTube / Nobel Transcripts]
+    end
+
+    subgraph Phase2 [Phase 2: Corpus Processing]
+        B[Section-Aware Chunker]
+        C1[(BM25s Lexical Index)]
+        C2[(FAISS Semantic Index<br/>SPECTER2 & mpnet)]
+        C3[(SQLite Chunk Store<br/>+ Wikidata Facts)]
+    end
+
+    subgraph Phase3 [Phase 3: Persona Generation]
+        D1[GLiNER NER Extraction]
+        D2[scientist_profile.json]
+        D3(Static Persona Prompt Block)
+    end
+
+    subgraph Phase45 [Phase 4 & 5: Retrieval & Persistence]
+        Q[User Query]
+        R1[GLiNER Metadata Parser]
+        R2[RRF Fusion Engine<br/>BM25 + FAISS]
+        M1[SQLite Session Store]
+        M2[LexRank Compression]
+        M3[(Cross-Session FAISS Memory)]
+    end
+
+    subgraph Phase6 [Phase 6: Generation API]
+        L1{Google Gemini API}
+        O[Generated Text Response]
+    end
+
+    subgraph Phase7 [Phase 7: Voice Synthesis]
+        V1[F5-TTS Zero-Shot Engine]
+        V2[15s Clean Audio Reference]
+        V3(((Real-Time Cloned Voice)))
+    end
+
+    %% Data Flow Edges
+    A1 --> B
+    A2 --> B
+    A3 --> B
+    A4 --> B
+    
+    B --> C1
+    B --> C2
+    B --> C3
+    
+    B -.-> D1
+    D1 --> D2
+    D2 --> D3
+    
+    Q --> R1
+    R1 --> R2
+    C1 -.-> R2
+    C2 -.-> R2
+    C3 -.-> R2
+    
+    Q --> M1
+    M1 --> M2
+    M2 --> M3
+    M3 -.-> R2
+    
+    R2 --> L1
+    D3 --> L1
+    L1 --> O
+    
+    O --> V1
+    V2 --> V1
+    V1 --> V3
+
+    classDef database fill:#f9f6f0,stroke:#333,stroke-width:2px;
+    class C1,C2,C3,M3 database;
 ```
 
 **Core design principle:** No LLM is used anywhere except the final generation API call. All extraction (GLiNER), retrieval (BM25s + FAISS), compression (LexRank), and metadata (GLiNER query parser) are local non-LLM models.
@@ -256,6 +294,13 @@ python evals/eval_generation.py
 
 ---
 
+## Known Limitations
+
+- **Semantic Scholar disambiguation**: For common names, verify the correct `semantic_scholar_id` manually before running ingestion.
+- **Voice audio quality**: The zero-shot F5-TTS model requires exactly one clean 15-second reference clip. If the Cornell 1964 Messenger Lectures have low SNR, use a cleaner studio recording for the reference.
+- **No hallucination guardrail**: If a query falls completely outside the retrieved context, the model may hedge but may also confabulate. Evaluating BERTScore against retrieved chunks at inference time is a recommended future addition.
+
+---
 
 ## License
 
